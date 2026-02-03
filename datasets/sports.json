@@ -1,0 +1,5205 @@
+{
+  "category": "Sports",
+  "words": [
+    {
+      "word": "Soccer",
+      "hints": [
+        "pitch",
+        "header",
+        "offside",
+        "cleats",
+        "nil"
+      ]
+    },
+    {
+      "word": "Basketball",
+      "hints": [
+        "dribble",
+        "court",
+        "free throw",
+        "buzzer",
+        "rebound"
+      ]
+    },
+    {
+      "word": "Football",
+      "hints": [
+        "touchdown",
+        "huddle",
+        "snap",
+        "downs",
+        "helmet"
+      ]
+    },
+    {
+      "word": "Baseball",
+      "hints": [
+        "innings",
+        "dugout",
+        "mitt",
+        "strike",
+        "diamond"
+      ]
+    },
+    {
+      "word": "Tennis",
+      "hints": [
+        "serve",
+        "love",
+        "deuce",
+        "racket",
+        "volley"
+      ]
+    },
+    {
+      "word": "Golf",
+      "hints": [
+        "fairway",
+        "birdie",
+        "tee",
+        "caddy",
+        "putt"
+      ]
+    },
+    {
+      "word": "Hockey",
+      "hints": [
+        "puck",
+        "icing",
+        "penalty box",
+        "zamboni",
+        "slapshot"
+      ]
+    },
+    {
+      "word": "Volleyball",
+      "hints": [
+        "spike",
+        "dig",
+        "rotation",
+        "set",
+        "bump"
+      ]
+    },
+    {
+      "word": "Swimming",
+      "hints": [
+        "lane",
+        "stroke",
+        "flip turn",
+        "goggles",
+        "lap"
+      ]
+    },
+    {
+      "word": "Running",
+      "hints": [
+        "pace",
+        "split",
+        "stride",
+        "bib",
+        "PR"
+      ]
+    },
+    {
+      "word": "Cycling",
+      "hints": [
+        "peloton",
+        "cadence",
+        "drafting",
+        "gears",
+        "clip-in"
+      ]
+    },
+    {
+      "word": "Boxing",
+      "hints": [
+        "jab",
+        "round",
+        "corner",
+        "gloves",
+        "knockout"
+      ]
+    },
+    {
+      "word": "Wrestling",
+      "hints": [
+        "takedown",
+        "pin",
+        "mat",
+        "weight class",
+        "singlet"
+      ]
+    },
+    {
+      "word": "Gymnastics",
+      "hints": [
+        "vault",
+        "dismount",
+        "routine",
+        "chalk",
+        "landing"
+      ]
+    },
+    {
+      "word": "Skiing",
+      "hints": [
+        "moguls",
+        "poles",
+        "lift",
+        "powder",
+        "carving"
+      ]
+    },
+    {
+      "word": "Snowboarding",
+      "hints": [
+        "halfpipe",
+        "bindings",
+        "powder",
+        "carving",
+        "grab"
+      ]
+    },
+    {
+      "word": "Surfing",
+      "hints": [
+        "paddle",
+        "lineup",
+        "barrel",
+        "wax",
+        "wipeout"
+      ]
+    },
+    {
+      "word": "Skateboarding",
+      "hints": [
+        "ollie",
+        "kickflip",
+        "deck",
+        "trucks",
+        "grind"
+      ]
+    },
+    {
+      "word": "Rugby",
+      "hints": [
+        "scrum",
+        "try",
+        "lineout",
+        "conversion",
+        "ruck"
+      ]
+    },
+    {
+      "word": "Cricket",
+      "hints": [
+        "wicket",
+        "bowler",
+        "innings",
+        "pitch",
+        "over"
+      ]
+    },
+    {
+      "word": "Badminton",
+      "hints": [
+        "feathered",
+        "smash",
+        "net",
+        "drop shot",
+        "rally"
+      ]
+    },
+    {
+      "word": "Table Tennis",
+      "hints": [
+        "spin",
+        "paddle",
+        "serve",
+        "rally",
+        "rubber"
+      ]
+    },
+    {
+      "word": "Bowling",
+      "hints": [
+        "lane",
+        "pins",
+        "strike",
+        "spare",
+        "gutter"
+      ]
+    },
+    {
+      "word": "Archery",
+      "hints": [
+        "quiver",
+        "draw",
+        "bullseye",
+        "release",
+        "nock"
+      ]
+    },
+    {
+      "word": "Fencing",
+      "hints": [
+        "lunge",
+        "parry",
+        "foil",
+        "touche",
+        "mask"
+      ]
+    },
+    {
+      "word": "Rowing",
+      "hints": [
+        "stroke",
+        "oars",
+        "coxswain",
+        "shell",
+        "catch"
+      ]
+    },
+    {
+      "word": "Sailing",
+      "hints": [
+        "tack",
+        "jib",
+        "helm",
+        "windward",
+        "heeling"
+      ]
+    },
+    {
+      "word": "Kayaking",
+      "hints": [
+        "paddle",
+        "roll",
+        "eddy",
+        "portage",
+        "spray skirt"
+      ]
+    },
+    {
+      "word": "Canoeing",
+      "hints": [
+        "paddle",
+        "stern",
+        "portage",
+        "stroke",
+        "tandem"
+      ]
+    },
+    {
+      "word": "Diving",
+      "hints": [
+        "platform",
+        "tuck",
+        "pike",
+        "splash",
+        "entry"
+      ]
+    },
+    {
+      "word": "Water Polo",
+      "hints": [
+        "treading",
+        "eggbeater",
+        "cap",
+        "goal",
+        "ejection"
+      ]
+    },
+    {
+      "word": "Lacrosse",
+      "hints": [
+        "crosse",
+        "cradle",
+        "face-off",
+        "crease",
+        "pocket"
+      ]
+    },
+    {
+      "word": "Field Hockey",
+      "hints": [
+        "stick",
+        "turf",
+        "flick",
+        "penalty corner",
+        "cage"
+      ]
+    },
+    {
+      "word": "Softball",
+      "hints": [
+        "windmill",
+        "infield",
+        "bases",
+        "mitt",
+        "pitcher"
+      ]
+    },
+    {
+      "word": "Handball",
+      "hints": [
+        "court",
+        "goal",
+        "jump shot",
+        "pivot",
+        "fast break"
+      ]
+    },
+    {
+      "word": "Racquetball",
+      "hints": [
+        "court",
+        "serve",
+        "kill shot",
+        "goggles",
+        "rally"
+      ]
+    },
+    {
+      "word": "Squash",
+      "hints": [
+        "court",
+        "tin",
+        "drop shot",
+        "boast",
+        "rally"
+      ]
+    },
+    {
+      "word": "Pickleball",
+      "hints": [
+        "kitchen",
+        "dink",
+        "paddle",
+        "serve",
+        "volley"
+      ]
+    },
+    {
+      "word": "Polo",
+      "hints": [
+        "mallet",
+        "chukker",
+        "pony",
+        "divots",
+        "handicap"
+      ]
+    },
+    {
+      "word": "Equestrian",
+      "hints": [
+        "dressage",
+        "jumps",
+        "reins",
+        "canter",
+        "course"
+      ]
+    },
+    {
+      "word": "Rodeo",
+      "hints": [
+        "chute",
+        "buckle",
+        "seconds",
+        "bronc",
+        "clown"
+      ]
+    },
+    {
+      "word": "Bull Riding",
+      "hints": [
+        "chute",
+        "seconds",
+        "rope",
+        "spur",
+        "dismount"
+      ]
+    },
+    {
+      "word": "Barrel Racing",
+      "hints": [
+        "pattern",
+        "cloverleaf",
+        "time",
+        "turn",
+        "sprint"
+      ]
+    },
+    {
+      "word": "Horse Racing",
+      "hints": [
+        "furlong",
+        "jockey",
+        "post",
+        "stretch",
+        "photo finish"
+      ]
+    },
+    {
+      "word": "Dog Racing",
+      "hints": [
+        "lure",
+        "track",
+        "muzzle",
+        "gate",
+        "stretch"
+      ]
+    },
+    {
+      "word": "Figure Skating",
+      "hints": [
+        "axel",
+        "program",
+        "blades",
+        "spin",
+        "landing"
+      ]
+    },
+    {
+      "word": "Speed Skating",
+      "hints": [
+        "lane",
+        "crossover",
+        "suit",
+        "blades",
+        "lap"
+      ]
+    },
+    {
+      "word": "Curling",
+      "hints": [
+        "stone",
+        "sweeping",
+        "house",
+        "skip",
+        "button"
+      ]
+    },
+    {
+      "word": "Bobsled",
+      "hints": [
+        "push",
+        "driver",
+        "track",
+        "runner",
+        "G-force"
+      ]
+    },
+    {
+      "word": "Luge",
+      "hints": [
+        "sled",
+        "feet first",
+        "track",
+        "aerodynamic",
+        "steering"
+      ]
+    },
+    {
+      "word": "Skeleton",
+      "hints": [
+        "headfirst",
+        "sled",
+        "track",
+        "chin",
+        "steering"
+      ]
+    },
+    {
+      "word": "Biathlon",
+      "hints": [
+        "rifle",
+        "skiing",
+        "targets",
+        "penalty loop",
+        "prone"
+      ]
+    },
+    {
+      "word": "Cross-country Skiing",
+      "hints": [
+        "kick",
+        "glide",
+        "poles",
+        "wax",
+        "classic"
+      ]
+    },
+    {
+      "word": "Ski Jumping",
+      "hints": [
+        "inrun",
+        "takeoff",
+        "V-style",
+        "landing",
+        "distance"
+      ]
+    },
+    {
+      "word": "Freestyle Skiing",
+      "hints": [
+        "aerials",
+        "moguls",
+        "tricks",
+        "landing",
+        "course"
+      ]
+    },
+    {
+      "word": "Alpine Skiing",
+      "hints": [
+        "gates",
+        "slalom",
+        "tuck",
+        "downhill",
+        "time"
+      ]
+    },
+    {
+      "word": "Triathlon",
+      "hints": [
+        "transition",
+        "brick",
+        "wetsuit",
+        "bike",
+        "splits"
+      ]
+    },
+    {
+      "word": "Duathlon",
+      "hints": [
+        "run-bike-run",
+        "transition",
+        "brick",
+        "pacing",
+        "splits"
+      ]
+    },
+    {
+      "word": "Pentathlon",
+      "hints": [
+        "fencing",
+        "swimming",
+        "riding",
+        "shooting",
+        "running"
+      ]
+    },
+    {
+      "word": "Decathlon",
+      "hints": [
+        "ten events",
+        "points",
+        "two days",
+        "throwing",
+        "track"
+      ]
+    },
+    {
+      "word": "Heptathlon",
+      "hints": [
+        "seven events",
+        "points",
+        "two days",
+        "hurdles",
+        "field"
+      ]
+    },
+    {
+      "word": "Marathon",
+      "hints": [
+        "wall",
+        "miles",
+        "pace",
+        "hydration",
+        "finish line"
+      ]
+    },
+    {
+      "word": "Sprinting",
+      "hints": [
+        "blocks",
+        "lane",
+        "burst",
+        "lean",
+        "photo finish"
+      ]
+    },
+    {
+      "word": "Hurdles",
+      "hints": [
+        "clearance",
+        "stride",
+        "trail leg",
+        "lane",
+        "rhythm"
+      ]
+    },
+    {
+      "word": "Relay",
+      "hints": [
+        "baton",
+        "exchange",
+        "zone",
+        "anchor",
+        "handoff"
+      ]
+    },
+    {
+      "word": "Long Jump",
+      "hints": [
+        "runway",
+        "takeoff",
+        "sand",
+        "mark",
+        "foul"
+      ]
+    },
+    {
+      "word": "High Jump",
+      "hints": [
+        "bar",
+        "Fosbury",
+        "approach",
+        "clearance",
+        "mat"
+      ]
+    },
+    {
+      "word": "Pole Vault",
+      "hints": [
+        "plant",
+        "pole",
+        "bar",
+        "pit",
+        "bend"
+      ]
+    },
+    {
+      "word": "Triple Jump",
+      "hints": [
+        "hop",
+        "step",
+        "jump",
+        "board",
+        "sand"
+      ]
+    },
+    {
+      "word": "Shot Put",
+      "hints": [
+        "glide",
+        "circle",
+        "release",
+        "sector",
+        "foul"
+      ]
+    },
+    {
+      "word": "Discus",
+      "hints": [
+        "spin",
+        "release",
+        "cage",
+        "sector",
+        "wind"
+      ]
+    },
+    {
+      "word": "Javelin",
+      "hints": [
+        "approach",
+        "release",
+        "tip",
+        "sector",
+        "foul"
+      ]
+    },
+    {
+      "word": "Hammer Throw",
+      "hints": [
+        "spin",
+        "wire",
+        "cage",
+        "release",
+        "turns"
+      ]
+    },
+    {
+      "word": "Race Walking",
+      "hints": [
+        "technique",
+        "judges",
+        "contact",
+        "disqualification",
+        "pace"
+      ]
+    },
+    {
+      "word": "Steeplechase",
+      "hints": [
+        "barriers",
+        "water jump",
+        "laps",
+        "hurdles",
+        "distance"
+      ]
+    },
+    {
+      "word": "Cross Country",
+      "hints": [
+        "course",
+        "pack",
+        "hills",
+        "spikes",
+        "mud"
+      ]
+    },
+    {
+      "word": "Trail Running",
+      "hints": [
+        "elevation",
+        "terrain",
+        "hydration",
+        "markers",
+        "technical"
+      ]
+    },
+    {
+      "word": "Ultramarathon",
+      "hints": [
+        "aid station",
+        "cutoff",
+        "pacing",
+        "nutrition",
+        "overnight"
+      ]
+    },
+    {
+      "word": "Orienteering",
+      "hints": [
+        "compass",
+        "map",
+        "control",
+        "punch",
+        "navigation"
+      ]
+    },
+    {
+      "word": "Parkour",
+      "hints": [
+        "vault",
+        "precision",
+        "flow",
+        "urban",
+        "landing"
+      ]
+    },
+    {
+      "word": "Rock Climbing",
+      "hints": [
+        "belay",
+        "route",
+        "crimp",
+        "send",
+        "beta"
+      ]
+    },
+    {
+      "word": "Bouldering",
+      "hints": [
+        "problem",
+        "crash pad",
+        "dyno",
+        "topping out",
+        "grades"
+      ]
+    },
+    {
+      "word": "Mountaineering",
+      "hints": [
+        "summit",
+        "rope team",
+        "acclimatization",
+        "base camp",
+        "exposure"
+      ]
+    },
+    {
+      "word": "Ice Climbing",
+      "hints": [
+        "picks",
+        "crampons",
+        "ice screw",
+        "swing",
+        "grade"
+      ]
+    },
+    {
+      "word": "Rappelling",
+      "hints": [
+        "rope",
+        "anchor",
+        "brake",
+        "descent",
+        "harness"
+      ]
+    },
+    {
+      "word": "Caving",
+      "hints": [
+        "headlamp",
+        "squeeze",
+        "crawl",
+        "formations",
+        "helmet"
+      ]
+    },
+    {
+      "word": "Scuba Diving",
+      "hints": [
+        "regulator",
+        "BCD",
+        "ascent",
+        "buddy",
+        "bottom time"
+      ]
+    },
+    {
+      "word": "Snorkeling",
+      "hints": [
+        "mask",
+        "fins",
+        "surface",
+        "clearing",
+        "reef"
+      ]
+    },
+    {
+      "word": "Free Diving",
+      "hints": [
+        "breath hold",
+        "equalization",
+        "depth",
+        "line",
+        "blackout"
+      ]
+    },
+    {
+      "word": "Spearfishing",
+      "hints": [
+        "breath hold",
+        "aim",
+        "target",
+        "weight belt",
+        "stalking"
+      ]
+    },
+    {
+      "word": "Water Skiing",
+      "hints": [
+        "rope",
+        "slalom",
+        "spray",
+        "wake",
+        "handle"
+      ]
+    },
+    {
+      "word": "Wakeboarding",
+      "hints": [
+        "wake",
+        "bindings",
+        "rope",
+        "tricks",
+        "handle"
+      ]
+    },
+    {
+      "word": "Kneeboarding",
+      "hints": [
+        "strap",
+        "wake",
+        "rope",
+        "tricks",
+        "tow"
+      ]
+    },
+    {
+      "word": "Jet Skiing",
+      "hints": [
+        "throttle",
+        "wake",
+        "spray",
+        "standing",
+        "waves"
+      ]
+    },
+    {
+      "word": "Parasailing",
+      "hints": [
+        "harness",
+        "altitude",
+        "boat",
+        "landing",
+        "wind"
+      ]
+    },
+    {
+      "word": "Kiteboarding",
+      "hints": [
+        "kite",
+        "harness",
+        "wind",
+        "board",
+        "launch"
+      ]
+    },
+    {
+      "word": "Windsurfing",
+      "hints": [
+        "sail",
+        "board",
+        "harness",
+        "planing",
+        "jibing"
+      ]
+    },
+    {
+      "word": "Paddleboarding",
+      "hints": [
+        "paddle",
+        "balance",
+        "stance",
+        "flatwater",
+        "SUP"
+      ]
+    },
+    {
+      "word": "Rafting",
+      "hints": [
+        "paddle",
+        "rapids",
+        "guide",
+        "class",
+        "commands"
+      ]
+    },
+    {
+      "word": "Tubing",
+      "hints": [
+        "current",
+        "float",
+        "lazy",
+        "cooler",
+        "rapids"
+      ]
+    },
+    {
+      "word": "Bodyboarding",
+      "hints": [
+        "fins",
+        "prone",
+        "wave",
+        "duck dive",
+        "shore break"
+      ]
+    },
+    {
+      "word": "Bodysurfing",
+      "hints": [
+        "fins",
+        "wave",
+        "timing",
+        "shore break",
+        "hands"
+      ]
+    },
+    {
+      "word": "Cliff Diving",
+      "hints": [
+        "height",
+        "entry",
+        "rotation",
+        "lineup",
+        "impact"
+      ]
+    },
+    {
+      "word": "Synchronized Swimming",
+      "hints": [
+        "routine",
+        "underwater",
+        "nose clip",
+        "lifts",
+        "music"
+      ]
+    },
+    {
+      "word": "Croquet",
+      "hints": [
+        "mallet",
+        "wicket",
+        "ball",
+        "stake",
+        "roquet"
+      ]
+    },
+    {
+      "word": "Bocce",
+      "hints": [
+        "pallino",
+        "roll",
+        "court",
+        "measure",
+        "pointing"
+      ]
+    },
+    {
+      "word": "Petanque",
+      "hints": [
+        "cochonnet",
+        "throw",
+        "pointing",
+        "shooting",
+        "terrain"
+      ]
+    },
+    {
+      "word": "Lawn Bowling",
+      "hints": [
+        "jack",
+        "bias",
+        "green",
+        "delivery",
+        "end"
+      ]
+    },
+    {
+      "word": "Shuffleboard",
+      "hints": [
+        "cue",
+        "puck",
+        "court",
+        "scoring",
+        "knock off"
+      ]
+    },
+    {
+      "word": "Darts",
+      "hints": [
+        "board",
+        "triple",
+        "checkout",
+        "oche",
+        "flights"
+      ]
+    },
+    {
+      "word": "Billiards",
+      "hints": [
+        "cue",
+        "cushion",
+        "english",
+        "break",
+        "rack"
+      ]
+    },
+    {
+      "word": "Pool",
+      "hints": [
+        "cue",
+        "pocket",
+        "rack",
+        "break",
+        "scratch"
+      ]
+    },
+    {
+      "word": "Snooker",
+      "hints": [
+        "cue",
+        "reds",
+        "frame",
+        "century",
+        "safety"
+      ]
+    },
+    {
+      "word": "Air Hockey",
+      "hints": [
+        "puck",
+        "mallet",
+        "table",
+        "goal",
+        "rebound"
+      ]
+    },
+    {
+      "word": "Foosball",
+      "hints": [
+        "rods",
+        "spin",
+        "goal",
+        "grip",
+        "passing"
+      ]
+    },
+    {
+      "word": "Cornhole",
+      "hints": [
+        "bag",
+        "board",
+        "hole",
+        "sliding",
+        "points"
+      ]
+    },
+    {
+      "word": "Horseshoes",
+      "hints": [
+        "pit",
+        "stake",
+        "ringer",
+        "leaner",
+        "toss"
+      ]
+    },
+    {
+      "word": "Disc Golf",
+      "hints": [
+        "tee pad",
+        "basket",
+        "driver",
+        "putt",
+        "fairway"
+      ]
+    },
+    {
+      "word": "Frisbee",
+      "hints": [
+        "throw",
+        "catch",
+        "backhand",
+        "forehand",
+        "float"
+      ]
+    },
+    {
+      "word": "Ultimate",
+      "hints": [
+        "disc",
+        "endzone",
+        "handler",
+        "cutter",
+        "stall count"
+      ]
+    },
+    {
+      "word": "Spikeball",
+      "hints": [
+        "net",
+        "rally",
+        "serve",
+        "hit",
+        "pocket"
+      ]
+    },
+    {
+      "word": "Dodgeball",
+      "hints": [
+        "catch",
+        "throw",
+        "eliminate",
+        "headshot",
+        "revival"
+      ]
+    },
+    {
+      "word": "Kickball",
+      "hints": [
+        "kick",
+        "bases",
+        "pitch",
+        "foul",
+        "infield"
+      ]
+    },
+    {
+      "word": "Tetherball",
+      "hints": [
+        "pole",
+        "wrap",
+        "serve",
+        "hit",
+        "rope"
+      ]
+    },
+    {
+      "word": "Four Square",
+      "hints": [
+        "squares",
+        "serve",
+        "rules",
+        "cherry bomb",
+        "elimination"
+      ]
+    },
+    {
+      "word": "Jai Alai",
+      "hints": [
+        "cesta",
+        "pelota",
+        "fronton",
+        "catch",
+        "throw"
+      ]
+    },
+    {
+      "word": "Netball",
+      "hints": [
+        "court",
+        "shooting circle",
+        "positions",
+        "footwork",
+        "goal"
+      ]
+    },
+    {
+      "word": "Kabaddi",
+      "hints": [
+        "raid",
+        "tackle",
+        "breath",
+        "court",
+        "cant"
+      ]
+    },
+    {
+      "word": "Sepak Takraw",
+      "hints": [
+        "rattan",
+        "kick",
+        "spike",
+        "net",
+        "bicycle"
+      ]
+    },
+    {
+      "word": "MMA",
+      "hints": [
+        "octagon",
+        "submission",
+        "ground",
+        "striking",
+        "rounds"
+      ]
+    },
+    {
+      "word": "Kickboxing",
+      "hints": [
+        "pads",
+        "combinations",
+        "clinch",
+        "rounds",
+        "stance"
+      ]
+    },
+    {
+      "word": "Muay Thai",
+      "hints": [
+        "clinch",
+        "elbow",
+        "knee",
+        "shin",
+        "stance"
+      ]
+    },
+    {
+      "word": "Karate",
+      "hints": [
+        "kata",
+        "kumite",
+        "gi",
+        "belt",
+        "dojo"
+      ]
+    },
+    {
+      "word": "Taekwondo",
+      "hints": [
+        "kicks",
+        "forms",
+        "sparring",
+        "belt",
+        "dobok"
+      ]
+    },
+    {
+      "word": "Judo",
+      "hints": [
+        "throw",
+        "gi",
+        "mat",
+        "ippon",
+        "grip"
+      ]
+    },
+    {
+      "word": "Jiu-Jitsu",
+      "hints": [
+        "guard",
+        "submission",
+        "gi",
+        "mount",
+        "roll"
+      ]
+    },
+    {
+      "word": "Aikido",
+      "hints": [
+        "blend",
+        "redirect",
+        "wrist",
+        "hakama",
+        "uke"
+      ]
+    },
+    {
+      "word": "Kendo",
+      "hints": [
+        "shinai",
+        "armor",
+        "strike",
+        "kiai",
+        "dojo"
+      ]
+    },
+    {
+      "word": "Sumo",
+      "hints": [
+        "ring",
+        "salt",
+        "push",
+        "belt",
+        "rank"
+      ]
+    },
+    {
+      "word": "Capoeira",
+      "hints": [
+        "ginga",
+        "roda",
+        "music",
+        "acrobatic",
+        "kicks"
+      ]
+    },
+    {
+      "word": "Kung Fu",
+      "hints": [
+        "forms",
+        "stance",
+        "strikes",
+        "sifu",
+        "training"
+      ]
+    },
+    {
+      "word": "Wing Chun",
+      "hints": [
+        "centerline",
+        "chain punches",
+        "dummy",
+        "trapping",
+        "stance"
+      ]
+    },
+    {
+      "word": "Tai Chi",
+      "hints": [
+        "slow",
+        "forms",
+        "breath",
+        "balance",
+        "meditation"
+      ]
+    },
+    {
+      "word": "Wushu",
+      "hints": [
+        "forms",
+        "weapons",
+        "acrobatic",
+        "performance",
+        "kicks"
+      ]
+    },
+    {
+      "word": "Sambo",
+      "hints": [
+        "throws",
+        "submissions",
+        "jacket",
+        "Russian",
+        "wrestling"
+      ]
+    },
+    {
+      "word": "Catch Wrestling",
+      "hints": [
+        "submissions",
+        "pins",
+        "hooks",
+        "mat",
+        "conditioning"
+      ]
+    },
+    {
+      "word": "Greco-Roman",
+      "hints": [
+        "upper body",
+        "throws",
+        "mat",
+        "clinch",
+        "no legs"
+      ]
+    },
+    {
+      "word": "Freestyle Wrestling",
+      "hints": [
+        "shots",
+        "takedowns",
+        "mat",
+        "scramble",
+        "points"
+      ]
+    },
+    {
+      "word": "Arm Wrestling",
+      "hints": [
+        "grip",
+        "table",
+        "pin",
+        "strap",
+        "technique"
+      ]
+    },
+    {
+      "word": "Thumb Wrestling",
+      "hints": [
+        "grip",
+        "pin",
+        "count",
+        "one two three four",
+        "wiggle"
+      ]
+    },
+    {
+      "word": "Powerlifting",
+      "hints": [
+        "squat",
+        "bench",
+        "deadlift",
+        "total",
+        "attempt"
+      ]
+    },
+    {
+      "word": "Weightlifting",
+      "hints": [
+        "snatch",
+        "clean and jerk",
+        "platform",
+        "chalk",
+        "attempt"
+      ]
+    },
+    {
+      "word": "Bodybuilding",
+      "hints": [
+        "posing",
+        "symmetry",
+        "tan",
+        "peak week",
+        "stage"
+      ]
+    },
+    {
+      "word": "Strongman",
+      "hints": [
+        "atlas stones",
+        "yoke",
+        "deadlift",
+        "carry",
+        "events"
+      ]
+    },
+    {
+      "word": "CrossFit",
+      "hints": [
+        "WOD",
+        "box",
+        "AMRAP",
+        "scaling",
+        "metcon"
+      ]
+    },
+    {
+      "word": "Calisthenics",
+      "hints": [
+        "bodyweight",
+        "progressions",
+        "holds",
+        "reps",
+        "bar"
+      ]
+    },
+    {
+      "word": "Aerobics",
+      "hints": [
+        "routine",
+        "step",
+        "music",
+        "cardio",
+        "instructor"
+      ]
+    },
+    {
+      "word": "Zumba",
+      "hints": [
+        "dance",
+        "music",
+        "instructor",
+        "Latin",
+        "cardio"
+      ]
+    },
+    {
+      "word": "Pilates",
+      "hints": [
+        "core",
+        "reformer",
+        "mat",
+        "breath",
+        "control"
+      ]
+    },
+    {
+      "word": "Yoga",
+      "hints": [
+        "mat",
+        "poses",
+        "breath",
+        "flow",
+        "namaste"
+      ]
+    },
+    {
+      "word": "Hot Yoga",
+      "hints": [
+        "heat",
+        "sweat",
+        "hydration",
+        "mat",
+        "towel"
+      ]
+    },
+    {
+      "word": "Spinning",
+      "hints": [
+        "bike",
+        "resistance",
+        "cadence",
+        "instructor",
+        "sprint"
+      ]
+    },
+    {
+      "word": "Rowing Machine",
+      "hints": [
+        "erg",
+        "stroke rate",
+        "split",
+        "damper",
+        "drive"
+      ]
+    },
+    {
+      "word": "Treadmill Running",
+      "hints": [
+        "belt",
+        "incline",
+        "pace",
+        "display",
+        "indoor"
+      ]
+    },
+    {
+      "word": "Stair Climbing",
+      "hints": [
+        "steps",
+        "floors",
+        "machine",
+        "burn",
+        "cardio"
+      ]
+    },
+    {
+      "word": "Jump Rope",
+      "hints": [
+        "skip",
+        "double under",
+        "rhythm",
+        "rope",
+        "footwork"
+      ]
+    },
+    {
+      "word": "Hula Hooping",
+      "hints": [
+        "waist",
+        "spin",
+        "rhythm",
+        "weighted",
+        "tricks"
+      ]
+    },
+    {
+      "word": "Trampoline",
+      "hints": [
+        "bounce",
+        "tricks",
+        "flip",
+        "mat",
+        "springs"
+      ]
+    },
+    {
+      "word": "Tumbling",
+      "hints": [
+        "floor",
+        "pass",
+        "back handspring",
+        "round-off",
+        "landing"
+      ]
+    },
+    {
+      "word": "Cheerleading",
+      "hints": [
+        "stunts",
+        "base",
+        "flyer",
+        "routine",
+        "spirit"
+      ]
+    },
+    {
+      "word": "Dance",
+      "hints": [
+        "choreography",
+        "routine",
+        "studio",
+        "music",
+        "floor"
+      ]
+    },
+    {
+      "word": "Ballet",
+      "hints": [
+        "barre",
+        "pointe",
+        "positions",
+        "turnout",
+        "plie"
+      ]
+    },
+    {
+      "word": "Ballroom",
+      "hints": [
+        "partner",
+        "frame",
+        "lead",
+        "follow",
+        "floor"
+      ]
+    },
+    {
+      "word": "Breakdancing",
+      "hints": [
+        "floor",
+        "toprock",
+        "freeze",
+        "power moves",
+        "cypher"
+      ]
+    },
+    {
+      "word": "Pole Dancing",
+      "hints": [
+        "spin",
+        "grip",
+        "climb",
+        "tricks",
+        "pole"
+      ]
+    },
+    {
+      "word": "Aerial Silks",
+      "hints": [
+        "climb",
+        "wrap",
+        "drop",
+        "fabric",
+        "grip"
+      ]
+    },
+    {
+      "word": "Trapeze",
+      "hints": [
+        "swing",
+        "catch",
+        "release",
+        "timing",
+        "net"
+      ]
+    },
+    {
+      "word": "Tightrope",
+      "hints": [
+        "balance",
+        "pole",
+        "wire",
+        "focus",
+        "steps"
+      ]
+    },
+    {
+      "word": "Slacklining",
+      "hints": [
+        "balance",
+        "webbing",
+        "bounce",
+        "tricks",
+        "tension"
+      ]
+    },
+    {
+      "word": "Juggling",
+      "hints": [
+        "pattern",
+        "cascade",
+        "timing",
+        "props",
+        "catch"
+      ]
+    },
+    {
+      "word": "Unicycling",
+      "hints": [
+        "balance",
+        "pedal",
+        "mount",
+        "idle",
+        "wheel"
+      ]
+    },
+    {
+      "word": "BMX",
+      "hints": [
+        "ramp",
+        "tricks",
+        "pedals",
+        "dirt",
+        "pegs"
+      ]
+    },
+    {
+      "word": "Mountain Biking",
+      "hints": [
+        "trail",
+        "suspension",
+        "descent",
+        "technical",
+        "features"
+      ]
+    },
+    {
+      "word": "Road Cycling",
+      "hints": [
+        "peloton",
+        "drafting",
+        "cadence",
+        "aero",
+        "climb"
+      ]
+    },
+    {
+      "word": "Track Cycling",
+      "hints": [
+        "velodrome",
+        "fixed gear",
+        "banking",
+        "sprint",
+        "pursuit"
+      ]
+    },
+    {
+      "word": "Cyclocross",
+      "hints": [
+        "barriers",
+        "dismount",
+        "mud",
+        "run-up",
+        "course"
+      ]
+    },
+    {
+      "word": "Motocross",
+      "hints": [
+        "jumps",
+        "whoops",
+        "holeshot",
+        "roost",
+        "gate"
+      ]
+    },
+    {
+      "word": "Supercross",
+      "hints": [
+        "stadium",
+        "jumps",
+        "whoops",
+        "rhythm section",
+        "holeshot"
+      ]
+    },
+    {
+      "word": "Enduro",
+      "hints": [
+        "stages",
+        "timed",
+        "transfer",
+        "terrain",
+        "navigation"
+      ]
+    },
+    {
+      "word": "Rally Racing",
+      "hints": [
+        "co-driver",
+        "pace notes",
+        "stages",
+        "gravel",
+        "time"
+      ]
+    },
+    {
+      "word": "Drag Racing",
+      "hints": [
+        "tree",
+        "staging",
+        "burnout",
+        "ET",
+        "quarter mile"
+      ]
+    },
+    {
+      "word": "NASCAR",
+      "hints": [
+        "oval",
+        "drafting",
+        "pit stop",
+        "laps",
+        "restrictor plate"
+      ]
+    },
+    {
+      "word": "Formula 1",
+      "hints": [
+        "pit stop",
+        "DRS",
+        "qualifying",
+        "podium",
+        "grid"
+      ]
+    },
+    {
+      "word": "IndyCar",
+      "hints": [
+        "oval",
+        "road course",
+        "pit stop",
+        "push to pass",
+        "grid"
+      ]
+    },
+    {
+      "word": "Go-Karting",
+      "hints": [
+        "apex",
+        "overtake",
+        "kart",
+        "track",
+        "flag"
+      ]
+    },
+    {
+      "word": "Drifting",
+      "hints": [
+        "angle",
+        "smoke",
+        "initiation",
+        "tandem",
+        "transition"
+      ]
+    },
+    {
+      "word": "Autocross",
+      "hints": [
+        "cones",
+        "course",
+        "time",
+        "runs",
+        "penalty"
+      ]
+    },
+    {
+      "word": "Hill Climb",
+      "hints": [
+        "elevation",
+        "time",
+        "hairpin",
+        "course",
+        "record"
+      ]
+    },
+    {
+      "word": "Monster Trucks",
+      "hints": [
+        "crush",
+        "jump",
+        "freestyle",
+        "wheelie",
+        "donuts"
+      ]
+    },
+    {
+      "word": "Demolition Derby",
+      "hints": [
+        "hits",
+        "last car",
+        "reverse",
+        "radiator",
+        "arena"
+      ]
+    },
+    {
+      "word": "Figure 8 Racing",
+      "hints": [
+        "intersection",
+        "timing",
+        "contact",
+        "oval",
+        "crossing"
+      ]
+    },
+    {
+      "word": "Tractor Pulling",
+      "hints": [
+        "sled",
+        "weight transfer",
+        "distance",
+        "full pull",
+        "smoke"
+      ]
+    },
+    {
+      "word": "Mud Bogging",
+      "hints": [
+        "pit",
+        "tires",
+        "stuck",
+        "distance",
+        "rooster tail"
+      ]
+    },
+    {
+      "word": "Rock Crawling",
+      "hints": [
+        "obstacles",
+        "spotting",
+        "articulation",
+        "line",
+        "winch"
+      ]
+    },
+    {
+      "word": "ATV Racing",
+      "hints": [
+        "quad",
+        "terrain",
+        "throttle",
+        "jumps",
+        "course"
+      ]
+    },
+    {
+      "word": "Snowmobile Racing",
+      "hints": [
+        "track",
+        "studs",
+        "terrain",
+        "snocross",
+        "oval"
+      ]
+    },
+    {
+      "word": "Sled Dog Racing",
+      "hints": [
+        "musher",
+        "team",
+        "checkpoint",
+        "trail",
+        "harness"
+      ]
+    },
+    {
+      "word": "Camel Racing",
+      "hints": [
+        "jockey",
+        "track",
+        "desert",
+        "sprint",
+        "finish"
+      ]
+    },
+    {
+      "word": "Pigeon Racing",
+      "hints": [
+        "release",
+        "homing",
+        "loft",
+        "distance",
+        "clock"
+      ]
+    },
+    {
+      "word": "Greyhound Racing",
+      "hints": [
+        "lure",
+        "track",
+        "box",
+        "stretch",
+        "muzzle"
+      ]
+    },
+    {
+      "word": "Chariot Racing",
+      "hints": [
+        "horses",
+        "reins",
+        "track",
+        "turns",
+        "ancient"
+      ]
+    },
+    {
+      "word": "Harness Racing",
+      "hints": [
+        "sulky",
+        "pacer",
+        "trotter",
+        "gate",
+        "stretch"
+      ]
+    },
+    {
+      "word": "Show Jumping",
+      "hints": [
+        "fences",
+        "faults",
+        "course",
+        "time",
+        "clear round"
+      ]
+    },
+    {
+      "word": "Dressage",
+      "hints": [
+        "movements",
+        "arena",
+        "letters",
+        "test",
+        "scores"
+      ]
+    },
+    {
+      "word": "Eventing",
+      "hints": [
+        "phases",
+        "cross-country",
+        "dressage",
+        "jumping",
+        "penalties"
+      ]
+    },
+    {
+      "word": "Reining",
+      "hints": [
+        "sliding stop",
+        "spin",
+        "circles",
+        "pattern",
+        "western"
+      ]
+    },
+    {
+      "word": "Cutting",
+      "hints": [
+        "cow",
+        "hold",
+        "working",
+        "herd",
+        "western"
+      ]
+    },
+    {
+      "word": "Team Roping",
+      "hints": [
+        "header",
+        "heeler",
+        "dally",
+        "time",
+        "barrier"
+      ]
+    },
+    {
+      "word": "Calf Roping",
+      "hints": [
+        "loop",
+        "tie",
+        "flank",
+        "time",
+        "barrier"
+      ]
+    },
+    {
+      "word": "Steer Wrestling",
+      "hints": [
+        "hazer",
+        "slide",
+        "time",
+        "bulldogging",
+        "horns"
+      ]
+    },
+    {
+      "word": "Saddle Bronc",
+      "hints": [
+        "spurring",
+        "mark out",
+        "seconds",
+        "rein",
+        "score"
+      ]
+    },
+    {
+      "word": "Bareback Bronc",
+      "hints": [
+        "rigging",
+        "spurring",
+        "mark out",
+        "seconds",
+        "score"
+      ]
+    },
+    {
+      "word": "Hunting",
+      "hints": [
+        "blind",
+        "calls",
+        "season",
+        "tag",
+        "tracking"
+      ]
+    },
+    {
+      "word": "Fishing",
+      "hints": [
+        "cast",
+        "reel",
+        "bait",
+        "hook",
+        "catch"
+      ]
+    },
+    {
+      "word": "Fly Fishing",
+      "hints": [
+        "cast",
+        "drift",
+        "presentation",
+        "hatch",
+        "waders"
+      ]
+    },
+    {
+      "word": "Ice Fishing",
+      "hints": [
+        "hole",
+        "shelter",
+        "tip-up",
+        "auger",
+        "jigging"
+      ]
+    },
+    {
+      "word": "Deep Sea Fishing",
+      "hints": [
+        "charter",
+        "trolling",
+        "fighting",
+        "gaff",
+        "mate"
+      ]
+    },
+    {
+      "word": "Bass Fishing",
+      "hints": [
+        "lure",
+        "structure",
+        "tournament",
+        "live well",
+        "limit"
+      ]
+    },
+    {
+      "word": "Carp Fishing",
+      "hints": [
+        "boilies",
+        "hair rig",
+        "bite alarm",
+        "session",
+        "net"
+      ]
+    },
+    {
+      "word": "Bow Fishing",
+      "hints": [
+        "reel",
+        "arrow",
+        "aim",
+        "shallow",
+        "night"
+      ]
+    },
+    {
+      "word": "Noodling",
+      "hints": [
+        "hole",
+        "hands",
+        "catfish",
+        "grab",
+        "shallow"
+      ]
+    },
+    {
+      "word": "Crabbing",
+      "hints": [
+        "trap",
+        "bait",
+        "line",
+        "pot",
+        "measure"
+      ]
+    },
+    {
+      "word": "Lobstering",
+      "hints": [
+        "trap",
+        "buoy",
+        "gauge",
+        "banding",
+        "haul"
+      ]
+    },
+    {
+      "word": "Clamming",
+      "hints": [
+        "rake",
+        "tide",
+        "bucket",
+        "license",
+        "digging"
+      ]
+    },
+    {
+      "word": "Oystering",
+      "hints": [
+        "tongs",
+        "bed",
+        "shucking",
+        "season",
+        "dredge"
+      ]
+    },
+    {
+      "word": "Shrimping",
+      "hints": [
+        "net",
+        "cast",
+        "bait",
+        "boat",
+        "haul"
+      ]
+    },
+    {
+      "word": "Falconry",
+      "hints": [
+        "hood",
+        "jesses",
+        "lure",
+        "quarry",
+        "manning"
+      ]
+    },
+    {
+      "word": "Shooting",
+      "hints": [
+        "stance",
+        "sight",
+        "trigger",
+        "target",
+        "grouping"
+      ]
+    },
+    {
+      "word": "Trap Shooting",
+      "hints": [
+        "clay",
+        "pull",
+        "station",
+        "lead",
+        "broken"
+      ]
+    },
+    {
+      "word": "Skeet Shooting",
+      "hints": [
+        "stations",
+        "high house",
+        "low house",
+        "doubles",
+        "lead"
+      ]
+    },
+    {
+      "word": "Sporting Clays",
+      "hints": [
+        "stations",
+        "course",
+        "targets",
+        "lead",
+        "presentation"
+      ]
+    },
+    {
+      "word": "Rifle Shooting",
+      "hints": [
+        "prone",
+        "scope",
+        "grouping",
+        "windage",
+        "elevation"
+      ]
+    },
+    {
+      "word": "Pistol Shooting",
+      "hints": [
+        "stance",
+        "grip",
+        "sight picture",
+        "trigger",
+        "grouping"
+      ]
+    },
+    {
+      "word": "Airsoft",
+      "hints": [
+        "BBs",
+        "FPS",
+        "gear",
+        "field",
+        "objectives"
+      ]
+    },
+    {
+      "word": "Paintball",
+      "hints": [
+        "marker",
+        "hopper",
+        "bunker",
+        "elimination",
+        "mask"
+      ]
+    },
+    {
+      "word": "Laser Tag",
+      "hints": [
+        "vest",
+        "gun",
+        "arena",
+        "hits",
+        "respawn"
+      ]
+    },
+    {
+      "word": "Nerf",
+      "hints": [
+        "darts",
+        "blaster",
+        "reload",
+        "war",
+        "foam"
+      ]
+    },
+    {
+      "word": "Airgun",
+      "hints": [
+        "pellet",
+        "pump",
+        "scope",
+        "target",
+        "FPS"
+      ]
+    },
+    {
+      "word": "Slingshot",
+      "hints": [
+        "pouch",
+        "bands",
+        "aim",
+        "ammo",
+        "draw"
+      ]
+    },
+    {
+      "word": "Blowgun",
+      "hints": [
+        "darts",
+        "breath",
+        "aim",
+        "tube",
+        "target"
+      ]
+    },
+    {
+      "word": "Axe Throwing",
+      "hints": [
+        "rotation",
+        "target",
+        "bullseye",
+        "lane",
+        "technique"
+      ]
+    },
+    {
+      "word": "Knife Throwing",
+      "hints": [
+        "rotation",
+        "distance",
+        "target",
+        "grip",
+        "stick"
+      ]
+    },
+    {
+      "word": "Boomerang",
+      "hints": [
+        "throw",
+        "return",
+        "catch",
+        "wind",
+        "spin"
+      ]
+    },
+    {
+      "word": "Competitive Eating",
+      "hints": [
+        "timer",
+        "quantity",
+        "reversal",
+        "technique",
+        "weigh-in"
+      ]
+    },
+    {
+      "word": "Cheese Rolling",
+      "hints": [
+        "hill",
+        "wheel",
+        "chase",
+        "tumble",
+        "winner"
+      ]
+    },
+    {
+      "word": "Wife Carrying",
+      "hints": [
+        "obstacle",
+        "grip",
+        "time",
+        "penalty",
+        "course"
+      ]
+    },
+    {
+      "word": "Bog Snorkeling",
+      "hints": [
+        "trench",
+        "flippers",
+        "mask",
+        "time",
+        "muddy"
+      ]
+    },
+    {
+      "word": "Toe Wrestling",
+      "hints": [
+        "lock",
+        "pin",
+        "toedium",
+        "barefoot",
+        "rounds"
+      ]
+    },
+    {
+      "word": "Shin Kicking",
+      "hints": [
+        "straw",
+        "grip",
+        "kicks",
+        "fall",
+        "rounds"
+      ]
+    },
+    {
+      "word": "Chess Boxing",
+      "hints": [
+        "rounds",
+        "alternating",
+        "checkmate",
+        "knockout",
+        "hybrid"
+      ]
+    },
+    {
+      "word": "Underwater Hockey",
+      "hints": [
+        "puck",
+        "stick",
+        "snorkel",
+        "glove",
+        "goal"
+      ]
+    },
+    {
+      "word": "Underwater Rugby",
+      "hints": [
+        "ball",
+        "basket",
+        "snorkel",
+        "sinking",
+        "goal"
+      ]
+    },
+    {
+      "word": "Quidditch",
+      "hints": [
+        "brooms",
+        "snitch",
+        "quaffle",
+        "bludger",
+        "hoops"
+      ]
+    },
+    {
+      "word": "Roller Derby",
+      "hints": [
+        "jammer",
+        "blocker",
+        "pack",
+        "track",
+        "penalties"
+      ]
+    },
+    {
+      "word": "Roller Hockey",
+      "hints": [
+        "puck",
+        "inline",
+        "rink",
+        "goals",
+        "checking"
+      ]
+    },
+    {
+      "word": "Roller Skating",
+      "hints": [
+        "rink",
+        "wheels",
+        "music",
+        "backwards",
+        "crossovers"
+      ]
+    },
+    {
+      "word": "Inline Skating",
+      "hints": [
+        "wheels",
+        "braking",
+        "crossovers",
+        "fitness",
+        "technique"
+      ]
+    },
+    {
+      "word": "Speed Roller Skating",
+      "hints": [
+        "track",
+        "pack",
+        "drafting",
+        "sprints",
+        "relay"
+      ]
+    },
+    {
+      "word": "Aggressive Inline",
+      "hints": [
+        "ramp",
+        "grind",
+        "tricks",
+        "park",
+        "soul"
+      ]
+    },
+    {
+      "word": "Ice Cross",
+      "hints": [
+        "downhill",
+        "gates",
+        "contact",
+        "pack",
+        "skates"
+      ]
+    },
+    {
+      "word": "Bandy",
+      "hints": [
+        "ball",
+        "ice",
+        "curved stick",
+        "goals",
+        "field"
+      ]
+    },
+    {
+      "word": "Ringette",
+      "hints": [
+        "ring",
+        "ice",
+        "stick",
+        "goals",
+        "free play zone"
+      ]
+    },
+    {
+      "word": "Broomball",
+      "hints": [
+        "broom",
+        "ball",
+        "ice",
+        "shoes",
+        "goals"
+      ]
+    },
+    {
+      "word": "Pond Hockey",
+      "hints": [
+        "outdoor",
+        "ice",
+        "shinny",
+        "shoveling",
+        "cold"
+      ]
+    },
+    {
+      "word": "Street Hockey",
+      "hints": [
+        "ball",
+        "pavement",
+        "goals",
+        "car",
+        "sticks"
+      ]
+    },
+    {
+      "word": "Floor Hockey",
+      "hints": [
+        "puck",
+        "gym",
+        "sticks",
+        "goals",
+        "indoor"
+      ]
+    },
+    {
+      "word": "Ball Hockey",
+      "hints": [
+        "ball",
+        "rink",
+        "running shoes",
+        "goals",
+        "boards"
+      ]
+    },
+    {
+      "word": "Floorball",
+      "hints": [
+        "plastic ball",
+        "stick",
+        "court",
+        "goals",
+        "running"
+      ]
+    },
+    {
+      "word": "Tchoukball",
+      "hints": [
+        "frame",
+        "rebound",
+        "catch",
+        "score",
+        "non-contact"
+      ]
+    },
+    {
+      "word": "Korfball",
+      "hints": [
+        "post",
+        "mixed",
+        "zones",
+        "shooting",
+        "defending"
+      ]
+    },
+    {
+      "word": "Fistball",
+      "hints": [
+        "fist",
+        "bounce",
+        "net",
+        "court",
+        "serve"
+      ]
+    },
+    {
+      "word": "Footvolley",
+      "hints": [
+        "feet",
+        "net",
+        "beach",
+        "headers",
+        "rally"
+      ]
+    },
+    {
+      "word": "Beach Tennis",
+      "hints": [
+        "paddle",
+        "sand",
+        "net",
+        "no bounce",
+        "serve"
+      ]
+    },
+    {
+      "word": "Beach Handball",
+      "hints": [
+        "sand",
+        "goals",
+        "diving",
+        "spin shot",
+        "specialist"
+      ]
+    },
+    {
+      "word": "Beach Soccer",
+      "hints": [
+        "sand",
+        "barefoot",
+        "bicycle kick",
+        "goals",
+        "small sided"
+      ]
+    },
+    {
+      "word": "Beach Volleyball",
+      "hints": [
+        "sand",
+        "dig",
+        "pairs",
+        "side out",
+        "rally"
+      ]
+    },
+    {
+      "word": "Indoor Volleyball",
+      "hints": [
+        "court",
+        "rotation",
+        "libero",
+        "sets",
+        "rally"
+      ]
+    },
+    {
+      "word": "Sitting Volleyball",
+      "hints": [
+        "floor",
+        "court",
+        "dig",
+        "seated",
+        "net"
+      ]
+    },
+    {
+      "word": "Snow Volleyball",
+      "hints": [
+        "snow",
+        "cold",
+        "rally",
+        "pairs",
+        "net"
+      ]
+    },
+    {
+      "word": "Futsal",
+      "hints": [
+        "court",
+        "ball",
+        "fast",
+        "goals",
+        "five-a-side"
+      ]
+    },
+    {
+      "word": "Indoor Soccer",
+      "hints": [
+        "turf",
+        "walls",
+        "boards",
+        "fast",
+        "goals"
+      ]
+    },
+    {
+      "word": "Street Soccer",
+      "hints": [
+        "small sided",
+        "cages",
+        "skills",
+        "urban",
+        "tricks"
+      ]
+    },
+    {
+      "word": "Freestyle Football",
+      "hints": [
+        "tricks",
+        "juggling",
+        "routine",
+        "skills",
+        "around the world"
+      ]
+    },
+    {
+      "word": "Teqball",
+      "hints": [
+        "curved table",
+        "feet",
+        "headers",
+        "rally",
+        "serve"
+      ]
+    },
+    {
+      "word": "Padel",
+      "hints": [
+        "walls",
+        "serve",
+        "underhand",
+        "volley",
+        "enclosed"
+      ]
+    },
+    {
+      "word": "Platform Tennis",
+      "hints": [
+        "screens",
+        "paddle",
+        "winter",
+        "heated",
+        "doubles"
+      ]
+    },
+    {
+      "word": "Paddle Tennis",
+      "hints": [
+        "paddle",
+        "court",
+        "serve",
+        "smaller",
+        "doubles"
+      ]
+    },
+    {
+      "word": "Pop Tennis",
+      "hints": [
+        "paddle",
+        "depressurized",
+        "court",
+        "serve",
+        "volleys"
+      ]
+    },
+    {
+      "word": "Real Tennis",
+      "hints": [
+        "dedans",
+        "tambour",
+        "chase",
+        "penthouse",
+        "hazard"
+      ]
+    },
+    {
+      "word": "Soft Tennis",
+      "hints": [
+        "rubber ball",
+        "racket",
+        "court",
+        "Asia",
+        "serve"
+      ]
+    },
+    {
+      "word": "Speedminton",
+      "hints": [
+        "speeder",
+        "outdoor",
+        "no net",
+        "racket",
+        "glow"
+      ]
+    },
+    {
+      "word": "Crossminton",
+      "hints": [
+        "speeder",
+        "squares",
+        "no net",
+        "outdoor",
+        "racket"
+      ]
+    },
+    {
+      "word": "Touchtennis",
+      "hints": [
+        "foam ball",
+        "small court",
+        "rally",
+        "serve",
+        "paddle"
+      ]
+    },
+    {
+      "word": "Frescobol",
+      "hints": [
+        "beach",
+        "paddles",
+        "rally",
+        "cooperative",
+        "wooden"
+      ]
+    },
+    {
+      "word": "Matkot",
+      "hints": [
+        "beach",
+        "paddles",
+        "rally",
+        "cooperative",
+        "wooden"
+      ]
+    },
+    {
+      "word": "Speedball",
+      "hints": [
+        "punching",
+        "swivel",
+        "rhythm",
+        "boxing",
+        "bag"
+      ]
+    },
+    {
+      "word": "Speed Bag",
+      "hints": [
+        "rhythm",
+        "fists",
+        "platform",
+        "timing",
+        "rebounds"
+      ]
+    },
+    {
+      "word": "Heavy Bag",
+      "hints": [
+        "punching",
+        "kicking",
+        "combinations",
+        "power",
+        "swinging"
+      ]
+    },
+    {
+      "word": "Double End Bag",
+      "hints": [
+        "timing",
+        "accuracy",
+        "elastic",
+        "rhythm",
+        "movement"
+      ]
+    },
+    {
+      "word": "Shadow Boxing",
+      "hints": [
+        "mirror",
+        "footwork",
+        "combinations",
+        "visualization",
+        "warmup"
+      ]
+    },
+    {
+      "word": "Sparring",
+      "hints": [
+        "partner",
+        "rounds",
+        "headgear",
+        "controlled",
+        "timer"
+      ]
+    },
+    {
+      "word": "Pad Work",
+      "hints": [
+        "holder",
+        "combinations",
+        "coach",
+        "target",
+        "movement"
+      ]
+    },
+    {
+      "word": "Mitt Work",
+      "hints": [
+        "coach",
+        "combinations",
+        "target",
+        "focus",
+        "timing"
+      ]
+    },
+    {
+      "word": "Grappling",
+      "hints": [
+        "mat",
+        "position",
+        "submission",
+        "control",
+        "scramble"
+      ]
+    },
+    {
+      "word": "No-Gi",
+      "hints": [
+        "rashguard",
+        "shorts",
+        "grips",
+        "submissions",
+        "slippery"
+      ]
+    },
+    {
+      "word": "Submission Wrestling",
+      "hints": [
+        "mat",
+        "submissions",
+        "control",
+        "position",
+        "no strikes"
+      ]
+    },
+    {
+      "word": "Combat Sambo",
+      "hints": [
+        "jacket",
+        "strikes",
+        "throws",
+        "submissions",
+        "Russian"
+      ]
+    },
+    {
+      "word": "Shootfighting",
+      "hints": [
+        "hybrid",
+        "striking",
+        "grappling",
+        "cage",
+        "submissions"
+      ]
+    },
+    {
+      "word": "Pankration",
+      "hints": [
+        "ancient",
+        "striking",
+        "grappling",
+        "Greek",
+        "submission"
+      ]
+    },
+    {
+      "word": "Lethwei",
+      "hints": [
+        "headbutt",
+        "bareknuckle",
+        "Burmese",
+        "knockout",
+        "clinch"
+      ]
+    },
+    {
+      "word": "Sanda",
+      "hints": [
+        "platform",
+        "throws",
+        "kicks",
+        "Chinese",
+        "ring out"
+      ]
+    },
+    {
+      "word": "Savate",
+      "hints": [
+        "shoes",
+        "French",
+        "kicks",
+        "gloves",
+        "points"
+      ]
+    },
+    {
+      "word": "Silat",
+      "hints": [
+        "Southeast Asian",
+        "weapons",
+        "forms",
+        "striking",
+        "grappling"
+      ]
+    },
+    {
+      "word": "Escrima",
+      "hints": [
+        "sticks",
+        "Filipino",
+        "flow",
+        "angles",
+        "sinawali"
+      ]
+    },
+    {
+      "word": "Kali",
+      "hints": [
+        "sticks",
+        "blades",
+        "Filipino",
+        "angles",
+        "drills"
+      ]
+    },
+    {
+      "word": "HEMA",
+      "hints": [
+        "longsword",
+        "historical",
+        "sparring",
+        "treatises",
+        "armor"
+      ]
+    },
+    {
+      "word": "SCA Fighting",
+      "hints": [
+        "armor",
+        "rattan",
+        "medieval",
+        "tournaments",
+        "heavy"
+      ]
+    },
+    {
+      "word": "Jousting",
+      "hints": [
+        "lance",
+        "horse",
+        "armor",
+        "tilt",
+        "unhorse"
+      ]
+    },
+    {
+      "word": "Mounted Games",
+      "hints": [
+        "pony",
+        "relay",
+        "equipment",
+        "speed",
+        "dismount"
+      ]
+    },
+    {
+      "word": "Tent Pegging",
+      "hints": [
+        "lance",
+        "peg",
+        "gallop",
+        "target",
+        "cavalry"
+      ]
+    },
+    {
+      "word": "Horseback Archery",
+      "hints": [
+        "bow",
+        "gallop",
+        "targets",
+        "track",
+        "Mongolian"
+      ]
+    },
+    {
+      "word": "Kyudo",
+      "hints": [
+        "bow",
+        "target",
+        "ceremony",
+        "form",
+        "Japanese"
+      ]
+    },
+    {
+      "word": "Field Archery",
+      "hints": [
+        "course",
+        "distances",
+        "terrain",
+        "unmarked",
+        "walk"
+      ]
+    },
+    {
+      "word": "3D Archery",
+      "hints": [
+        "foam animals",
+        "course",
+        "scoring",
+        "unmarked",
+        "hunting"
+      ]
+    },
+    {
+      "word": "Target Archery",
+      "hints": [
+        "rounds",
+        "distance",
+        "scoring",
+        "rings",
+        "ends"
+      ]
+    },
+    {
+      "word": "Clout Archery",
+      "hints": [
+        "flag",
+        "distance",
+        "arc",
+        "ground",
+        "scoring"
+      ]
+    },
+    {
+      "word": "Flight Archery",
+      "hints": [
+        "distance",
+        "specialized",
+        "record",
+        "lightweight",
+        "angle"
+      ]
+    },
+    {
+      "word": "Popinjay",
+      "hints": [
+        "vertical",
+        "mast",
+        "birds",
+        "feathers",
+        "shooting up"
+      ]
+    },
+    {
+      "word": "Crossbow",
+      "hints": [
+        "bolt",
+        "trigger",
+        "scope",
+        "cocking",
+        "target"
+      ]
+    },
+    {
+      "word": "Sling",
+      "hints": [
+        "pouch",
+        "rotation",
+        "release",
+        "projectile",
+        "ancient"
+      ]
+    },
+    {
+      "word": "Atlatl",
+      "hints": [
+        "spear thrower",
+        "dart",
+        "leverage",
+        "prehistoric",
+        "distance"
+      ]
+    },
+    {
+      "word": "Highland Games",
+      "hints": [
+        "caber",
+        "stone",
+        "hammer",
+        "kilt",
+        "Scottish"
+      ]
+    },
+    {
+      "word": "Caber Toss",
+      "hints": [
+        "log",
+        "flip",
+        "twelve o'clock",
+        "run",
+        "Scottish"
+      ]
+    },
+    {
+      "word": "Stone Put",
+      "hints": [
+        "stone",
+        "circle",
+        "distance",
+        "standing",
+        "Scottish"
+      ]
+    },
+    {
+      "word": "Weight Throw",
+      "hints": [
+        "handle",
+        "spin",
+        "distance",
+        "heavy",
+        "release"
+      ]
+    },
+    {
+      "word": "Sheaf Toss",
+      "hints": [
+        "pitchfork",
+        "burlap",
+        "height",
+        "bar",
+        "straw"
+      ]
+    },
+    {
+      "word": "Weight Over Bar",
+      "hints": [
+        "handle",
+        "height",
+        "one hand",
+        "bar",
+        "throw"
+      ]
+    },
+    {
+      "word": "Log Press",
+      "hints": [
+        "overhead",
+        "clean",
+        "handles",
+        "reps",
+        "strongman"
+      ]
+    },
+    {
+      "word": "Atlas Stones",
+      "hints": [
+        "spheres",
+        "platform",
+        "tacky",
+        "lap",
+        "loading"
+      ]
+    },
+    {
+      "word": "Tire Flip",
+      "hints": [
+        "technique",
+        "drive",
+        "heavy",
+        "reps",
+        "conditioning"
+      ]
+    },
+    {
+      "word": "Farmers Walk",
+      "hints": [
+        "handles",
+        "grip",
+        "distance",
+        "heavy",
+        "carry"
+      ]
+    },
+    {
+      "word": "Yoke Walk",
+      "hints": [
+        "frame",
+        "shoulders",
+        "distance",
+        "heavy",
+        "stability"
+      ]
+    },
+    {
+      "word": "Car Deadlift",
+      "hints": [
+        "frame",
+        "lockout",
+        "reps",
+        "heavy",
+        "spectacle"
+      ]
+    },
+    {
+      "word": "Keg Toss",
+      "hints": [
+        "over bar",
+        "height",
+        "empty",
+        "technique",
+        "reps"
+      ]
+    },
+    {
+      "word": "Sandbag Carry",
+      "hints": [
+        "awkward",
+        "grip",
+        "distance",
+        "loading",
+        "conditioning"
+      ]
+    },
+    {
+      "word": "Sled Push",
+      "hints": [
+        "prowler",
+        "drive",
+        "distance",
+        "conditioning",
+        "legs"
+      ]
+    },
+    {
+      "word": "Sled Pull",
+      "hints": [
+        "rope",
+        "harness",
+        "drag",
+        "conditioning",
+        "distance"
+      ]
+    },
+    {
+      "word": "Battle Ropes",
+      "hints": [
+        "waves",
+        "slams",
+        "conditioning",
+        "grip",
+        "anchored"
+      ]
+    },
+    {
+      "word": "Kettlebell Sport",
+      "hints": [
+        "snatch",
+        "jerk",
+        "reps",
+        "time",
+        "technique"
+      ]
+    },
+    {
+      "word": "Steel Mace",
+      "hints": [
+        "360",
+        "swings",
+        "flow",
+        "grip",
+        "offset"
+      ]
+    },
+    {
+      "word": "Indian Clubs",
+      "hints": [
+        "swinging",
+        "flow",
+        "shoulders",
+        "wooden",
+        "patterns"
+      ]
+    },
+    {
+      "word": "Club Swinging",
+      "hints": [
+        "patterns",
+        "flow",
+        "grip",
+        "conditioning",
+        "coordination"
+      ]
+    },
+    {
+      "word": "Rope Climbing",
+      "hints": [
+        "legless",
+        "technique",
+        "bell",
+        "height",
+        "grip"
+      ]
+    },
+    {
+      "word": "Pegboard",
+      "hints": [
+        "climbing",
+        "pegs",
+        "grip",
+        "traverse",
+        "upper body"
+      ]
+    },
+    {
+      "word": "Obstacle Course Racing",
+      "hints": [
+        "Spartan",
+        "mud",
+        "walls",
+        "burpees",
+        "penalties"
+      ]
+    },
+    {
+      "word": "Ninja Warrior",
+      "hints": [
+        "obstacles",
+        "grip",
+        "course",
+        "buzzer",
+        "salmon ladder"
+      ]
+    },
+    {
+      "word": "Tough Mudder",
+      "hints": [
+        "obstacles",
+        "teamwork",
+        "electroshock",
+        "cold",
+        "mud"
+      ]
+    },
+    {
+      "word": "Spartan Race",
+      "hints": [
+        "obstacles",
+        "burpees",
+        "penalties",
+        "mud",
+        "distance"
+      ]
+    },
+    {
+      "word": "GoRuck",
+      "hints": [
+        "rucksack",
+        "weight",
+        "team",
+        "endurance",
+        "challenges"
+      ]
+    },
+    {
+      "word": "Adventure Racing",
+      "hints": [
+        "navigation",
+        "multisport",
+        "team",
+        "checkpoints",
+        "overnight"
+      ]
+    },
+    {
+      "word": "Rogaine",
+      "hints": [
+        "navigation",
+        "points",
+        "time limit",
+        "map",
+        "checkpoints"
+      ]
+    },
+    {
+      "word": "Geocaching",
+      "hints": [
+        "GPS",
+        "cache",
+        "logbook",
+        "coordinates",
+        "hidden"
+      ]
+    },
+    {
+      "word": "Letterboxing",
+      "hints": [
+        "clues",
+        "stamp",
+        "logbook",
+        "hidden",
+        "hiking"
+      ]
+    },
+    {
+      "word": "Scavenger Hunt",
+      "hints": [
+        "list",
+        "items",
+        "team",
+        "time",
+        "clues"
+      ]
+    },
+    {
+      "word": "Capture the Flag",
+      "hints": [
+        "territory",
+        "jail",
+        "tagging",
+        "flag",
+        "strategy"
+      ]
+    },
+    {
+      "word": "Hide and Seek",
+      "hints": [
+        "hiding",
+        "seeking",
+        "base",
+        "counting",
+        "found"
+      ]
+    },
+    {
+      "word": "Tag",
+      "hints": [
+        "chasing",
+        "tagging",
+        "it",
+        "running",
+        "base"
+      ]
+    },
+    {
+      "word": "Freeze Tag",
+      "hints": [
+        "frozen",
+        "unfreeze",
+        "tagging",
+        "chasing",
+        "movement"
+      ]
+    },
+    {
+      "word": "Manhunt",
+      "hints": [
+        "hiding",
+        "hunting",
+        "territory",
+        "teams",
+        "night"
+      ]
+    },
+    {
+      "word": "Sardines",
+      "hints": [
+        "hiding",
+        "one hider",
+        "cramped",
+        "finding",
+        "joining"
+      ]
+    },
+    {
+      "word": "Red Light Green Light",
+      "hints": [
+        "movement",
+        "frozen",
+        "caller",
+        "caught",
+        "finish line"
+      ]
+    },
+    {
+      "word": "Simon Says",
+      "hints": [
+        "commands",
+        "leader",
+        "elimination",
+        "listening",
+        "tricked"
+      ]
+    },
+    {
+      "word": "Musical Chairs",
+      "hints": [
+        "music",
+        "chairs",
+        "elimination",
+        "scramble",
+        "remaining"
+      ]
+    },
+    {
+      "word": "Duck Duck Goose",
+      "hints": [
+        "circle",
+        "tapping",
+        "chasing",
+        "spot",
+        "goose"
+      ]
+    },
+    {
+      "word": "Red Rover",
+      "hints": [
+        "chain",
+        "charging",
+        "calling",
+        "breaking through",
+        "teams"
+      ]
+    },
+    {
+      "word": "Tug of War",
+      "hints": [
+        "rope",
+        "pulling",
+        "teams",
+        "center",
+        "strength"
+      ]
+    },
+    {
+      "word": "Leapfrog",
+      "hints": [
+        "jumping",
+        "crouching",
+        "over",
+        "line",
+        "continuous"
+      ]
+    },
+    {
+      "word": "Hopscotch",
+      "hints": [
+        "squares",
+        "hopping",
+        "marker",
+        "numbers",
+        "balance"
+      ]
+    },
+    {
+      "word": "Jump Rope Games",
+      "hints": [
+        "rhymes",
+        "turning",
+        "double dutch",
+        "jumping",
+        "timing"
+      ]
+    },
+    {
+      "word": "Double Dutch",
+      "hints": [
+        "two ropes",
+        "turning",
+        "jumping",
+        "timing",
+        "rhymes"
+      ]
+    },
+    {
+      "word": "Chinese Jump Rope",
+      "hints": [
+        "elastic",
+        "patterns",
+        "levels",
+        "feet",
+        "ankles"
+      ]
+    },
+    {
+      "word": "Marbles",
+      "hints": [
+        "shooter",
+        "ring",
+        "knocking out",
+        "taw",
+        "keepsies"
+      ]
+    },
+    {
+      "word": "Jacks",
+      "hints": [
+        "ball",
+        "pickup",
+        "bounce",
+        "onesies",
+        "tensies"
+      ]
+    },
+    {
+      "word": "Tops",
+      "hints": [
+        "spinning",
+        "string",
+        "tricks",
+        "launch",
+        "battle"
+      ]
+    },
+    {
+      "word": "Yo-Yo",
+      "hints": [
+        "string",
+        "tricks",
+        "sleep",
+        "return",
+        "around the world"
+      ]
+    },
+    {
+      "word": "Kendama",
+      "hints": [
+        "cup",
+        "spike",
+        "ball",
+        "string",
+        "tricks"
+      ]
+    },
+    {
+      "word": "Diabolo",
+      "hints": [
+        "sticks",
+        "string",
+        "spinning",
+        "tricks",
+        "toss"
+      ]
+    },
+    {
+      "word": "Cup Stacking",
+      "hints": [
+        "speed",
+        "pattern",
+        "pyramid",
+        "timer",
+        "fumble"
+      ]
+    },
+    {
+      "word": "Speed Cubing",
+      "hints": [
+        "algorithms",
+        "timer",
+        "scramble",
+        "inspection",
+        "solve"
+      ]
+    },
+    {
+      "word": "Competitive Gaming",
+      "hints": [
+        "tournament",
+        "practice",
+        "meta",
+        "ranking",
+        "team"
+      ]
+    },
+    {
+      "word": "Esports",
+      "hints": [
+        "tournament",
+        "streaming",
+        "team",
+        "sponsor",
+        "prize pool"
+      ]
+    },
+    {
+      "word": "Speedrunning",
+      "hints": [
+        "timer",
+        "glitches",
+        "route",
+        "category",
+        "world record"
+      ]
+    },
+    {
+      "word": "Chess",
+      "hints": [
+        "opening",
+        "endgame",
+        "clock",
+        "rating",
+        "checkmate"
+      ]
+    },
+    {
+      "word": "Go",
+      "hints": [
+        "stones",
+        "territory",
+        "capture",
+        "board",
+        "handicap"
+      ]
+    },
+    {
+      "word": "Shogi",
+      "hints": [
+        "drops",
+        "promotion",
+        "Japanese",
+        "pieces",
+        "checkmate"
+      ]
+    },
+    {
+      "word": "Xiangqi",
+      "hints": [
+        "river",
+        "palace",
+        "Chinese",
+        "cannon",
+        "checkmate"
+      ]
+    },
+    {
+      "word": "Checkers",
+      "hints": [
+        "jumping",
+        "kings",
+        "diagonal",
+        "captures",
+        "board"
+      ]
+    },
+    {
+      "word": "Backgammon",
+      "hints": [
+        "dice",
+        "bearing off",
+        "doubling cube",
+        "points",
+        "blot"
+      ]
+    },
+    {
+      "word": "Poker",
+      "hints": [
+        "blinds",
+        "fold",
+        "raise",
+        "pot",
+        "showdown"
+      ]
+    },
+    {
+      "word": "Bridge",
+      "hints": [
+        "bidding",
+        "tricks",
+        "dummy",
+        "partnership",
+        "contract"
+      ]
+    },
+    {
+      "word": "Competitive Scrabble",
+      "hints": [
+        "tiles",
+        "bingo",
+        "challenge",
+        "clock",
+        "dictionary"
+      ]
+    },
+    {
+      "word": "Competitive Tetris",
+      "hints": [
+        "clearing",
+        "T-spin",
+        "garbage",
+        "versus",
+        "speed"
+      ]
+    },
+    {
+      "word": "Drone Racing",
+      "hints": [
+        "FPV",
+        "gates",
+        "goggles",
+        "course",
+        "battery"
+      ]
+    },
+    {
+      "word": "RC Car Racing",
+      "hints": [
+        "transmitter",
+        "track",
+        "nitro",
+        "electric",
+        "laps"
+      ]
+    },
+    {
+      "word": "Slot Car Racing",
+      "hints": [
+        "track",
+        "controller",
+        "lane",
+        "deslot",
+        "laps"
+      ]
+    },
+    {
+      "word": "Model Yacht Racing",
+      "hints": [
+        "wind",
+        "radio",
+        "course",
+        "marks",
+        "tactics"
+      ]
+    },
+    {
+      "word": "Paper Airplane",
+      "hints": [
+        "fold",
+        "throw",
+        "distance",
+        "time aloft",
+        "design"
+      ]
+    },
+    {
+      "word": "Kite Flying",
+      "hints": [
+        "wind",
+        "line",
+        "launch",
+        "control",
+        "tricks"
+      ]
+    },
+    {
+      "word": "Kite Fighting",
+      "hints": [
+        "cutting",
+        "manja",
+        "line",
+        "dogfight",
+        "severed"
+      ]
+    },
+    {
+      "word": "Model Rocketry",
+      "hints": [
+        "launch",
+        "recovery",
+        "altitude",
+        "engine",
+        "parachute"
+      ]
+    },
+    {
+      "word": "High Power Rocketry",
+      "hints": [
+        "certification",
+        "altitude",
+        "motor",
+        "recovery",
+        "waiver"
+      ]
+    },
+    {
+      "word": "Arm Curling",
+      "hints": [
+        "bicep",
+        "bar",
+        "reps",
+        "isolation",
+        "strict"
+      ]
+    },
+    {
+      "word": "Bench Pressing",
+      "hints": [
+        "bar",
+        "chest",
+        "spotter",
+        "arch",
+        "lockout"
+      ]
+    },
+    {
+      "word": "Squatting",
+      "hints": [
+        "depth",
+        "rack",
+        "belt",
+        "stance",
+        "drive"
+      ]
+    },
+    {
+      "word": "Deadlifting",
+      "hints": [
+        "bar",
+        "lockout",
+        "grip",
+        "hips",
+        "conventional"
+      ]
+    },
+    {
+      "word": "Clean and Press",
+      "hints": [
+        "explosive",
+        "overhead",
+        "catch",
+        "front rack",
+        "drive"
+      ]
+    },
+    {
+      "word": "Turkish Getup",
+      "hints": [
+        "kettlebell",
+        "floor",
+        "standing",
+        "overhead",
+        "transitions"
+      ]
+    },
+    {
+      "word": "Muscle Up",
+      "hints": [
+        "bar",
+        "transition",
+        "false grip",
+        "rings",
+        "kipping"
+      ]
+    },
+    {
+      "word": "Handstand Walk",
+      "hints": [
+        "balance",
+        "shoulders",
+        "wall",
+        "steps",
+        "freestanding"
+      ]
+    },
+    {
+      "word": "Pistol Squat",
+      "hints": [
+        "single leg",
+        "balance",
+        "depth",
+        "mobility",
+        "counterweight"
+      ]
+    },
+    {
+      "word": "Box Jump",
+      "hints": [
+        "explosive",
+        "height",
+        "landing",
+        "rebounding",
+        "step down"
+      ]
+    },
+    {
+      "word": "Burpee",
+      "hints": [
+        "pushup",
+        "jump",
+        "sprawl",
+        "cardio",
+        "reps"
+      ]
+    },
+    {
+      "word": "Mountain Climber",
+      "hints": [
+        "plank",
+        "knees",
+        "cardio",
+        "core",
+        "speed"
+      ]
+    },
+    {
+      "word": "Plank Hold",
+      "hints": [
+        "core",
+        "time",
+        "form",
+        "elbows",
+        "shake"
+      ]
+    },
+    {
+      "word": "Pull Up",
+      "hints": [
+        "bar",
+        "chin",
+        "grip",
+        "dead hang",
+        "kipping"
+      ]
+    },
+    {
+      "word": "Dip",
+      "hints": [
+        "bars",
+        "triceps",
+        "depth",
+        "lockout",
+        "lean"
+      ]
+    },
+    {
+      "word": "Push Up",
+      "hints": [
+        "floor",
+        "chest",
+        "form",
+        "reps",
+        "variations"
+      ]
+    },
+    {
+      "word": "Sit Up",
+      "hints": [
+        "floor",
+        "core",
+        "anchor",
+        "reps",
+        "crunches"
+      ]
+    },
+    {
+      "word": "Leg Raise",
+      "hints": [
+        "hanging",
+        "core",
+        "control",
+        "bar",
+        "toes"
+      ]
+    },
+    {
+      "word": "Wall Sit",
+      "hints": [
+        "back",
+        "thighs",
+        "burn",
+        "time",
+        "ninety degrees"
+      ]
+    },
+    {
+      "word": "Planche",
+      "hints": [
+        "floor",
+        "lean",
+        "progression",
+        "straight arm",
+        "balance"
+      ]
+    },
+    {
+      "word": "Front Lever",
+      "hints": [
+        "bar",
+        "horizontal",
+        "core",
+        "progression",
+        "hold"
+      ]
+    },
+    {
+      "word": "Back Lever",
+      "hints": [
+        "bar",
+        "inverted",
+        "shoulders",
+        "progression",
+        "rings"
+      ]
+    },
+    {
+      "word": "Iron Cross",
+      "hints": [
+        "rings",
+        "hold",
+        "straight arms",
+        "gymnastics",
+        "strength"
+      ]
+    },
+    {
+      "word": "L-Sit",
+      "hints": [
+        "parallettes",
+        "core",
+        "compression",
+        "hold",
+        "legs"
+      ]
+    },
+    {
+      "word": "V-Sit",
+      "hints": [
+        "floor",
+        "pike",
+        "compression",
+        "hold",
+        "balance"
+      ]
+    },
+    {
+      "word": "Human Flag",
+      "hints": [
+        "pole",
+        "horizontal",
+        "grip",
+        "obliques",
+        "progression"
+      ]
+    },
+    {
+      "word": "Dragon Flag",
+      "hints": [
+        "bench",
+        "core",
+        "control",
+        "lowering",
+        "Bruce Lee"
+      ]
+    },
+    {
+      "word": "Hollow Body Hold",
+      "hints": [
+        "floor",
+        "core",
+        "lower back",
+        "gymnastics",
+        "tension"
+      ]
+    },
+    {
+      "word": "Superman Hold",
+      "hints": [
+        "floor",
+        "extension",
+        "glutes",
+        "lower back",
+        "hold"
+      ]
+    },
+    {
+      "word": "Glute Bridge",
+      "hints": [
+        "floor",
+        "hips",
+        "squeeze",
+        "thrust",
+        "hold"
+      ]
+    },
+    {
+      "word": "Hip Thrust",
+      "hints": [
+        "bench",
+        "bar",
+        "glutes",
+        "lockout",
+        "squeeze"
+      ]
+    },
+    {
+      "word": "Lunge",
+      "hints": [
+        "step",
+        "knee",
+        "walking",
+        "reverse",
+        "split"
+      ]
+    },
+    {
+      "word": "Step Up",
+      "hints": [
+        "box",
+        "drive",
+        "height",
+        "alternating",
+        "weighted"
+      ]
+    },
+    {
+      "word": "Calf Raise",
+      "hints": [
+        "standing",
+        "seated",
+        "stretch",
+        "squeeze",
+        "reps"
+      ]
+    },
+    {
+      "word": "Good Morning",
+      "hints": [
+        "bar",
+        "hinge",
+        "hamstrings",
+        "back",
+        "bow"
+      ]
+    },
+    {
+      "word": "Romanian Deadlift",
+      "hints": [
+        "hinge",
+        "hamstrings",
+        "bar",
+        "stretch",
+        "stiff leg"
+      ]
+    },
+    {
+      "word": "Sumo Deadlift",
+      "hints": [
+        "wide stance",
+        "bar",
+        "hips",
+        "lockout",
+        "inside grip"
+      ]
+    },
+    {
+      "word": "Trap Bar Deadlift",
+      "hints": [
+        "hex bar",
+        "handles",
+        "neutral",
+        "quads",
+        "lockout"
+      ]
+    },
+    {
+      "word": "Overhead Press",
+      "hints": [
+        "strict",
+        "lockout",
+        "standing",
+        "shoulders",
+        "bar"
+      ]
+    },
+    {
+      "word": "Push Press",
+      "hints": [
+        "dip",
+        "drive",
+        "overhead",
+        "momentum",
+        "legs"
+      ]
+    },
+    {
+      "word": "Jerk",
+      "hints": [
+        "split",
+        "dip",
+        "drive",
+        "catch",
+        "lockout"
+      ]
+    },
+    {
+      "word": "Snatch",
+      "hints": [
+        "explosive",
+        "overhead",
+        "catch",
+        "squat",
+        "wide grip"
+      ]
+    },
+    {
+      "word": "Power Clean",
+      "hints": [
+        "catch",
+        "front rack",
+        "explosive",
+        "triple extension",
+        "hips"
+      ]
+    },
+    {
+      "word": "Hang Clean",
+      "hints": [
+        "hang position",
+        "pull",
+        "catch",
+        "front rack",
+        "explosive"
+      ]
+    },
+    {
+      "word": "Front Squat",
+      "hints": [
+        "rack position",
+        "elbows",
+        "core",
+        "depth",
+        "upright"
+      ]
+    },
+    {
+      "word": "Overhead Squat",
+      "hints": [
+        "snatch grip",
+        "overhead",
+        "mobility",
+        "balance",
+        "depth"
+      ]
+    },
+    {
+      "word": "Goblet Squat",
+      "hints": [
+        "kettlebell",
+        "chest",
+        "elbows",
+        "depth",
+        "mobility"
+      ]
+    },
+    {
+      "word": "Split Squat",
+      "hints": [
+        "stationary",
+        "rear foot",
+        "knee",
+        "balance",
+        "lunge"
+      ]
+    },
+    {
+      "word": "Bulgarian Split Squat",
+      "hints": [
+        "elevated",
+        "rear foot",
+        "bench",
+        "single leg",
+        "balance"
+      ]
+    },
+    {
+      "word": "Zercher Squat",
+      "hints": [
+        "crook of arms",
+        "core",
+        "bar",
+        "front loaded",
+        "painful"
+      ]
+    },
+    {
+      "word": "Jefferson Deadlift",
+      "hints": [
+        "straddle",
+        "bar",
+        "rotation",
+        "asymmetrical",
+        "old school"
+      ]
+    },
+    {
+      "word": "Hack Squat",
+      "hints": [
+        "machine",
+        "back support",
+        "quads",
+        "angle",
+        "plate loaded"
+      ]
+    },
+    {
+      "word": "Leg Press",
+      "hints": [
+        "machine",
+        "platform",
+        "angle",
+        "quads",
+        "safety"
+      ]
+    },
+    {
+      "word": "Leg Extension",
+      "hints": [
+        "machine",
+        "quads",
+        "isolation",
+        "pad",
+        "seated"
+      ]
+    },
+    {
+      "word": "Leg Curl",
+      "hints": [
+        "machine",
+        "hamstrings",
+        "isolation",
+        "prone",
+        "seated"
+      ]
+    },
+    {
+      "word": "Hip Adduction",
+      "hints": [
+        "machine",
+        "inner thigh",
+        "squeeze",
+        "seated",
+        "isolation"
+      ]
+    },
+    {
+      "word": "Hip Abduction",
+      "hints": [
+        "machine",
+        "outer thigh",
+        "push",
+        "seated",
+        "isolation"
+      ]
+    },
+    {
+      "word": "Cable Crossover",
+      "hints": [
+        "cables",
+        "chest",
+        "squeeze",
+        "pulleys",
+        "fly"
+      ]
+    },
+    {
+      "word": "Lat Pulldown",
+      "hints": [
+        "cable",
+        "bar",
+        "lats",
+        "pull",
+        "seated"
+      ]
+    },
+    {
+      "word": "Seated Row",
+      "hints": [
+        "cable",
+        "back",
+        "squeeze",
+        "handle",
+        "pull"
+      ]
+    },
+    {
+      "word": "Face Pull",
+      "hints": [
+        "rope",
+        "rear delts",
+        "external rotation",
+        "cable",
+        "pull"
+      ]
+    },
+    {
+      "word": "Tricep Pushdown",
+      "hints": [
+        "cable",
+        "rope",
+        "lockout",
+        "isolation",
+        "squeeze"
+      ]
+    },
+    {
+      "word": "Bicep Curl",
+      "hints": [
+        "dumbbell",
+        "isolation",
+        "supination",
+        "squeeze",
+        "strict"
+      ]
+    },
+    {
+      "word": "Hammer Curl",
+      "hints": [
+        "neutral grip",
+        "brachialis",
+        "dumbbell",
+        "forearms",
+        "alternating"
+      ]
+    },
+    {
+      "word": "Preacher Curl",
+      "hints": [
+        "bench",
+        "isolation",
+        "EZ bar",
+        "stretch",
+        "strict"
+      ]
+    },
+    {
+      "word": "Concentration Curl",
+      "hints": [
+        "seated",
+        "elbow",
+        "thigh",
+        "isolation",
+        "squeeze"
+      ]
+    },
+    {
+      "word": "Skull Crusher",
+      "hints": [
+        "lying",
+        "EZ bar",
+        "triceps",
+        "forehead",
+        "extension"
+      ]
+    },
+    {
+      "word": "Overhead Extension",
+      "hints": [
+        "triceps",
+        "dumbbell",
+        "stretch",
+        "single arm",
+        "cable"
+      ]
+    },
+    {
+      "word": "Wrist Curl",
+      "hints": [
+        "forearm",
+        "flexion",
+        "dumbbell",
+        "bench",
+        "isolation"
+      ]
+    },
+    {
+      "word": "Reverse Wrist Curl",
+      "hints": [
+        "forearm",
+        "extension",
+        "dumbbell",
+        "isolation",
+        "grip"
+      ]
+    },
+    {
+      "word": "Shrug",
+      "hints": [
+        "traps",
+        "barbell",
+        "squeeze",
+        "dumbbells",
+        "elevation"
+      ]
+    },
+    {
+      "word": "Upright Row",
+      "hints": [
+        "bar",
+        "elbows",
+        "traps",
+        "delts",
+        "pull"
+      ]
+    },
+    {
+      "word": "Lateral Raise",
+      "hints": [
+        "dumbbells",
+        "side delts",
+        "isolation",
+        "light",
+        "control"
+      ]
+    },
+    {
+      "word": "Front Raise",
+      "hints": [
+        "dumbbells",
+        "front delts",
+        "alternating",
+        "plate",
+        "control"
+      ]
+    },
+    {
+      "word": "Rear Delt Fly",
+      "hints": [
+        "bent over",
+        "dumbbells",
+        "squeeze",
+        "isolation",
+        "light"
+      ]
+    },
+    {
+      "word": "Bench Row",
+      "hints": [
+        "chest supported",
+        "dumbbells",
+        "back",
+        "isolation",
+        "squeeze"
+      ]
+    },
+    {
+      "word": "Pendlay Row",
+      "hints": [
+        "floor",
+        "explosive",
+        "strict",
+        "barbell",
+        "reset"
+      ]
+    },
+    {
+      "word": "T-Bar Row",
+      "hints": [
+        "landmine",
+        "handle",
+        "back",
+        "squeeze",
+        "chest support"
+      ]
+    },
+    {
+      "word": "Meadows Row",
+      "hints": [
+        "landmine",
+        "single arm",
+        "lat",
+        "stretch",
+        "squeeze"
+      ]
+    },
+    {
+      "word": "Kroc Row",
+      "hints": [
+        "heavy",
+        "dumbbell",
+        "straps",
+        "high reps",
+        "cheating"
+      ]
+    },
+    {
+      "word": "Chest Fly",
+      "hints": [
+        "dumbbells",
+        "stretch",
+        "squeeze",
+        "bench",
+        "cables"
+      ]
+    },
+    {
+      "word": "Incline Press",
+      "hints": [
+        "angle",
+        "upper chest",
+        "barbell",
+        "dumbbells",
+        "bench"
+      ]
+    },
+    {
+      "word": "Decline Press",
+      "hints": [
+        "angle",
+        "lower chest",
+        "barbell",
+        "bench",
+        "feet hooked"
+      ]
+    },
+    {
+      "word": "Floor Press",
+      "hints": [
+        "floor",
+        "triceps",
+        "range of motion",
+        "pause",
+        "barbell"
+      ]
+    },
+    {
+      "word": "Spoto Press",
+      "hints": [
+        "pause",
+        "chest",
+        "no touch",
+        "control",
+        "barbell"
+      ]
+    },
+    {
+      "word": "Pin Press",
+      "hints": [
+        "rack",
+        "pins",
+        "dead stop",
+        "lockout",
+        "partial"
+      ]
+    },
+    {
+      "word": "Board Press",
+      "hints": [
+        "boards",
+        "chest",
+        "lockout",
+        "triceps",
+        "partial"
+      ]
+    },
+    {
+      "word": "Paused Squat",
+      "hints": [
+        "hole",
+        "pause",
+        "drive",
+        "no bounce",
+        "control"
+      ]
+    },
+    {
+      "word": "Tempo Squat",
+      "hints": [
+        "slow",
+        "count",
+        "eccentric",
+        "control",
+        "time under tension"
+      ]
+    },
+    {
+      "word": "Box Squat",
+      "hints": [
+        "box",
+        "sit",
+        "pause",
+        "drive",
+        "hip activation"
+      ]
+    },
+    {
+      "word": "Safety Bar Squat",
+      "hints": [
+        "cambered",
+        "handles",
+        "upper back",
+        "front loaded feel",
+        "specialty"
+      ]
+    },
+    {
+      "word": "Belt Squat",
+      "hints": [
+        "belt",
+        "platform",
+        "no spinal load",
+        "quads",
+        "machine"
+      ]
+    },
+    {
+      "word": "Pit Shark Squat",
+      "hints": [
+        "belt",
+        "lever",
+        "no spinal load",
+        "hip drive",
+        "machine"
+      ]
+    },
+    {
+      "word": "Reverse Hyper",
+      "hints": [
+        "machine",
+        "glutes",
+        "hamstrings",
+        "swing",
+        "decompression"
+      ]
+    },
+    {
+      "word": "GHD Sit Up",
+      "hints": [
+        "machine",
+        "hip flexion",
+        "range",
+        "abs",
+        "anchor"
+      ]
+    },
+    {
+      "word": "Back Extension",
+      "hints": [
+        "machine",
+        "erectors",
+        "glutes",
+        "roman chair",
+        "hyperextension"
+      ]
+    },
+    {
+      "word": "Nordic Curl",
+      "hints": [
+        "hamstrings",
+        "eccentric",
+        "partner",
+        "pad",
+        "progression"
+      ]
+    },
+    {
+      "word": "Sissy Squat",
+      "hints": [
+        "knees forward",
+        "quads",
+        "lean back",
+        "isolation",
+        "old school"
+      ]
+    },
+    {
+      "word": "Skater Squat",
+      "hints": [
+        "single leg",
+        "balance",
+        "knee",
+        "bodyweight",
+        "pistol variation"
+      ]
+    }
+  ]
+}

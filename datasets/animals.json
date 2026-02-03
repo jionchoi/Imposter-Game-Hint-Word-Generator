@@ -85,10 +85,10 @@
       "word": "Kangaroo",
       "hints": [
         "energy",
-        "jump",
+        "propulsion",
         "distance",
         "mobility",
-        "bouncing"
+        "spring"
       ]
     },
     {
@@ -105,7 +105,7 @@
       "word": "Bat",
       "hints": [
         "flight",
-        "echolocation",
+        "perception",
         "night",
         "sensing",
         "agility"
@@ -127,7 +127,7 @@
         "teamwork",
         "hunt",
         "territory",
-        "pack",
+        "hierarchy",
         "loyalty"
       ]
     },
@@ -136,7 +136,7 @@
       "hints": [
         "strength",
         "solitude",
-        "hibernation",
+        "dormancy",
         "survival",
         "majestic"
       ]
@@ -167,7 +167,7 @@
         "defense",
         "deter",
         "adapt",
-        "spikes",
+        "deterrent",
         "protection"
       ]
     },
@@ -246,7 +246,7 @@
       "hints": [
         "adaptation",
         "endurance",
-        "desert",
+        "arid",
         "journey",
         "resilience"
       ]
@@ -356,7 +356,7 @@
       "hints": [
         "stealth",
         "smooth",
-        "slither",
+        "glide",
         "stillness",
         "reaction"
       ]
@@ -455,17 +455,17 @@
       "word": "Bee",
       "hints": [
         "busy",
-        "hive",
+        "collective",
         "work",
         "hustle",
-        "pollination"
+        "transfer"
       ]
     },
     {
       "word": "Ant",
       "hints": [
         "teamwork",
-        "colony",
+        "community",
         "organization",
         "effort",
         "diligence"
@@ -474,7 +474,7 @@
     {
       "word": "Spider",
       "hints": [
-        "web",
+        "construct",
         "precision",
         "trap",
         "strategy",
@@ -777,7 +777,7 @@
         "scavenger",
         "opportunist",
         "social",
-        "desert",
+        "arid",
         "clever"
       ]
     },
@@ -836,8 +836,8 @@
       "hints": [
         "social",
         "lookout",
-        "desert",
-        "colony",
+        "arid",
+        "community",
         "alert"
       ]
     },
@@ -847,7 +847,7 @@
         "burrow",
         "social",
         "alert",
-        "colony",
+        "community",
         "communication"
       ]
     },
@@ -894,7 +894,7 @@
     {
       "word": "Gerbil",
       "hints": [
-        "desert",
+        "arid",
         "burrow",
         "social",
         "active",
@@ -1014,7 +1014,7 @@
     {
       "word": "Llama",
       "hints": [
-        "pack",
+        "hierarchy",
         "endurance",
         "mountain",
         "social",
@@ -1332,26 +1332,6 @@
       ]
     },
     {
-      "word": "Blue Whale",
-      "hints": [
-        "immense",
-        "gentle",
-        "migration",
-        "magnificent",
-        "largest"
-      ]
-    },
-    {
-      "word": "Sperm Whale",
-      "hints": [
-        "deep",
-        "dive",
-        "social",
-        "intelligent",
-        "massive"
-      ]
-    },
-    {
       "word": "Dolphin",
       "hints": [
         "playful",
@@ -1392,16 +1372,6 @@
       ]
     },
     {
-      "word": "Tiger Shark",
-      "hints": [
-        "opportunist",
-        "adaptable",
-        "patrol",
-        "diverse",
-        "voracious"
-      ]
-    },
-    {
       "word": "Mako",
       "hints": [
         "speed",
@@ -1409,16 +1379,6 @@
         "powerful",
         "leap",
         "pursuit"
-      ]
-    },
-    {
-      "word": "Whale Shark",
-      "hints": [
-        "gentle",
-        "massive",
-        "filter",
-        "peaceful",
-        "spotted"
       ]
     },
     {
@@ -2016,7 +1976,7 @@
       "hints": [
         "waddle",
         "swim",
-        "colony",
+        "community",
         "Antarctic",
         "devoted"
       ]
@@ -2426,7 +2386,7 @@
       "hints": [
         "speed",
         "ground",
-        "desert",
+        "arid",
         "chase",
         "distinctive"
       ]
@@ -2726,7 +2686,7 @@
       "hints": [
         "tiny",
         "pest",
-        "colony",
+        "community",
         "sap",
         "reproduce"
       ]
@@ -2734,7 +2694,7 @@
     {
       "word": "Termite",
       "hints": [
-        "colony",
+        "community",
         "wood",
         "social",
         "mound",
@@ -2774,7 +2734,7 @@
     {
       "word": "Honeybee",
       "hints": [
-        "hive",
+        "collective",
         "pollinate",
         "dance",
         "honey",
@@ -2906,7 +2866,7 @@
       "hints": [
         "nocturnal",
         "sting",
-        "desert",
+        "arid",
         "predator",
         "ancient"
       ]
@@ -2925,7 +2885,7 @@
       "word": "Black Widow",
       "hints": [
         "venomous",
-        "web",
+        "construct",
         "deadly",
         "solitary",
         "hourglass"
@@ -2944,7 +2904,7 @@
     {
       "word": "Orb Weaver",
       "hints": [
-        "web",
+        "construct",
         "circular",
         "artistic",
         "patient",
@@ -3236,7 +3196,7 @@
       "hints": [
         "display",
         "docile",
-        "desert",
+        "arid",
         "bask",
         "communal"
       ]
@@ -3255,7 +3215,7 @@
       "word": "Gila Monster",
       "hints": [
         "venomous",
-        "desert",
+        "arid",
         "slow",
         "colorful",
         "rare"
@@ -3266,7 +3226,7 @@
       "hints": [
         "defense",
         "camouflage",
-        "desert",
+        "arid",
         "unique",
         "blood-squirt"
       ]
@@ -3347,7 +3307,7 @@
         "warning",
         "venomous",
         "ambush",
-        "desert",
+        "arid",
         "defensive"
       ]
     },
@@ -3562,66 +3522,6 @@
       ]
     },
     {
-      "word": "Sun Bear",
-      "hints": [
-        "small",
-        "tropical",
-        "climb",
-        "solitary",
-        "distinctive"
-      ]
-    },
-    {
-      "word": "Polar Bear",
-      "hints": [
-        "arctic",
-        "massive",
-        "swim",
-        "predator",
-        "solitary"
-      ]
-    },
-    {
-      "word": "Grizzly Bear",
-      "hints": [
-        "powerful",
-        "omnivore",
-        "territorial",
-        "fish",
-        "impressive"
-      ]
-    },
-    {
-      "word": "Black Bear",
-      "hints": [
-        "climb",
-        "adaptable",
-        "omnivore",
-        "common",
-        "curious"
-      ]
-    },
-    {
-      "word": "Spectacled Bear",
-      "hints": [
-        "arboreal",
-        "solitary",
-        "tropical",
-        "herbivore",
-        "shy"
-      ]
-    },
-    {
-      "word": "Sloth Bear",
-      "hints": [
-        "nocturnal",
-        "termites",
-        "shaggy",
-        "distinctive",
-        "aggressive"
-      ]
-    },
-    {
       "word": "Pine Marten",
       "hints": [
         "arboreal",
@@ -3672,116 +3572,6 @@
       ]
     },
     {
-      "word": "Arctic Fox",
-      "hints": [
-        "white",
-        "adapt",
-        "arctic",
-        "clever",
-        "survival"
-      ]
-    },
-    {
-      "word": "Fennec Fox",
-      "hints": [
-        "desert",
-        "ears",
-        "nocturnal",
-        "small",
-        "adapt"
-      ]
-    },
-    {
-      "word": "Red Fox",
-      "hints": [
-        "adaptable",
-        "clever",
-        "urban",
-        "opportunist",
-        "common"
-      ]
-    },
-    {
-      "word": "Gray Fox",
-      "hints": [
-        "climb",
-        "nocturnal",
-        "forest",
-        "elusive",
-        "adaptable"
-      ]
-    },
-    {
-      "word": "Kit Fox",
-      "hints": [
-        "desert",
-        "nocturnal",
-        "small",
-        "burrow",
-        "swift"
-      ]
-    },
-    {
-      "word": "Swift Fox",
-      "hints": [
-        "grassland",
-        "nocturnal",
-        "fast",
-        "burrow",
-        "small"
-      ]
-    },
-    {
-      "word": "Dingo",
-      "hints": [
-        "wild",
-        "pack",
-        "adaptable",
-        "howl",
-        "Australian"
-      ]
-    },
-    {
-      "word": "African Wild Dog",
-      "hints": [
-        "pack",
-        "cooperative",
-        "endurance",
-        "social",
-        "endangered"
-      ]
-    },
-    {
-      "word": "Dhole",
-      "hints": [
-        "pack",
-        "cooperative",
-        "whistling",
-        "forest",
-        "endangered"
-      ]
-    },
-    {
-      "word": "Maned Wolf",
-      "hints": [
-        "solitary",
-        "grassland",
-        "distinctive",
-        "nocturnal",
-        "tall"
-      ]
-    },
-    {
-      "word": "Bush Dog",
-      "hints": [
-        "pack",
-        "aquatic",
-        "tropical",
-        "rare",
-        "cooperative"
-      ]
-    },
-    {
       "word": "Raccoon Dog",
       "hints": [
         "nocturnal",
@@ -3789,66 +3579,6 @@
         "adaptable",
         "hibernate",
         "Asian"
-      ]
-    },
-    {
-      "word": "Red Wolf",
-      "hints": [
-        "pack",
-        "endangered",
-        "forest",
-        "twilight",
-        "cooperative"
-      ]
-    },
-    {
-      "word": "Ethiopian Wolf",
-      "hints": [
-        "pack",
-        "endangered",
-        "mountain",
-        "social",
-        "rare"
-      ]
-    },
-    {
-      "word": "Gray Wolf",
-      "hints": [
-        "pack",
-        "howl",
-        "territorial",
-        "intelligent",
-        "apex"
-      ]
-    },
-    {
-      "word": "Timber Wolf",
-      "hints": [
-        "pack",
-        "forest",
-        "howl",
-        "intelligent",
-        "powerful"
-      ]
-    },
-    {
-      "word": "Arctic Wolf",
-      "hints": [
-        "white",
-        "pack",
-        "arctic",
-        "adapt",
-        "endurance"
-      ]
-    },
-    {
-      "word": "Mexican Wolf",
-      "hints": [
-        "pack",
-        "endangered",
-        "desert",
-        "small",
-        "cooperative"
       ]
     },
     {
@@ -3997,7 +3727,7 @@
         "nocturnal",
         "arboreal",
         "large-eyes",
-        "desert",
+        "arid",
         "agile"
       ]
     },
@@ -4006,7 +3736,7 @@
       "hints": [
         "nocturnal",
         "climb",
-        "desert",
+        "arid",
         "banded",
         "agile"
       ]
@@ -4577,7 +4307,7 @@
         "social",
         "herd",
         "omnivore",
-        "desert",
+        "arid",
         "territorial"
       ]
     },
@@ -4694,7 +4424,7 @@
     {
       "word": "Nubian Ibex",
       "hints": [
-        "desert",
+        "arid",
         "climb",
         "curved",
         "adaptable",
@@ -4724,7 +4454,7 @@
     {
       "word": "Barbary Sheep",
       "hints": [
-        "desert",
+        "arid",
         "cliff",
         "agile",
         "distinctive",
@@ -4774,7 +4504,7 @@
     {
       "word": "Desert Bighorn",
       "hints": [
-        "desert",
+        "arid",
         "mountain",
         "curved",
         "adaptable",

@@ -1,67 +1,6365 @@
 {
   "category": "Objects",
   "words": [
-    { "word": "Phone", "hints": ["connection", "communication", "portable", "digital", "interaction"] },
-    { "word": "Table", "hints": ["flat", "surface", "support", "foundation", "stable"] },
-    { "word": "Chair", "hints": ["sit", "rest", "comfort", "support", "position"] },
-    { "word": "Pen", "hints": ["write", "precision", "expression", "mark", "creative"] },
-    { "word": "Book", "hints": ["pages", "story", "knowledge", "information", "learning"] },
-    { "word": "Lamp", "hints": ["light", "ambient", "brightness", "shade", "soft"] },
-    { "word": "Mirror", "hints": ["reflection", "clarity", "view", "image", "perspective"] },
-    { "word": "Cup", "hints": ["sip", "hold", "comfort", "warmth", "drinking"] },
-    { "word": "Bottle", "hints": ["contain", "seal", "portable", "liquid", "store"] },
-    { "word": "Shoes", "hints": ["comfort", "protection", "movement", "step", "support"] },
-    { "word": "Glasses", "hints": ["vision", "clarity", "lenses", "eyes", "adjustment"] },
-    { "word": "Clock", "hints": ["time", "schedule", "tick", "countdown", "awareness"] },
-    { "word": "Watch", "hints": ["time", "wrist", "attention", "portable", "focus"] },
-    { "word": "Bag", "hints": ["carry", "store", "compact", "access", "organization"] },
-    { "word": "Wallet", "hints": ["secure", "money", "pocket", "organized", "portable"] },
-    { "word": "Hat", "hints": ["cover", "style", "head", "fashion", "shade"] },
-    { "word": "Glove", "hints": ["hand", "wear", "warmth", "protection", "comfort"] },
-    { "word": "Scarf", "hints": ["neck", "warmth", "soft", "comfort", "fashion"] },
-    { "word": "Key", "hints": ["unlock", "access", "secure", "metal", "small"] },
-    { "word": "Door", "hints": ["access", "entry", "frame", "close", "block"] },
-    { "word": "Window", "hints": ["view", "light", "fresh", "ventilation", "clear"] },
-    { "word": "Cupboard", "hints": ["storage", "shelves", "organize", "hidden", "access"] },
-    { "word": "Drawer", "hints": ["pull", "store", "hide", "organize", "contain"] },
-    { "word": "Shelf", "hints": ["support", "organization", "display", "storage", "flat"] },
-    { "word": "Picture", "hints": ["frame", "image", "capture", "memory", "wall"] },
-    { "word": "Poster", "hints": ["display", "art", "wall", "decor", "image"] },
-    { "word": "Towel", "hints": ["dry", "soft", "absorb", "bath", "cleaning"] },
-    { "word": "Broom", "hints": ["clean", "sweep", "dust", "bristles", "sweep"] },
-    { "word": "Vacuum", "hints": ["clean", "suction", "quiet", "dust", "surface"] },
-    { "word": "Mop", "hints": ["wet", "clean", "floor", "bucket", "wet"] },
-    { "word": "Spade", "hints": ["dig", "garden", "earth", "tool", "planting"] },
-    { "word": "Fork", "hints": ["eat", "prongs", "metal", "table", "cutlery"] },
-    { "word": "Knife", "hints": ["cut", "sharp", "metal", "precision", "meal"] },
-    { "word": "Spoon", "hints": ["stir", "round", "metal", "eat", "scoop"] },
-    { "word": "Plate", "hints": ["serve", "flat", "dish", "round", "meal"] },
-    { "word": "Pan", "hints": ["cook", "fry", "heat", "surface", "pan"] },
-    { "word": "Pot", "hints": ["boil", "cook", "deep", "heat", "container"] },
-    { "word": "Oven", "hints": ["heat", "bake", "dry", "warm", "food"] },
-    { "word": "Fridge", "hints": ["cool", "preserve", "fresh", "storage", "cold"] },
-    { "word": "Freezer", "hints": ["freeze", "cold", "preserve", "storage", "frozen"] },
-    { "word": "Microwave", "hints": ["heat", "quick", "container", "food", "electronic"] },
-    { "word": "Toaster", "hints": ["crisp", "bread", "breakfast", "heat", "quick"] },
-    { "word": "Blender", "hints": ["mix", "smooth", "smoothie", "whisk", "mix"] },
-    { "word": "Mixer", "hints": ["whisk", "blend", "bake", "speed", "liquid"] },
-    { "word": "Juicer", "hints": ["juice", "fruit", "press", "extract", "drink"] },
-    { "word": "CoffeeMaker", "hints": ["brew", "morning", "warm", "caffeine", "brew"] },
-    { "word": "Camera", "hints": ["capture", "image", "lens", "focus", "photography"] },
-    { "word": "Phone", "hints": ["connect", "portable", "call", "text", "personal"] },
-    { "word": "Computer", "hints": ["digital", "process", "keyboard", "screen", "work"] },
-    { "word": "Tablet", "hints": ["touch", "screen", "portable", "digital", "display"] },
-    { "word": "Lamp", "hints": ["light", "bright", "soft", "ambience", "shade"] },
-    { "word": "Fan", "hints": ["breeze", "cool", "air", "movement", "refreshing"] },
-    { "word": "Radio", "hints": ["music", "sound", "waves", "broadcast", "signal"] },
-    { "word": "Clock", "hints": ["time", "schedule", "tick", "awareness", "alarm"] },
-    { "word": "Watch", "hints": ["wrist", "time", "attention", "schedule", "portable"] },
-    { "word": "Printer", "hints": ["document", "paper", "copy", "print", "ink"] },
-    { "word": "Microscope", "hints": ["magnify", "study", "view", "detail", "observe"] },
-    { "word": "Glove", "hints": ["hand", "protection", "wear", "warmth", "comfort"] },
-    { "word": "Tissue", "hints": ["soft", "wipe", "clean", "comfort", "disposable"] },
-    { "word": "Umbrella", "hints": ["rain", "weather", "protect", "shade", "cover"] },
-    { "word": "Toothbrush", "hints": ["clean", "teeth", "brush", "hygiene", "care"] },
-    { "word": "Shoe", "hints": ["feet", "comfort", "movement", "cover", "footwear"] }
+    {
+      "word": "Phone",
+      "hints": [
+        "pocket",
+        "vibrate",
+        "swipe",
+        "charged",
+        "notification"
+      ]
+    },
+    {
+      "word": "Table",
+      "hints": [
+        "gather",
+        "surface",
+        "underneath",
+        "seated",
+        "cleared"
+      ]
+    },
+    {
+      "word": "Chair",
+      "hints": [
+        "pulled",
+        "pushed",
+        "leaned",
+        "offered",
+        "wobbled"
+      ]
+    },
+    {
+      "word": "Pen",
+      "hints": [
+        "clicked",
+        "capped",
+        "borrowed",
+        "signed",
+        "flow"
+      ]
+    },
+    {
+      "word": "Book",
+      "hints": [
+        "turned",
+        "bookmarked",
+        "borrowed",
+        "bound",
+        "section"
+      ]
+    },
+    {
+      "word": "Lamp",
+      "hints": [
+        "switched",
+        "dimmed",
+        "bedside",
+        "glow",
+        "plugged"
+      ]
+    },
+    {
+      "word": "Mirror",
+      "hints": [
+        "checked",
+        "angled",
+        "wiped",
+        "hung",
+        "cracked"
+      ]
+    },
+    {
+      "word": "Cup",
+      "hints": [
+        "filled",
+        "sipped",
+        "rinsed",
+        "handle",
+        "stained"
+      ]
+    },
+    {
+      "word": "Bottle",
+      "hints": [
+        "uncapped",
+        "squeezed",
+        "refilled",
+        "recycled",
+        "shaken"
+      ]
+    },
+    {
+      "word": "Shoes",
+      "hints": [
+        "laced",
+        "kicked",
+        "polished",
+        "removed",
+        "paired"
+      ]
+    },
+    {
+      "word": "Glasses",
+      "hints": [
+        "adjusted",
+        "cleaned",
+        "perched",
+        "prescription",
+        "fogged"
+      ]
+    },
+    {
+      "word": "Clock",
+      "hints": [
+        "glanced",
+        "wound",
+        "chimed",
+        "mounted",
+        "ticking"
+      ]
+    },
+    {
+      "word": "Watch",
+      "hints": [
+        "glanced",
+        "clasped",
+        "wound",
+        "gifted",
+        "scratched"
+      ]
+    },
+    {
+      "word": "Bag",
+      "hints": [
+        "packed",
+        "zipped",
+        "slung",
+        "rummaged",
+        "stuffed"
+      ]
+    },
+    {
+      "word": "Wallet",
+      "hints": [
+        "opened",
+        "tucked",
+        "lost",
+        "bulging",
+        "leather"
+      ]
+    },
+    {
+      "word": "Hat",
+      "hints": [
+        "tipped",
+        "adjusted",
+        "removed",
+        "hung",
+        "blown"
+      ]
+    },
+    {
+      "word": "Gloves",
+      "hints": [
+        "pulled",
+        "removed",
+        "paired",
+        "fitted",
+        "leather"
+      ]
+    },
+    {
+      "word": "Scarf",
+      "hints": [
+        "wrapped",
+        "unwound",
+        "draped",
+        "knitted",
+        "tucked"
+      ]
+    },
+    {
+      "word": "Key",
+      "hints": [
+        "turned",
+        "jingled",
+        "copied",
+        "lost",
+        "spare"
+      ]
+    },
+    {
+      "word": "Door",
+      "hints": [
+        "knocked",
+        "slammed",
+        "creaked",
+        "locked",
+        "propped"
+      ]
+    },
+    {
+      "word": "Window",
+      "hints": [
+        "opened",
+        "fogged",
+        "cracked",
+        "shuttered",
+        "tinted"
+      ]
+    },
+    {
+      "word": "Cupboard",
+      "hints": [
+        "opened",
+        "rummaged",
+        "stocked",
+        "bare",
+        "creaked"
+      ]
+    },
+    {
+      "word": "Drawer",
+      "hints": [
+        "pulled",
+        "jammed",
+        "rummaged",
+        "slid",
+        "cluttered"
+      ]
+    },
+    {
+      "word": "Shelf",
+      "hints": [
+        "dusted",
+        "mounted",
+        "stocked",
+        "sagging",
+        "reached"
+      ]
+    },
+    {
+      "word": "Picture",
+      "hints": [
+        "hung",
+        "straightened",
+        "dusted",
+        "framed",
+        "faded"
+      ]
+    },
+    {
+      "word": "Poster",
+      "hints": [
+        "taped",
+        "rolled",
+        "torn",
+        "faded",
+        "signed"
+      ]
+    },
+    {
+      "word": "Towel",
+      "hints": [
+        "hung",
+        "folded",
+        "damp",
+        "wrapped",
+        "fluffy"
+      ]
+    },
+    {
+      "word": "Broom",
+      "hints": [
+        "swept",
+        "leaned",
+        "worn",
+        "worn",
+        "closet"
+      ]
+    },
+    {
+      "word": "Vacuum",
+      "hints": [
+        "pushed",
+        "loud",
+        "cord",
+        "emptied",
+        "clogged"
+      ]
+    },
+    {
+      "word": "Mop",
+      "hints": [
+        "wrung",
+        "soaked",
+        "leaned",
+        "container",
+        "streaked"
+      ]
+    },
+    {
+      "word": "Shovel",
+      "hints": [
+        "dug",
+        "lifted",
+        "leaned",
+        "rusted",
+        "snow"
+      ]
+    },
+    {
+      "word": "Fork",
+      "hints": [
+        "stabbed",
+        "twirled",
+        "clflowed",
+        "polished",
+        "bent"
+      ]
+    },
+    {
+      "word": "Knife",
+      "hints": [
+        "sliced",
+        "dulled",
+        "sharpened",
+        "drawer",
+        "serrated"
+      ]
+    },
+    {
+      "word": "Spoon",
+      "hints": [
+        "stirred",
+        "clflowed",
+        "licked",
+        "measured",
+        "bent"
+      ]
+    },
+    {
+      "word": "Plate",
+      "hints": [
+        "stacked",
+        "chipped",
+        "cleared",
+        "passed",
+        "scraped"
+      ]
+    },
+    {
+      "word": "Pan",
+      "hints": [
+        "sizzled",
+        "seasoned",
+        "scrubbed",
+        "heated",
+        "nonstick"
+      ]
+    },
+    {
+      "word": "Pot",
+      "hints": [
+        "boiled",
+        "stirred",
+        "covered",
+        "heavy",
+        "simmered"
+      ]
+    },
+    {
+      "word": "Oven",
+      "hints": [
+        "preheated",
+        "timer",
+        "rack",
+        "cleaned",
+        "beeped"
+      ]
+    },
+    {
+      "word": "Fridge",
+      "hints": [
+        "hummed",
+        "stocked",
+        "cleaned",
+        "magnetted",
+        "opened"
+      ]
+    },
+    {
+      "word": "Freezer",
+      "hints": [
+        "defrosted",
+        "packed",
+        "frost",
+        "buried",
+        "labeled"
+      ]
+    },
+    {
+      "word": "Microwave",
+      "hints": [
+        "beeped",
+        "spun",
+        "splattered",
+        "reheated",
+        "timer"
+      ]
+    },
+    {
+      "word": "Toaster",
+      "hints": [
+        "popped",
+        "crumbs",
+        "dial",
+        "burnt",
+        "slots"
+      ]
+    },
+    {
+      "word": "Blender",
+      "hints": [
+        "whirred",
+        "pulsed",
+        "rinsed",
+        "lid",
+        "smoothie"
+      ]
+    },
+    {
+      "word": "Mixer",
+      "hints": [
+        "whipped",
+        "attachments",
+        "speed",
+        "batter",
+        "splattered"
+      ]
+    },
+    {
+      "word": "Juicer",
+      "hints": [
+        "pulp",
+        "pressed",
+        "rinsed",
+        "morning",
+        "strained"
+      ]
+    },
+    {
+      "word": "Coffeemaker",
+      "hints": [
+        "brewed",
+        "gurgled",
+        "programmed",
+        "carafe",
+        "filter"
+      ]
+    },
+    {
+      "word": "Camera",
+      "hints": [
+        "aimed",
+        "clicked",
+        "focused",
+        "flash",
+        "tripod"
+      ]
+    },
+    {
+      "word": "Computer",
+      "hints": [
+        "booted",
+        "crashed",
+        "typed",
+        "updated",
+        "desktop"
+      ]
+    },
+    {
+      "word": "Tablet",
+      "hints": [
+        "swiped",
+        "propped",
+        "charged",
+        "cracked",
+        "synced"
+      ]
+    },
+    {
+      "word": "Fan",
+      "hints": [
+        "oscillated",
+        "whirred",
+        "dusty",
+        "speed",
+        "breeze"
+      ]
+    },
+    {
+      "word": "Radio",
+      "hints": [
+        "tuned",
+        "static",
+        "dial",
+        "volume",
+        "antenna"
+      ]
+    },
+    {
+      "word": "Printer",
+      "hints": [
+        "jammed",
+        "queued",
+        "cartridge",
+        "paper",
+        "wireless"
+      ]
+    },
+    {
+      "word": "Microscope",
+      "hints": [
+        "focused",
+        "slide",
+        "magnified",
+        "lab",
+        "lens"
+      ]
+    },
+    {
+      "word": "Tissue",
+      "hints": [
+        "pulled",
+        "crumpled",
+        "disposed",
+        "box",
+        "sneeze"
+      ]
+    },
+    {
+      "word": "Umbrella",
+      "hints": [
+        "opened",
+        "shaken",
+        "collapsed",
+        "forgotten",
+        "dripped"
+      ]
+    },
+    {
+      "word": "Toothbrush",
+      "hints": [
+        "bristles",
+        "replaced",
+        "electric",
+        "timer",
+        "travel"
+      ]
+    },
+    {
+      "word": "Bicycle",
+      "hints": [
+        "pedaled",
+        "chained",
+        "pumped",
+        "oiled",
+        "bell"
+      ]
+    },
+    {
+      "word": "Helmet",
+      "hints": [
+        "strapped",
+        "hung",
+        "cracked",
+        "vented",
+        "safety"
+      ]
+    },
+    {
+      "word": "Skateboard",
+      "hints": [
+        "kicked",
+        "flipped",
+        "scraped",
+        "rotateds",
+        "deck"
+      ]
+    },
+    {
+      "word": "Backpack",
+      "hints": [
+        "slung",
+        "unzipped",
+        "stuffed",
+        "straps",
+        "heavy"
+      ]
+    },
+    {
+      "word": "Suitcase",
+      "hints": [
+        "rotateded",
+        "packed",
+        "weighed",
+        "locked",
+        "overhead"
+      ]
+    },
+    {
+      "word": "Briefcase",
+      "hints": [
+        "clicked",
+        "carried",
+        "combination",
+        "leather",
+        "professional"
+      ]
+    },
+    {
+      "word": "Purse",
+      "hints": [
+        "rummaged",
+        "snapped",
+        "slung",
+        "clutched",
+        "strap"
+      ]
+    },
+    {
+      "word": "Sunglasses",
+      "hints": [
+        "perched",
+        "scratched",
+        "polarized",
+        "case",
+        "pushed"
+      ]
+    },
+    {
+      "word": "Headphones",
+      "hints": [
+        "plugged",
+        "tangled",
+        "noise",
+        "wireless",
+        "cushioned"
+      ]
+    },
+    {
+      "word": "Earbuds",
+      "hints": [
+        "inserted",
+        "tangled",
+        "lost",
+        "charged",
+        "case"
+      ]
+    },
+    {
+      "word": "Speaker",
+      "hints": [
+        "paired",
+        "bass",
+        "volume",
+        "bluetooth",
+        "portable"
+      ]
+    },
+    {
+      "word": "Microphone",
+      "hints": [
+        "tested",
+        "feedback",
+        "muted",
+        "stand",
+        "recording"
+      ]
+    },
+    {
+      "word": "Remote",
+      "hints": [
+        "clicked",
+        "lost",
+        "batteries",
+        "cushions",
+        "channel"
+      ]
+    },
+    {
+      "word": "Television",
+      "hints": [
+        "mounted",
+        "streaming",
+        "muted",
+        "glare",
+        "surround"
+      ]
+    },
+    {
+      "word": "Monitor",
+      "hints": [
+        "adjusted",
+        "glare",
+        "dual",
+        "brightness",
+        "stand"
+      ]
+    },
+    {
+      "word": "Keyboard",
+      "hints": [
+        "typed",
+        "sticky",
+        "wireless",
+        "shortcut",
+        "ergonomic"
+      ]
+    },
+    {
+      "word": "Mouse",
+      "hints": [
+        "clicked",
+        "scrolled",
+        "wireless",
+        "pad",
+        "sensitivity"
+      ]
+    },
+    {
+      "word": "Charger",
+      "hints": [
+        "plugged",
+        "tangled",
+        "forgotten",
+        "fast",
+        "universal"
+      ]
+    },
+    {
+      "word": "Cable",
+      "hints": [
+        "tangled",
+        "frayed",
+        "organized",
+        "adapter",
+        "length"
+      ]
+    },
+    {
+      "word": "Adapter",
+      "hints": [
+        "plugged",
+        "travel",
+        "universal",
+        "converter",
+        "outlet"
+      ]
+    },
+    {
+      "word": "Battery",
+      "hints": [
+        "drained",
+        "replaced",
+        "rechargeable",
+        "leaked",
+        "compartment"
+      ]
+    },
+    {
+      "word": "Flashlight",
+      "hints": [
+        "clicked",
+        "beam",
+        "emergency",
+        "batteries",
+        "camping"
+      ]
+    },
+    {
+      "word": "Candle",
+      "hints": [
+        "lit",
+        "blown",
+        "dripped",
+        "scented",
+        "wick"
+      ]
+    },
+    {
+      "word": "Lighter",
+      "hints": [
+        "flicked",
+        "refilled",
+        "pocket",
+        "childproof",
+        "flame"
+      ]
+    },
+    {
+      "word": "Matches",
+      "hints": [
+        "struck",
+        "box",
+        "damp",
+        "burnt",
+        "sulfur"
+      ]
+    },
+    {
+      "word": "Scissors",
+      "hints": [
+        "snipped",
+        "dulled",
+        "left-handed",
+        "sharps",
+        "craft"
+      ]
+    },
+    {
+      "word": "Stapler",
+      "hints": [
+        "clicked",
+        "jammed",
+        "refilled",
+        "desk",
+        "staples"
+      ]
+    },
+    {
+      "word": "Tape",
+      "hints": [
+        "pulled",
+        "stuck",
+        "dispenser",
+        "torn",
+        "invisible"
+      ]
+    },
+    {
+      "word": "Glue",
+      "hints": [
+        "squeezed",
+        "dried",
+        "capped",
+        "sticky",
+        "craft"
+      ]
+    },
+    {
+      "word": "Ruler",
+      "hints": [
+        "measured",
+        "straightedge",
+        "marked",
+        "desk",
+        "inches"
+      ]
+    },
+    {
+      "word": "Calculator",
+      "hints": [
+        "punched",
+        "solar",
+        "cleared",
+        "scientific",
+        "desk"
+      ]
+    },
+    {
+      "word": "Notepad",
+      "hints": [
+        "scribbled",
+        "torn",
+        "spiral",
+        "sticky",
+        "desk"
+      ]
+    },
+    {
+      "word": "Envelope",
+      "hints": [
+        "sealed",
+        "stamped",
+        "addressed",
+        "opened",
+        "manila"
+      ]
+    },
+    {
+      "word": "Stamp",
+      "hints": [
+        "licked",
+        "stuck",
+        "collected",
+        "postage",
+        "sheet"
+      ]
+    },
+    {
+      "word": "Calendar",
+      "hints": [
+        "flipped",
+        "marked",
+        "hung",
+        "expired",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Planner",
+      "hints": [
+        "filled",
+        "flipped",
+        "organized",
+        "weekly",
+        "appointments"
+      ]
+    },
+    {
+      "word": "Clipboard",
+      "hints": [
+        "clipped",
+        "carried",
+        "signed",
+        "survey",
+        "held"
+      ]
+    },
+    {
+      "word": "Binder",
+      "hints": [
+        "clicked",
+        "organized",
+        "tabs",
+        "rings",
+        "labeled"
+      ]
+    },
+    {
+      "word": "Folder",
+      "hints": [
+        "filed",
+        "labeled",
+        "stuffed",
+        "manila",
+        "organized"
+      ]
+    },
+    {
+      "word": "Paperclip",
+      "hints": [
+        "bent",
+        "attached",
+        "jumbo",
+        "magnetic",
+        "chain"
+      ]
+    },
+    {
+      "word": "Thumbtack",
+      "hints": [
+        "pushed",
+        "stepped",
+        "cork",
+        "bulletin",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Whiteboard",
+      "hints": [
+        "erased",
+        "markers",
+        "mounted",
+        "brainstorm",
+        "smudged"
+      ]
+    },
+    {
+      "word": "Eraser",
+      "hints": [
+        "rubbed",
+        "smudged",
+        "crumbs",
+        "worn",
+        "pflow"
+      ]
+    },
+    {
+      "word": "Pencil",
+      "hints": [
+        "sharpened",
+        "snapped",
+        "eraser",
+        "mechanical",
+        "graphite"
+      ]
+    },
+    {
+      "word": "Marker",
+      "hints": [
+        "uncapped",
+        "dried",
+        "permanent",
+        "squeaky",
+        "highlighter"
+      ]
+    },
+    {
+      "word": "Crayon",
+      "hints": [
+        "peeled",
+        "broken",
+        "melted",
+        "box",
+        "coloring"
+      ]
+    },
+    {
+      "word": "Paintbrush",
+      "hints": [
+        "dipped",
+        "rinsed",
+        "bristles",
+        "strokes",
+        "dried"
+      ]
+    },
+    {
+      "word": "Canvas",
+      "hints": [
+        "stretched",
+        "primed",
+        "hung",
+        "easel",
+        "blank"
+      ]
+    },
+    {
+      "word": "Easel",
+      "hints": [
+        "adjusted",
+        "folded",
+        "wooden",
+        "studio",
+        "display"
+      ]
+    },
+    {
+      "word": "Frame",
+      "hints": [
+        "hung",
+        "matted",
+        "dusty",
+        "gilded",
+        "crooked"
+      ]
+    },
+    {
+      "word": "Vase",
+      "hints": [
+        "filled",
+        "displayed",
+        "cracked",
+        "ceramic",
+        "arrangement"
+      ]
+    },
+    {
+      "word": "Flower",
+      "hints": [
+        "arranged",
+        "wilted",
+        "watered",
+        "fragrant",
+        "picked"
+      ]
+    },
+    {
+      "word": "Plant",
+      "hints": [
+        "watered",
+        "repotted",
+        "wilted",
+        "sunlight",
+        "propagated"
+      ]
+    },
+    {
+      "word": "Soil",
+      "hints": [
+        "dug",
+        "amended",
+        "moist",
+        "bagged",
+        "composted"
+      ]
+    },
+    {
+      "word": "Rake",
+      "hints": [
+        "gathered",
+        "leaned",
+        "tines",
+        "leaves",
+        "yard"
+      ]
+    },
+    {
+      "word": "Hose",
+      "hints": [
+        "coiled",
+        "kflowed",
+        "sprayed",
+        "nozzle",
+        "leaked"
+      ]
+    },
+    {
+      "word": "Sprflowler",
+      "hints": [
+        "rotated",
+        "timed",
+        "soaked",
+        "summer",
+        "lawn"
+      ]
+    },
+    {
+      "word": "Lawnmower",
+      "hints": [
+        "pushed",
+        "started",
+        "grass",
+        "sharp",
+        "gas"
+      ]
+    },
+    {
+      "word": "Wheelbarrow",
+      "hints": [
+        "pushed",
+        "dumped",
+        "loaded",
+        "tipped",
+        "garden"
+      ]
+    },
+    {
+      "word": "Ladder",
+      "hints": [
+        "climbed",
+        "leaned",
+        "folded",
+        "step",
+        "extension"
+      ]
+    },
+    {
+      "word": "Hammer",
+      "hints": [
+        "swung",
+        "missed",
+        "claw",
+        "toolbox",
+        "nailed"
+      ]
+    },
+    {
+      "word": "Nail",
+      "hints": [
+        "hammered",
+        "bent",
+        "pulled",
+        "box",
+        "hung"
+      ]
+    },
+    {
+      "word": "Screw",
+      "hints": [
+        "turned",
+        "stripped",
+        "loose",
+        "anchor",
+        "pilot"
+      ]
+    },
+    {
+      "word": "Screwdriver",
+      "hints": [
+        "turned",
+        "phillips",
+        "flathead",
+        "magnetic",
+        "toolbox"
+      ]
+    },
+    {
+      "word": "Wrench",
+      "hints": [
+        "turned",
+        "adjusted",
+        "socket",
+        "torque",
+        "loosened"
+      ]
+    },
+    {
+      "word": "Pliers",
+      "hints": [
+        "gripped",
+        "squeezed",
+        "needle",
+        "pulled",
+        "toolbox"
+      ]
+    },
+    {
+      "word": "Drill",
+      "hints": [
+        "whirred",
+        "cordless",
+        "bit",
+        "pilot",
+        "charged"
+      ]
+    },
+    {
+      "word": "Saw",
+      "hints": [
+        "cut",
+        "sharp",
+        "sawdust",
+        "circular",
+        "safety"
+      ]
+    },
+    {
+      "word": "Level",
+      "hints": [
+        "checked",
+        "bubble",
+        "straight",
+        "mounted",
+        "laser"
+      ]
+    },
+    {
+      "word": "Tape measure",
+      "hints": [
+        "extended",
+        "retracted",
+        "marked",
+        "belt",
+        "metal"
+      ]
+    },
+    {
+      "word": "Toolbox",
+      "hints": [
+        "opened",
+        "organized",
+        "heavy",
+        "carried",
+        "garage"
+      ]
+    },
+    {
+      "word": "Paintcan",
+      "hints": [
+        "opened",
+        "stirred",
+        "sealed",
+        "dripped",
+        "labeled"
+      ]
+    },
+    {
+      "word": "Brush",
+      "hints": [
+        "dipped",
+        "stroked",
+        "cleaned",
+        "bristles",
+        "loaded"
+      ]
+    },
+    {
+      "word": "Roller",
+      "hints": [
+        "loaded",
+        "extended",
+        "tray",
+        "nap",
+        "coverage"
+      ]
+    },
+    {
+      "word": "Sandpaper",
+      "hints": [
+        "rubbed",
+        "grit",
+        "smoothed",
+        "dusty",
+        "worn"
+      ]
+    },
+    {
+      "word": "Tarp",
+      "hints": [
+        "spread",
+        "covered",
+        "tied",
+        "folded",
+        "protected"
+      ]
+    },
+    {
+      "word": "Rope",
+      "hints": [
+        "tied",
+        "coiled",
+        "frayed",
+        "knotted",
+        "pulled"
+      ]
+    },
+    {
+      "word": "Chain",
+      "hints": [
+        "locked",
+        "rusted",
+        "lflowed",
+        "heavy",
+        "rattled"
+      ]
+    },
+    {
+      "word": "Padlock",
+      "hints": [
+        "clicked",
+        "combination",
+        "rusted",
+        "cut",
+        "forgotten"
+      ]
+    },
+    {
+      "word": "Lock",
+      "hints": [
+        "turned",
+        "jammed",
+        "changed",
+        "deadbolt",
+        "picked"
+      ]
+    },
+    {
+      "word": "Safe",
+      "hints": [
+        "combination",
+        "fireproof",
+        "hidden",
+        "bolted",
+        "cracked"
+      ]
+    },
+    {
+      "word": "Bell",
+      "hints": [
+        "rang",
+        "hung",
+        "chimed",
+        "desk",
+        "service"
+      ]
+    },
+    {
+      "word": "Doorbell",
+      "hints": [
+        "pressed",
+        "rang",
+        "wireless",
+        "camera",
+        "chime"
+      ]
+    },
+    {
+      "word": "Buzzer",
+      "hints": [
+        "pressed",
+        "entry",
+        "apartment",
+        "loud",
+        "intercom"
+      ]
+    },
+    {
+      "word": "Intercom",
+      "hints": [
+        "pressed",
+        "crackled",
+        "answered",
+        "building",
+        "static"
+      ]
+    },
+    {
+      "word": "Thermostat",
+      "hints": [
+        "adjusted",
+        "programmed",
+        "smart",
+        "degrees",
+        "schedule"
+      ]
+    },
+    {
+      "word": "Airconditioner",
+      "hints": [
+        "hummed",
+        "dripped",
+        "filter",
+        "remote",
+        "window"
+      ]
+    },
+    {
+      "word": "Heater",
+      "hints": [
+        "clicked",
+        "glowed",
+        "thermostat",
+        "portable",
+        "radiator"
+      ]
+    },
+    {
+      "word": "Radiator",
+      "hints": [
+        "clanked",
+        "bled",
+        "hot",
+        "hissed",
+        "painted"
+      ]
+    },
+    {
+      "word": "Fireplace",
+      "hints": [
+        "crackled",
+        "swept",
+        "mantle",
+        "damper",
+        "cozy"
+      ]
+    },
+    {
+      "word": "Chimney",
+      "hints": [
+        "swept",
+        "smoke",
+        "cap",
+        "brick",
+        "santa"
+      ]
+    },
+    {
+      "word": "Smoke detector",
+      "hints": [
+        "beeped",
+        "tested",
+        "powered",
+        "ceiling",
+        "alarm"
+      ]
+    },
+    {
+      "word": "Fire extinguisher",
+      "hints": [
+        "mounted",
+        "expired",
+        "pin",
+        "inspected",
+        "emergency"
+      ]
+    },
+    {
+      "word": "First aid kit",
+      "hints": [
+        "stocked",
+        "expired",
+        "bandages",
+        "emergency",
+        "mounted"
+      ]
+    },
+    {
+      "word": "Bandage",
+      "hints": [
+        "wrapped",
+        "changed",
+        "adhesive",
+        "sterile",
+        "applied"
+      ]
+    },
+    {
+      "word": "Thermometer",
+      "hints": [
+        "read",
+        "digital",
+        "forehead",
+        "fever",
+        "beeped"
+      ]
+    },
+    {
+      "word": "Scale",
+      "hints": [
+        "stepped",
+        "digital",
+        "calibrated",
+        "bathroom",
+        "zeroed"
+      ]
+    },
+    {
+      "word": "Razor",
+      "hints": [
+        "shaved",
+        "rinsed",
+        "replaced",
+        "nick",
+        "cartridge"
+      ]
+    },
+    {
+      "word": "Comb",
+      "hints": [
+        "pulled",
+        "static",
+        "fine",
+        "pocket",
+        "untangled"
+      ]
+    },
+    {
+      "word": "Hairdryer",
+      "hints": [
+        "aimed",
+        "diffuser",
+        "cord",
+        "heat",
+        "styling"
+      ]
+    },
+    {
+      "word": "Curling iron",
+      "hints": [
+        "wrapped",
+        "burned",
+        "barrel",
+        "heat",
+        "unplugged"
+      ]
+    },
+    {
+      "word": "Straightener",
+      "hints": [
+        "clamped",
+        "sizzled",
+        "plates",
+        "heat",
+        "unplugged"
+      ]
+    },
+    {
+      "word": "Nail clipper",
+      "hints": [
+        "clipped",
+        "filed",
+        "flying",
+        "bathroom",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Tweezers",
+      "hints": [
+        "plucked",
+        "precision",
+        "splinter",
+        "angled",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Cotton ball",
+      "hints": [
+        "dabbed",
+        "soft",
+        "bag",
+        "removed",
+        "soaked"
+      ]
+    },
+    {
+      "word": "Q-tip",
+      "hints": [
+        "swabbed",
+        "disposed",
+        "cotton",
+        "gentle",
+        "bathroom"
+      ]
+    },
+    {
+      "word": "Soap",
+      "hints": [
+        "lathered",
+        "rinsed",
+        "bar",
+        "dispenser",
+        "slippery"
+      ]
+    },
+    {
+      "word": "Shampoo",
+      "hints": [
+        "lathered",
+        "rinsed",
+        "squeezed",
+        "empty",
+        "conditioner"
+      ]
+    },
+    {
+      "word": "Conditioner",
+      "hints": [
+        "applied",
+        "rinsed",
+        "detangled",
+        "leave-in",
+        "silky"
+      ]
+    },
+    {
+      "word": "Lotion",
+      "hints": [
+        "applied",
+        "pumped",
+        "absorbed",
+        "scented",
+        "moisturized"
+      ]
+    },
+    {
+      "word": "Sunscreen",
+      "hints": [
+        "applied",
+        "reapplied",
+        "sprayed",
+        "expired",
+        "SPF"
+      ]
+    },
+    {
+      "word": "Deodorant",
+      "hints": [
+        "applied",
+        "rolled",
+        "stick",
+        "morning",
+        "fresh"
+      ]
+    },
+    {
+      "word": "Perfume",
+      "hints": [
+        "spritzed",
+        "dabbed",
+        "gifted",
+        "signature",
+        "lasting"
+      ]
+    },
+    {
+      "word": "Cologne",
+      "hints": [
+        "spritzed",
+        "dabbed",
+        "gifted",
+        "subtle",
+        "occasion"
+      ]
+    },
+    {
+      "word": "Makeup",
+      "hints": [
+        "applied",
+        "blended",
+        "removed",
+        "touched",
+        "expired"
+      ]
+    },
+    {
+      "word": "Lipstick",
+      "hints": [
+        "applied",
+        "smudged",
+        "shade",
+        "reapplied",
+        "blotted"
+      ]
+    },
+    {
+      "word": "Mascara",
+      "hints": [
+        "applied",
+        "clumped",
+        "waterproof",
+        "wand",
+        "smudged"
+      ]
+    },
+    {
+      "word": "Eyeliner",
+      "hints": [
+        "drawn",
+        "smudged",
+        "wing",
+        "pencil",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Foundation",
+      "hints": [
+        "blended",
+        "matched",
+        "pump",
+        "coverage",
+        "oxidized"
+      ]
+    },
+    {
+      "word": "Powder",
+      "hints": [
+        "dusted",
+        "set",
+        "compact",
+        "pressed",
+        "brush"
+      ]
+    },
+    {
+      "word": "Blush",
+      "hints": [
+        "swept",
+        "applied",
+        "shade",
+        "cheeks",
+        "brush"
+      ]
+    },
+    {
+      "word": "Nail polish",
+      "hints": [
+        "applied",
+        "chipped",
+        "dried",
+        "remover",
+        "shade"
+      ]
+    },
+    {
+      "word": "Toilet",
+      "hints": [
+        "flushed",
+        "clogged",
+        "seat",
+        "cleaned",
+        "running"
+      ]
+    },
+    {
+      "word": "Sflow",
+      "hints": [
+        "running",
+        "clogged",
+        "rinsed",
+        "drained",
+        "faucet"
+      ]
+    },
+    {
+      "word": "Bathtub",
+      "hints": [
+        "filled",
+        "drained",
+        "soaked",
+        "scrubbed",
+        "jets"
+      ]
+    },
+    {
+      "word": "Shower",
+      "hints": [
+        "running",
+        "steam",
+        "curtain",
+        "head",
+        "tile"
+      ]
+    },
+    {
+      "word": "Curtain",
+      "hints": [
+        "drawn",
+        "hung",
+        "rings",
+        "liner",
+        "mildew"
+      ]
+    },
+    {
+      "word": "Bath mat",
+      "hints": [
+        "stepped",
+        "hung",
+        "damp",
+        "slip",
+        "washed"
+      ]
+    },
+    {
+      "word": "Toilet paper",
+      "hints": [
+        "replaced",
+        "empty",
+        "holder",
+        "roll",
+        "direction"
+      ]
+    },
+    {
+      "word": "Plunger",
+      "hints": [
+        "pumped",
+        "stored",
+        "emergency",
+        "suction",
+        "bathroom"
+      ]
+    },
+    {
+      "word": "Bed",
+      "hints": [
+        "made",
+        "unmade",
+        "frame",
+        "under",
+        "squeaky"
+      ]
+    },
+    {
+      "word": "Mattress",
+      "hints": [
+        "flipped",
+        "firm",
+        "sagged",
+        "warranty",
+        "stained"
+      ]
+    },
+    {
+      "word": "Pillow",
+      "hints": [
+        "fluffed",
+        "flat",
+        "propped",
+        "case",
+        "decorative"
+      ]
+    },
+    {
+      "word": "Blanket",
+      "hints": [
+        "folded",
+        "weighted",
+        "kicked",
+        "electric",
+        "draped"
+      ]
+    },
+    {
+      "word": "Sheet",
+      "hints": [
+        "changed",
+        "tucked",
+        "fitted",
+        "thread",
+        "wrflowled"
+      ]
+    },
+    {
+      "word": "Comforter",
+      "hints": [
+        "fluffed",
+        "kicked",
+        "duvet",
+        "cover",
+        "stuffed"
+      ]
+    },
+    {
+      "word": "Nightstand",
+      "hints": [
+        "cluttered",
+        "drawer",
+        "lamp",
+        "beside",
+        "charging"
+      ]
+    },
+    {
+      "word": "Dresser",
+      "hints": [
+        "drawers",
+        "mirror",
+        "cluttered",
+        "organized",
+        "antique"
+      ]
+    },
+    {
+      "word": "Closet",
+      "hints": [
+        "organized",
+        "stuffed",
+        "hangers",
+        "walked",
+        "light"
+      ]
+    },
+    {
+      "word": "Hanger",
+      "hints": [
+        "hung",
+        "wooden",
+        "padded",
+        "wire",
+        "tangled"
+      ]
+    },
+    {
+      "word": "Hamper",
+      "hints": [
+        "overflowing",
+        "lid",
+        "sorted",
+        "laundry",
+        "wicker"
+      ]
+    },
+    {
+      "word": "Iron",
+      "hints": [
+        "steamed",
+        "burned",
+        "unplugged",
+        "wrflowle",
+        "board"
+      ]
+    },
+    {
+      "word": "Ironing board",
+      "hints": [
+        "unfolded",
+        "padded",
+        "wobbly",
+        "stored",
+        "cover"
+      ]
+    },
+    {
+      "word": "Washer",
+      "hints": [
+        "loaded",
+        "cycle",
+        "unbalanced",
+        "detergent",
+        "spin"
+      ]
+    },
+    {
+      "word": "Dryer",
+      "hints": [
+        "tumbled",
+        "lint",
+        "timer",
+        "shrunk",
+        "beeped"
+      ]
+    },
+    {
+      "word": "Laundry basket",
+      "hints": [
+        "carried",
+        "overflowing",
+        "sorted",
+        "plastic",
+        "folded"
+      ]
+    },
+    {
+      "word": "Detergent",
+      "hints": [
+        "measured",
+        "pods",
+        "scented",
+        "spilled",
+        "concentrated"
+      ]
+    },
+    {
+      "word": "Fabric softener",
+      "hints": [
+        "added",
+        "scented",
+        "dispenser",
+        "sheet",
+        "liquid"
+      ]
+    },
+    {
+      "word": "Couch",
+      "hints": [
+        "sank",
+        "cushions",
+        "sectional",
+        "stained",
+        "reclined"
+      ]
+    },
+    {
+      "word": "Sofa",
+      "hints": [
+        "plopped",
+        "cushions",
+        "leather",
+        "slipcover",
+        "pillows"
+      ]
+    },
+    {
+      "word": "Armchair",
+      "hints": [
+        "reclined",
+        "worn",
+        "leather",
+        "reading",
+        "ottoman"
+      ]
+    },
+    {
+      "word": "Ottoman",
+      "hints": [
+        "propped",
+        "storage",
+        "tufted",
+        "matched",
+        "footrest"
+      ]
+    },
+    {
+      "word": "Recliner",
+      "hints": [
+        "leaned",
+        "stuck",
+        "lever",
+        "footrest",
+        "leather"
+      ]
+    },
+    {
+      "word": "Rocking chair",
+      "hints": [
+        "creaked",
+        "porch",
+        "nursery",
+        "rhythm",
+        "wooden"
+      ]
+    },
+    {
+      "word": "Stool",
+      "hints": [
+        "perched",
+        "wobbly",
+        "bar",
+        "step",
+        "swivel"
+      ]
+    },
+    {
+      "word": "Bench",
+      "hints": [
+        "sat",
+        "park",
+        "storage",
+        "entryway",
+        "wooden"
+      ]
+    },
+    {
+      "word": "Desk",
+      "hints": [
+        "cluttered",
+        "organized",
+        "standing",
+        "drawer",
+        "workspace"
+      ]
+    },
+    {
+      "word": "Bookshelf",
+      "hints": [
+        "organized",
+        "sagging",
+        "dusted",
+        "anchored",
+        "styled"
+      ]
+    },
+    {
+      "word": "Cabinet",
+      "hints": [
+        "opened",
+        "locked",
+        "filing",
+        "mounted",
+        "childproof"
+      ]
+    },
+    {
+      "word": "Rug",
+      "hints": [
+        "vacuumed",
+        "tripped",
+        "rolled",
+        "fringed",
+        "stained"
+      ]
+    },
+    {
+      "word": "Carpet",
+      "hints": [
+        "vacuumed",
+        "stained",
+        "stretched",
+        "padding",
+        "shampooed"
+      ]
+    },
+    {
+      "word": "Curtains",
+      "hints": [
+        "drawn",
+        "hung",
+        "blackout",
+        "sheer",
+        "rod"
+      ]
+    },
+    {
+      "word": "Blinds",
+      "hints": [
+        "adjusted",
+        "dusty",
+        "cord",
+        "slats",
+        "tilted"
+      ]
+    },
+    {
+      "word": "Shades",
+      "hints": [
+        "pulled",
+        "rolled",
+        "cellular",
+        "blackout",
+        "cord"
+      ]
+    },
+    {
+      "word": "Chandelier",
+      "hints": [
+        "hung",
+        "dusted",
+        "dimmed",
+        "crystal",
+        "installed"
+      ]
+    },
+    {
+      "word": "Ceiling fan",
+      "hints": [
+        "wobbled",
+        "pulled",
+        "dusty",
+        "speed",
+        "sharps"
+      ]
+    },
+    {
+      "word": "Light bulb",
+      "hints": [
+        "changed",
+        "burned",
+        "LED",
+        "wattage",
+        "flickered"
+      ]
+    },
+    {
+      "word": "Extension cord",
+      "hints": [
+        "stretched",
+        "tripped",
+        "tangled",
+        "overloaded",
+        "outdoor"
+      ]
+    },
+    {
+      "word": "Power strip",
+      "hints": [
+        "plugged",
+        "overloaded",
+        "surge",
+        "switch",
+        "full"
+      ]
+    },
+    {
+      "word": "Outlet",
+      "hints": [
+        "covered",
+        "childproof",
+        "grounded",
+        "dead",
+        "sparked"
+      ]
+    },
+    {
+      "word": "Switch",
+      "hints": [
+        "flipped",
+        "dimmer",
+        "stuck",
+        "smart",
+        "plate"
+      ]
+    },
+    {
+      "word": "Doormat",
+      "hints": [
+        "wiped",
+        "shaken",
+        "welcome",
+        "muddy",
+        "replaced"
+      ]
+    },
+    {
+      "word": "Mailbox",
+      "hints": [
+        "checked",
+        "full",
+        "flag",
+        "locked",
+        "rusty"
+      ]
+    },
+    {
+      "word": "Doorknob",
+      "hints": [
+        "turned",
+        "stuck",
+        "loose",
+        "locked",
+        "brass"
+      ]
+    },
+    {
+      "word": "Hinge",
+      "hints": [
+        "squeaked",
+        "oiled",
+        "rusted",
+        "replaced",
+        "loose"
+      ]
+    },
+    {
+      "word": "Deadbolt",
+      "hints": [
+        "turned",
+        "stuck",
+        "installed",
+        "locked",
+        "reinforced"
+      ]
+    },
+    {
+      "word": "Peephole",
+      "hints": [
+        "looked",
+        "installed",
+        "covered",
+        "wide",
+        "door"
+      ]
+    },
+    {
+      "word": "Screen",
+      "hints": [
+        "torn",
+        "replaced",
+        "patched",
+        "mesh",
+        "popped"
+      ]
+    },
+    {
+      "word": "Awning",
+      "hints": [
+        "extended",
+        "retracted",
+        "torn",
+        "shade",
+        "striped"
+      ]
+    },
+    {
+      "word": "Fence",
+      "hints": [
+        "painted",
+        "leaned",
+        "mended",
+        "climbed",
+        "privacy"
+      ]
+    },
+    {
+      "word": "Gate",
+      "hints": [
+        "latched",
+        "squeaked",
+        "locked",
+        "swung",
+        "automatic"
+      ]
+    },
+    {
+      "word": "Gutter",
+      "hints": [
+        "cleaned",
+        "clogged",
+        "overflowed",
+        "guard",
+        "leaking"
+      ]
+    },
+    {
+      "word": "Downspout",
+      "hints": [
+        "extended",
+        "clogged",
+        "disconnected",
+        "splashing",
+        "redirected"
+      ]
+    },
+    {
+      "word": "Shingle",
+      "hints": [
+        "replaced",
+        "missing",
+        "curled",
+        "blown",
+        "roofing"
+      ]
+    },
+    {
+      "word": "Antenna",
+      "hints": [
+        "adjusted",
+        "mounted",
+        "bent",
+        "signal",
+        "rooftop"
+      ]
+    },
+    {
+      "word": "Satellite dish",
+      "hints": [
+        "mounted",
+        "aligned",
+        "snow",
+        "obstructed",
+        "signal"
+      ]
+    },
+    {
+      "word": "Mailslot",
+      "hints": [
+        "pushed",
+        "brass",
+        "draft",
+        "flap",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Knocker",
+      "hints": [
+        "rapped",
+        "brass",
+        "lion",
+        "polished",
+        "heavy"
+      ]
+    },
+    {
+      "word": "House number",
+      "hints": [
+        "mounted",
+        "lit",
+        "visible",
+        "replaced",
+        "brass"
+      ]
+    },
+    {
+      "word": "Porch light",
+      "hints": [
+        "flickered",
+        "timer",
+        "motion",
+        "bugs",
+        "welcoming"
+      ]
+    },
+    {
+      "word": "Stepping stone",
+      "hints": [
+        "placed",
+        "wobbly",
+        "mossy",
+        "path",
+        "garden"
+      ]
+    },
+    {
+      "word": "Planter",
+      "hints": [
+        "filled",
+        "drained",
+        "ceramic",
+        "overwintered",
+        "arranged"
+      ]
+    },
+    {
+      "word": "Birdbath",
+      "hints": [
+        "filled",
+        "frozen",
+        "algae",
+        "pedestal",
+        "splashing"
+      ]
+    },
+    {
+      "word": "Birdfeeder",
+      "hints": [
+        "filled",
+        "squirrel",
+        "hung",
+        "empty",
+        "seed"
+      ]
+    },
+    {
+      "word": "Wind chime",
+      "hints": [
+        "rang",
+        "tangled",
+        "hung",
+        "bamboo",
+        "melodic"
+      ]
+    },
+    {
+      "word": "Flag",
+      "hints": [
+        "raised",
+        "lowered",
+        "tangled",
+        "faded",
+        "pole"
+      ]
+    },
+    {
+      "word": "Flagpole",
+      "hints": [
+        "raised",
+        "rope",
+        "stuck",
+        "mounted",
+        "clanking"
+      ]
+    },
+    {
+      "word": "Thermometer outdoor",
+      "hints": [
+        "checked",
+        "mounted",
+        "mercury",
+        "digital",
+        "shaded"
+      ]
+    },
+    {
+      "word": "Rain gauge",
+      "hints": [
+        "checked",
+        "emptied",
+        "mounted",
+        "inches",
+        "overflowed"
+      ]
+    },
+    {
+      "word": "Weather vane",
+      "hints": [
+        "spun",
+        "pointed",
+        "rusted",
+        "mounted",
+        "rooster"
+      ]
+    },
+    {
+      "word": "Sundial",
+      "hints": [
+        "positioned",
+        "shadow",
+        "garden",
+        "ornamental",
+        "accurate"
+      ]
+    },
+    {
+      "word": "Garden gnome",
+      "hints": [
+        "placed",
+        "hidden",
+        "painted",
+        "kitsch",
+        "stolen"
+      ]
+    },
+    {
+      "word": "Hose reel",
+      "hints": [
+        "wound",
+        "mounted",
+        "tangled",
+        "cart",
+        "retractable"
+      ]
+    },
+    {
+      "word": "Sprayer",
+      "hints": [
+        "squeezed",
+        "clogged",
+        "adjusted",
+        "trigger",
+        "mist"
+      ]
+    },
+    {
+      "word": "Watering can",
+      "hints": [
+        "filled",
+        "spout",
+        "rusted",
+        "decorative",
+        "poured"
+      ]
+    },
+    {
+      "word": "Trowel",
+      "hints": [
+        "dug",
+        "planted",
+        "rusted",
+        "handle",
+        "kneeling"
+      ]
+    },
+    {
+      "word": "Pruners",
+      "hints": [
+        "snipped",
+        "sharpened",
+        "bypass",
+        "spring",
+        "holster"
+      ]
+    },
+    {
+      "word": "Loppers",
+      "hints": [
+        "cut",
+        "extended",
+        "branch",
+        "leverage",
+        "bypass"
+      ]
+    },
+    {
+      "word": "Hedge trimmer",
+      "hints": [
+        "buzzed",
+        "cord",
+        "powered",
+        "shaped",
+        "electric"
+      ]
+    },
+    {
+      "word": "Leaf blower",
+      "hints": [
+        "loud",
+        "backpack",
+        "cord",
+        "gas",
+        "aimed"
+      ]
+    },
+    {
+      "word": "Chainsaw",
+      "hints": [
+        "roared",
+        "oiled",
+        "chain",
+        "kickback",
+        "safety"
+      ]
+    },
+    {
+      "word": "Axe",
+      "hints": [
+        "swung",
+        "split",
+        "sharpened",
+        "handle",
+        "chopped"
+      ]
+    },
+    {
+      "word": "Wedge",
+      "hints": [
+        "hammered",
+        "splitting",
+        "stuck",
+        "metal",
+        "log"
+      ]
+    },
+    {
+      "word": "Maul",
+      "hints": [
+        "swung",
+        "heavy",
+        "splitting",
+        "handle",
+        "wood"
+      ]
+    },
+    {
+      "word": "Pickaxe",
+      "hints": [
+        "swung",
+        "dug",
+        "heavy",
+        "pointed",
+        "loosened"
+      ]
+    },
+    {
+      "word": "Crowbar",
+      "hints": [
+        "pried",
+        "leverage",
+        "bent",
+        "heavy",
+        "removed"
+      ]
+    },
+    {
+      "word": "Pry bar",
+      "hints": [
+        "wedged",
+        "popped",
+        "flat",
+        "leverage",
+        "trim"
+      ]
+    },
+    {
+      "word": "Chisel",
+      "hints": [
+        "struck",
+        "sharp",
+        "wood",
+        "beveled",
+        "mallet"
+      ]
+    },
+    {
+      "word": "Mallet",
+      "hints": [
+        "struck",
+        "rubber",
+        "wooden",
+        "chisel",
+        "gentle"
+      ]
+    },
+    {
+      "word": "Sledgehammer",
+      "hints": [
+        "swung",
+        "heavy",
+        "demolition",
+        "handle",
+        "impact"
+      ]
+    },
+    {
+      "word": "Bolt cutter",
+      "hints": [
+        "snapped",
+        "leverage",
+        "padlock",
+        "chain",
+        "heavy"
+      ]
+    },
+    {
+      "word": "Wire stripper",
+      "hints": [
+        "stripped",
+        "gauge",
+        "notched",
+        "copper",
+        "electrical"
+      ]
+    },
+    {
+      "word": "Multimeter",
+      "hints": [
+        "tested",
+        "probes",
+        "voltage",
+        "continuity",
+        "digital"
+      ]
+    },
+    {
+      "word": "Soldering iron",
+      "hints": [
+        "heated",
+        "tip",
+        "solder",
+        "station",
+        "electronics"
+      ]
+    },
+    {
+      "word": "Heat gun",
+      "hints": [
+        "aimed",
+        "shrflow",
+        "paint",
+        "stripping",
+        "hot"
+      ]
+    },
+    {
+      "word": "Caulk gun",
+      "hints": [
+        "squeezed",
+        "loaded",
+        "bead",
+        "trigger",
+        "sealed"
+      ]
+    },
+    {
+      "word": "Putty knife",
+      "hints": [
+        "scraped",
+        "spread",
+        "flexible",
+        "spackle",
+        "paint"
+      ]
+    },
+    {
+      "word": "Float",
+      "hints": [
+        "smoothed",
+        "concrete",
+        "magnesium",
+        "finished",
+        "wet"
+      ]
+    },
+    {
+      "word": "Grout float",
+      "hints": [
+        "spread",
+        "diagonal",
+        "tile",
+        "rubber",
+        "wiped"
+      ]
+    },
+    {
+      "word": "Tile cutter",
+      "hints": [
+        "scored",
+        "snapped",
+        "wet",
+        "sharp",
+        "straight"
+      ]
+    },
+    {
+      "word": "Glass cutter",
+      "hints": [
+        "scored",
+        "snapped",
+        "carbide",
+        "oil",
+        "rotated"
+      ]
+    },
+    {
+      "word": "Pipe wrench",
+      "hints": [
+        "gripped",
+        "adjusted",
+        "plumbing",
+        "teeth",
+        "leverage"
+      ]
+    },
+    {
+      "word": "Basin wrench",
+      "hints": [
+        "reached",
+        "turned",
+        "faucet",
+        "awkward",
+        "pivoting"
+      ]
+    },
+    {
+      "word": "Auger",
+      "hints": [
+        "turned",
+        "clog",
+        "snake",
+        "drain",
+        "cable"
+      ]
+    },
+    {
+      "word": "Plumber snake",
+      "hints": [
+        "fed",
+        "cranked",
+        "clog",
+        "retrieved",
+        "coiled"
+      ]
+    },
+    {
+      "word": "Pipe cutter",
+      "hints": [
+        "rotated",
+        "copper",
+        "rotated",
+        "clean",
+        "burr"
+      ]
+    },
+    {
+      "word": "Flaring tool",
+      "hints": [
+        "clamped",
+        "copper",
+        "brake",
+        "cone",
+        "fitting"
+      ]
+    },
+    {
+      "word": "Deburring tool",
+      "hints": [
+        "twisted",
+        "inside",
+        "smooth",
+        "copper",
+        "edge"
+      ]
+    },
+    {
+      "word": "Stud finder",
+      "hints": [
+        "beeped",
+        "slid",
+        "magnetic",
+        "deep",
+        "edge"
+      ]
+    },
+    {
+      "word": "Fish tape",
+      "hints": [
+        "fed",
+        "pulled",
+        "wire",
+        "conduit",
+        "coiled"
+      ]
+    },
+    {
+      "word": "Voltage tester",
+      "hints": [
+        "touched",
+        "lit",
+        "non-contact",
+        "beeped",
+        "safety"
+      ]
+    },
+    {
+      "word": "Circuit breaker",
+      "hints": [
+        "tripped",
+        "reset",
+        "labeled",
+        "panel",
+        "flipped"
+      ]
+    },
+    {
+      "word": "Fuse",
+      "hints": [
+        "blown",
+        "replaced",
+        "checked",
+        "amp",
+        "glass"
+      ]
+    },
+    {
+      "word": "Junction box",
+      "hints": [
+        "opened",
+        "wired",
+        "covered",
+        "metal",
+        "connections"
+      ]
+    },
+    {
+      "word": "Conduit",
+      "hints": [
+        "ran",
+        "bent",
+        "secured",
+        "metal",
+        "wire"
+      ]
+    },
+    {
+      "word": "Wire nut",
+      "hints": [
+        "twisted",
+        "sized",
+        "connected",
+        "orange",
+        "secure"
+      ]
+    },
+    {
+      "word": "Electrical tape",
+      "hints": [
+        "wrapped",
+        "stretched",
+        "insulated",
+        "black",
+        "sticky"
+      ]
+    },
+    {
+      "word": "Duct tape",
+      "hints": [
+        "wrapped",
+        "torn",
+        "temporary",
+        "silver",
+        "sticky"
+      ]
+    },
+    {
+      "word": "Masking tape",
+      "hints": [
+        "applied",
+        "removed",
+        "edge",
+        "painter",
+        "blue"
+      ]
+    },
+    {
+      "word": "Packing tape",
+      "hints": [
+        "sealed",
+        "dispenser",
+        "clear",
+        "box",
+        "reinforced"
+      ]
+    },
+    {
+      "word": "Velcro",
+      "hints": [
+        "pressed",
+        "ripped",
+        "strip",
+        "hook",
+        "reusable"
+      ]
+    },
+    {
+      "word": "Zip tie",
+      "hints": [
+        "cinched",
+        "cut",
+        "bundle",
+        "cable",
+        "tight"
+      ]
+    },
+    {
+      "word": "Bungee cord",
+      "hints": [
+        "stretched",
+        "hooked",
+        "snapped",
+        "secured",
+        "elastic"
+      ]
+    },
+    {
+      "word": "Ratchet strap",
+      "hints": [
+        "tightened",
+        "released",
+        "cargo",
+        "hook",
+        "secured"
+      ]
+    },
+    {
+      "word": "Carabiner",
+      "hints": [
+        "clipped",
+        "gate",
+        "climbing",
+        "keychain",
+        "locking"
+      ]
+    },
+    {
+      "word": "D-ring",
+      "hints": [
+        "attached",
+        "threaded",
+        "strap",
+        "metal",
+        "secure"
+      ]
+    },
+    {
+      "word": "S-hook",
+      "hints": [
+        "hung",
+        "lflowed",
+        "chain",
+        "metal",
+        "open"
+      ]
+    },
+    {
+      "word": "Eye bolt",
+      "hints": [
+        "screwed",
+        "mounted",
+        "swing",
+        "anchor",
+        "loop"
+      ]
+    },
+    {
+      "word": "Anchor",
+      "hints": [
+        "inserted",
+        "toggle",
+        "drywall",
+        "expanding",
+        "weight"
+      ]
+    },
+    {
+      "word": "Shim",
+      "hints": [
+        "inserted",
+        "leveled",
+        "tapered",
+        "wooden",
+        "adjusted"
+      ]
+    },
+    {
+      "word": "Gasket",
+      "hints": [
+        "replaced",
+        "sealed",
+        "rubber",
+        "compressed",
+        "leak"
+      ]
+    },
+    {
+      "word": "Nut",
+      "hints": [
+        "tightened",
+        "stripped",
+        "hex",
+        "lock",
+        "threaded"
+      ]
+    },
+    {
+      "word": "Bolt",
+      "hints": [
+        "threaded",
+        "torqued",
+        "hex",
+        "carriage",
+        "lag"
+      ]
+    },
+    {
+      "word": "Rivet",
+      "hints": [
+        "popped",
+        "set",
+        "blind",
+        "permanent",
+        "gun"
+      ]
+    },
+    {
+      "word": "Grommet",
+      "hints": [
+        "installed",
+        "reinforced",
+        "hole",
+        "rubber",
+        "tarp"
+      ]
+    },
+    {
+      "word": "Bushing",
+      "hints": [
+        "pressed",
+        "worn",
+        "rubber",
+        "replaced",
+        "pivot"
+      ]
+    },
+    {
+      "word": "Bearing",
+      "hints": [
+        "replaced",
+        "worn",
+        "sealed",
+        "ball",
+        "pressed"
+      ]
+    },
+    {
+      "word": "Spring",
+      "hints": [
+        "compressed",
+        "tension",
+        "coil",
+        "replaced",
+        "snapped"
+      ]
+    },
+    {
+      "word": "Gear",
+      "hints": [
+        "meshed",
+        "worn",
+        "teeth",
+        "ratio",
+        "replaced"
+      ]
+    },
+    {
+      "word": "Pulley",
+      "hints": [
+        "threaded",
+        "belt",
+        "seized",
+        "idler",
+        "tensioned"
+      ]
+    },
+    {
+      "word": "Belt",
+      "hints": [
+        "replaced",
+        "squealed",
+        "cracked",
+        "tensioned",
+        "serpentine"
+      ]
+    },
+    {
+      "word": "Hose clamp",
+      "hints": [
+        "tightened",
+        "rusted",
+        "replaced",
+        "spring",
+        "screw"
+      ]
+    },
+    {
+      "word": "O-ring",
+      "hints": [
+        "replaced",
+        "dried",
+        "lubricated",
+        "seated",
+        "leak"
+      ]
+    },
+    {
+      "word": "Valve",
+      "hints": [
+        "turned",
+        "stuck",
+        "replaced",
+        "shut",
+        "leak"
+      ]
+    },
+    {
+      "word": "Faucet",
+      "hints": [
+        "dripped",
+        "replaced",
+        "aerator",
+        "handle",
+        "cartridge"
+      ]
+    },
+    {
+      "word": "Showerhead",
+      "hints": [
+        "replaced",
+        "clogged",
+        "flow",
+        "handheld",
+        "filtered"
+      ]
+    },
+    {
+      "word": "Aerator",
+      "hints": [
+        "unscrewed",
+        "cleaned",
+        "clogged",
+        "flow",
+        "screen"
+      ]
+    },
+    {
+      "word": "Flapper",
+      "hints": [
+        "replaced",
+        "warped",
+        "running",
+        "chain",
+        "seal"
+      ]
+    },
+    {
+      "word": "Wax ring",
+      "hints": [
+        "replaced",
+        "compressed",
+        "sealed",
+        "leak",
+        "toilet"
+      ]
+    },
+    {
+      "word": "P-trap",
+      "hints": [
+        "removed",
+        "clogged",
+        "cleaned",
+        "leak",
+        "drain"
+      ]
+    },
+    {
+      "word": "Garbage disposal",
+      "hints": [
+        "jammed",
+        "reset",
+        "hummed",
+        "allen",
+        "ground"
+      ]
+    },
+    {
+      "word": "Dishwasher",
+      "hints": [
+        "loaded",
+        "cycle",
+        "rack",
+        "detergent",
+        "drained"
+      ]
+    },
+    {
+      "word": "Trash can",
+      "hints": [
+        "emptied",
+        "lined",
+        "lid",
+        "foot",
+        "overflowing"
+      ]
+    },
+    {
+      "word": "Recycling bin",
+      "hints": [
+        "sorted",
+        "rinsed",
+        "full",
+        "pickup",
+        "labeled"
+      ]
+    },
+    {
+      "word": "Compost bin",
+      "hints": [
+        "turned",
+        "layered",
+        "tumbler",
+        "worms",
+        "kitchen"
+      ]
+    },
+    {
+      "word": "Paper shredder",
+      "hints": [
+        "jammed",
+        "emptied",
+        "crosscut",
+        "oiled",
+        "security"
+      ]
+    },
+    {
+      "word": "Filing cabinet",
+      "hints": [
+        "locked",
+        "drawer",
+        "stuck",
+        "organized",
+        "fireproof"
+      ]
+    },
+    {
+      "word": "Desk lamp",
+      "hints": [
+        "adjusted",
+        "arm",
+        "LED",
+        "task",
+        "dimmer"
+      ]
+    },
+    {
+      "word": "Paper tray",
+      "hints": [
+        "stacked",
+        "organized",
+        "tiered",
+        "inbox",
+        "mesh"
+      ]
+    },
+    {
+      "word": "Pencil holder",
+      "hints": [
+        "organized",
+        "cluttered",
+        "ceramic",
+        "desk",
+        "cup"
+      ]
+    },
+    {
+      "word": "Letter opener",
+      "hints": [
+        "sliced",
+        "sharp",
+        "desk",
+        "brass",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Hole punch",
+      "hints": [
+        "punched",
+        "confetti",
+        "three",
+        "aligned",
+        "reinforced"
+      ]
+    },
+    {
+      "word": "Paper cutter",
+      "hints": [
+        "sliced",
+        "aligned",
+        "sharp",
+        "guard",
+        "trimmed"
+      ]
+    },
+    {
+      "word": "Laminator",
+      "hints": [
+        "fed",
+        "sealed",
+        "heated",
+        "pouch",
+        "bubbled"
+      ]
+    },
+    {
+      "word": "Label maker",
+      "hints": [
+        "printed",
+        "peeled",
+        "stuck",
+        "organized",
+        "tape"
+      ]
+    },
+    {
+      "word": "Stamp pad",
+      "hints": [
+        "pressed",
+        "dried",
+        "flowed",
+        "refilled",
+        "faded"
+      ]
+    },
+    {
+      "word": "Rubber stamp",
+      "hints": [
+        "pressed",
+        "flowed",
+        "dated",
+        "custom",
+        "self-flowing"
+      ]
+    },
+    {
+      "word": "Wax seal",
+      "hints": [
+        "pressed",
+        "melted",
+        "monogram",
+        "envelope",
+        "stamp"
+      ]
+    },
+    {
+      "word": "Magnifying glass",
+      "hints": [
+        "examined",
+        "focused",
+        "handheld",
+        "reading",
+        "lit"
+      ]
+    },
+    {
+      "word": "Binoculars",
+      "hints": [
+        "focused",
+        "adjusted",
+        "strap",
+        "birding",
+        "magnified"
+      ]
+    },
+    {
+      "word": "Telescope",
+      "hints": [
+        "focused",
+        "mounted",
+        "tripod",
+        "stars",
+        "lens"
+      ]
+    },
+    {
+      "word": "Compass",
+      "hints": [
+        "oriented",
+        "needle",
+        "magnetic",
+        "hiking",
+        "bearing"
+      ]
+    },
+    {
+      "word": "Map",
+      "hints": [
+        "unfolded",
+        "marked",
+        "route",
+        "legend",
+        "creased"
+      ]
+    },
+    {
+      "word": "Globe",
+      "hints": [
+        "spun",
+        "mounted",
+        "dusted",
+        "vintage",
+        "illuminated"
+      ]
+    },
+    {
+      "word": "Atlas",
+      "hints": [
+        "flipped",
+        "heavy",
+        "reference",
+        "outdated",
+        "indexed"
+      ]
+    },
+    {
+      "word": "Dictionary",
+      "hints": [
+        "thumbed",
+        "heavy",
+        "alphabetical",
+        "pronunciation",
+        "definition"
+      ]
+    },
+    {
+      "word": "Encyclopedia",
+      "hints": [
+        "volumes",
+        "heavy",
+        "outdated",
+        "alphabetical",
+        "reference"
+      ]
+    },
+    {
+      "word": "Thesaurus",
+      "hints": [
+        "consulted",
+        "synonym",
+        "alternatives",
+        "writing",
+        "reference"
+      ]
+    },
+    {
+      "word": "Textbook",
+      "hints": [
+        "highlighted",
+        "heavy",
+        "rental",
+        "edition",
+        "expensive"
+      ]
+    },
+    {
+      "word": "Notebook",
+      "hints": [
+        "filled",
+        "spiral",
+        "lined",
+        "margins",
+        "college"
+      ]
+    },
+    {
+      "word": "Journal",
+      "hints": [
+        "written",
+        "locked",
+        "leather",
+        "daily",
+        "reflection"
+      ]
+    },
+    {
+      "word": "Diary",
+      "hints": [
+        "locked",
+        "hidden",
+        "personal",
+        "dated",
+        "secret"
+      ]
+    },
+    {
+      "word": "Sketchbook",
+      "hints": [
+        "filled",
+        "spiral",
+        "thick",
+        "blank",
+        "portable"
+      ]
+    },
+    {
+      "word": "Photo album",
+      "hints": [
+        "flipped",
+        "organized",
+        "magnetic",
+        "memories",
+        "dusty"
+      ]
+    },
+    {
+      "word": "Scrapbook",
+      "hints": [
+        "decorated",
+        "memories",
+        "stickers",
+        "ticket",
+        "creative"
+      ]
+    },
+    {
+      "word": "Yearbook",
+      "hints": [
+        "signed",
+        "photos",
+        "memories",
+        "index",
+        "senior"
+      ]
+    },
+    {
+      "word": "Magazine",
+      "hints": [
+        "flipped",
+        "subscription",
+        "glossy",
+        "rack",
+        "recycled"
+      ]
+    },
+    {
+      "word": "Newspaper",
+      "hints": [
+        "delivered",
+        "recycled",
+        "flow",
+        "headlines",
+        "sections"
+      ]
+    },
+    {
+      "word": "Pamphlet",
+      "hints": [
+        "handed",
+        "folded",
+        "informational",
+        "rack",
+        "glossy"
+      ]
+    },
+    {
+      "word": "Brochure",
+      "hints": [
+        "picked",
+        "glossy",
+        "tri-fold",
+        "tourism",
+        "rack"
+      ]
+    },
+    {
+      "word": "Flyer",
+      "hints": [
+        "posted",
+        "handed",
+        "event",
+        "stapled",
+        "windshield"
+      ]
+    },
+    {
+      "word": "Business card",
+      "hints": [
+        "exchanged",
+        "holder",
+        "embossed",
+        "networking",
+        "stack"
+      ]
+    },
+    {
+      "word": "Postcard",
+      "hints": [
+        "mailed",
+        "stamped",
+        "tourist",
+        "rack",
+        "message"
+      ]
+    },
+    {
+      "word": "Greeting card",
+      "hints": [
+        "signed",
+        "envelope",
+        "blank",
+        "occasion",
+        "musical"
+      ]
+    },
+    {
+      "word": "Invitation",
+      "hints": [
+        "mailed",
+        "RSVP",
+        "formal",
+        "envelope",
+        "wedding"
+      ]
+    },
+    {
+      "word": "Certificate",
+      "hints": [
+        "framed",
+        "awarded",
+        "signed",
+        "laminated",
+        "achievement"
+      ]
+    },
+    {
+      "word": "Diploma",
+      "hints": [
+        "framed",
+        "rolled",
+        "ceremony",
+        "tube",
+        "displayed"
+      ]
+    },
+    {
+      "word": "License",
+      "hints": [
+        "renewed",
+        "expired",
+        "laminated",
+        "wallet",
+        "framed"
+      ]
+    },
+    {
+      "word": "Passport",
+      "hints": [
+        "stamped",
+        "renewed",
+        "expired",
+        "photo",
+        "visa"
+      ]
+    },
+    {
+      "word": "ID card",
+      "hints": [
+        "scanned",
+        "badge",
+        "lanyard",
+        "photo",
+        "expired"
+      ]
+    },
+    {
+      "word": "Credit card",
+      "hints": [
+        "swiped",
+        "chip",
+        "declined",
+        "limit",
+        "expired"
+      ]
+    },
+    {
+      "word": "Gift card",
+      "hints": [
+        "balance",
+        "scratched",
+        "redeemed",
+        "activated",
+        "regifted"
+      ]
+    },
+    {
+      "word": "Ticket",
+      "hints": [
+        "scanned",
+        "stub",
+        "printed",
+        "mobile",
+        "scalped"
+      ]
+    },
+    {
+      "word": "Receipt",
+      "hints": [
+        "crumpled",
+        "faded",
+        "returned",
+        "emailed",
+        "itemized"
+      ]
+    },
+    {
+      "word": "Coupon",
+      "hints": [
+        "clipped",
+        "expired",
+        "scanned",
+        "stacked",
+        "digital"
+      ]
+    },
+    {
+      "word": "Check",
+      "hints": [
+        "written",
+        "deposited",
+        "bounced",
+        "voided",
+        "mobile"
+      ]
+    },
+    {
+      "word": "Cash",
+      "hints": [
+        "counted",
+        "change",
+        "crumpled",
+        "tip",
+        "register"
+      ]
+    },
+    {
+      "word": "Coins",
+      "hints": [
+        "counted",
+        "rolled",
+        "jar",
+        "change",
+        "jingled"
+      ]
+    },
+    {
+      "word": "Piggy bank",
+      "hints": [
+        "dropped",
+        "shaken",
+        "smashed",
+        "full",
+        "ceramic"
+      ]
+    },
+    {
+      "word": "Jewelry box",
+      "hints": [
+        "opened",
+        "organized",
+        "musical",
+        "velvet",
+        "locked"
+      ]
+    },
+    {
+      "word": "Ring",
+      "hints": [
+        "slipped",
+        "resized",
+        "lost",
+        "inherited",
+        "cleaned"
+      ]
+    },
+    {
+      "word": "Necklace",
+      "hints": [
+        "clasped",
+        "tangled",
+        "layered",
+        "pendant",
+        "chain"
+      ]
+    },
+    {
+      "word": "Bracelet",
+      "hints": [
+        "clasped",
+        "charm",
+        "tangled",
+        "stacked",
+        "tennis"
+      ]
+    },
+    {
+      "word": "Earrings",
+      "hints": [
+        "lost",
+        "backs",
+        "pierced",
+        "clip",
+        "dangling"
+      ]
+    },
+    {
+      "word": "Brooch",
+      "hints": [
+        "pinned",
+        "vintage",
+        "heirloom",
+        "clasp",
+        "decorative"
+      ]
+    },
+    {
+      "word": "Cufflflows",
+      "hints": [
+        "fastened",
+        "formal",
+        "monogram",
+        "box",
+        "gift"
+      ]
+    },
+    {
+      "word": "Tie clip",
+      "hints": [
+        "slid",
+        "positioned",
+        "bar",
+        "formal",
+        "gift"
+      ]
+    },
+    {
+      "word": "Suspenders",
+      "hints": [
+        "clipped",
+        "adjusted",
+        "vintage",
+        "elastic",
+        "fashion"
+      ]
+    },
+    {
+      "word": "Bow tie",
+      "hints": [
+        "tied",
+        "clip-on",
+        "adjusted",
+        "formal",
+        "crooked"
+      ]
+    },
+    {
+      "word": "Necktie",
+      "hints": [
+        "knotted",
+        "loosened",
+        "silk",
+        "stained",
+        "windsor"
+      ]
+    },
+    {
+      "word": "Handkerchief",
+      "hints": [
+        "folded",
+        "pocket",
+        "dabbed",
+        "monogram",
+        "linen"
+      ]
+    },
+    {
+      "word": "Pocket square",
+      "hints": [
+        "folded",
+        "matched",
+        "silk",
+        "puffed",
+        "formal"
+      ]
+    },
+    {
+      "word": "Button",
+      "hints": [
+        "sewn",
+        "popped",
+        "spare",
+        "replaced",
+        "loose"
+      ]
+    },
+    {
+      "word": "Zipper",
+      "hints": [
+        "stuck",
+        "broken",
+        "replaced",
+        "teeth",
+        "pull"
+      ]
+    },
+    {
+      "word": "Velcro strap",
+      "hints": [
+        "ripped",
+        "worn",
+        "adjusted",
+        "loud",
+        "secure"
+      ]
+    },
+    {
+      "word": "Shoelace",
+      "hints": [
+        "tied",
+        "broken",
+        "replaced",
+        "double",
+        "untied"
+      ]
+    },
+    {
+      "word": "Insole",
+      "hints": [
+        "inserted",
+        "replaced",
+        "arch",
+        "cushioned",
+        "ortho"
+      ]
+    },
+    {
+      "word": "Shoe horn",
+      "hints": [
+        "slipped",
+        "long",
+        "travel",
+        "metal",
+        "ease"
+      ]
+    },
+    {
+      "word": "Boot jack",
+      "hints": [
+        "stepped",
+        "pulled",
+        "mudroom",
+        "wooden",
+        "heel"
+      ]
+    },
+    {
+      "word": "Shoe tree",
+      "hints": [
+        "inserted",
+        "cedar",
+        "shape",
+        "stored",
+        "stretched"
+      ]
+    },
+    {
+      "word": "Lint roller",
+      "hints": [
+        "rolled",
+        "sheets",
+        "pet",
+        "refill",
+        "travel"
+      ]
+    },
+    {
+      "word": "Sewing kit",
+      "hints": [
+        "emergency",
+        "needle",
+        "thread",
+        "travel",
+        "button"
+      ]
+    },
+    {
+      "word": "Needle",
+      "hints": [
+        "threaded",
+        "pricked",
+        "eye",
+        "sharp",
+        "dropped"
+      ]
+    },
+    {
+      "word": "Thread",
+      "hints": [
+        "cut",
+        "tangled",
+        "spool",
+        "matched",
+        "knotted"
+      ]
+    },
+    {
+      "word": "Thimble",
+      "hints": [
+        "protected",
+        "pushed",
+        "metal",
+        "finger",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Pin cushion",
+      "hints": [
+        "stuck",
+        "tomato",
+        "wrist",
+        "magnetic",
+        "scattered"
+      ]
+    },
+    {
+      "word": "Safety pin",
+      "hints": [
+        "fastened",
+        "emergency",
+        "diaper",
+        "punk",
+        "temporary"
+      ]
+    },
+    {
+      "word": "Straight pin",
+      "hints": [
+        "stuck",
+        "marked",
+        "sewing",
+        "head",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Seam ripper",
+      "hints": [
+        "picked",
+        "undid",
+        "careful",
+        "sharp",
+        "mistake"
+      ]
+    },
+    {
+      "word": "Measuring tape",
+      "hints": [
+        "wrapped",
+        "retracted",
+        "flexible",
+        "sewing",
+        "body"
+      ]
+    },
+    {
+      "word": "Tailor chalk",
+      "hints": [
+        "marked",
+        "brushed",
+        "temporary",
+        "fabric",
+        "line"
+      ]
+    },
+    {
+      "word": "Bobbin",
+      "hints": [
+        "wound",
+        "inserted",
+        "tangled",
+        "threaded",
+        "machine"
+      ]
+    },
+    {
+      "word": "Sewing machine",
+      "hints": [
+        "threaded",
+        "jammed",
+        "pedal",
+        "bobbin",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Mannequin",
+      "hints": [
+        "dressed",
+        "pinned",
+        "adjusted",
+        "headless",
+        "display"
+      ]
+    },
+    {
+      "word": "Dress form",
+      "hints": [
+        "adjusted",
+        "pinned",
+        "padded",
+        "fitting",
+        "sewing"
+      ]
+    },
+    {
+      "word": "Clothes steamer",
+      "hints": [
+        "heated",
+        "wrflowles",
+        "portable",
+        "water",
+        "garment"
+      ]
+    },
+    {
+      "word": "Garment bag",
+      "hints": [
+        "zipped",
+        "hung",
+        "travel",
+        "suit",
+        "protected"
+      ]
+    },
+    {
+      "word": "Moth balls",
+      "hints": [
+        "stored",
+        "pungent",
+        "cedar",
+        "seasonal",
+        "closet"
+      ]
+    },
+    {
+      "word": "Cedar block",
+      "hints": [
+        "placed",
+        "sanded",
+        "refreshed",
+        "natural",
+        "closet"
+      ]
+    },
+    {
+      "word": "Sachet",
+      "hints": [
+        "placed",
+        "lavender",
+        "drawer",
+        "scented",
+        "fabric"
+      ]
+    },
+    {
+      "word": "Air freshener",
+      "hints": [
+        "sprayed",
+        "plugged",
+        "refilled",
+        "automatic",
+        "scented"
+      ]
+    },
+    {
+      "word": "Diffuser",
+      "hints": [
+        "filled",
+        "reeds",
+        "essential",
+        "refilled",
+        "scented"
+      ]
+    },
+    {
+      "word": "Incense",
+      "hints": [
+        "lit",
+        "ash",
+        "holder",
+        "stick",
+        "smoky"
+      ]
+    },
+    {
+      "word": "Essential oil",
+      "hints": [
+        "dropped",
+        "diluted",
+        "diffused",
+        "pure",
+        "therapeutic"
+      ]
+    },
+    {
+      "word": "Humidifier",
+      "hints": [
+        "filled",
+        "mist",
+        "filter",
+        "cleaned",
+        "winter"
+      ]
+    },
+    {
+      "word": "Dehumidifier",
+      "hints": [
+        "emptied",
+        "tank",
+        "basement",
+        "humidity",
+        "running"
+      ]
+    },
+    {
+      "word": "Air purifier",
+      "hints": [
+        "filter",
+        "running",
+        "HEPA",
+        "indicator",
+        "quiet"
+      ]
+    },
+    {
+      "word": "Space heater",
+      "hints": [
+        "plugged",
+        "timer",
+        "ceramic",
+        "tip",
+        "portable"
+      ]
+    },
+    {
+      "word": "Heating pad",
+      "hints": [
+        "plugged",
+        "settings",
+        "sore",
+        "auto",
+        "relief"
+      ]
+    },
+    {
+      "word": "Ice pack",
+      "hints": [
+        "frozen",
+        "wrapped",
+        "gel",
+        "injury",
+        "reusable"
+      ]
+    },
+    {
+      "word": "Hot water bottle",
+      "hints": [
+        "filled",
+        "wrapped",
+        "rubber",
+        "cramps",
+        "cozy"
+      ]
+    },
+    {
+      "word": "Throw pillow",
+      "hints": [
+        "arranged",
+        "decorative",
+        "karate",
+        "accent",
+        "fluffed"
+      ]
+    },
+    {
+      "word": "Bean bag",
+      "hints": [
+        "sank",
+        "refilled",
+        "vinyl",
+        "gaming",
+        "flopped"
+      ]
+    },
+    {
+      "word": "Floor cushion",
+      "hints": [
+        "stacked",
+        "meditation",
+        "oversized",
+        "tufted",
+        "seating"
+      ]
+    },
+    {
+      "word": "Yoga mat",
+      "hints": [
+        "rolled",
+        "sticky",
+        "cleaned",
+        "thick",
+        "alignment"
+      ]
+    },
+    {
+      "word": "Exercise ball",
+      "hints": [
+        "bounced",
+        "pumped",
+        "burst",
+        "stability",
+        "desk"
+      ]
+    },
+    {
+      "word": "Resistance band",
+      "hints": [
+        "stretched",
+        "snapped",
+        "looped",
+        "levels",
+        "portable"
+      ]
+    },
+    {
+      "word": "Dumbbell",
+      "hints": [
+        "lifted",
+        "racked",
+        "adjustable",
+        "dropped",
+        "pairs"
+      ]
+    },
+    {
+      "word": "Kettlebell",
+      "hints": [
+        "swung",
+        "heavy",
+        "handle",
+        "cast",
+        "dropped"
+      ]
+    },
+    {
+      "word": "Jump rope",
+      "hints": [
+        "skipped",
+        "tangled",
+        "weighted",
+        "cardio",
+        "adjusted"
+      ]
+    },
+    {
+      "word": "Foam roller",
+      "hints": [
+        "rolled",
+        "painful",
+        "trigger",
+        "recovery",
+        "dense"
+      ]
+    },
+    {
+      "word": "Tennis ball",
+      "hints": [
+        "bounced",
+        "fuzzy",
+        "can",
+        "dog",
+        "pressure"
+      ]
+    },
+    {
+      "word": "Basketball",
+      "hints": [
+        "bounced",
+        "pumped",
+        "dribbled",
+        "leather",
+        "orange"
+      ]
+    },
+    {
+      "word": "Football",
+      "hints": [
+        "thrown",
+        "spiral",
+        "laces",
+        "pigskin",
+        "deflated"
+      ]
+    },
+    {
+      "word": "Soccer ball",
+      "hints": [
+        "kicked",
+        "pumped",
+        "panels",
+        "headed",
+        "goal"
+      ]
+    },
+    {
+      "word": "Baseball",
+      "hints": [
+        "thrown",
+        "caught",
+        "stitched",
+        "signed",
+        "mitt"
+      ]
+    },
+    {
+      "word": "Golf ball",
+      "hints": [
+        "dimpled",
+        "lost",
+        "sleeve",
+        "teed",
+        "slice"
+      ]
+    },
+    {
+      "word": "Volleyball",
+      "hints": [
+        "bumped",
+        "set",
+        "spiked",
+        "beach",
+        "net"
+      ]
+    },
+    {
+      "word": "Frisbee",
+      "hints": [
+        "thrown",
+        "caught",
+        "disc",
+        "park",
+        "dog"
+      ]
+    },
+    {
+      "word": "Kite",
+      "hints": [
+        "flown",
+        "tangled",
+        "wind",
+        "string",
+        "crashed"
+      ]
+    },
+    {
+      "word": "Yo-yo",
+      "hints": [
+        "spun",
+        "tangled",
+        "tricks",
+        "string",
+        "sleep"
+      ]
+    },
+    {
+      "word": "Rubiks cube",
+      "hints": [
+        "scrambled",
+        "solved",
+        "twisted",
+        "timed",
+        "frustrating"
+      ]
+    },
+    {
+      "word": "Puzzle",
+      "hints": [
+        "assembled",
+        "missing",
+        "edge",
+        "sorted",
+        "framed"
+      ]
+    },
+    {
+      "word": "Board game",
+      "hints": [
+        "setup",
+        "pieces",
+        "rules",
+        "winner",
+        "family"
+      ]
+    },
+    {
+      "word": "Playing cards",
+      "hints": [
+        "shuffled",
+        "dealt",
+        "deck",
+        "bent",
+        "trick"
+      ]
+    },
+    {
+      "word": "Dice",
+      "hints": [
+        "rolled",
+        "loaded",
+        "pair",
+        "lucky",
+        "cup"
+      ]
+    },
+    {
+      "word": "Chess set",
+      "hints": [
+        "setup",
+        "captured",
+        "checkmate",
+        "timer",
+        "carved"
+      ]
+    },
+    {
+      "word": "Checkers",
+      "hints": [
+        "jumped",
+        "kinged",
+        "stacked",
+        "board",
+        "red"
+      ]
+    },
+    {
+      "word": "Dominoes",
+      "hints": [
+        "toppled",
+        "matched",
+        "dots",
+        "line",
+        "set"
+      ]
+    },
+    {
+      "word": "Jigsaw",
+      "hints": [
+        "sorted",
+        "corner",
+        "edge",
+        "missing",
+        "glued"
+      ]
+    },
+    {
+      "word": "Lego",
+      "hints": [
+        "stepped",
+        "built",
+        "instructions",
+        "sorted",
+        "snapped"
+      ]
+    },
+    {
+      "word": "Action figure",
+      "hints": [
+        "posed",
+        "collected",
+        "articulated",
+        "mint",
+        "displayed"
+      ]
+    },
+    {
+      "word": "Doll",
+      "hints": [
+        "dressed",
+        "brushed",
+        "collected",
+        "vintage",
+        "accessories"
+      ]
+    },
+    {
+      "word": "Stuffed animal",
+      "hints": [
+        "hugged",
+        "worn",
+        "washed",
+        "favorite",
+        "named"
+      ]
+    },
+    {
+      "word": "Teddy bear",
+      "hints": [
+        "hugged",
+        "worn",
+        "gifted",
+        "childhood",
+        "mended"
+      ]
+    },
+    {
+      "word": "Puppet",
+      "hints": [
+        "animated",
+        "hand",
+        "string",
+        "show",
+        "voiced"
+      ]
+    },
+    {
+      "word": "Marionette",
+      "hints": [
+        "strings",
+        "tangled",
+        "controlled",
+        "wooden",
+        "performance"
+      ]
+    },
+    {
+      "word": "Magic set",
+      "hints": [
+        "practiced",
+        "trick",
+        "reveal",
+        "assistant",
+        "props"
+      ]
+    },
+    {
+      "word": "Chemistry set",
+      "hints": [
+        "mixed",
+        "bubbled",
+        "safety",
+        "experiment",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Microscope kit",
+      "hints": [
+        "slides",
+        "focused",
+        "samples",
+        "educational",
+        "magnified"
+      ]
+    },
+    {
+      "word": "Model kit",
+      "hints": [
+        "assembled",
+        "glued",
+        "painted",
+        "instructions",
+        "decals"
+      ]
+    },
+    {
+      "word": "Train set",
+      "hints": [
+        "circled",
+        "track",
+        "derailed",
+        "whistle",
+        "layout"
+      ]
+    },
+    {
+      "word": "Slot car",
+      "hints": [
+        "raced",
+        "track",
+        "crashed",
+        "controller",
+        "lane"
+      ]
+    },
+    {
+      "word": "RC car",
+      "hints": [
+        "controlled",
+        "crashed",
+        "powered",
+        "antenna",
+        "terrain"
+      ]
+    },
+    {
+      "word": "Drone",
+      "hints": [
+        "flown",
+        "crashed",
+        "powered",
+        "camera",
+        "registered"
+      ]
+    },
+    {
+      "word": "Video game",
+      "hints": [
+        "played",
+        "paused",
+        "saved",
+        "downloaded",
+        "controller"
+      ]
+    },
+    {
+      "word": "Controller",
+      "hints": [
+        "gripped",
+        "wireless",
+        "charged",
+        "buttons",
+        "vibrate"
+      ]
+    },
+    {
+      "word": "Console",
+      "hints": [
+        "connected",
+        "updated",
+        "overheated",
+        "generation",
+        "exclusive"
+      ]
+    },
+    {
+      "word": "Joystick",
+      "hints": [
+        "gripped",
+        "calibrated",
+        "flight",
+        "arcade",
+        "buttons"
+      ]
+    },
+    {
+      "word": "VR headset",
+      "hints": [
+        "strapped",
+        "adjusted",
+        "motion",
+        "immersive",
+        "nausea"
+      ]
+    },
+    {
+      "word": "Gaming chair",
+      "hints": [
+        "reclined",
+        "lumbar",
+        "RGB",
+        "racing",
+        "armrests"
+      ]
+    },
+    {
+      "word": "Desk mat",
+      "hints": [
+        "covered",
+        "mousepad",
+        "extended",
+        "RGB",
+        "stitched"
+      ]
+    },
+    {
+      "word": "Monitor arm",
+      "hints": [
+        "mounted",
+        "adjusted",
+        "clamped",
+        "dual",
+        "ergonomic"
+      ]
+    },
+    {
+      "word": "Webcam",
+      "hints": [
+        "mounted",
+        "privacy",
+        "cover",
+        "angle",
+        "streaming"
+      ]
+    },
+    {
+      "word": "Ring light",
+      "hints": [
+        "mounted",
+        "dimmed",
+        "selfie",
+        "tripod",
+        "streaming"
+      ]
+    },
+    {
+      "word": "Tripod",
+      "hints": [
+        "extended",
+        "leveled",
+        "collapsed",
+        "legs",
+        "head"
+      ]
+    },
+    {
+      "word": "Selfie stick",
+      "hints": [
+        "extended",
+        "bluetooth",
+        "awkward",
+        "tourist",
+        "collapsed"
+      ]
+    },
+    {
+      "word": "Gimbal",
+      "hints": [
+        "balanced",
+        "stabilized",
+        "modes",
+        "calibrated",
+        "smooth"
+      ]
+    },
+    {
+      "word": "Memory card",
+      "hints": [
+        "inserted",
+        "formatted",
+        "full",
+        "corrupted",
+        "speed"
+      ]
+    },
+    {
+      "word": "USB drive",
+      "hints": [
+        "inserted",
+        "lost",
+        "formatted",
+        "capacity",
+        "lanyard"
+      ]
+    },
+    {
+      "word": "External hard drive",
+      "hints": [
+        "backed",
+        "ejected",
+        "portable",
+        "encrypted",
+        "failed"
+      ]
+    },
+    {
+      "word": "Router",
+      "hints": [
+        "reset",
+        "blflowing",
+        "password",
+        "signal",
+        "firmware"
+      ]
+    },
+    {
+      "word": "Modem",
+      "hints": [
+        "reset",
+        "blflowing",
+        "rented",
+        "combo",
+        "lights"
+      ]
+    },
+    {
+      "word": "Ethernet cable",
+      "hints": [
+        "plugged",
+        "run",
+        "crimped",
+        "cat6",
+        "length"
+      ]
+    },
+    {
+      "word": "Surge protector",
+      "hints": [
+        "plugged",
+        "indicator",
+        "joules",
+        "reset",
+        "full"
+      ]
+    },
+    {
+      "word": "UPS",
+      "hints": [
+        "beeped",
+        "powered",
+        "backup",
+        "runtime",
+        "replaced"
+      ]
+    },
+    {
+      "word": "Smart plug",
+      "hints": [
+        "programmed",
+        "voice",
+        "app",
+        "timer",
+        "energy"
+      ]
+    },
+    {
+      "word": "Smart bulb",
+      "hints": [
+        "programmed",
+        "color",
+        "dimmed",
+        "voice",
+        "app"
+      ]
+    },
+    {
+      "word": "Smart speaker",
+      "hints": [
+        "activated",
+        "privacy",
+        "routine",
+        "timer",
+        "music"
+      ]
+    },
+    {
+      "word": "Doorbell camera",
+      "hints": [
+        "rang",
+        "motion",
+        "cloud",
+        "two-way",
+        "package"
+      ]
+    },
+    {
+      "word": "Security camera",
+      "hints": [
+        "mounted",
+        "motion",
+        "cloud",
+        "night",
+        "footage"
+      ]
+    },
+    {
+      "word": "Baby monitor",
+      "hints": [
+        "static",
+        "range",
+        "video",
+        "night",
+        "portable"
+      ]
+    },
+    {
+      "word": "Walkie talkie",
+      "hints": [
+        "static",
+        "channel",
+        "range",
+        "over",
+        "powered"
+      ]
+    },
+    {
+      "word": "Two-way radio",
+      "hints": [
+        "channel",
+        "static",
+        "charged",
+        "range",
+        "clip"
+      ]
+    },
+    {
+      "word": "Megaphone",
+      "hints": [
+        "amplified",
+        "feedback",
+        "batteries",
+        "siren",
+        "crowd"
+      ]
+    },
+    {
+      "word": "Bullhorn",
+      "hints": [
+        "amplified",
+        "rally",
+        "batteries",
+        "trigger",
+        "loud"
+      ]
+    },
+    {
+      "word": "Whistle",
+      "hints": [
+        "blown",
+        "lanyard",
+        "coach",
+        "emergency",
+        "shrill"
+      ]
+    },
+    {
+      "word": "Stopwatch",
+      "hints": [
+        "clicked",
+        "lap",
+        "split",
+        "lanyard",
+        "digital"
+      ]
+    },
+    {
+      "word": "Timer",
+      "hints": [
+        "set",
+        "beeped",
+        "countdown",
+        "kitchen",
+        "magnetic"
+      ]
+    },
+    {
+      "word": "Hourglass",
+      "hints": [
+        "flipped",
+        "sand",
+        "timed",
+        "decorative",
+        "game"
+      ]
+    },
+    {
+      "word": "Metronome",
+      "hints": [
+        "ticked",
+        "tempo",
+        "mechanical",
+        "practice",
+        "digital"
+      ]
+    },
+    {
+      "word": "Tuner",
+      "hints": [
+        "clipped",
+        "calibrated",
+        "chromatic",
+        "clip-on",
+        "pitch"
+      ]
+    },
+    {
+      "word": "Capo",
+      "hints": [
+        "clamped",
+        "transposed",
+        "fret",
+        "spring",
+        "partial"
+      ]
+    },
+    {
+      "word": "Guitar pick",
+      "hints": [
+        "lost",
+        "thickness",
+        "grip",
+        "strummed",
+        "collection"
+      ]
+    },
+    {
+      "word": "Drumsticks",
+      "hints": [
+        "matched",
+        "broken",
+        "grip",
+        "weight",
+        "tips"
+      ]
+    },
+    {
+      "word": "Sheet music",
+      "hints": [
+        "turned",
+        "marked",
+        "stand",
+        "photocopied",
+        "difficult"
+      ]
+    },
+    {
+      "word": "Music stand",
+      "hints": [
+        "adjusted",
+        "collapsed",
+        "wobbly",
+        "portable",
+        "weighted"
+      ]
+    },
+    {
+      "word": "Instrument case",
+      "hints": [
+        "latched",
+        "padded",
+        "stickered",
+        "hard",
+        "gig"
+      ]
+    },
+    {
+      "word": "Whisk",
+      "hints": [
+        "stirred",
+        "balloon",
+        "roux",
+        "batter",
+        "manual"
+      ]
+    },
+    {
+      "word": "Colander",
+      "hints": [
+        "drained",
+        "rinsed",
+        "holes",
+        "pasta",
+        "shaken"
+      ]
+    },
+    {
+      "word": "Grater",
+      "hints": [
+        "shredded",
+        "knuckles",
+        "box",
+        "zested",
+        "microplane"
+      ]
+    },
+    {
+      "word": "Peeler",
+      "hints": [
+        "stripped",
+        "ribbon",
+        "julienne",
+        "vegetable",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Ladle",
+      "hints": [
+        "scooped",
+        "dripped",
+        "hung",
+        "soup",
+        "portion"
+      ]
+    },
+    {
+      "word": "Spatula",
+      "hints": [
+        "flipped",
+        "scraped",
+        "silicone",
+        "offset",
+        "flexible"
+      ]
+    },
+    {
+      "word": "Tongs",
+      "hints": [
+        "gripped",
+        "clicked",
+        "served",
+        "locked",
+        "spring"
+      ]
+    },
+    {
+      "word": "Corkscrew",
+      "hints": [
+        "twisted",
+        "pulled",
+        "waiter",
+        "lever",
+        "foil"
+      ]
+    },
+    {
+      "word": "Bottle opener",
+      "hints": [
+        "popped",
+        "cap",
+        "mounted",
+        "keychain",
+        "church"
+      ]
+    },
+    {
+      "word": "Can opener",
+      "hints": [
+        "turned",
+        "manual",
+        "electric",
+        "edge",
+        "safety"
+      ]
+    },
+    {
+      "word": "Garlic press",
+      "hints": [
+        "squeezed",
+        "crushed",
+        "cleaned",
+        "minced",
+        "difficult"
+      ]
+    },
+    {
+      "word": "Meat tenderizer",
+      "hints": [
+        "pounded",
+        "textured",
+        "mallet",
+        "flat",
+        "sharp"
+      ]
+    },
+    {
+      "word": "Rolling pin",
+      "hints": [
+        "rolled",
+        "flour",
+        "wooden",
+        "marble",
+        "handles"
+      ]
+    },
+    {
+      "word": "Pastry brush",
+      "hints": [
+        "dabbed",
+        "egg",
+        "silicone",
+        "butter",
+        "glaze"
+      ]
+    },
+    {
+      "word": "Basting brush",
+      "hints": [
+        "coated",
+        "marinade",
+        "silicone",
+        "grill",
+        "dripped"
+      ]
+    },
+    {
+      "word": "Meat thermometer",
+      "hints": [
+        "inserted",
+        "instant",
+        "probe",
+        "wireless",
+        "done"
+      ]
+    },
+    {
+      "word": "Kitchen scale",
+      "hints": [
+        "zeroed",
+        "grams",
+        "tared",
+        "digital",
+        "precision"
+      ]
+    },
+    {
+      "word": "Measuring cup",
+      "hints": [
+        "leveled",
+        "poured",
+        "liquid",
+        "nested",
+        "pyrex"
+      ]
+    },
+    {
+      "word": "Measuring spoon",
+      "hints": [
+        "leveled",
+        "nested",
+        "set",
+        "tablespoon",
+        "magnetic"
+      ]
+    },
+    {
+      "word": "Mixing bowl",
+      "hints": [
+        "nested",
+        "poured",
+        "nonslip",
+        "stainless",
+        "set"
+      ]
+    },
+    {
+      "word": "Cutting board",
+      "hints": [
+        "scored",
+        "sanitized",
+        "warped",
+        "wood",
+        "juice"
+      ]
+    },
+    {
+      "word": "Trivet",
+      "hints": [
+        "placed",
+        "hot",
+        "cork",
+        "silicone",
+        "protected"
+      ]
+    },
+    {
+      "word": "Pot holder",
+      "hints": [
+        "grabbed",
+        "singed",
+        "quilted",
+        "silicone",
+        "hung"
+      ]
+    },
+    {
+      "word": "Oven mitt",
+      "hints": [
+        "grabbed",
+        "singed",
+        "long",
+        "silicone",
+        "pair"
+      ]
+    },
+    {
+      "word": "Apron",
+      "hints": [
+        "tied",
+        "stained",
+        "pocket",
+        "chef",
+        "hung"
+      ]
+    },
+    {
+      "word": "Ice cube tray",
+      "hints": [
+        "filled",
+        "twisted",
+        "silicone",
+        "shapes",
+        "frozen"
+      ]
+    },
+    {
+      "word": "Ice cream scoop",
+      "hints": [
+        "dipped",
+        "release",
+        "spring",
+        "portion",
+        "heated"
+      ]
+    },
+    {
+      "word": "Pizza cutter",
+      "hints": [
+        "rolled",
+        "rotated",
+        "rocker",
+        "sharp",
+        "sliced"
+      ]
+    },
+    {
+      "word": "Cheese slicer",
+      "hints": [
+        "pulled",
+        "wire",
+        "plane",
+        "even",
+        "adjustable"
+      ]
+    },
+    {
+      "word": "Egg slicer",
+      "hints": [
+        "pressed",
+        "wires",
+        "mushroom",
+        "even",
+        "hinged"
+      ]
+    },
+    {
+      "word": "Apple corer",
+      "hints": [
+        "pushed",
+        "twisted",
+        "seeds",
+        "slices",
+        "wedger"
+      ]
+    },
+    {
+      "word": "Citrus juicer",
+      "hints": [
+        "pressed",
+        "reamer",
+        "pulp",
+        "strainer",
+        "manual"
+      ]
+    },
+    {
+      "word": "Salad spinner",
+      "hints": [
+        "spun",
+        "dried",
+        "pump",
+        "basket",
+        "greens"
+      ]
+    },
+    {
+      "word": "Mortar pestle",
+      "hints": [
+        "ground",
+        "crushed",
+        "granite",
+        "paste",
+        "spices"
+      ]
+    },
+    {
+      "word": "Mandoline",
+      "hints": [
+        "sliced",
+        "guard",
+        "thin",
+        "dangerous",
+        "adjusted"
+      ]
+    },
+    {
+      "word": "Food processor",
+      "hints": [
+        "pulsed",
+        "sharp",
+        "bowl",
+        "shredded",
+        "lid"
+      ]
+    },
+    {
+      "word": "Immersion blender",
+      "hints": [
+        "blended",
+        "submerged",
+        "splattered",
+        "cord",
+        "stick"
+      ]
+    },
+    {
+      "word": "Electric kettle",
+      "hints": [
+        "boiled",
+        "clicked",
+        "automatic",
+        "cord",
+        "fast"
+      ]
+    },
+    {
+      "word": "Rice cooker",
+      "hints": [
+        "steamed",
+        "warm",
+        "ratio",
+        "automatic",
+        "fuzzy"
+      ]
+    },
+    {
+      "word": "Slow cooker",
+      "hints": [
+        "simmered",
+        "timer",
+        "low",
+        "liner",
+        "set"
+      ]
+    },
+    {
+      "word": "Pressure cooker",
+      "hints": [
+        "sealed",
+        "vented",
+        "locked",
+        "fast",
+        "release"
+      ]
+    },
+    {
+      "word": "Air fryer",
+      "hints": [
+        "crisped",
+        "basket",
+        "preheated",
+        "timer",
+        "oil-free"
+      ]
+    },
+    {
+      "word": "Waffle iron",
+      "hints": [
+        "closed",
+        "indicator",
+        "belgian",
+        "batter",
+        "nonstick"
+      ]
+    },
+    {
+      "word": "Panini press",
+      "hints": [
+        "pressed",
+        "grill",
+        "marks",
+        "hinged",
+        "weighted"
+      ]
+    },
+    {
+      "word": "Griddle",
+      "hints": [
+        "heated",
+        "flat",
+        "pancakes",
+        "nonstick",
+        "grease"
+      ]
+    },
+    {
+      "word": "Wok",
+      "hints": [
+        "tossed",
+        "seasoned",
+        "high",
+        "carbon",
+        "round"
+      ]
+    },
+    {
+      "word": "Dutch oven",
+      "hints": [
+        "braised",
+        "heavy",
+        "enameled",
+        "lid",
+        "campfire"
+      ]
+    },
+    {
+      "word": "Cast iron skillet",
+      "hints": [
+        "seasoned",
+        "heavy",
+        "seared",
+        "handle",
+        "restored"
+      ]
+    },
+    {
+      "word": "Baking sheet",
+      "hints": [
+        "lined",
+        "warped",
+        "rimmed",
+        "rotated",
+        "sheet"
+      ]
+    },
+    {
+      "word": "Muffin tin",
+      "hints": [
+        "filled",
+        "liners",
+        "nonstick",
+        "popped",
+        "mini"
+      ]
+    },
+    {
+      "word": "Cake pan",
+      "hints": [
+        "greased",
+        "springform",
+        "layer",
+        "bundt",
+        "released"
+      ]
+    },
+    {
+      "word": "Loaf pan",
+      "hints": [
+        "greased",
+        "bread",
+        "meatloaf",
+        "nonstick",
+        "pullman"
+      ]
+    },
+    {
+      "word": "Pie dish",
+      "hints": [
+        "crimped",
+        "deep",
+        "glass",
+        "ceramic",
+        "vented"
+      ]
+    },
+    {
+      "word": "Casserole dish",
+      "hints": [
+        "covered",
+        "baked",
+        "ceramic",
+        "handled",
+        "serving"
+      ]
+    },
+    {
+      "word": "Ramekin",
+      "hints": [
+        "filled",
+        "individual",
+        "souffle",
+        "ceramic",
+        "oven"
+      ]
+    },
+    {
+      "word": "Cooling rack",
+      "hints": [
+        "elevated",
+        "wire",
+        "stacked",
+        "airflow",
+        "glazed"
+      ]
+    },
+    {
+      "word": "Piping bag",
+      "hints": [
+        "filled",
+        "squeezed",
+        "tip",
+        "disposable",
+        "frosting"
+      ]
+    },
+    {
+      "word": "Cookie cutter",
+      "hints": [
+        "pressed",
+        "shapes",
+        "holiday",
+        "dusted",
+        "set"
+      ]
+    },
+    {
+      "word": "Pastry cutter",
+      "hints": [
+        "cut",
+        "sharps",
+        "butter",
+        "crumbly",
+        "biscuit"
+      ]
+    },
+    {
+      "word": "Dough scraper",
+      "hints": [
+        "divided",
+        "bench",
+        "lifted",
+        "metal",
+        "plastic"
+      ]
+    },
+    {
+      "word": "Sifter",
+      "hints": [
+        "shaken",
+        "aerated",
+        "flour",
+        "crank",
+        "fine"
+      ]
+    },
+    {
+      "word": "Flour sack towel",
+      "hints": [
+        "covered",
+        "strained",
+        "lint-free",
+        "absorbent",
+        "bread"
+      ]
+    },
+    {
+      "word": "Cheesecloth",
+      "hints": [
+        "strained",
+        "wrapped",
+        "layers",
+        "bouquet",
+        "squeezed"
+      ]
+    },
+    {
+      "word": "Parchment paper",
+      "hints": [
+        "lined",
+        "nonstick",
+        "cut",
+        "roll",
+        "reused"
+      ]
+    },
+    {
+      "word": "Aluminum foil",
+      "hints": [
+        "wrapped",
+        "tented",
+        "torn",
+        "shiny",
+        "recycled"
+      ]
+    },
+    {
+      "word": "Plastic wrap",
+      "hints": [
+        "stretched",
+        "clung",
+        "sealed",
+        "microwave",
+        "box"
+      ]
+    },
+    {
+      "word": "Wax paper",
+      "hints": [
+        "lined",
+        "wrapped",
+        "nonstick",
+        "candy",
+        "roll"
+      ]
+    },
+    {
+      "word": "Ziploc bag",
+      "hints": [
+        "sealed",
+        "labeled",
+        "freezer",
+        "marinated",
+        "reused"
+      ]
+    },
+    {
+      "word": "Food container",
+      "hints": [
+        "stacked",
+        "lid",
+        "matched",
+        "microwave",
+        "leaked"
+      ]
+    },
+    {
+      "word": "Lunch box",
+      "hints": [
+        "packed",
+        "insulated",
+        "compartments",
+        "ice",
+        "thermos"
+      ]
+    },
+    {
+      "word": "Thermos",
+      "hints": [
+        "insulated",
+        "poured",
+        "hot",
+        "vacuum",
+        "cap"
+      ]
+    },
+    {
+      "word": "Water bottle",
+      "hints": [
+        "refilled",
+        "insulated",
+        "straw",
+        "cap",
+        "squeezed"
+      ]
+    },
+    {
+      "word": "Travel mug",
+      "hints": [
+        "insulated",
+        "spilled",
+        "lid",
+        "car",
+        "leak-proof"
+      ]
+    },
+    {
+      "word": "Wine glass",
+      "hints": [
+        "swirled",
+        "stemless",
+        "clflowed",
+        "polished",
+        "fragile"
+      ]
+    },
+    {
+      "word": "Beer mug",
+      "hints": [
+        "frosted",
+        "handle",
+        "heavy",
+        "pint",
+        "stein"
+      ]
+    },
+    {
+      "word": "Shot glass",
+      "hints": [
+        "poured",
+        "lined",
+        "souvenir",
+        "measured",
+        "slammed"
+      ]
+    },
+    {
+      "word": "Champagne flute",
+      "hints": [
+        "clflowed",
+        "bubbles",
+        "tall",
+        "toast",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Decanter",
+      "hints": [
+        "poured",
+        "aerated",
+        "crystal",
+        "stopper",
+        "sediment"
+      ]
+    },
+    {
+      "word": "Carafe",
+      "hints": [
+        "poured",
+        "thermal",
+        "water",
+        "table",
+        "refilled"
+      ]
+    },
+    {
+      "word": "Pitcher",
+      "hints": [
+        "poured",
+        "iced",
+        "handle",
+        "lemonade",
+        "condensation"
+      ]
+    },
+    {
+      "word": "Gravy boat",
+      "hints": [
+        "poured",
+        "ladle",
+        "holiday",
+        "ceramic",
+        "matching"
+      ]
+    },
+    {
+      "word": "Sugar bowl",
+      "hints": [
+        "spooned",
+        "lid",
+        "cubed",
+        "matching",
+        "creamer"
+      ]
+    },
+    {
+      "word": "Creamer",
+      "hints": [
+        "poured",
+        "small",
+        "matching",
+        "porcelain",
+        "handle"
+      ]
+    },
+    {
+      "word": "Salt shaker",
+      "hints": [
+        "shaken",
+        "clogged",
+        "rice",
+        "matched",
+        "pepper"
+      ]
+    },
+    {
+      "word": "Pepper mill",
+      "hints": [
+        "ground",
+        "adjusted",
+        "wooden",
+        "refilled",
+        "fresh"
+      ]
+    },
+    {
+      "word": "Napkin holder",
+      "hints": [
+        "refilled",
+        "weighted",
+        "chrome",
+        "dispenser",
+        "table"
+      ]
+    },
+    {
+      "word": "Napkin ring",
+      "hints": [
+        "slipped",
+        "set",
+        "formal",
+        "monogram",
+        "holiday"
+      ]
+    },
+    {
+      "word": "Place mat",
+      "hints": [
+        "wiped",
+        "set",
+        "woven",
+        "silicone",
+        "stained"
+      ]
+    },
+    {
+      "word": "Coaster",
+      "hints": [
+        "placed",
+        "absorbent",
+        "cork",
+        "condensation",
+        "set"
+      ]
+    },
+    {
+      "word": "Serving tray",
+      "hints": [
+        "carried",
+        "balanced",
+        "handles",
+        "butler",
+        "ottoman"
+      ]
+    },
+    {
+      "word": "Cake stand",
+      "hints": [
+        "displayed",
+        "domed",
+        "pedestal",
+        "rotated",
+        "glass"
+      ]
+    },
+    {
+      "word": "Lazy Susan",
+      "hints": [
+        "spun",
+        "condiments",
+        "cabinet",
+        "bamboo",
+        "organized"
+      ]
+    },
+    {
+      "word": "Spice rack",
+      "hints": [
+        "organized",
+        "mounted",
+        "rotating",
+        "labeled",
+        "alphabetical"
+      ]
+    },
+    {
+      "word": "Knife block",
+      "hints": [
+        "stored",
+        "slots",
+        "magnetic",
+        "bamboo",
+        "countertop"
+      ]
+    },
+    {
+      "word": "Utensil holder",
+      "hints": [
+        "organized",
+        "ceramic",
+        "countertop",
+        "crock",
+        "cluttered"
+      ]
+    },
+    {
+      "word": "Paper towel holder",
+      "hints": [
+        "mounted",
+        "stood",
+        "refilled",
+        "under-cabinet",
+        "spring"
+      ]
+    },
+    {
+      "word": "Dish rack",
+      "hints": [
+        "dripped",
+        "organized",
+        "over-sflow",
+        "mat",
+        "loaded"
+      ]
+    },
+    {
+      "word": "Dish soap",
+      "hints": [
+        "squeezed",
+        "diluted",
+        "refilled",
+        "pump",
+        "suds"
+      ]
+    },
+    {
+      "word": "Scrub brush",
+      "hints": [
+        "scrubbed",
+        "bristles",
+        "replaced",
+        "handle",
+        "pot"
+      ]
+    },
+    {
+      "word": "Sponge",
+      "hints": [
+        "squeezed",
+        "replaced",
+        "smelly",
+        "scrubby",
+        "sanitized"
+      ]
+    },
+    {
+      "word": "Steel wool",
+      "hints": [
+        "scrubbed",
+        "scratched",
+        "rust",
+        "burned",
+        "pad"
+      ]
+    },
+    {
+      "word": "Dish towel",
+      "hints": [
+        "dried",
+        "hung",
+        "damp",
+        "decorative",
+        "flour-sack"
+      ]
+    }
   ]
 }

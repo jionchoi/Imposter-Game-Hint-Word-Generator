@@ -1,59 +1,5545 @@
 {
   "category": "Places",
   "words": [
-    { "word": "Beach", "hints": ["relax", "waves", "escape", "sunshine", "water"] },
-    { "word": "Park", "hints": ["greenery", "walk", "nature", "leisure", "fresh air"] },
-    { "word": "Mountain", "hints": ["view", "elevation", "hike", "climb", "expansive"] },
-    { "word": "Library", "hints": ["quiet", "study", "books", "learning", "research"] },
-    { "word": "Restaurant", "hints": ["dine", "service", "meal", "gathering", "social"] },
-    { "word": "Hotel", "hints": ["stay", "comfort", "travel", "rest", "hospitality"] },
-    { "word": "Airport", "hints": ["travel", "boarding", "flight", "terminal", "security"] },
-    { "word": "Museum", "hints": ["history", "culture", "art", "exhibit", "display"] },
-    { "word": "Mall", "hints": ["shopping", "browse", "store", "indoor", "crowded"] },
-    { "word": "Gym", "hints": ["exercise", "strength", "workout", "fitness", "routine"] },
-    { "word": "School", "hints": ["learning", "study", "classroom", "teacher", "growth"] },
-    { "word": "Farm", "hints": ["crops", "animals", "harvest", "rural", "work"] },
-    { "word": "City", "hints": ["urban", "busy", "buildings", "commerce", "nightlife"] },
-    { "word": "Village", "hints": ["small", "community", "peaceful", "tight-knit", "rural"] },
-    { "word": "Forest", "hints": ["trees", "nature", "wildlife", "greenery", "quiet"] },
-    { "word": "Cemetery", "hints": ["rest", "reflection", "peace", "honor", "memory"] },
-    { "word": "Castle", "hints": ["history", "royalty", "fortress", "architecture", "stone"] },
-    { "word": "Cave", "hints": ["dark", "explore", "underground", "mystery", "rock"] },
-    { "word": "Zoo", "hints": ["animals", "wildlife", "learn", "exhibit", "conservation"] },
-    { "word": "Street", "hints": ["walk", "traffic", "sidewalk", "city", "commute"] },
-    { "word": "Bridge", "hints": ["connect", "cross", "structure", "travel", "passage"] },
-    { "word": "Theater", "hints": ["performance", "show", "stage", "audience", "entertainment"] },
-    { "word": "Stadium", "hints": ["game", "team", "crowd", "competition", "sports"] },
-    { "word": "Church", "hints": ["worship", "faith", "spiritual", "community", "peace"] },
-    { "word": "Hospital", "hints": ["care", "healing", "medicine", "nurses", "treatment"] },
-    { "word": "Prison", "hints": ["locked", "confinement", "detention", "security", "restricted"] },
-    { "word": "Swamp", "hints": ["wetlands", "mud", "water", "wildlife", "marsh"] },
-    { "word": "Desert", "hints": ["dry", "sand", "arid", "vast", "hot"] },
-    { "word": "Ski Resort", "hints": ["snow", "cold", "slopes", "mountain", "winter"] },
-    { "word": "Laboratory", "hints": ["experiment", "research", "discovery", "science", "study"] },
-    { "word": "Hut", "hints": ["small", "simple", "shelter", "wood", "rural"] },
-    { "word": "Tower", "hints": ["view", "elevation", "structure", "height", "observation"] },
-    { "word": "Airport", "hints": ["travel", "plane", "boarding", "luggage", "security"] },
-    { "word": "Market", "hints": ["shopping", "vendors", "buy", "exchange", "crowd"] },
-    { "word": "Ferry", "hints": ["water", "transport", "crossing", "boat", "journey"] },
-    { "word": "Beach", "hints": ["waves", "sand", "relax", "sunshine", "coast"] },
-    { "word": "Lighthouse", "hints": ["guidance", "coast", "ocean", "beacon", "light"] },
-    { "word": "Park", "hints": ["greenery", "relax", "walk", "play", "nature"] },
-    { "word": "Cottage", "hints": ["rural", "getaway", "vacation", "wood", "cozy"] },
-    { "word": "Cafe", "hints": ["coffee", "small", "relax", "meet", "social"] },
-    { "word": "Factory", "hints": ["manufacture", "production", "work", "machines", "industry"] },
-    { "word": "Shop", "hints": ["buy", "goods", "products", "small", "local"] },
-    { "word": "Bridge", "hints": ["cross", "connect", "structure", "pathway", "travel"] },
-    { "word": "Mountain", "hints": ["climb", "view", "peak", "elevation", "hike"] },
-    { "word": "Island", "hints": ["coast", "ocean", "separate", "remote", "escape"] },
-    { "word": "Room", "hints": ["space", "indoor", "private", "close", "personal"] },
-    { "word": "Studio", "hints": ["art", "creative", "space", "work", "design"] },
-    { "word": "Garage", "hints": ["car", "tools", "work", "repair", "storage"] },
-    { "word": "Classroom", "hints": ["learning", "study", "teacher", "desk", "students"] },
-    { "word": "Beach", "hints": ["water", "sand", "waves", "relax", "escape"] },
-    { "word": "Room", "hints": ["space", "privacy", "personal", "comfort", "indoor"] },
-    { "word": "Ranch", "hints": ["land", "farm", "animals", "open", "rural"] },
-    { "word": "Theater", "hints": ["performance", "stage", "audience", "entertainment", "show"] },
-    { "word": "Jungle", "hints": ["wildlife", "dense", "tropical", "explore", "greenery"] }
+    {
+      "word": "Beach",
+      "hints": [
+        "towel",
+        "sunscreen",
+        "waves",
+        "sandals",
+        "umbrella"
+      ]
+    },
+    {
+      "word": "Park",
+      "hints": [
+        "bench",
+        "stroll",
+        "picnic",
+        "joggers",
+        "leash"
+      ]
+    },
+    {
+      "word": "Mountain",
+      "hints": [
+        "summit",
+        "trail",
+        "altitude",
+        "breathless",
+        "vista"
+      ]
+    },
+    {
+      "word": "Library",
+      "hints": [
+        "whisper",
+        "checkout",
+        "overdue",
+        "stacks",
+        "card"
+      ]
+    },
+    {
+      "word": "Restaurant",
+      "hints": [
+        "reservation",
+        "seated",
+        "menu",
+        "tip",
+        "check"
+      ]
+    },
+    {
+      "word": "Hotel",
+      "hints": [
+        "checkout",
+        "keycard",
+        "lobby",
+        "housekeeping",
+        "concierge"
+      ]
+    },
+    {
+      "word": "Airport",
+      "hints": [
+        "boarding",
+        "delayed",
+        "gate",
+        "security",
+        "luggage"
+      ]
+    },
+    {
+      "word": "Museum",
+      "hints": [
+        "guided",
+        "exhibit",
+        "donated",
+        "velvet",
+        "audio"
+      ]
+    },
+    {
+      "word": "Mall",
+      "hints": [
+        "escalator",
+        "food court",
+        "bags",
+        "directory",
+        "anchor"
+      ]
+    },
+    {
+      "word": "Gym",
+      "hints": [
+        "membership",
+        "locker",
+        "reps",
+        "spotter",
+        "towel"
+      ]
+    },
+    {
+      "word": "School",
+      "hints": [
+        "bell",
+        "locker",
+        "homework",
+        "recess",
+        "attendance"
+      ]
+    },
+    {
+      "word": "Farm",
+      "hints": [
+        "harvest",
+        "tractor",
+        "barn",
+        "feed",
+        "sunrise"
+      ]
+    },
+    {
+      "word": "City",
+      "hints": [
+        "skyline",
+        "traffic",
+        "subway",
+        "crowds",
+        "sirens"
+      ]
+    },
+    {
+      "word": "Village",
+      "hints": [
+        "square",
+        "well",
+        "elders",
+        "gossip",
+        "cobblestone"
+      ]
+    },
+    {
+      "word": "Forest",
+      "hints": [
+        "trail",
+        "canopy",
+        "rustle",
+        "compass",
+        "clearing"
+      ]
+    },
+    {
+      "word": "Cemetery",
+      "hints": [
+        "headstone",
+        "flowers",
+        "quiet",
+        "rows",
+        "visit"
+      ]
+    },
+    {
+      "word": "Castle",
+      "hints": [
+        "moat",
+        "turret",
+        "throne",
+        "dungeon",
+        "drawbridge"
+      ]
+    },
+    {
+      "word": "Cave",
+      "hints": [
+        "headlamp",
+        "stalactite",
+        "echo",
+        "drip",
+        "spelunk"
+      ]
+    },
+    {
+      "word": "Zoo",
+      "hints": [
+        "enclosure",
+        "feeding",
+        "map",
+        "gift shop",
+        "keeper"
+      ]
+    },
+    {
+      "word": "Street",
+      "hints": [
+        "crosswalk",
+        "meter",
+        "curb",
+        "honking",
+        "jaywalking"
+      ]
+    },
+    {
+      "word": "Bridge",
+      "hints": [
+        "toll",
+        "span",
+        "cables",
+        "pedestrian",
+        "overlook"
+      ]
+    },
+    {
+      "word": "Theater",
+      "hints": [
+        "curtain",
+        "intermission",
+        "usher",
+        "program",
+        "ovation"
+      ]
+    },
+    {
+      "word": "Stadium",
+      "hints": [
+        "scoreboard",
+        "wave",
+        "vendors",
+        "seats",
+        "anthem"
+      ]
+    },
+    {
+      "word": "Church",
+      "hints": [
+        "pew",
+        "sermon",
+        "hymn",
+        "steeple",
+        "collection"
+      ]
+    },
+    {
+      "word": "Hospital",
+      "hints": [
+        "waiting",
+        "visiting",
+        "gown",
+        "discharge",
+        "cafeteria"
+      ]
+    },
+    {
+      "word": "Prison",
+      "hints": [
+        "visitation",
+        "yard",
+        "cell",
+        "count",
+        "commissary"
+      ]
+    },
+    {
+      "word": "Swamp",
+      "hints": [
+        "wading",
+        "mosquitos",
+        "murky",
+        "cypress",
+        "airboat"
+      ]
+    },
+    {
+      "word": "Desert",
+      "hints": [
+        "mirage",
+        "oasis",
+        "undulating",
+        "scorching",
+        "canteen"
+      ]
+    },
+    {
+      "word": "Laboratory",
+      "hints": [
+        "goggles",
+        "hypothesis",
+        "samples",
+        "sterile",
+        "pipette"
+      ]
+    },
+    {
+      "word": "Hut",
+      "hints": [
+        "thatched",
+        "doorway",
+        "earthen",
+        "smoke",
+        "shelter"
+      ]
+    },
+    {
+      "word": "Tower",
+      "hints": [
+        "stairs",
+        "observation",
+        "elevator",
+        "sway",
+        "deck"
+      ]
+    },
+    {
+      "word": "Market",
+      "hints": [
+        "haggle",
+        "stalls",
+        "produce",
+        "vendors",
+        "basket"
+      ]
+    },
+    {
+      "word": "Ferry",
+      "hints": [
+        "boarding",
+        "deck",
+        "crossing",
+        "wake",
+        "docking"
+      ]
+    },
+    {
+      "word": "Lighthouse",
+      "hints": [
+        "beacon",
+        "keeper",
+        "spiral",
+        "fog",
+        "rocky"
+      ]
+    },
+    {
+      "word": "Cottage",
+      "hints": [
+        "fireplace",
+        "getaway",
+        "quaint",
+        "garden",
+        "weekend"
+      ]
+    },
+    {
+      "word": "Cafe",
+      "hints": [
+        "espresso",
+        "pastry",
+        "laptop",
+        "sidewalk",
+        "barista"
+      ]
+    },
+    {
+      "word": "Factory",
+      "hints": [
+        "shift",
+        "assembly",
+        "whistle",
+        "machinery",
+        "floor"
+      ]
+    },
+    {
+      "word": "Shop",
+      "hints": [
+        "browse",
+        "register",
+        "receipt",
+        "bags",
+        "window"
+      ]
+    },
+    {
+      "word": "Island",
+      "hints": [
+        "ferry",
+        "isolated",
+        "shoreline",
+        "palm",
+        "stranded"
+      ]
+    },
+    {
+      "word": "Studio",
+      "hints": [
+        "easel",
+        "drafts",
+        "creative",
+        "loft",
+        "messy"
+      ]
+    },
+    {
+      "word": "Garage",
+      "hints": [
+        "oil",
+        "toolbox",
+        "lift",
+        "concrete",
+        "cluttered"
+      ]
+    },
+    {
+      "word": "Classroom",
+      "hints": [
+        "desks",
+        "chalkboard",
+        "raised",
+        "lecture",
+        "notes"
+      ]
+    },
+    {
+      "word": "Ranch",
+      "hints": [
+        "corral",
+        "saddle",
+        "fence",
+        "herd",
+        "dusty"
+      ]
+    },
+    {
+      "word": "Jungle",
+      "hints": [
+        "machete",
+        "vines",
+        "humid",
+        "canopy",
+        "expedition"
+      ]
+    },
+    {
+      "word": "Bakery",
+      "hints": [
+        "aroma",
+        "display",
+        "early",
+        "flour",
+        "number"
+      ]
+    },
+    {
+      "word": "Bank",
+      "hints": [
+        "teller",
+        "vault",
+        "deposit",
+        "line",
+        "slip"
+      ]
+    },
+    {
+      "word": "Pharmacy",
+      "hints": [
+        "prescription",
+        "counter",
+        "pickup",
+        "aisle",
+        "consult"
+      ]
+    },
+    {
+      "word": "Laundromat",
+      "hints": [
+        "quarters",
+        "folding",
+        "dryer",
+        "detergent",
+        "wait"
+      ]
+    },
+    {
+      "word": "Barbershop",
+      "hints": [
+        "chair",
+        "cape",
+        "clippers",
+        "waiting",
+        "magazine"
+      ]
+    },
+    {
+      "word": "Salon",
+      "hints": [
+        "appointment",
+        "chair",
+        "foils",
+        "cape",
+        "tips"
+      ]
+    },
+    {
+      "word": "Spa",
+      "hints": [
+        "robe",
+        "cucumber",
+        "steam",
+        "massage",
+        "tranquil"
+      ]
+    },
+    {
+      "word": "Dentist",
+      "hints": [
+        "chair",
+        "rinse",
+        "drill",
+        "x-ray",
+        "floss"
+      ]
+    },
+    {
+      "word": "Clinic",
+      "hints": [
+        "waiting",
+        "clipboard",
+        "copay",
+        "nurse",
+        "exam"
+      ]
+    },
+    {
+      "word": "Courthouse",
+      "hints": [
+        "metal detector",
+        "docket",
+        "oath",
+        "jury",
+        "gavel"
+      ]
+    },
+    {
+      "word": "Firehouse",
+      "hints": [
+        "pole",
+        "siren",
+        "bay",
+        "dalmatian",
+        "shift"
+      ]
+    },
+    {
+      "word": "Police station",
+      "hints": [
+        "desk",
+        "holding",
+        "report",
+        "badge",
+        "dispatch"
+      ]
+    },
+    {
+      "word": "Post office",
+      "hints": [
+        "stamps",
+        "line",
+        "package",
+        "certified",
+        "PO box"
+      ]
+    },
+    {
+      "word": "Embassy",
+      "hints": [
+        "visa",
+        "appointment",
+        "passport",
+        "security",
+        "flag"
+      ]
+    },
+    {
+      "word": "Consulate",
+      "hints": [
+        "documents",
+        "appointment",
+        "visa",
+        "notarized",
+        "queue"
+      ]
+    },
+    {
+      "word": "University",
+      "hints": [
+        "campus",
+        "tuition",
+        "dorm",
+        "lecture",
+        "quad"
+      ]
+    },
+    {
+      "word": "College",
+      "hints": [
+        "freshman",
+        "major",
+        "campus",
+        "finals",
+        "advisor"
+      ]
+    },
+    {
+      "word": "Kindergarten",
+      "hints": [
+        "nap",
+        "crayons",
+        "cubby",
+        "snack",
+        "circle"
+      ]
+    },
+    {
+      "word": "Daycare",
+      "hints": [
+        "pickup",
+        "dropoff",
+        "nap",
+        "snack",
+        "finger paint"
+      ]
+    },
+    {
+      "word": "Nursery",
+      "hints": [
+        "crib",
+        "mobile",
+        "rocking",
+        "monitor",
+        "lullaby"
+      ]
+    },
+    {
+      "word": "Playground",
+      "hints": [
+        "swing",
+        "slide",
+        "sandbox",
+        "monkey bars",
+        "woodchips"
+      ]
+    },
+    {
+      "word": "Arcade",
+      "hints": [
+        "tokens",
+        "joystick",
+        "highscore",
+        "prizes",
+        "flashing"
+      ]
+    },
+    {
+      "word": "Casino",
+      "hints": [
+        "chips",
+        "dealer",
+        "jackpot",
+        "floor",
+        "comped"
+      ]
+    },
+    {
+      "word": "Nightclub",
+      "hints": [
+        "bouncer",
+        "cover",
+        "VIP",
+        "strobe",
+        "bass"
+      ]
+    },
+    {
+      "word": "Bar",
+      "hints": [
+        "tab",
+        "stool",
+        "last call",
+        "bartender",
+        "poured"
+      ]
+    },
+    {
+      "word": "Pub",
+      "hints": [
+        "pint",
+        "dart",
+        "trivia",
+        "booth",
+        "regular"
+      ]
+    },
+    {
+      "word": "Brewery",
+      "hints": [
+        "tasting",
+        "flight",
+        "tour",
+        "tanks",
+        "growler"
+      ]
+    },
+    {
+      "word": "Winery",
+      "hints": [
+        "tasting",
+        "vineyard",
+        "barrel",
+        "tour",
+        "bottle"
+      ]
+    },
+    {
+      "word": "Distillery",
+      "hints": [
+        "tour",
+        "tasting",
+        "copper",
+        "aged",
+        "barrel"
+      ]
+    },
+    {
+      "word": "Concert hall",
+      "hints": [
+        "acoustics",
+        "balcony",
+        "encore",
+        "program",
+        "ovation"
+      ]
+    },
+    {
+      "word": "Opera house",
+      "hints": [
+        "box",
+        "aria",
+        "intermission",
+        "chandelier",
+        "formal"
+      ]
+    },
+    {
+      "word": "Amphitheater",
+      "hints": [
+        "lawn",
+        "outdoor",
+        "acoustic",
+        "blanket",
+        "sunset"
+      ]
+    },
+    {
+      "word": "Arena",
+      "hints": [
+        "floor",
+        "nosebleed",
+        "concourse",
+        "jumbotron",
+        "parking"
+      ]
+    },
+    {
+      "word": "Rink",
+      "hints": [
+        "rental",
+        "zamboni",
+        "boards",
+        "laces",
+        "cold"
+      ]
+    },
+    {
+      "word": "Pool",
+      "hints": [
+        "lane",
+        "lifeguard",
+        "treated",
+        "diving",
+        "lap"
+      ]
+    },
+    {
+      "word": "Waterpark",
+      "hints": [
+        "slides",
+        "wave pool",
+        "lazy",
+        "locker",
+        "wristband"
+      ]
+    },
+    {
+      "word": "Amusement park",
+      "hints": [
+        "wristband",
+        "line",
+        "coaster",
+        "cotton candy",
+        "map"
+      ]
+    },
+    {
+      "word": "Carnival",
+      "hints": [
+        "rides",
+        "games",
+        "prizes",
+        "cotton candy",
+        "tickets"
+      ]
+    },
+    {
+      "word": "Circus",
+      "hints": [
+        "tent",
+        "ringmaster",
+        "acrobat",
+        "popcorn",
+        "clown"
+      ]
+    },
+    {
+      "word": "Fair",
+      "hints": [
+        "rides",
+        "livestock",
+        "ribbon",
+        "funnel cake",
+        "exhibit"
+      ]
+    },
+    {
+      "word": "Aquarium",
+      "hints": [
+        "tank",
+        "tunnel",
+        "feeding",
+        "touch pool",
+        "drifting"
+      ]
+    },
+    {
+      "word": "Planetarium",
+      "hints": [
+        "dome",
+        "reclined",
+        "laser",
+        "narrated",
+        "constellation"
+      ]
+    },
+    {
+      "word": "Observatory",
+      "hints": [
+        "magnified",
+        "dome",
+        "viewing",
+        "observer",
+        "night"
+      ]
+    },
+    {
+      "word": "Botanical garden",
+      "hints": [
+        "greenhouse",
+        "labeled",
+        "paths",
+        "bloom",
+        "tour"
+      ]
+    },
+    {
+      "word": "Arboretum",
+      "hints": [
+        "specimen",
+        "labeled",
+        "trail",
+        "seasonal",
+        "collection"
+      ]
+    },
+    {
+      "word": "Sanctuary",
+      "hints": [
+        "rescued",
+        "habitat",
+        "tour",
+        "donation",
+        "volunteer"
+      ]
+    },
+    {
+      "word": "Reserve",
+      "hints": [
+        "ranger",
+        "permit",
+        "boundary",
+        "protected",
+        "wildlife"
+      ]
+    },
+    {
+      "word": "Refuge",
+      "hints": [
+        "protected",
+        "migratory",
+        "observation",
+        "permit",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Wetland",
+      "hints": [
+        "boardwalk",
+        "binoculars",
+        "nesting",
+        "preservation",
+        "soggy"
+      ]
+    },
+    {
+      "word": "Meadow",
+      "hints": [
+        "wildflowers",
+        "picnic",
+        "buzzing",
+        "tall grass",
+        "open"
+      ]
+    },
+    {
+      "word": "Valley",
+      "hints": [
+        "descended",
+        "river",
+        "fertile",
+        "sheltered",
+        "fog"
+      ]
+    },
+    {
+      "word": "Canyon",
+      "hints": [
+        "rim",
+        "descent",
+        "echo",
+        "layers",
+        "mule"
+      ]
+    },
+    {
+      "word": "Gorge",
+      "hints": [
+        "rapids",
+        "narrow",
+        "carved",
+        "overlook",
+        "bridge"
+      ]
+    },
+    {
+      "word": "Cliff",
+      "hints": [
+        "edge",
+        "rappel",
+        "vertigo",
+        "seabird",
+        "crumbling"
+      ]
+    },
+    {
+      "word": "Bluff",
+      "hints": [
+        "overlook",
+        "eroded",
+        "trail",
+        "scenic",
+        "river"
+      ]
+    },
+    {
+      "word": "Hill",
+      "hints": [
+        "crest",
+        "rolled",
+        "sledding",
+        "view",
+        "climb"
+      ]
+    },
+    {
+      "word": "Plateau",
+      "hints": [
+        "flat",
+        "elevated",
+        "mesa",
+        "eroded",
+        "vast"
+      ]
+    },
+    {
+      "word": "Volcano",
+      "hints": [
+        "basin",
+        "dormant",
+        "molten",
+        "eruption",
+        "hike"
+      ]
+    },
+    {
+      "word": "Geyser",
+      "hints": [
+        "eruption",
+        "timing",
+        "steam",
+        "thermal",
+        "crowd"
+      ]
+    },
+    {
+      "word": "Hotspring",
+      "hints": [
+        "soak",
+        "mineral",
+        "steam",
+        "natural",
+        "sulfur"
+      ]
+    },
+    {
+      "word": "Waterfall",
+      "hints": [
+        "mist",
+        "overlook",
+        "rainbow",
+        "roar",
+        "plunge"
+      ]
+    },
+    {
+      "word": "River",
+      "hints": [
+        "current",
+        "bank",
+        "crossing",
+        "raft",
+        "fishing"
+      ]
+    },
+    {
+      "word": "Stream",
+      "hints": [
+        "stepping",
+        "babbling",
+        "crossing",
+        "trout",
+        "clear"
+      ]
+    },
+    {
+      "word": "Creek",
+      "hints": [
+        "wading",
+        "stones",
+        "crawdad",
+        "shallow",
+        "bend"
+      ]
+    },
+    {
+      "word": "Lake",
+      "hints": [
+        "dock",
+        "boat",
+        "cabin",
+        "fishing",
+        "loon"
+      ]
+    },
+    {
+      "word": "Pond",
+      "hints": [
+        "lily",
+        "frog",
+        "duck",
+        "skipping",
+        "stocked"
+      ]
+    },
+    {
+      "word": "Reservoir",
+      "hints": [
+        "dam",
+        "level",
+        "recreation",
+        "restricted",
+        "watershed"
+      ]
+    },
+    {
+      "word": "Harbor",
+      "hints": [
+        "moored",
+        "slip",
+        "marina",
+        "seagull",
+        "charter"
+      ]
+    },
+    {
+      "word": "Port",
+      "hints": [
+        "container",
+        "crane",
+        "cargo",
+        "docked",
+        "customs"
+      ]
+    },
+    {
+      "word": "Dock",
+      "hints": [
+        "tied",
+        "fishing",
+        "slip",
+        "planks",
+        "rocking"
+      ]
+    },
+    {
+      "word": "Pier",
+      "hints": [
+        "fishing",
+        "end",
+        "planks",
+        "carnival",
+        "sunset"
+      ]
+    },
+    {
+      "word": "Boardwalk",
+      "hints": [
+        "arcade",
+        "funnel cake",
+        "shops",
+        "ocean",
+        "stroll"
+      ]
+    },
+    {
+      "word": "Promenade",
+      "hints": [
+        "stroll",
+        "benches",
+        "waterfront",
+        "evening",
+        "couples"
+      ]
+    },
+    {
+      "word": "Marina",
+      "hints": [
+        "slip",
+        "charter",
+        "fuel",
+        "yacht",
+        "moored"
+      ]
+    },
+    {
+      "word": "Wharf",
+      "hints": [
+        "fishing",
+        "crab",
+        "tourist",
+        "seafood",
+        "seagull"
+      ]
+    },
+    {
+      "word": "Shipyard",
+      "hints": [
+        "drydock",
+        "welding",
+        "hull",
+        "crane",
+        "launch"
+      ]
+    },
+    {
+      "word": "Boatyard",
+      "hints": [
+        "haul",
+        "winter",
+        "repair",
+        "cradle",
+        "bottom"
+      ]
+    },
+    {
+      "word": "Quarry",
+      "hints": [
+        "swimming",
+        "cliff",
+        "abandoned",
+        "deep",
+        "stone"
+      ]
+    },
+    {
+      "word": "Mine",
+      "hints": [
+        "shaft",
+        "cart",
+        "helmet",
+        "collapsed",
+        "tour"
+      ]
+    },
+    {
+      "word": "Oilfield",
+      "hints": [
+        "derrick",
+        "pump",
+        "pipeline",
+        "roughneck",
+        "barrel"
+      ]
+    },
+    {
+      "word": "Refinery",
+      "hints": [
+        "flare",
+        "tank",
+        "pipeline",
+        "smell",
+        "industrial"
+      ]
+    },
+    {
+      "word": "Powerplant",
+      "hints": [
+        "cooling",
+        "turbine",
+        "grid",
+        "stack",
+        "restricted"
+      ]
+    },
+    {
+      "word": "Dam",
+      "hints": [
+        "spillway",
+        "reservoir",
+        "tour",
+        "concrete",
+        "hydroelectric"
+      ]
+    },
+    {
+      "word": "Windmill",
+      "hints": [
+        "blades",
+        "turbine",
+        "rotation",
+        "farm",
+        "generator"
+      ]
+    },
+    {
+      "word": "Silo",
+      "hints": [
+        "grain",
+        "cylindrical",
+        "farm",
+        "storage",
+        "tall"
+      ]
+    },
+    {
+      "word": "Barn",
+      "hints": [
+        "hay",
+        "loft",
+        "doors",
+        "animals",
+        "red"
+      ]
+    },
+    {
+      "word": "Stable",
+      "hints": [
+        "stall",
+        "hay",
+        "saddle",
+        "grooming",
+        "muck"
+      ]
+    },
+    {
+      "word": "Corral",
+      "hints": [
+        "fence",
+        "lasso",
+        "dust",
+        "round up",
+        "gate"
+      ]
+    },
+    {
+      "word": "Pasture",
+      "hints": [
+        "grazing",
+        "fence",
+        "rolling",
+        "clover",
+        "herd"
+      ]
+    },
+    {
+      "word": "Orchard",
+      "hints": [
+        "picking",
+        "ladder",
+        "rows",
+        "blossom",
+        "basket"
+      ]
+    },
+    {
+      "word": "Vineyard",
+      "hints": [
+        "harvest",
+        "rows",
+        "cluster",
+        "trellis",
+        "crush"
+      ]
+    },
+    {
+      "word": "Plantation",
+      "hints": [
+        "rows",
+        "harvest",
+        "historic",
+        "tour",
+        "crop"
+      ]
+    },
+    {
+      "word": "Grove",
+      "hints": [
+        "aromatic",
+        "shade",
+        "picking",
+        "fragrant",
+        "rows"
+      ]
+    },
+    {
+      "word": "Garden",
+      "hints": [
+        "weeding",
+        "harvest",
+        "plot",
+        "hose",
+        "compost"
+      ]
+    },
+    {
+      "word": "Greenhouse",
+      "hints": [
+        "humid",
+        "propagation",
+        "pots",
+        "glass",
+        "tropical"
+      ]
+    },
+    {
+      "word": "Florist",
+      "hints": [
+        "arrangement",
+        "cooler",
+        "ribbon",
+        "delivery",
+        "vase"
+      ]
+    },
+    {
+      "word": "Butcher",
+      "hints": [
+        "counter",
+        "cuts",
+        "wrapped",
+        "scale",
+        "order"
+      ]
+    },
+    {
+      "word": "Deli",
+      "hints": [
+        "number",
+        "sliced",
+        "counter",
+        "scale",
+        "cold cuts"
+      ]
+    },
+    {
+      "word": "Fishmarket",
+      "hints": [
+        "ice",
+        "fresh",
+        "scale",
+        "smell",
+        "catch"
+      ]
+    },
+    {
+      "word": "Supermarket",
+      "hints": [
+        "cart",
+        "aisle",
+        "checkout",
+        "coupons",
+        "self"
+      ]
+    },
+    {
+      "word": "Grocery",
+      "hints": [
+        "list",
+        "cart",
+        "produce",
+        "checkout",
+        "bags"
+      ]
+    },
+    {
+      "word": "Convenience store",
+      "hints": [
+        "late",
+        "snacks",
+        "counter",
+        "quick",
+        "overpriced"
+      ]
+    },
+    {
+      "word": "Gas station",
+      "hints": [
+        "pump",
+        "prepay",
+        "snacks",
+        "squeegee",
+        "receipt"
+      ]
+    },
+    {
+      "word": "Carwash",
+      "hints": [
+        "vacuum",
+        "wax",
+        "tunnel",
+        "drying",
+        "tip"
+      ]
+    },
+    {
+      "word": "Mechanic",
+      "hints": [
+        "estimate",
+        "waiting",
+        "lift",
+        "diagnosis",
+        "parts"
+      ]
+    },
+    {
+      "word": "Dealership",
+      "hints": [
+        "lot",
+        "salesman",
+        "test drive",
+        "financing",
+        "trade"
+      ]
+    },
+    {
+      "word": "Showroom",
+      "hints": [
+        "floor",
+        "model",
+        "salesperson",
+        "browsing",
+        "brochure"
+      ]
+    },
+    {
+      "word": "Warehouse",
+      "hints": [
+        "forklift",
+        "pallet",
+        "inventory",
+        "loading",
+        "shelves"
+      ]
+    },
+    {
+      "word": "Distribution center",
+      "hints": [
+        "sorting",
+        "conveyor",
+        "shipping",
+        "overnight",
+        "tracking"
+      ]
+    },
+    {
+      "word": "Fulfillment center",
+      "hints": [
+        "picking",
+        "packing",
+        "robot",
+        "conveyor",
+        "quota"
+      ]
+    },
+    {
+      "word": "Depot",
+      "hints": [
+        "loading",
+        "dispatch",
+        "fleet",
+        "dock",
+        "schedule"
+      ]
+    },
+    {
+      "word": "Terminal",
+      "hints": [
+        "gate",
+        "boarding",
+        "announcement",
+        "delay",
+        "lounge"
+      ]
+    },
+    {
+      "word": "Station",
+      "hints": [
+        "platform",
+        "departure",
+        "ticket",
+        "announcement",
+        "track"
+      ]
+    },
+    {
+      "word": "Stop",
+      "hints": [
+        "waiting",
+        "schedule",
+        "shelter",
+        "bench",
+        "transfer"
+      ]
+    },
+    {
+      "word": "Platform",
+      "hints": [
+        "waiting",
+        "gap",
+        "announcement",
+        "yellow line",
+        "arriving"
+      ]
+    },
+    {
+      "word": "Subway",
+      "hints": [
+        "turnstile",
+        "platform",
+        "crowded",
+        "transfer",
+        "rush"
+      ]
+    },
+    {
+      "word": "Metro",
+      "hints": [
+        "card",
+        "transfer",
+        "map",
+        "crowded",
+        "underground"
+      ]
+    },
+    {
+      "word": "Tram",
+      "hints": [
+        "stop",
+        "ticket",
+        "standing",
+        "bell",
+        "tracks"
+      ]
+    },
+    {
+      "word": "Trolley",
+      "hints": [
+        "cable",
+        "bell",
+        "tourist",
+        "standing",
+        "hill"
+      ]
+    },
+    {
+      "word": "Monorail",
+      "hints": [
+        "elevated",
+        "automated",
+        "tourist",
+        "futuristic",
+        "loop"
+      ]
+    },
+    {
+      "word": "Gondola",
+      "hints": [
+        "cable",
+        "summit",
+        "swaying",
+        "scenic",
+        "cabin"
+      ]
+    },
+    {
+      "word": "Chairlift",
+      "hints": [
+        "bar",
+        "dangling",
+        "summit",
+        "cold",
+        "loading"
+      ]
+    },
+    {
+      "word": "Funicular",
+      "hints": [
+        "steep",
+        "cable",
+        "counterweight",
+        "scenic",
+        "tourist"
+      ]
+    },
+    {
+      "word": "Helipad",
+      "hints": [
+        "rooftop",
+        "landing",
+        "wind",
+        "emergency",
+        "marked"
+      ]
+    },
+    {
+      "word": "Runway",
+      "hints": [
+        "takeoff",
+        "landing",
+        "lights",
+        "threshold",
+        "cleared"
+      ]
+    },
+    {
+      "word": "Hangar",
+      "hints": [
+        "maintenance",
+        "doors",
+        "aircraft",
+        "storage",
+        "tarmac"
+      ]
+    },
+    {
+      "word": "Control tower",
+      "hints": [
+        "clearance",
+        "radar",
+        "communication",
+        "windows",
+        "elevated"
+      ]
+    },
+    {
+      "word": "Customs",
+      "hints": [
+        "declaration",
+        "line",
+        "inspection",
+        "duty",
+        "nothing"
+      ]
+    },
+    {
+      "word": "Immigration",
+      "hints": [
+        "passport",
+        "stamp",
+        "line",
+        "booth",
+        "purpose"
+      ]
+    },
+    {
+      "word": "Baggage claim",
+      "hints": [
+        "carousel",
+        "waiting",
+        "tag",
+        "missing",
+        "cart"
+      ]
+    },
+    {
+      "word": "Lounge",
+      "hints": [
+        "membership",
+        "complimentary",
+        "quiet",
+        "shower",
+        "delayed"
+      ]
+    },
+    {
+      "word": "Departure gate",
+      "hints": [
+        "boarding",
+        "announcement",
+        "delay",
+        "charging",
+        "zone"
+      ]
+    },
+    {
+      "word": "Arrival hall",
+      "hints": [
+        "greeter",
+        "sign",
+        "flowers",
+        "reunion",
+        "exit"
+      ]
+    },
+    {
+      "word": "Ticket counter",
+      "hints": [
+        "queue",
+        "agent",
+        "ID",
+        "confirmation",
+        "upgrade"
+      ]
+    },
+    {
+      "word": "Check-in",
+      "hints": [
+        "kiosk",
+        "bag drop",
+        "seat",
+        "ID",
+        "confirmation"
+      ]
+    },
+    {
+      "word": "Security checkpoint",
+      "hints": [
+        "bins",
+        "scanner",
+        "remove",
+        "pat down",
+        "liquids"
+      ]
+    },
+    {
+      "word": "Duty-free",
+      "hints": [
+        "tax",
+        "perfume",
+        "liquor",
+        "receipt",
+        "passport"
+      ]
+    },
+    {
+      "word": "Food court",
+      "hints": [
+        "options",
+        "tray",
+        "seating",
+        "crowded",
+        "quick"
+      ]
+    },
+    {
+      "word": "Cafeteria",
+      "hints": [
+        "tray",
+        "line",
+        "steam",
+        "cashier",
+        "utensils"
+      ]
+    },
+    {
+      "word": "Canteen",
+      "hints": [
+        "line",
+        "tray",
+        "subsidized",
+        "lunch",
+        "employee"
+      ]
+    },
+    {
+      "word": "Mess hall",
+      "hints": [
+        "line",
+        "tray",
+        "mess",
+        "military",
+        "chow"
+      ]
+    },
+    {
+      "word": "Dining hall",
+      "hints": [
+        "buffet",
+        "meal plan",
+        "tray",
+        "crowded",
+        "hours"
+      ]
+    },
+    {
+      "word": "Banquet hall",
+      "hints": [
+        "reserved",
+        "tables",
+        "centerpiece",
+        "reception",
+        "dance floor"
+      ]
+    },
+    {
+      "word": "Ballroom",
+      "hints": [
+        "chandelier",
+        "dance floor",
+        "reception",
+        "grand",
+        "event"
+      ]
+    },
+    {
+      "word": "Convention center",
+      "hints": [
+        "booth",
+        "badge",
+        "exhibit",
+        "registration",
+        "swag"
+      ]
+    },
+    {
+      "word": "Conference room",
+      "hints": [
+        "projector",
+        "whiteboard",
+        "speakerphone",
+        "reserved",
+        "agenda"
+      ]
+    },
+    {
+      "word": "Boardroom",
+      "hints": [
+        "table",
+        "executive",
+        "presentation",
+        "confidential",
+        "decision"
+      ]
+    },
+    {
+      "word": "Office",
+      "hints": [
+        "desk",
+        "cubicle",
+        "meeting",
+        "deadline",
+        "coffee"
+      ]
+    },
+    {
+      "word": "Cubicle",
+      "hints": [
+        "partition",
+        "desk",
+        "headphones",
+        "monitor",
+        "neighbor"
+      ]
+    },
+    {
+      "word": "Coworking space",
+      "hints": [
+        "hotdesk",
+        "membership",
+        "wifi",
+        "networking",
+        "startup"
+      ]
+    },
+    {
+      "word": "Reception",
+      "hints": [
+        "desk",
+        "sign-in",
+        "badge",
+        "waiting",
+        "greeted"
+      ]
+    },
+    {
+      "word": "Lobby",
+      "hints": [
+        "seating",
+        "directory",
+        "elevator",
+        "security",
+        "marble"
+      ]
+    },
+    {
+      "word": "Atrium",
+      "hints": [
+        "skylight",
+        "plants",
+        "open",
+        "floors",
+        "echoing"
+      ]
+    },
+    {
+      "word": "Foyer",
+      "hints": [
+        "entrance",
+        "coat",
+        "waiting",
+        "mirror",
+        "chandelier"
+      ]
+    },
+    {
+      "word": "Vestibule",
+      "hints": [
+        "doors",
+        "airlock",
+        "wiping",
+        "transition",
+        "small"
+      ]
+    },
+    {
+      "word": "Hallway",
+      "hints": [
+        "doors",
+        "fluorescent",
+        "walking",
+        "lockers",
+        "echoing"
+      ]
+    },
+    {
+      "word": "Corridor",
+      "hints": [
+        "long",
+        "doors",
+        "walking",
+        "echoing",
+        "turning"
+      ]
+    },
+    {
+      "word": "Stairwell",
+      "hints": [
+        "echoing",
+        "emergency",
+        "flights",
+        "landing",
+        "handrail"
+      ]
+    },
+    {
+      "word": "Elevator",
+      "hints": [
+        "button",
+        "floor",
+        "ding",
+        "crowded",
+        "stuck"
+      ]
+    },
+    {
+      "word": "Escalator",
+      "hints": [
+        "standing",
+        "walking",
+        "step",
+        "handrail",
+        "shoelace"
+      ]
+    },
+    {
+      "word": "Basement",
+      "hints": [
+        "stairs",
+        "storage",
+        "musty",
+        "boiler",
+        "laundry"
+      ]
+    },
+    {
+      "word": "Attic",
+      "hints": [
+        "dusty",
+        "boxes",
+        "insulation",
+        "rafters",
+        "forgotten"
+      ]
+    },
+    {
+      "word": "Cellar",
+      "hints": [
+        "stairs",
+        "cool",
+        "wine",
+        "storage",
+        "damp"
+      ]
+    },
+    {
+      "word": "Crawlspace",
+      "hints": [
+        "flashlight",
+        "pipes",
+        "insulation",
+        "tight",
+        "inspection"
+      ]
+    },
+    {
+      "word": "Rooftop",
+      "hints": [
+        "access",
+        "view",
+        "hvac",
+        "party",
+        "edge"
+      ]
+    },
+    {
+      "word": "Balcony",
+      "hints": [
+        "railing",
+        "plants",
+        "view",
+        "smoking",
+        "small"
+      ]
+    },
+    {
+      "word": "Terrace",
+      "hints": [
+        "seating",
+        "view",
+        "plants",
+        "dining",
+        "umbrella"
+      ]
+    },
+    {
+      "word": "Patio",
+      "hints": [
+        "furniture",
+        "grill",
+        "umbrella",
+        "concrete",
+        "evening"
+      ]
+    },
+    {
+      "word": "Deck",
+      "hints": [
+        "boards",
+        "railing",
+        "stained",
+        "grill",
+        "splinter"
+      ]
+    },
+    {
+      "word": "Porch",
+      "hints": [
+        "swing",
+        "rocking",
+        "screen",
+        "front",
+        "sitting"
+      ]
+    },
+    {
+      "word": "Veranda",
+      "hints": [
+        "wraparound",
+        "rocking",
+        "columns",
+        "shade",
+        "southern"
+      ]
+    },
+    {
+      "word": "Gazebo",
+      "hints": [
+        "wedding",
+        "shade",
+        "octagonal",
+        "garden",
+        "ceremony"
+      ]
+    },
+    {
+      "word": "Pergola",
+      "hints": [
+        "vine",
+        "shade",
+        "posts",
+        "lattice",
+        "dining"
+      ]
+    },
+    {
+      "word": "Pavilion",
+      "hints": [
+        "picnic",
+        "reserved",
+        "shelter",
+        "park",
+        "reunion"
+      ]
+    },
+    {
+      "word": "Bandshell",
+      "hints": [
+        "concert",
+        "park",
+        "acoustic",
+        "lawn",
+        "summer"
+      ]
+    },
+    {
+      "word": "Grandstand",
+      "hints": [
+        "bleachers",
+        "race",
+        "parade",
+        "shaded",
+        "reserved"
+      ]
+    },
+    {
+      "word": "Bleachers",
+      "hints": [
+        "metal",
+        "crowded",
+        "sun",
+        "standing",
+        "cheering"
+      ]
+    },
+    {
+      "word": "Dugout",
+      "hints": [
+        "bench",
+        "steps",
+        "spitting",
+        "cooler",
+        "waiting"
+      ]
+    },
+    {
+      "word": "Locker room",
+      "hints": [
+        "changing",
+        "shower",
+        "bench",
+        "combination",
+        "towel"
+      ]
+    },
+    {
+      "word": "Weight room",
+      "hints": [
+        "mirror",
+        "rack",
+        "bench",
+        "plates",
+        "grunting"
+      ]
+    },
+    {
+      "word": "Yoga studio",
+      "hints": [
+        "mat",
+        "mirror",
+        "heated",
+        "peaceful",
+        "barefoot"
+      ]
+    },
+    {
+      "word": "Dance studio",
+      "hints": [
+        "mirror",
+        "barre",
+        "floor",
+        "music",
+        "routine"
+      ]
+    },
+    {
+      "word": "Recording studio",
+      "hints": [
+        "booth",
+        "soundproof",
+        "mixing",
+        "takes",
+        "headphones"
+      ]
+    },
+    {
+      "word": "Photo studio",
+      "hints": [
+        "backdrop",
+        "lighting",
+        "posed",
+        "props",
+        "flash"
+      ]
+    },
+    {
+      "word": "Art studio",
+      "hints": [
+        "easel",
+        "natural",
+        "messy",
+        "supplies",
+        "works"
+      ]
+    },
+    {
+      "word": "Workshop",
+      "hints": [
+        "bench",
+        "tools",
+        "sawdust",
+        "project",
+        "vice"
+      ]
+    },
+    {
+      "word": "Woodshop",
+      "hints": [
+        "sawdust",
+        "lathe",
+        "goggles",
+        "clamps",
+        "grain"
+      ]
+    },
+    {
+      "word": "Metalshop",
+      "hints": [
+        "sparks",
+        "grinder",
+        "welding",
+        "goggles",
+        "forge"
+      ]
+    },
+    {
+      "word": "Makerspace",
+      "hints": [
+        "3D printer",
+        "laser",
+        "membership",
+        "tools",
+        "project"
+      ]
+    },
+    {
+      "word": "Fab lab",
+      "hints": [
+        "CNC",
+        "prototype",
+        "digital",
+        "tools",
+        "creation"
+      ]
+    },
+    {
+      "word": "Darkroom",
+      "hints": [
+        "red light",
+        "chemicals",
+        "enlarger",
+        "timer",
+        "developing"
+      ]
+    },
+    {
+      "word": "Newsroom",
+      "hints": [
+        "deadline",
+        "monitors",
+        "breaking",
+        "desks",
+        "assignment"
+      ]
+    },
+    {
+      "word": "Broadcast studio",
+      "hints": [
+        "camera",
+        "teleprompter",
+        "anchor",
+        "countdown",
+        "live"
+      ]
+    },
+    {
+      "word": "Soundstage",
+      "hints": [
+        "set",
+        "lights",
+        "quiet",
+        "action",
+        "crew"
+      ]
+    },
+    {
+      "word": "Backlot",
+      "hints": [
+        "facades",
+        "tour",
+        "western",
+        "sets",
+        "storage"
+      ]
+    },
+    {
+      "word": "Green room",
+      "hints": [
+        "waiting",
+        "snacks",
+        "mirror",
+        "nervous",
+        "guests"
+      ]
+    },
+    {
+      "word": "Dressing room",
+      "hints": [
+        "mirror",
+        "costume",
+        "lights",
+        "private",
+        "quick change"
+      ]
+    },
+    {
+      "word": "Backstage",
+      "hints": [
+        "crew",
+        "props",
+        "quick change",
+        "waiting",
+        "cue"
+      ]
+    },
+    {
+      "word": "Wings",
+      "hints": [
+        "waiting",
+        "entrance",
+        "curtain",
+        "cue",
+        "props"
+      ]
+    },
+    {
+      "word": "Orchestra pit",
+      "hints": [
+        "conductor",
+        "musicians",
+        "below",
+        "overture",
+        "dark"
+      ]
+    },
+    {
+      "word": "Mezzanine",
+      "hints": [
+        "middle",
+        "overhang",
+        "view",
+        "stairs",
+        "level"
+      ]
+    },
+    {
+      "word": "Box seats",
+      "hints": [
+        "private",
+        "expensive",
+        "view",
+        "champagne",
+        "exclusive"
+      ]
+    },
+    {
+      "word": "Gallery",
+      "hints": [
+        "opening",
+        "white",
+        "hung",
+        "curator",
+        "sold"
+      ]
+    },
+    {
+      "word": "Exhibition hall",
+      "hints": [
+        "booth",
+        "displays",
+        "crowds",
+        "opening",
+        "catalog"
+      ]
+    },
+    {
+      "word": "Auction house",
+      "hints": [
+        "paddle",
+        "bidding",
+        "lot",
+        "gavel",
+        "estimate"
+      ]
+    },
+    {
+      "word": "Pawnshop",
+      "hints": [
+        "counter",
+        "ticket",
+        "loan",
+        "display",
+        "negotiate"
+      ]
+    },
+    {
+      "word": "Thrift store",
+      "hints": [
+        "racks",
+        "dig",
+        "donation",
+        "price tag",
+        "find"
+      ]
+    },
+    {
+      "word": "Flea market",
+      "hints": [
+        "haggle",
+        "booth",
+        "antique",
+        "cash",
+        "early"
+      ]
+    },
+    {
+      "word": "Antique shop",
+      "hints": [
+        "dusty",
+        "browsing",
+        "price tag",
+        "fragile",
+        "era"
+      ]
+    },
+    {
+      "word": "Bookstore",
+      "hints": [
+        "browsing",
+        "shelves",
+        "recommendation",
+        "coffee",
+        "signing"
+      ]
+    },
+    {
+      "word": "Record store",
+      "hints": [
+        "crates",
+        "flipping",
+        "vinyl",
+        "listening",
+        "rare"
+      ]
+    },
+    {
+      "word": "Comic shop",
+      "hints": [
+        "wednesday",
+        "pulls",
+        "back issues",
+        "graded",
+        "variant"
+      ]
+    },
+    {
+      "word": "Toy store",
+      "hints": [
+        "aisle",
+        "demo",
+        "wish list",
+        "birthday",
+        "batteries"
+      ]
+    },
+    {
+      "word": "Pet store",
+      "hints": [
+        "adoption",
+        "supplies",
+        "aquarium",
+        "smell",
+        "puppy"
+      ]
+    },
+    {
+      "word": "Hardware store",
+      "hints": [
+        "aisle",
+        "advice",
+        "project",
+        "key",
+        "paint"
+      ]
+    },
+    {
+      "word": "Lumber yard",
+      "hints": [
+        "stacked",
+        "measured",
+        "delivery",
+        "grade",
+        "sawdust"
+      ]
+    },
+    {
+      "word": "Garden center",
+      "hints": [
+        "carts",
+        "seasonal",
+        "advice",
+        "displays",
+        "mulch"
+      ]
+    },
+    {
+      "word": "Farmers market",
+      "hints": [
+        "cash",
+        "seasonal",
+        "samples",
+        "early",
+        "local"
+      ]
+    },
+    {
+      "word": "Swap meet",
+      "hints": [
+        "tables",
+        "cash",
+        "haggle",
+        "parking lot",
+        "early"
+      ]
+    },
+    {
+      "word": "Bazaar",
+      "hints": [
+        "stalls",
+        "haggle",
+        "spices",
+        "crowded",
+        "narrow"
+      ]
+    },
+    {
+      "word": "Souk",
+      "hints": [
+        "narrow",
+        "haggle",
+        "spices",
+        "textiles",
+        "labyrinth"
+      ]
+    },
+    {
+      "word": "Plaza",
+      "hints": [
+        "fountain",
+        "benches",
+        "pigeons",
+        "gathering",
+        "central"
+      ]
+    },
+    {
+      "word": "Square",
+      "hints": [
+        "statue",
+        "benches",
+        "gathering",
+        "pigeons",
+        "central"
+      ]
+    },
+    {
+      "word": "Courtyard",
+      "hints": [
+        "fountain",
+        "enclosed",
+        "benches",
+        "quiet",
+        "central"
+      ]
+    },
+    {
+      "word": "Quad",
+      "hints": [
+        "lawn",
+        "frisbee",
+        "study",
+        "crossing",
+        "campus"
+      ]
+    },
+    {
+      "word": "Campus",
+      "hints": [
+        "walking",
+        "buildings",
+        "map",
+        "tour",
+        "student"
+      ]
+    },
+    {
+      "word": "Compound",
+      "hints": [
+        "gated",
+        "security",
+        "buildings",
+        "perimeter",
+        "restricted"
+      ]
+    },
+    {
+      "word": "Complex",
+      "hints": [
+        "buildings",
+        "directory",
+        "parking",
+        "management",
+        "units"
+      ]
+    },
+    {
+      "word": "Subdivision",
+      "hints": [
+        "HOA",
+        "model",
+        "cul-de-sac",
+        "uniform",
+        "gate"
+      ]
+    },
+    {
+      "word": "Neighborhood",
+      "hints": [
+        "walking",
+        "block",
+        "watch",
+        "association",
+        "trick-or-treat"
+      ]
+    },
+    {
+      "word": "Block",
+      "hints": [
+        "walking",
+        "party",
+        "corner",
+        "houses",
+        "sidewalk"
+      ]
+    },
+    {
+      "word": "Cul-de-sac",
+      "hints": [
+        "dead end",
+        "playing",
+        "turnaround",
+        "quiet",
+        "bikes"
+      ]
+    },
+    {
+      "word": "Alley",
+      "hints": [
+        "dumpster",
+        "shortcut",
+        "narrow",
+        "delivery",
+        "graffiti"
+      ]
+    },
+    {
+      "word": "Lane",
+      "hints": [
+        "narrow",
+        "trees",
+        "country",
+        "winding",
+        "quiet"
+      ]
+    },
+    {
+      "word": "Avenue",
+      "hints": [
+        "trees",
+        "wide",
+        "shops",
+        "numbered",
+        "busy"
+      ]
+    },
+    {
+      "word": "Boulevard",
+      "hints": [
+        "median",
+        "trees",
+        "wide",
+        "scenic",
+        "traffic"
+      ]
+    },
+    {
+      "word": "Highway",
+      "hints": [
+        "exit",
+        "merge",
+        "speed",
+        "rest stop",
+        "traffic"
+      ]
+    },
+    {
+      "word": "Freeway",
+      "hints": [
+        "lanes",
+        "merge",
+        "traffic",
+        "exit",
+        "carpool"
+      ]
+    },
+    {
+      "word": "Interstate",
+      "hints": [
+        "exit",
+        "mile marker",
+        "rest area",
+        "truckers",
+        "state line"
+      ]
+    },
+    {
+      "word": "Turnpike",
+      "hints": [
+        "toll",
+        "booth",
+        "ticket",
+        "exit",
+        "EZ pass"
+      ]
+    },
+    {
+      "word": "Expressway",
+      "hints": [
+        "traffic",
+        "exit",
+        "merge",
+        "lanes",
+        "rush"
+      ]
+    },
+    {
+      "word": "Overpass",
+      "hints": [
+        "bridge",
+        "traffic",
+        "below",
+        "ramp",
+        "concrete"
+      ]
+    },
+    {
+      "word": "Underpass",
+      "hints": [
+        "tunnel",
+        "graffiti",
+        "puddle",
+        "dark",
+        "echo"
+      ]
+    },
+    {
+      "word": "Tunnel",
+      "hints": [
+        "lights",
+        "echo",
+        "claustrophobic",
+        "toll",
+        "ventilation"
+      ]
+    },
+    {
+      "word": "Intersection",
+      "hints": [
+        "light",
+        "crosswalk",
+        "turning",
+        "accident",
+        "busy"
+      ]
+    },
+    {
+      "word": "Roundabout",
+      "hints": [
+        "yield",
+        "circle",
+        "confusing",
+        "exit",
+        "continuous"
+      ]
+    },
+    {
+      "word": "Crosswalk",
+      "hints": [
+        "button",
+        "countdown",
+        "painted",
+        "pedestrian",
+        "waiting"
+      ]
+    },
+    {
+      "word": "Sidewalk",
+      "hints": [
+        "cracked",
+        "walking",
+        "curb",
+        "dog",
+        "shoveled"
+      ]
+    },
+    {
+      "word": "Trail",
+      "hints": [
+        "marked",
+        "blazed",
+        "distance",
+        "elevation",
+        "trailhead"
+      ]
+    },
+    {
+      "word": "Path",
+      "hints": [
+        "worn",
+        "shortcut",
+        "winding",
+        "gravel",
+        "following"
+      ]
+    },
+    {
+      "word": "Footpath",
+      "hints": [
+        "worn",
+        "narrow",
+        "hikers",
+        "stile",
+        "countryside"
+      ]
+    },
+    {
+      "word": "Trailhead",
+      "hints": [
+        "parking",
+        "map",
+        "register",
+        "sign",
+        "starting"
+      ]
+    },
+    {
+      "word": "Overlook",
+      "hints": [
+        "parking",
+        "view",
+        "photos",
+        "pullout",
+        "scenic"
+      ]
+    },
+    {
+      "word": "Vista point",
+      "hints": [
+        "parking",
+        "view",
+        "photos",
+        "magnified",
+        "sign"
+      ]
+    },
+    {
+      "word": "Scenic pullout",
+      "hints": [
+        "parking",
+        "photos",
+        "view",
+        "quick",
+        "sign"
+      ]
+    },
+    {
+      "word": "Rest area",
+      "hints": [
+        "bathroom",
+        "vending",
+        "map",
+        "picnic",
+        "stretch"
+      ]
+    },
+    {
+      "word": "Rest stop",
+      "hints": [
+        "bathroom",
+        "gas",
+        "food",
+        "stretch",
+        "dog"
+      ]
+    },
+    {
+      "word": "Truck stop",
+      "hints": [
+        "diesel",
+        "shower",
+        "diner",
+        "scale",
+        "parking"
+      ]
+    },
+    {
+      "word": "Weigh station",
+      "hints": [
+        "bypass",
+        "scale",
+        "inspection",
+        "trucker",
+        "open"
+      ]
+    },
+    {
+      "word": "Border crossing",
+      "hints": [
+        "passport",
+        "inspection",
+        "wait",
+        "declaration",
+        "duty"
+      ]
+    },
+    {
+      "word": "Checkpoint",
+      "hints": [
+        "stop",
+        "ID",
+        "inspection",
+        "barrier",
+        "clearance"
+      ]
+    },
+    {
+      "word": "Toll booth",
+      "hints": [
+        "exact change",
+        "lane",
+        "receipt",
+        "EZ pass",
+        "slow"
+      ]
+    },
+    {
+      "word": "Parking lot",
+      "hints": [
+        "spot",
+        "ticket",
+        "level",
+        "full",
+        "walking"
+      ]
+    },
+    {
+      "word": "Parking garage",
+      "hints": [
+        "level",
+        "spiral",
+        "ticket",
+        "validation",
+        "elevator"
+      ]
+    },
+    {
+      "word": "Loading dock",
+      "hints": [
+        "truck",
+        "pallet",
+        "forklift",
+        "bay",
+        "delivery"
+      ]
+    },
+    {
+      "word": "Service entrance",
+      "hints": [
+        "deliveries",
+        "employees",
+        "back",
+        "buzzer",
+        "restricted"
+      ]
+    },
+    {
+      "word": "Emergency exit",
+      "hints": [
+        "alarm",
+        "push",
+        "stairwell",
+        "lit",
+        "only"
+      ]
+    },
+    {
+      "word": "Fire escape",
+      "hints": [
+        "ladder",
+        "metal",
+        "emergency",
+        "window",
+        "rusty"
+      ]
+    },
+    {
+      "word": "Bomb shelter",
+      "hints": [
+        "underground",
+        "supplies",
+        "sealed",
+        "bunker",
+        "cold war"
+      ]
+    },
+    {
+      "word": "Bunker",
+      "hints": [
+        "underground",
+        "concrete",
+        "reinforced",
+        "supplies",
+        "shelter"
+      ]
+    },
+    {
+      "word": "Fallout shelter",
+      "hints": [
+        "sign",
+        "underground",
+        "supplies",
+        "radiation",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Panic room",
+      "hints": [
+        "reinforced",
+        "hidden",
+        "supplies",
+        "communication",
+        "secure"
+      ]
+    },
+    {
+      "word": "Safe house",
+      "hints": [
+        "location",
+        "secure",
+        "temporary",
+        "anonymous",
+        "supplies"
+      ]
+    },
+    {
+      "word": "Hideout",
+      "hints": [
+        "secret",
+        "location",
+        "discovered",
+        "supplies",
+        "temporary"
+      ]
+    },
+    {
+      "word": "Den",
+      "hints": [
+        "cozy",
+        "TV",
+        "basement",
+        "man cave",
+        "recliner"
+      ]
+    },
+    {
+      "word": "Study",
+      "hints": [
+        "desk",
+        "books",
+        "quiet",
+        "door",
+        "work"
+      ]
+    },
+    {
+      "word": "Home office",
+      "hints": [
+        "desk",
+        "video call",
+        "door",
+        "commute",
+        "background"
+      ]
+    },
+    {
+      "word": "Living room",
+      "hints": [
+        "couch",
+        "TV",
+        "guests",
+        "coffee table",
+        "gathering"
+      ]
+    },
+    {
+      "word": "Family room",
+      "hints": [
+        "TV",
+        "couch",
+        "toys",
+        "casual",
+        "games"
+      ]
+    },
+    {
+      "word": "Dining room",
+      "hints": [
+        "table",
+        "formal",
+        "chandelier",
+        "holiday",
+        "guests"
+      ]
+    },
+    {
+      "word": "Kitchen",
+      "hints": [
+        "stove",
+        "counter",
+        "cooking",
+        "appliances",
+        "sink"
+      ]
+    },
+    {
+      "word": "Pantry",
+      "hints": [
+        "shelves",
+        "stocked",
+        "canned",
+        "organized",
+        "walk-in"
+      ]
+    },
+    {
+      "word": "Mudroom",
+      "hints": [
+        "boots",
+        "hooks",
+        "bench",
+        "entry",
+        "mess"
+      ]
+    },
+    {
+      "word": "Laundry room",
+      "hints": [
+        "washer",
+        "folding",
+        "detergent",
+        "lint",
+        "sorting"
+      ]
+    },
+    {
+      "word": "Bathroom",
+      "hints": [
+        "occupied",
+        "towel",
+        "mirror",
+        "medicine cabinet",
+        "lock"
+      ]
+    },
+    {
+      "word": "Bedroom",
+      "hints": [
+        "bed",
+        "closet",
+        "alarm",
+        "nightstand",
+        "private"
+      ]
+    },
+    {
+      "word": "Guest room",
+      "hints": [
+        "prepared",
+        "towels",
+        "visitors",
+        "unused",
+        "pullout"
+      ]
+    },
+    {
+      "word": "Master bedroom",
+      "hints": [
+        "ensuite",
+        "walk-in",
+        "largest",
+        "private",
+        "retreat"
+      ]
+    },
+    {
+      "word": "Playroom",
+      "hints": [
+        "toys",
+        "messy",
+        "colorful",
+        "bins",
+        "play"
+      ]
+    },
+    {
+      "word": "Game room",
+      "hints": [
+        "pool table",
+        "darts",
+        "TV",
+        "snacks",
+        "basement"
+      ]
+    },
+    {
+      "word": "Media room",
+      "hints": [
+        "projector",
+        "surround",
+        "recliner",
+        "dark",
+        "popcorn"
+      ]
+    },
+    {
+      "word": "Home theater",
+      "hints": [
+        "screen",
+        "seating",
+        "soundproofed",
+        "dark",
+        "premiere"
+      ]
+    },
+    {
+      "word": "Wine cellar",
+      "hints": [
+        "temperature",
+        "racks",
+        "collection",
+        "tasting",
+        "humidity"
+      ]
+    },
+    {
+      "word": "Root cellar",
+      "hints": [
+        "cool",
+        "preserved",
+        "earthen",
+        "vegetables",
+        "storage"
+      ]
+    },
+    {
+      "word": "Storm cellar",
+      "hints": [
+        "underground",
+        "shelter",
+        "tornado",
+        "hatch",
+        "emergency"
+      ]
+    },
+    {
+      "word": "Sunroom",
+      "hints": [
+        "windows",
+        "plants",
+        "bright",
+        "reading",
+        "wicker"
+      ]
+    },
+    {
+      "word": "Conservatory",
+      "hints": [
+        "glass",
+        "plants",
+        "humid",
+        "Victorian",
+        "attached"
+      ]
+    },
+    {
+      "word": "Solarium",
+      "hints": [
+        "glass",
+        "sunny",
+        "plants",
+        "heated",
+        "relaxing"
+      ]
+    },
+    {
+      "word": "Loft",
+      "hints": [
+        "open",
+        "high ceiling",
+        "converted",
+        "industrial",
+        "stairs"
+      ]
+    },
+    {
+      "word": "Penthouse",
+      "hints": [
+        "top floor",
+        "view",
+        "elevator",
+        "terrace",
+        "exclusive"
+      ]
+    },
+    {
+      "word": "Apartment",
+      "hints": [
+        "lease",
+        "neighbors",
+        "rent",
+        "unit",
+        "building"
+      ]
+    },
+    {
+      "word": "Condo",
+      "hints": [
+        "HOA",
+        "owned",
+        "fees",
+        "amenities",
+        "unit"
+      ]
+    },
+    {
+      "word": "Townhouse",
+      "hints": [
+        "attached",
+        "floors",
+        "neighbors",
+        "stairs",
+        "yard"
+      ]
+    },
+    {
+      "word": "Duplex",
+      "hints": [
+        "shared",
+        "wall",
+        "units",
+        "neighbor",
+        "rental"
+      ]
+    },
+    {
+      "word": "Bungalow",
+      "hints": [
+        "single",
+        "porch",
+        "cozy",
+        "craftsman",
+        "yard"
+      ]
+    },
+    {
+      "word": "Cabin",
+      "hints": [
+        "rustic",
+        "woods",
+        "fireplace",
+        "weekend",
+        "remote"
+      ]
+    },
+    {
+      "word": "Chalet",
+      "hints": [
+        "ski",
+        "slope",
+        "wooden",
+        "mountain",
+        "cozy"
+      ]
+    },
+    {
+      "word": "Villa",
+      "hints": [
+        "rental",
+        "pool",
+        "vacation",
+        "staff",
+        "gated"
+      ]
+    },
+    {
+      "word": "Manor",
+      "hints": [
+        "estate",
+        "grand",
+        "historic",
+        "grounds",
+        "tour"
+      ]
+    },
+    {
+      "word": "Mansion",
+      "hints": [
+        "rooms",
+        "gates",
+        "staff",
+        "estate",
+        "tour"
+      ]
+    },
+    {
+      "word": "Estate",
+      "hints": [
+        "grounds",
+        "gates",
+        "staff",
+        "heir",
+        "tour"
+      ]
+    },
+    {
+      "word": "Palace",
+      "hints": [
+        "throne",
+        "guards",
+        "tour",
+        "grounds",
+        "royalty"
+      ]
+    },
+    {
+      "word": "Fortress",
+      "hints": [
+        "walls",
+        "strategic",
+        "siege",
+        "tour",
+        "garrison"
+      ]
+    },
+    {
+      "word": "Citadel",
+      "hints": [
+        "fortified",
+        "elevated",
+        "refuge",
+        "walls",
+        "historic"
+      ]
+    },
+    {
+      "word": "Barracks",
+      "hints": [
+        "bunk",
+        "inspection",
+        "quarters",
+        "military",
+        "assigned"
+      ]
+    },
+    {
+      "word": "Base",
+      "hints": [
+        "gate",
+        "ID",
+        "housing",
+        "commissary",
+        "military"
+      ]
+    },
+    {
+      "word": "Camp",
+      "hints": [
+        "tent",
+        "cabin",
+        "activities",
+        "counselor",
+        "summer"
+      ]
+    },
+    {
+      "word": "Campground",
+      "hints": [
+        "site",
+        "reservation",
+        "hookups",
+        "fire ring",
+        "check-in"
+      ]
+    },
+    {
+      "word": "Campsite",
+      "hints": [
+        "tent",
+        "fire ring",
+        "picnic table",
+        "level",
+        "assigned"
+      ]
+    },
+    {
+      "word": "Glamping",
+      "hints": [
+        "luxury",
+        "tent",
+        "amenities",
+        "bed",
+        "nature"
+      ]
+    },
+    {
+      "word": "RV park",
+      "hints": [
+        "hookups",
+        "site",
+        "dump station",
+        "amenities",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Trailer park",
+      "hints": [
+        "lot",
+        "rent",
+        "permanent",
+        "community",
+        "mobile"
+      ]
+    },
+    {
+      "word": "Mobile home",
+      "hints": [
+        "wheels",
+        "lot",
+        "rent",
+        "skirting",
+        "community"
+      ]
+    },
+    {
+      "word": "Houseboat",
+      "hints": [
+        "moored",
+        "slip",
+        "marina",
+        "floating",
+        "deck"
+      ]
+    },
+    {
+      "word": "Yacht",
+      "hints": [
+        "crew",
+        "charter",
+        "dock",
+        "deck",
+        "luxury"
+      ]
+    },
+    {
+      "word": "Cruise ship",
+      "hints": [
+        "cabin",
+        "deck",
+        "port",
+        "buffet",
+        "excursion"
+      ]
+    },
+    {
+      "word": "Freighter",
+      "hints": [
+        "cargo",
+        "container",
+        "port",
+        "crew",
+        "voyage"
+      ]
+    },
+    {
+      "word": "Submarine",
+      "hints": [
+        "dive",
+        "scope",
+        "cramped",
+        "pressure",
+        "silent"
+      ]
+    },
+    {
+      "word": "Aircraft carrier",
+      "hints": [
+        "deck",
+        "launch",
+        "hangar",
+        "crew",
+        "floating"
+      ]
+    },
+    {
+      "word": "Battleship",
+      "hints": [
+        "guns",
+        "armor",
+        "crew",
+        "museum",
+        "historic"
+      ]
+    },
+    {
+      "word": "Destroyer",
+      "hints": [
+        "fast",
+        "escort",
+        "crew",
+        "missiles",
+        "patrol"
+      ]
+    },
+    {
+      "word": "Tugboat",
+      "hints": [
+        "push",
+        "harbor",
+        "small",
+        "powerful",
+        "assist"
+      ]
+    },
+    {
+      "word": "Barge",
+      "hints": [
+        "flat",
+        "cargo",
+        "pushed",
+        "river",
+        "slow"
+      ]
+    },
+    {
+      "word": "Canoe",
+      "hints": [
+        "paddle",
+        "portage",
+        "bow",
+        "stern",
+        "tip"
+      ]
+    },
+    {
+      "word": "Kayak",
+      "hints": [
+        "paddle",
+        "spray skirt",
+        "roll",
+        "cockpit",
+        "wet"
+      ]
+    },
+    {
+      "word": "Rowboat",
+      "hints": [
+        "oars",
+        "fishing",
+        "dock",
+        "rental",
+        "lake"
+      ]
+    },
+    {
+      "word": "Sailboat",
+      "hints": [
+        "tack",
+        "heel",
+        "wind",
+        "rigging",
+        "anchor"
+      ]
+    },
+    {
+      "word": "Speedboat",
+      "hints": [
+        "wake",
+        "throttle",
+        "skiing",
+        "loud",
+        "dock"
+      ]
+    },
+    {
+      "word": "Pontoon",
+      "hints": [
+        "slow",
+        "party",
+        "flat",
+        "lake",
+        "canopy"
+      ]
+    },
+    {
+      "word": "Jet ski",
+      "hints": [
+        "rental",
+        "wake",
+        "standing",
+        "loud",
+        "wave"
+      ]
+    },
+    {
+      "word": "Raft",
+      "hints": [
+        "paddle",
+        "rapids",
+        "guide",
+        "inflatable",
+        "wet"
+      ]
+    },
+    {
+      "word": "Train",
+      "hints": [
+        "track",
+        "station",
+        "conductor",
+        "sleeper",
+        "dining car"
+      ]
+    },
+    {
+      "word": "Bus",
+      "hints": [
+        "stop",
+        "transfer",
+        "aisle",
+        "driver",
+        "fare"
+      ]
+    },
+    {
+      "word": "Taxi",
+      "hints": [
+        "meter",
+        "fare",
+        "hailed",
+        "backseat",
+        "tip"
+      ]
+    },
+    {
+      "word": "Rideshare",
+      "hints": [
+        "app",
+        "rating",
+        "surge",
+        "shared",
+        "destination"
+      ]
+    },
+    {
+      "word": "Limousine",
+      "hints": [
+        "partition",
+        "stretch",
+        "prom",
+        "champagne",
+        "driver"
+      ]
+    },
+    {
+      "word": "Helicopter",
+      "hints": [
+        "rotor",
+        "landing",
+        "tour",
+        "hover",
+        "loud"
+      ]
+    },
+    {
+      "word": "Private jet",
+      "hints": [
+        "tarmac",
+        "FBO",
+        "charter",
+        "luxury",
+        "direct"
+      ]
+    },
+    {
+      "word": "Hot air balloon",
+      "hints": [
+        "basket",
+        "burner",
+        "chase",
+        "sunrise",
+        "landing"
+      ]
+    },
+    {
+      "word": "Glider",
+      "hints": [
+        "tow",
+        "thermals",
+        "silent",
+        "soaring",
+        "cockpit"
+      ]
+    },
+    {
+      "word": "Hang glider",
+      "hints": [
+        "launch",
+        "harness",
+        "thermal",
+        "landing",
+        "cliff"
+      ]
+    },
+    {
+      "word": "Parachute",
+      "hints": [
+        "jump",
+        "deploy",
+        "landing",
+        "tandem",
+        "packed"
+      ]
+    },
+    {
+      "word": "Skydiving plane",
+      "hints": [
+        "jump",
+        "altitude",
+        "door",
+        "nervous",
+        "green light"
+      ]
+    },
+    {
+      "word": "Space station",
+      "hints": [
+        "orbit",
+        "module",
+        "docking",
+        "microgravity",
+        "crew"
+      ]
+    },
+    {
+      "word": "Rocket",
+      "hints": [
+        "launch",
+        "countdown",
+        "pad",
+        "thrust",
+        "stage"
+      ]
+    },
+    {
+      "word": "Launchpad",
+      "hints": [
+        "countdown",
+        "flame trench",
+        "tower",
+        "clear",
+        "ignition"
+      ]
+    },
+    {
+      "word": "Mission control",
+      "hints": [
+        "screens",
+        "flight director",
+        "go",
+        "houston",
+        "telemetry"
+      ]
+    },
+    {
+      "word": "Science center",
+      "hints": [
+        "interactive",
+        "exhibit",
+        "field trip",
+        "hands-on",
+        "gift shop"
+      ]
+    },
+    {
+      "word": "Natural history museum",
+      "hints": [
+        "dinosaur",
+        "diorama",
+        "specimen",
+        "fossil",
+        "exhibit"
+      ]
+    },
+    {
+      "word": "Art museum",
+      "hints": [
+        "gallery",
+        "collection",
+        "docent",
+        "audio",
+        "masterpiece"
+      ]
+    },
+    {
+      "word": "History museum",
+      "hints": [
+        "artifact",
+        "exhibit",
+        "timeline",
+        "interactive",
+        "donation"
+      ]
+    },
+    {
+      "word": "War memorial",
+      "hints": [
+        "names",
+        "wreath",
+        "eternal",
+        "ceremony",
+        "veteran"
+      ]
+    },
+    {
+      "word": "Monument",
+      "hints": [
+        "steps",
+        "inscription",
+        "photo",
+        "dedication",
+        "visit"
+      ]
+    },
+    {
+      "word": "Statue",
+      "hints": [
+        "pedestal",
+        "bronze",
+        "dedication",
+        "pigeon",
+        "photo"
+      ]
+    },
+    {
+      "word": "Fountain",
+      "hints": [
+        "coins",
+        "wish",
+        "spray",
+        "lit",
+        "splash"
+      ]
+    },
+    {
+      "word": "Shrine",
+      "hints": [
+        "offering",
+        "prayer",
+        "pilgrimage",
+        "sacred",
+        "quiet"
+      ]
+    },
+    {
+      "word": "Temple",
+      "hints": [
+        "remove shoes",
+        "incense",
+        "prayer",
+        "offering",
+        "sacred"
+      ]
+    },
+    {
+      "word": "Mosque",
+      "hints": [
+        "remove shoes",
+        "prayer",
+        "minaret",
+        "call",
+        "ablution"
+      ]
+    },
+    {
+      "word": "Synagogue",
+      "hints": [
+        "service",
+        "torah",
+        "bimah",
+        "congregation",
+        "sabbath"
+      ]
+    },
+    {
+      "word": "Cathedral",
+      "hints": [
+        "nave",
+        "altar",
+        "stained glass",
+        "organ",
+        "tour"
+      ]
+    },
+    {
+      "word": "Chapel",
+      "hints": [
+        "small",
+        "wedding",
+        "prayer",
+        "quiet",
+        "private"
+      ]
+    },
+    {
+      "word": "Monastery",
+      "hints": [
+        "monks",
+        "silence",
+        "retreat",
+        "grounds",
+        "prayer"
+      ]
+    },
+    {
+      "word": "Convent",
+      "hints": [
+        "nuns",
+        "quiet",
+        "grounds",
+        "chapel",
+        "retreat"
+      ]
+    },
+    {
+      "word": "Ashram",
+      "hints": [
+        "yoga",
+        "meditation",
+        "guru",
+        "retreat",
+        "simple"
+      ]
+    },
+    {
+      "word": "Retreat center",
+      "hints": [
+        "silence",
+        "meditation",
+        "workshop",
+        "nature",
+        "lodging"
+      ]
+    },
+    {
+      "word": "Meditation center",
+      "hints": [
+        "cushion",
+        "silence",
+        "bell",
+        "sitting",
+        "practice"
+      ]
+    },
+    {
+      "word": "Wellness center",
+      "hints": [
+        "spa",
+        "yoga",
+        "holistic",
+        "treatment",
+        "peaceful"
+      ]
+    },
+    {
+      "word": "Rehabilitation center",
+      "hints": [
+        "therapy",
+        "program",
+        "recovery",
+        "stay",
+        "support"
+      ]
+    },
+    {
+      "word": "Nursing home",
+      "hints": [
+        "visit",
+        "residents",
+        "care",
+        "activities",
+        "room"
+      ]
+    },
+    {
+      "word": "Assisted living",
+      "hints": [
+        "apartment",
+        "meals",
+        "activities",
+        "staff",
+        "independent"
+      ]
+    },
+    {
+      "word": "Hospice",
+      "hints": [
+        "comfort",
+        "family",
+        "care",
+        "peaceful",
+        "support"
+      ]
+    },
+    {
+      "word": "Funeral home",
+      "hints": [
+        "viewing",
+        "arrangements",
+        "flowers",
+        "guest book",
+        "service"
+      ]
+    },
+    {
+      "word": "Crematorium",
+      "hints": [
+        "urn",
+        "service",
+        "ashes",
+        "memorial",
+        "arrangements"
+      ]
+    },
+    {
+      "word": "Mausoleum",
+      "hints": [
+        "crypt",
+        "marble",
+        "visit",
+        "flowers",
+        "names"
+      ]
+    },
+    {
+      "word": "Columbarium",
+      "hints": [
+        "niche",
+        "urn",
+        "visit",
+        "memorial",
+        "wall"
+      ]
+    },
+    {
+      "word": "Graveyard",
+      "hints": [
+        "headstone",
+        "visit",
+        "flowers",
+        "old",
+        "church"
+      ]
+    },
+    {
+      "word": "Memorial park",
+      "hints": [
+        "flat",
+        "markers",
+        "visit",
+        "flowers",
+        "maintained"
+      ]
+    },
+    {
+      "word": "National cemetery",
+      "hints": [
+        "rows",
+        "uniform",
+        "honor",
+        "veteran",
+        "ceremony"
+      ]
+    },
+    {
+      "word": "Tattoo parlor",
+      "hints": [
+        "appointment",
+        "stencil",
+        "buzzing",
+        "aftercare",
+        "portfolio"
+      ]
+    },
+    {
+      "word": "Piercing studio",
+      "hints": [
+        "sterile",
+        "needle",
+        "aftercare",
+        "jewelry",
+        "quick"
+      ]
+    },
+    {
+      "word": "Optometrist",
+      "hints": [
+        "chart",
+        "puff",
+        "frames",
+        "dilation",
+        "prescription"
+      ]
+    },
+    {
+      "word": "Chiropractor",
+      "hints": [
+        "adjustment",
+        "crack",
+        "table",
+        "alignment",
+        "appointment"
+      ]
+    },
+    {
+      "word": "Acupuncturist",
+      "hints": [
+        "needles",
+        "meridian",
+        "relaxing",
+        "session",
+        "qi"
+      ]
+    },
+    {
+      "word": "Massage parlor",
+      "hints": [
+        "table",
+        "oil",
+        "pressure",
+        "knots",
+        "relaxing"
+      ]
+    },
+    {
+      "word": "Nail salon",
+      "hints": [
+        "polish",
+        "soak",
+        "file",
+        "cuticle",
+        "UV"
+      ]
+    },
+    {
+      "word": "Tanning salon",
+      "hints": [
+        "bed",
+        "goggles",
+        "timer",
+        "lotion",
+        "minutes"
+      ]
+    },
+    {
+      "word": "Tailor",
+      "hints": [
+        "measured",
+        "altered",
+        "fitting",
+        "pins",
+        "hemmed"
+      ]
+    },
+    {
+      "word": "Dry cleaner",
+      "hints": [
+        "ticket",
+        "pickup",
+        "starch",
+        "hanger",
+        "pressed"
+      ]
+    },
+    {
+      "word": "Shoe repair",
+      "hints": [
+        "heel",
+        "sole",
+        "polish",
+        "key",
+        "ticket"
+      ]
+    },
+    {
+      "word": "Jeweler",
+      "hints": [
+        "loupe",
+        "sizing",
+        "appraisal",
+        "display",
+        "repair"
+      ]
+    },
+    {
+      "word": "Pawn shop",
+      "hints": [
+        "ticket",
+        "loan",
+        "interest",
+        "display",
+        "negotiate"
+      ]
+    },
+    {
+      "word": "Locksmith",
+      "hints": [
+        "key",
+        "duplicate",
+        "emergency",
+        "lock",
+        "combination"
+      ]
+    },
+    {
+      "word": "Print shop",
+      "hints": [
+        "copies",
+        "laminate",
+        "binding",
+        "rush",
+        "pickup"
+      ]
+    },
+    {
+      "word": "Frame shop",
+      "hints": [
+        "mat",
+        "custom",
+        "glass",
+        "mounting",
+        "pickup"
+      ]
+    },
+    {
+      "word": "Music store",
+      "hints": [
+        "try",
+        "lessons",
+        "strings",
+        "sheet",
+        "rental"
+      ]
+    },
+    {
+      "word": "Sporting goods",
+      "hints": [
+        "fitting",
+        "team",
+        "cleats",
+        "equipment",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Camping store",
+      "hints": [
+        "gear",
+        "tent",
+        "demo",
+        "seasonal",
+        "expert"
+      ]
+    },
+    {
+      "word": "Surf shop",
+      "hints": [
+        "wax",
+        "rental",
+        "board",
+        "wetsuit",
+        "lesson"
+      ]
+    },
+    {
+      "word": "Ski shop",
+      "hints": [
+        "rental",
+        "fitting",
+        "tuning",
+        "boots",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Bike shop",
+      "hints": [
+        "tune-up",
+        "fitting",
+        "repair",
+        "test ride",
+        "accessories"
+      ]
+    },
+    {
+      "word": "Running store",
+      "hints": [
+        "gait",
+        "fitting",
+        "treadmill",
+        "shoes",
+        "socks"
+      ]
+    },
+    {
+      "word": "Golf course",
+      "hints": [
+        "tee time",
+        "cart",
+        "fairway",
+        "greens fee",
+        "caddy"
+      ]
+    },
+    {
+      "word": "Driving range",
+      "hints": [
+        "bucket",
+        "bay",
+        "mat",
+        "target",
+        "swing"
+      ]
+    },
+    {
+      "word": "Putting green",
+      "hints": [
+        "practice",
+        "slope",
+        "cup",
+        "stroke",
+        "read"
+      ]
+    },
+    {
+      "word": "Tennis court",
+      "hints": [
+        "reservation",
+        "net",
+        "serve",
+        "love",
+        "deuce"
+      ]
+    },
+    {
+      "word": "Basketball court",
+      "hints": [
+        "pickup",
+        "hoop",
+        "foul",
+        "court",
+        "dribble"
+      ]
+    },
+    {
+      "word": "Volleyball court",
+      "hints": [
+        "sand",
+        "net",
+        "serve",
+        "spike",
+        "rotation"
+      ]
+    },
+    {
+      "word": "Soccer field",
+      "hints": [
+        "pitch",
+        "goal",
+        "sideline",
+        "halftime",
+        "kickoff"
+      ]
+    },
+    {
+      "word": "Baseball diamond",
+      "hints": [
+        "dugout",
+        "mound",
+        "bases",
+        "inning",
+        "home"
+      ]
+    },
+    {
+      "word": "Football field",
+      "hints": [
+        "yard line",
+        "end zone",
+        "huddle",
+        "snap",
+        "down"
+      ]
+    },
+    {
+      "word": "Hockey rink",
+      "hints": [
+        "ice",
+        "boards",
+        "penalty",
+        "puck",
+        "zamboni"
+      ]
+    },
+    {
+      "word": "Boxing ring",
+      "hints": [
+        "corner",
+        "bell",
+        "round",
+        "ropes",
+        "stool"
+      ]
+    },
+    {
+      "word": "Wrestling mat",
+      "hints": [
+        "circle",
+        "takedown",
+        "pin",
+        "whistle",
+        "headgear"
+      ]
+    },
+    {
+      "word": "Dojo",
+      "hints": [
+        "bow",
+        "mat",
+        "sensei",
+        "belt",
+        "barefoot"
+      ]
+    },
+    {
+      "word": "Fencing studio",
+      "hints": [
+        "mask",
+        "foil",
+        "piste",
+        "touche",
+        "lunge"
+      ]
+    },
+    {
+      "word": "Archery range",
+      "hints": [
+        "target",
+        "quiver",
+        "nock",
+        "release",
+        "retrieval"
+      ]
+    },
+    {
+      "word": "Shooting range",
+      "hints": [
+        "lane",
+        "target",
+        "ear protection",
+        "cease fire",
+        "brass"
+      ]
+    },
+    {
+      "word": "Gun shop",
+      "hints": [
+        "background",
+        "display",
+        "ammo",
+        "license",
+        "counter"
+      ]
+    },
+    {
+      "word": "Hunting lodge",
+      "hints": [
+        "trophy",
+        "guide",
+        "blind",
+        "season",
+        "tag"
+      ]
+    },
+    {
+      "word": "Fishing pier",
+      "hints": [
+        "bait",
+        "cast",
+        "license",
+        "bucket",
+        "reel"
+      ]
+    },
+    {
+      "word": "Bait shop",
+      "hints": [
+        "worms",
+        "minnows",
+        "license",
+        "ice",
+        "tackle"
+      ]
+    },
+    {
+      "word": "Yacht club",
+      "hints": [
+        "membership",
+        "race",
+        "burgee",
+        "reciprocal",
+        "mooring"
+      ]
+    },
+    {
+      "word": "Rowing club",
+      "hints": [
+        "shell",
+        "oars",
+        "dock",
+        "coxswain",
+        "erg"
+      ]
+    },
+    {
+      "word": "Sailing club",
+      "hints": [
+        "race",
+        "membership",
+        "launch",
+        "lessons",
+        "mooring"
+      ]
+    },
+    {
+      "word": "Country club",
+      "hints": [
+        "membership",
+        "tee time",
+        "dress code",
+        "dining",
+        "initiation"
+      ]
+    },
+    {
+      "word": "Athletic club",
+      "hints": [
+        "membership",
+        "locker",
+        "courts",
+        "pool",
+        "trainer"
+      ]
+    },
+    {
+      "word": "Health club",
+      "hints": [
+        "membership",
+        "classes",
+        "locker",
+        "trainer",
+        "sauna"
+      ]
+    },
+    {
+      "word": "Fitness center",
+      "hints": [
+        "membership",
+        "equipment",
+        "classes",
+        "trainer",
+        "towel"
+      ]
+    },
+    {
+      "word": "Crossfit gym",
+      "hints": [
+        "WOD",
+        "box",
+        "whiteboard",
+        "scaled",
+        "community"
+      ]
+    },
+    {
+      "word": "Pilates studio",
+      "hints": [
+        "reformer",
+        "core",
+        "springs",
+        "private",
+        "instructor"
+      ]
+    },
+    {
+      "word": "Barre studio",
+      "hints": [
+        "ballet",
+        "small movements",
+        "pulse",
+        "grip socks",
+        "mirror"
+      ]
+    },
+    {
+      "word": "Spin studio",
+      "hints": [
+        "bike",
+        "resistance",
+        "instructor",
+        "music",
+        "dark"
+      ]
+    },
+    {
+      "word": "Rock climbing gym",
+      "hints": [
+        "harness",
+        "belay",
+        "routes",
+        "bouldering",
+        "chalk"
+      ]
+    },
+    {
+      "word": "Trampoline park",
+      "hints": [
+        "waiver",
+        "socks",
+        "foam pit",
+        "dodgeball",
+        "jump"
+      ]
+    },
+    {
+      "word": "Laser tag",
+      "hints": [
+        "vest",
+        "gun",
+        "dark",
+        "maze",
+        "score"
+      ]
+    },
+    {
+      "word": "Escape room",
+      "hints": [
+        "timer",
+        "clues",
+        "locked",
+        "team",
+        "hint"
+      ]
+    },
+    {
+      "word": "Bowling alley",
+      "hints": [
+        "lane",
+        "shoes",
+        "ball",
+        "pins",
+        "strike"
+      ]
+    },
+    {
+      "word": "Pool hall",
+      "hints": [
+        "table",
+        "cue",
+        "rack",
+        "chalk",
+        "hourly"
+      ]
+    },
+    {
+      "word": "Dart bar",
+      "hints": [
+        "board",
+        "line",
+        "flights",
+        "cricket",
+        "bullseye"
+      ]
+    },
+    {
+      "word": "Karaoke bar",
+      "hints": [
+        "book",
+        "queue",
+        "mic",
+        "screen",
+        "liquid courage"
+      ]
+    },
+    {
+      "word": "Comedy club",
+      "hints": [
+        "two drink",
+        "lineup",
+        "heckler",
+        "spotlight",
+        "mic"
+      ]
+    },
+    {
+      "word": "Jazz club",
+      "hints": [
+        "cover",
+        "set",
+        "intimate",
+        "improvised",
+        "late"
+      ]
+    },
+    {
+      "word": "Speakeasy",
+      "hints": [
+        "hidden",
+        "password",
+        "cocktail",
+        "prohibition",
+        "entrance"
+      ]
+    },
+    {
+      "word": "Rooftop bar",
+      "hints": [
+        "view",
+        "elevator",
+        "sunset",
+        "cover",
+        "dress code"
+      ]
+    },
+    {
+      "word": "Sports bar",
+      "hints": [
+        "screens",
+        "wings",
+        "game",
+        "loud",
+        "jersey"
+      ]
+    },
+    {
+      "word": "Dive bar",
+      "hints": [
+        "cheap",
+        "cash",
+        "jukebox",
+        "sticky",
+        "regular"
+      ]
+    },
+    {
+      "word": "Wine bar",
+      "hints": [
+        "flight",
+        "by the glass",
+        "cheese",
+        "sommelier",
+        "pour"
+      ]
+    },
+    {
+      "word": "Cocktail lounge",
+      "hints": [
+        "craft",
+        "mixologist",
+        "menu",
+        "garnish",
+        "dim"
+      ]
+    },
+    {
+      "word": "Hookah lounge",
+      "hints": [
+        "flavor",
+        "coals",
+        "couch",
+        "pass",
+        "session"
+      ]
+    },
+    {
+      "word": "Cigar lounge",
+      "hints": [
+        "humidor",
+        "cutter",
+        "ventilation",
+        "leather",
+        "member"
+      ]
+    },
+    {
+      "word": "Tea house",
+      "hints": [
+        "ceremony",
+        "pot",
+        "steep",
+        "selection",
+        "quiet"
+      ]
+    },
+    {
+      "word": "Coffee house",
+      "hints": [
+        "open mic",
+        "wifi",
+        "studying",
+        "indie",
+        "couch"
+      ]
+    },
+    {
+      "word": "Juice bar",
+      "hints": [
+        "cold pressed",
+        "shot",
+        "cleanse",
+        "fresh",
+        "boost"
+      ]
+    },
+    {
+      "word": "Smoothie shop",
+      "hints": [
+        "blend",
+        "boost",
+        "protein",
+        "fresh",
+        "straw"
+      ]
+    },
+    {
+      "word": "Ice cream shop",
+      "hints": [
+        "sample",
+        "cone",
+        "toppings",
+        "flavor",
+        "waffle"
+      ]
+    },
+    {
+      "word": "Frozen yogurt",
+      "hints": [
+        "self serve",
+        "weight",
+        "toppings",
+        "swirl",
+        "cup"
+      ]
+    },
+    {
+      "word": "Candy store",
+      "hints": [
+        "bulk",
+        "scoop",
+        "nostalgic",
+        "weighed",
+        "jar"
+      ]
+    },
+    {
+      "word": "Chocolate shop",
+      "hints": [
+        "truffle",
+        "sample",
+        "boxed",
+        "artisan",
+        "pairing"
+      ]
+    },
+    {
+      "word": "Donut shop",
+      "hints": [
+        "dozen",
+        "fresh",
+        "glazed",
+        "early",
+        "display"
+      ]
+    },
+    {
+      "word": "Bagel shop",
+      "hints": [
+        "toasted",
+        "schmear",
+        "dozen",
+        "fresh",
+        "slicer"
+      ]
+    },
+    {
+      "word": "Pizza parlor",
+      "hints": [
+        "slice",
+        "counter",
+        "pie",
+        "booth",
+        "by the slice"
+      ]
+    },
+    {
+      "word": "Sandwich shop",
+      "hints": [
+        "line",
+        "toppings",
+        "toasted",
+        "combo",
+        "chips"
+      ]
+    },
+    {
+      "word": "Burger joint",
+      "hints": [
+        "counter",
+        "combo",
+        "toppings",
+        "basket",
+        "shake"
+      ]
+    },
+    {
+      "word": "Taco stand",
+      "hints": [
+        "street",
+        "salsa bar",
+        "cash",
+        "cilantro",
+        "onion"
+      ]
+    },
+    {
+      "word": "Food truck",
+      "hints": [
+        "window",
+        "cash",
+        "line",
+        "special",
+        "location"
+      ]
+    },
+    {
+      "word": "Food cart",
+      "hints": [
+        "street",
+        "cash",
+        "quick",
+        "umbrella",
+        "vendor"
+      ]
+    },
+    {
+      "word": "Hot dog stand",
+      "hints": [
+        "cart",
+        "toppings",
+        "umbrella",
+        "cash",
+        "street"
+      ]
+    },
+    {
+      "word": "Pretzel stand",
+      "hints": [
+        "salt",
+        "mustard",
+        "warm",
+        "mall",
+        "cart"
+      ]
+    },
+    {
+      "word": "Popcorn stand",
+      "hints": [
+        "butter",
+        "salt",
+        "warm",
+        "theater",
+        "smell"
+      ]
+    },
+    {
+      "word": "Concession stand",
+      "hints": [
+        "line",
+        "overpriced",
+        "nachos",
+        "cash",
+        "combo"
+      ]
+    },
+    {
+      "word": "Snack bar",
+      "hints": [
+        "window",
+        "cash",
+        "pool",
+        "fries",
+        "quick"
+      ]
+    },
+    {
+      "word": "Drive-thru",
+      "hints": [
+        "speaker",
+        "window",
+        "order",
+        "lane",
+        "pull forward"
+      ]
+    },
+    {
+      "word": "Drive-in",
+      "hints": [
+        "speaker",
+        "carhop",
+        "tray",
+        "classic",
+        "parking"
+      ]
+    },
+    {
+      "word": "Diner",
+      "hints": [
+        "booth",
+        "counter",
+        "jukebox",
+        "pie",
+        "coffee"
+      ]
+    },
+    {
+      "word": "Buffet",
+      "hints": [
+        "plate",
+        "rounds",
+        "carving",
+        "sneeze guard",
+        "all you can"
+      ]
+    },
+    {
+      "word": "Steakhouse",
+      "hints": [
+        "sizzle",
+        "sides",
+        "rare",
+        "upcharge",
+        "birthday"
+      ]
+    },
+    {
+      "word": "Seafood restaurant",
+      "hints": [
+        "catch",
+        "market price",
+        "butter",
+        "bib",
+        "shell"
+      ]
+    },
+    {
+      "word": "Sushi bar",
+      "hints": [
+        "counter",
+        "omakase",
+        "chef",
+        "wasabi",
+        "ginger"
+      ]
+    },
+    {
+      "word": "Ramen shop",
+      "hints": [
+        "counter",
+        "broth",
+        "slurp",
+        "toppings",
+        "line"
+      ]
+    },
+    {
+      "word": "Noodle house",
+      "hints": [
+        "slurp",
+        "broth",
+        "chopsticks",
+        "spicy",
+        "counter"
+      ]
+    },
+    {
+      "word": "Dim sum",
+      "hints": [
+        "cart",
+        "stamp",
+        "bamboo",
+        "brunch",
+        "tea"
+      ]
+    },
+    {
+      "word": "Hot pot",
+      "hints": [
+        "broth",
+        "cook yourself",
+        "dipping",
+        "shared",
+        "raw"
+      ]
+    },
+    {
+      "word": "Korean BBQ",
+      "hints": [
+        "grill",
+        "banchan",
+        "cook yourself",
+        "exhaust",
+        "lettuce"
+      ]
+    },
+    {
+      "word": "Teppanyaki",
+      "hints": [
+        "grill",
+        "chef",
+        "onion volcano",
+        "show",
+        "shared"
+      ]
+    },
+    {
+      "word": "Fondue restaurant",
+      "hints": [
+        "pot",
+        "dip",
+        "skewer",
+        "cheese",
+        "chocolate"
+      ]
+    },
+    {
+      "word": "Tapas bar",
+      "hints": [
+        "small plates",
+        "shared",
+        "wine",
+        "standing",
+        "spanish"
+      ]
+    },
+    {
+      "word": "Bistro",
+      "hints": [
+        "french",
+        "chalkboard",
+        "intimate",
+        "wine",
+        "prix fixe"
+      ]
+    },
+    {
+      "word": "Brasserie",
+      "hints": [
+        "french",
+        "oyster",
+        "zinc",
+        "bustling",
+        "steak frites"
+      ]
+    },
+    {
+      "word": "Trattoria",
+      "hints": [
+        "italian",
+        "family",
+        "pasta",
+        "casual",
+        "neighborhood"
+      ]
+    },
+    {
+      "word": "Osteria",
+      "hints": [
+        "italian",
+        "wine",
+        "simple",
+        "regional",
+        "rustic"
+      ]
+    },
+    {
+      "word": "Pizzeria",
+      "hints": [
+        "oven",
+        "pie",
+        "slice",
+        "counter",
+        "takeout"
+      ]
+    },
+    {
+      "word": "Gelateria",
+      "hints": [
+        "scoop",
+        "display",
+        "cone",
+        "fresh",
+        "italian"
+      ]
+    },
+    {
+      "word": "Patisserie",
+      "hints": [
+        "display",
+        "delicate",
+        "french",
+        "croissant",
+        "counter"
+      ]
+    },
+    {
+      "word": "Creperie",
+      "hints": [
+        "griddle",
+        "sweet",
+        "savory",
+        "folded",
+        "french"
+      ]
+    },
+    {
+      "word": "Biergarten",
+      "hints": [
+        "outdoor",
+        "long tables",
+        "stein",
+        "pretzels",
+        "german"
+      ]
+    },
+    {
+      "word": "Gastropub",
+      "hints": [
+        "elevated",
+        "craft",
+        "menu",
+        "brunch",
+        "trendy"
+      ]
+    },
+    {
+      "word": "Farm-to-table",
+      "hints": [
+        "seasonal",
+        "local",
+        "changing",
+        "sourced",
+        "chef"
+      ]
+    },
+    {
+      "word": "Pop-up",
+      "hints": [
+        "temporary",
+        "reservations",
+        "chef",
+        "location",
+        "ticket"
+      ]
+    },
+    {
+      "word": "Supper club",
+      "hints": [
+        "reservations",
+        "prix fixe",
+        "intimate",
+        "wine",
+        "hidden"
+      ]
+    },
+    {
+      "word": "Speakeasy restaurant",
+      "hints": [
+        "hidden",
+        "password",
+        "prohibition",
+        "craft",
+        "entrance"
+      ]
+    }
   ]
 }

@@ -1,75 +1,4995 @@
 {
   "category": "Foods",
   "words": [
-    { "word": "Pizza", "hints": ["warm", "comfort", "gather", "savory", "shared"] },
-    { "word": "Burger", "hints": ["savory", "layered", "meal", "grilled", "satisfying"] },
-    { "word": "Sandwich", "hints": ["quick", "portable", "stacked", "flexible", "convenient"] },
-    { "word": "Taco", "hints": ["handheld", "wrapped", "spicy", "flavorful", "bite-size"] },
-    { "word": "Burrito", "hints": ["wrap", "portable", "hearty", "satisfying", "filled"] },
-    { "word": "Nachos", "hints": ["melted", "savory", "snack", "shared", "crispy"] },
-    { "word": "Pasta", "hints": ["comfort", "sauce", "hearty", "bowl", "delicate"] },
-    { "word": "Ramen", "hints": ["comfort", "broth", "steamy", "noodles", "satisfying"] },
-    { "word": "Soup", "hints": ["warm", "broth", "comforting", "hearty", "nourishing"] },
-    { "word": "Salad", "hints": ["fresh", "light", "mix", "crisp", "healthy"] },
-    { "word": "Steak", "hints": ["grilled", "savory", "sizzling", "protein", "rich"] },
-    { "word": "Chicken", "hints": ["savory", "protein", "seasoned", "satisfying", "versatile"] },
-    { "word": "Fish", "hints": ["light", "protein", "savory", "seafood", "refreshing"] },
-    { "word": "Sushi", "hints": ["fresh", "delicate", "flavorful", "bite-sized", "artful"] },
-    { "word": "Curry", "hints": ["spicy", "sauce", "warming", "rich", "comfort"] },
-    { "word": "Stirfry", "hints": ["quick", "mix", "savory", "vegetable", "crisp"] },
-    { "word": "Dumplings", "hints": ["bite-sized", "savory", "steamed", "flavorful", "comfort"] },
-    { "word": "Noodles", "hints": ["slurp", "long", "chewy", "warm", "comfort"] },
-    { "word": "Rice", "hints": ["side", "staple", "base", "hearty", "grain"] },
-    { "word": "Omelette", "hints": ["fluffy", "breakfast", "savory", "quick", "warm"] },
-    { "word": "Pancakes", "hints": ["morning", "sweet", "fluffy", "warm", "celebration"] },
-    { "word": "Waffles", "hints": ["crispy", "sweet", "fluffy", "morning", "grid"] },
-    { "word": "Cereal", "hints": ["crunch", "milk", "quick", "morning", "snack"] },
-    { "word": "Oatmeal", "hints": ["warm", "comforting", "routine", "healthy", "delicate"] },
-    { "word": "Yogurt", "hints": ["smooth", "creamy", "topping", "delicious", "refreshing"] },
-    { "word": "IceCream", "hints": ["sweet", "treat", "cold", "dessert", "scoop"] },
-    { "word": "Cake", "hints": ["celebration", "fluffy", "sweet", "dessert", "layered"] },
-    { "word": "Cookie", "hints": ["sweet", "snack", "crumbly", "comfort", "bite-sized"] },
-    { "word": "Brownie", "hints": ["rich", "chocolate", "fudgy", "sweet", "dessert"] },
-    { "word": "Pudding", "hints": ["smooth", "creamy", "dessert", "spoonful", "sweet"] },
-    { "word": "Donut", "hints": ["sweet", "round", "morning", "fluffy", "treat"] },
-    { "word": "Pie", "hints": ["slice", "dessert", "holiday", "sweet", "warm"] },
-    { "word": "Muffin", "hints": ["fluffy", "snack", "morning", "baked", "sweet"] },
-    { "word": "Croissant", "hints": ["flaky", "buttery", "warm", "breakfast", "delicious"] },
-    { "word": "Bagel", "hints": ["round", "spread", "soft", "breakfast", "savory"] },
-    { "word": "Pretzel", "hints": ["salty", "twisted", "crunchy", "snack", "dough"] },
-    { "word": "Popcorn", "hints": ["movie", "crunchy", "buttery", "light", "snack"] },
-    { "word": "Chips", "hints": ["crispy", "snack", "crunchy", "dip", "salty"] },
-    { "word": "Fries", "hints": ["crispy", "golden", "side", "salted", "savory"] },
-    { "word": "Nuggets", "hints": ["bite-sized", "crispy", "savory", "fried", "snack"] },
-    { "word": "Sausage", "hints": ["savory", "grilled", "breakfast", "protein", "rich"] },
-    { "word": "Bacon", "hints": ["crispy", "breakfast", "savory", "sizzle", "smoky"] },
-    { "word": "Meatballs", "hints": ["savory", "bite-sized", "saucy", "round", "delicious"] },
-    { "word": "Lasagna", "hints": ["layers", "cheese", "baked", "hearty", "savory"] },
-    { "word": "Chili", "hints": ["spicy", "hearty", "warm", "comfort", "bowl"] },
-    { "word": "Kebab", "hints": ["skewer", "grilled", "savory", "spicy", "street"] },
-    { "word": "Falafel", "hints": ["crunchy", "spicy", "savory", "street", "snack"] },
-    { "word": "Hummus", "hints": ["smooth", "dip", "savory", "spread", "creamy"] },
-    { "word": "Guacamole", "hints": ["smooth", "dip", "avocado", "fresh", "party"] },
-    { "word": "Salsa", "hints": ["fresh", "spicy", "tangy", "kick", "dip"] },
-    { "word": "Chocolate", "hints": ["sweet", "rich", "treat", "smooth", "dessert"] },
-    { "word": "Candy", "hints": ["sweet", "treat", "sugar", "bite-sized", "snack"] },
-    { "word": "Fruit", "hints": ["fresh", "sweet", "healthy", "natural", "snack"] },
-    { "word": "Grapes", "hints": ["fresh", "sweet", "vine", "bunch", "snack"] },
-    { "word": "Banana", "hints": ["sweet", "peel", "tropical", "smoothie", "snack"] },
-    { "word": "Apple", "hints": ["sweet", "crisp", "bite", "fresh", "snack"] },
-    { "word": "Orange", "hints": ["citrus", "sweet", "peel", "refreshing", "juicy"] },
-    { "word": "Mango", "hints": ["sweet", "tropical", "slice", "fruit", "refreshing"] },
-    { "word": "Berries", "hints": ["sweet", "topping", "fresh", "delicate", "mix"] },
-    { "word": "Watermelon", "hints": ["juicy", "summer", "refreshing", "sweet", "slice"] },
-    { "word": "Avocado", "hints": ["creamy", "smooth", "spread", "tasty", "healthy"] },
-    { "word": "Nuts", "hints": ["crunch", "protein", "healthy", "snack", "variety"] },
-    { "word": "Almonds", "hints": ["crunch", "protein", "snack", "bite-sized", "healthy"] },
-    { "word": "Peanuts", "hints": ["snack", "salted", "savory", "handful", "protein"] },
-    { "word": "Trailmix", "hints": ["snack", "variety", "healthy", "energy", "hike"] },
-    { "word": "Smoothie", "hints": ["blend", "fruit", "refreshing", "healthy", "cool"] },
-    { "word": "Milkshake", "hints": ["sweet", "cold", "treat", "creamy", "thick"] },
-    { "word": "Coffee", "hints": ["morning", "caffeine", "warm", "energizing", "comfort"] },
-    { "word": "Tea", "hints": ["calm", "warm", "steep", "soothing", "relax"] },
-    { "word": "Juice", "hints": ["fresh", "sweet", "refreshing", "fruit", "cold"] }
+    {
+      "word": "Pizza",
+      "hints": [
+        "gather",
+        "slice",
+        "delivery",
+        "melted",
+        "topping"
+      ]
+    },
+    {
+      "word": "Burger",
+      "hints": [
+        "layered",
+        "formed",
+        "grilled",
+        "handheld",
+        "assembly"
+      ]
+    },
+    {
+      "word": "Sandwich",
+      "hints": [
+        "stacked",
+        "packed",
+        "portable",
+        "filling",
+        "lunchbox"
+      ]
+    },
+    {
+      "word": "Taco",
+      "hints": [
+        "fold",
+        "outer",
+        "tuesday",
+        "spiced",
+        "handheld"
+      ]
+    },
+    {
+      "word": "Burrito",
+      "hints": [
+        "wrapped",
+        "stuffed",
+        "rolled",
+        "hefty",
+        "foil"
+      ]
+    },
+    {
+      "word": "Nachos",
+      "hints": [
+        "layered",
+        "melted",
+        "shared",
+        "stadium",
+        "crunchy"
+      ]
+    },
+    {
+      "word": "Pasta",
+      "hints": [
+        "twirl",
+        "boiled",
+        "sauced",
+        "italian",
+        "aldente"
+      ]
+    },
+    {
+      "word": "Ramen",
+      "hints": [
+        "slurp",
+        "steaming",
+        "brothy",
+        "strands",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Soup",
+      "hints": [
+        "simmer",
+        "ladle",
+        "steaming",
+        "brothy",
+        "spoon"
+      ]
+    },
+    {
+      "word": "Salad",
+      "hints": [
+        "toss",
+        "crisp",
+        "dressed",
+        "mixed",
+        "fresh"
+      ]
+    },
+    {
+      "word": "Steak",
+      "hints": [
+        "sear",
+        "sizzle",
+        "juicy",
+        "grilled",
+        "rare"
+      ]
+    },
+    {
+      "word": "Chicken",
+      "hints": [
+        "roast",
+        "seasoned",
+        "tender",
+        "versatile",
+        "portion"
+      ]
+    },
+    {
+      "word": "Fish",
+      "hints": [
+        "flaky",
+        "caught",
+        "scaled",
+        "ocean",
+        "cut"
+      ]
+    },
+    {
+      "word": "Sushi",
+      "hints": [
+        "rolled",
+        "raw",
+        "dipped",
+        "artful",
+        "spicy"
+      ]
+    },
+    {
+      "word": "Curry",
+      "hints": [
+        "simmer",
+        "aromatic",
+        "spiced",
+        "saucy",
+        "warming"
+      ]
+    },
+    {
+      "word": "Stirfry",
+      "hints": [
+        "toss",
+        "sizzle",
+        "wok",
+        "quick",
+        "mixed"
+      ]
+    },
+    {
+      "word": "Dumplings",
+      "hints": [
+        "folded",
+        "steamed",
+        "dipped",
+        "pleated",
+        "filling"
+      ]
+    },
+    {
+      "word": "Noodles",
+      "hints": [
+        "slurp",
+        "twirl",
+        "chewy",
+        "strands",
+        "boiled"
+      ]
+    },
+    {
+      "word": "Rice",
+      "hints": [
+        "steamed",
+        "fluffy",
+        "small",
+        "scoop",
+        "base"
+      ]
+    },
+    {
+      "word": "Omelette",
+      "hints": [
+        "folded",
+        "whisked",
+        "fluffy",
+        "filled",
+        "skillet"
+      ]
+    },
+    {
+      "word": "Pancakes",
+      "hints": [
+        "flip",
+        "stack",
+        "drizzled",
+        "griddle",
+        "batter"
+      ]
+    },
+    {
+      "word": "Waffles",
+      "hints": [
+        "pressed",
+        "pockets",
+        "gridded",
+        "drizzled",
+        "batter"
+      ]
+    },
+    {
+      "word": "Cereal",
+      "hints": [
+        "pour",
+        "crunch",
+        "bowl",
+        "morning",
+        "poured"
+      ]
+    },
+    {
+      "word": "Oatmeal",
+      "hints": [
+        "stir",
+        "steaming",
+        "topped",
+        "morning",
+        "hearty"
+      ]
+    },
+    {
+      "word": "Yogurt",
+      "hints": [
+        "spoon",
+        "cultured",
+        "topped",
+        "smooth",
+        "parfait"
+      ]
+    },
+    {
+      "word": "IceCream",
+      "hints": [
+        "scoop",
+        "melting",
+        "handheld",
+        "frozen",
+        "parlor"
+      ]
+    },
+    {
+      "word": "Cake",
+      "hints": [
+        "layered",
+        "frosted",
+        "candles",
+        "celebration",
+        "slice"
+      ]
+    },
+    {
+      "word": "Cookie",
+      "hints": [
+        "baked",
+        "batch",
+        "crumble",
+        "jar",
+        "dunk"
+      ]
+    },
+    {
+      "word": "Brownie",
+      "hints": [
+        "fudgy",
+        "square",
+        "baked",
+        "gooey",
+        "pan"
+      ]
+    },
+    {
+      "word": "Pudding",
+      "hints": [
+        "spoon",
+        "creamy",
+        "set",
+        "chilled",
+        "cup"
+      ]
+    },
+    {
+      "word": "Donut",
+      "hints": [
+        "glazed",
+        "hole",
+        "sprinkled",
+        "fried",
+        "dozen"
+      ]
+    },
+    {
+      "word": "Pie",
+      "hints": [
+        "slice",
+        "crust",
+        "filling",
+        "baked",
+        "lattice"
+      ]
+    },
+    {
+      "word": "Muffin",
+      "hints": [
+        "baked",
+        "topped",
+        "wrapper",
+        "domed",
+        "morning"
+      ]
+    },
+    {
+      "word": "Croissant",
+      "hints": [
+        "flaky",
+        "layered",
+        "buttery",
+        "crescent",
+        "bakery"
+      ]
+    },
+    {
+      "word": "Bagel",
+      "hints": [
+        "boiled",
+        "spread",
+        "toasted",
+        "hole",
+        "chewy"
+      ]
+    },
+    {
+      "word": "Pretzel",
+      "hints": [
+        "twisted",
+        "salted",
+        "baked",
+        "knotted",
+        "dipped"
+      ]
+    },
+    {
+      "word": "Popcorn",
+      "hints": [
+        "popped",
+        "buttered",
+        "theater",
+        "kernel",
+        "container"
+      ]
+    },
+    {
+      "word": "Chips",
+      "hints": [
+        "crunch",
+        "bagged",
+        "dipped",
+        "salted",
+        "handful"
+      ]
+    },
+    {
+      "word": "Fries",
+      "hints": [
+        "golden",
+        "dipped",
+        "salted",
+        "fried",
+        "basket"
+      ]
+    },
+    {
+      "word": "Nuggets",
+      "hints": [
+        "dipped",
+        "breaded",
+        "bite",
+        "fried",
+        "sauce"
+      ]
+    },
+    {
+      "word": "Sausage",
+      "hints": [
+        "grilled",
+        "casing",
+        "links",
+        "sizzle",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Bacon",
+      "hints": [
+        "sizzle",
+        "strips",
+        "crispy",
+        "smoky",
+        "morning"
+      ]
+    },
+    {
+      "word": "Meatballs",
+      "hints": [
+        "rolled",
+        "sauced",
+        "skewered",
+        "seasoned",
+        "spaghetti"
+      ]
+    },
+    {
+      "word": "Lasagna",
+      "hints": [
+        "layered",
+        "baked",
+        "melted",
+        "sauced",
+        "casserole"
+      ]
+    },
+    {
+      "word": "Chili",
+      "hints": [
+        "simmered",
+        "topped",
+        "spiced",
+        "bowl",
+        "beans"
+      ]
+    },
+    {
+      "word": "Kebab",
+      "hints": [
+        "skewered",
+        "grilled",
+        "charred",
+        "marinated",
+        "street"
+      ]
+    },
+    {
+      "word": "Falafel",
+      "hints": [
+        "fried",
+        "stuffed",
+        "spiced",
+        "pita",
+        "street"
+      ]
+    },
+    {
+      "word": "Hummus",
+      "hints": [
+        "dipped",
+        "spread",
+        "blended",
+        "scooped",
+        "pita"
+      ]
+    },
+    {
+      "word": "Guacamole",
+      "hints": [
+        "mashed",
+        "dipped",
+        "fresh",
+        "scooped",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Salsa",
+      "hints": [
+        "dipped",
+        "chunky",
+        "spiced",
+        "fresh",
+        "jarred"
+      ]
+    },
+    {
+      "word": "Chocolate",
+      "hints": [
+        "melted",
+        "wrapped",
+        "bar",
+        "indulgent",
+        "cocoa"
+      ]
+    },
+    {
+      "word": "Candy",
+      "hints": [
+        "wrapped",
+        "chewed",
+        "bag",
+        "halloween",
+        "sugar"
+      ]
+    },
+    {
+      "word": "Fruit",
+      "hints": [
+        "picked",
+        "ripe",
+        "peeled",
+        "natural",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Grapes",
+      "hints": [
+        "plucked",
+        "bunch",
+        "vine",
+        "seedless",
+        "pop"
+      ]
+    },
+    {
+      "word": "Banana",
+      "hints": [
+        "peeled",
+        "ripe",
+        "bunch",
+        "spotted",
+        "smoothie"
+      ]
+    },
+    {
+      "word": "Apple",
+      "hints": [
+        "picked",
+        "crunchy",
+        "orchard",
+        "core",
+        "sliced"
+      ]
+    },
+    {
+      "word": "Orange",
+      "hints": [
+        "peeled",
+        "squeezed",
+        "segmented",
+        "zest",
+        "juiced"
+      ]
+    },
+    {
+      "word": "Mango",
+      "hints": [
+        "sliced",
+        "tropical",
+        "ripe",
+        "sticky",
+        "cubed"
+      ]
+    },
+    {
+      "word": "Berries",
+      "hints": [
+        "picked",
+        "stained",
+        "topped",
+        "handful",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Watermelon",
+      "hints": [
+        "sliced",
+        "seeded",
+        "summer",
+        "juicy",
+        "wedge"
+      ]
+    },
+    {
+      "word": "Avocado",
+      "hints": [
+        "mashed",
+        "sliced",
+        "ripe",
+        "spread",
+        "pit"
+      ]
+    },
+    {
+      "word": "Nuts",
+      "hints": [
+        "cracked",
+        "roasted",
+        "salted",
+        "handful",
+        "mixed"
+      ]
+    },
+    {
+      "word": "Almonds",
+      "hints": [
+        "roasted",
+        "handful",
+        "sliced",
+        "blanched",
+        "snacking"
+      ]
+    },
+    {
+      "word": "Peanuts",
+      "hints": [
+        "outered",
+        "roasted",
+        "salted",
+        "ballgame",
+        "handful"
+      ]
+    },
+    {
+      "word": "Trailmix",
+      "hints": [
+        "hiking",
+        "handful",
+        "energy",
+        "mixed",
+        "bagged"
+      ]
+    },
+    {
+      "word": "Smoothie",
+      "hints": [
+        "blended",
+        "sipped",
+        "fruity",
+        "thick",
+        "straw"
+      ]
+    },
+    {
+      "word": "Milkshake",
+      "hints": [
+        "blended",
+        "thick",
+        "sipped",
+        "malt",
+        "straw"
+      ]
+    },
+    {
+      "word": "Coffee",
+      "hints": [
+        "brewed",
+        "sipped",
+        "morning",
+        "caffeine",
+        "mug"
+      ]
+    },
+    {
+      "word": "Tea",
+      "hints": [
+        "steeped",
+        "sipped",
+        "calming",
+        "kettle",
+        "leaves"
+      ]
+    },
+    {
+      "word": "Juice",
+      "hints": [
+        "squeezed",
+        "poured",
+        "pulpy",
+        "glass",
+        "fresh"
+      ]
+    },
+    {
+      "word": "Lemonade",
+      "hints": [
+        "squeezed",
+        "stirred",
+        "pitcher",
+        "summer",
+        "stand"
+      ]
+    },
+    {
+      "word": "Soda",
+      "hints": [
+        "fizzy",
+        "poured",
+        "bubbles",
+        "canned",
+        "fountain"
+      ]
+    },
+    {
+      "word": "Water",
+      "hints": [
+        "poured",
+        "hydrating",
+        "filtered",
+        "glass",
+        "essential"
+      ]
+    },
+    {
+      "word": "Milk",
+      "hints": [
+        "poured",
+        "cold",
+        "carton",
+        "splash",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Cheese",
+      "hints": [
+        "sliced",
+        "melted",
+        "aged",
+        "grated",
+        "board"
+      ]
+    },
+    {
+      "word": "Butter",
+      "hints": [
+        "spread",
+        "melted",
+        "churned",
+        "pat",
+        "sliced"
+      ]
+    },
+    {
+      "word": "Eggs",
+      "hints": [
+        "cracked",
+        "scrambled",
+        "boiled",
+        "whisked",
+        "carton"
+      ]
+    },
+    {
+      "word": "Bread",
+      "hints": [
+        "sliced",
+        "toasted",
+        "baked",
+        "loaf",
+        "spread"
+      ]
+    },
+    {
+      "word": "Toast",
+      "hints": [
+        "browned",
+        "buttered",
+        "crunchy",
+        "spread",
+        "morning"
+      ]
+    },
+    {
+      "word": "Biscuit",
+      "hints": [
+        "flaky",
+        "buttered",
+        "baked",
+        "split",
+        "gravy"
+      ]
+    },
+    {
+      "word": "Cornbread",
+      "hints": [
+        "crumbly",
+        "baked",
+        "buttered",
+        "southern",
+        "pan"
+      ]
+    },
+    {
+      "word": "Tortilla",
+      "hints": [
+        "wrapped",
+        "warmed",
+        "folded",
+        "pressed",
+        "soft"
+      ]
+    },
+    {
+      "word": "Pita",
+      "hints": [
+        "stuffed",
+        "warmed",
+        "pocket",
+        "torn",
+        "dipped"
+      ]
+    },
+    {
+      "word": "Naan",
+      "hints": [
+        "torn",
+        "charred",
+        "fluffy",
+        "dipped",
+        "baked"
+      ]
+    },
+    {
+      "word": "Crackers",
+      "hints": [
+        "crisp",
+        "topped",
+        "snapped",
+        "spread",
+        "box"
+      ]
+    },
+    {
+      "word": "Pretzels",
+      "hints": [
+        "twisted",
+        "salted",
+        "snapped",
+        "bagged",
+        "crunchy"
+      ]
+    },
+    {
+      "word": "Granola",
+      "hints": [
+        "crunchy",
+        "topped",
+        "baked",
+        "clusters",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Honey",
+      "hints": [
+        "drizzled",
+        "sticky",
+        "golden",
+        "jar",
+        "natural"
+      ]
+    },
+    {
+      "word": "Syrup",
+      "hints": [
+        "poured",
+        "sticky",
+        "drizzled",
+        "bottle",
+        "stack"
+      ]
+    },
+    {
+      "word": "Jam",
+      "hints": [
+        "spread",
+        "jarred",
+        "fruity",
+        "preserves",
+        "toast"
+      ]
+    },
+    {
+      "word": "Peanutbutter",
+      "hints": [
+        "spread",
+        "sticky",
+        "jarred",
+        "creamy",
+        "sandwich"
+      ]
+    },
+    {
+      "word": "Nutella",
+      "hints": [
+        "spread",
+        "jarred",
+        "hazelnut",
+        "toast",
+        "spoon"
+      ]
+    },
+    {
+      "word": "Ketchup",
+      "hints": [
+        "squeezed",
+        "dipped",
+        "bottle",
+        "red",
+        "condiment"
+      ]
+    },
+    {
+      "word": "Mustard",
+      "hints": [
+        "squeezed",
+        "spread",
+        "yellow",
+        "tangy",
+        "bottle"
+      ]
+    },
+    {
+      "word": "Mayo",
+      "hints": [
+        "spread",
+        "creamy",
+        "jarred",
+        "sandwich",
+        "base"
+      ]
+    },
+    {
+      "word": "Relish",
+      "hints": [
+        "spooned",
+        "chunky",
+        "jarred",
+        "tangy",
+        "topped"
+      ]
+    },
+    {
+      "word": "Pickles",
+      "hints": [
+        "jarred",
+        "crunchy",
+        "brined",
+        "sliced",
+        "tangy"
+      ]
+    },
+    {
+      "word": "Olives",
+      "hints": [
+        "jarred",
+        "pitted",
+        "briny",
+        "stuffed",
+        "picked"
+      ]
+    },
+    {
+      "word": "Capers",
+      "hints": [
+        "jarred",
+        "briny",
+        "tiny",
+        "garnish",
+        "salty"
+      ]
+    },
+    {
+      "word": "Peppers",
+      "hints": [
+        "sliced",
+        "stuffed",
+        "roasted",
+        "spicy",
+        "chopped"
+      ]
+    },
+    {
+      "word": "Onion",
+      "hints": [
+        "chopped",
+        "caramelized",
+        "sliced",
+        "layers",
+        "tears"
+      ]
+    },
+    {
+      "word": "Garlic",
+      "hints": [
+        "minced",
+        "roasted",
+        "crushed",
+        "aromatic",
+        "clove"
+      ]
+    },
+    {
+      "word": "Tomato",
+      "hints": [
+        "sliced",
+        "diced",
+        "vine",
+        "juicy",
+        "seeded"
+      ]
+    },
+    {
+      "word": "Lettuce",
+      "hints": [
+        "shredded",
+        "crisp",
+        "wrapped",
+        "leaves",
+        "base"
+      ]
+    },
+    {
+      "word": "Spinach",
+      "hints": [
+        "wilted",
+        "fresh",
+        "leaves",
+        "topped",
+        "salad"
+      ]
+    },
+    {
+      "word": "Kale",
+      "hints": [
+        "massaged",
+        "crispy",
+        "leaves",
+        "chips",
+        "tough"
+      ]
+    },
+    {
+      "word": "Cabbage",
+      "hints": [
+        "shredded",
+        "crunchy",
+        "slaw",
+        "wrapped",
+        "fermented"
+      ]
+    },
+    {
+      "word": "Broccoli",
+      "hints": [
+        "steamed",
+        "florets",
+        "blanched",
+        "roasted",
+        "green"
+      ]
+    },
+    {
+      "word": "Cauliflower",
+      "hints": [
+        "roasted",
+        "mashed",
+        "florets",
+        "riced",
+        "white"
+      ]
+    },
+    {
+      "word": "Carrots",
+      "hints": [
+        "peeled",
+        "dipped",
+        "shredded",
+        "roasted",
+        "sticks"
+      ]
+    },
+    {
+      "word": "Celery",
+      "hints": [
+        "crunchy",
+        "stalks",
+        "dipped",
+        "stringy",
+        "spread"
+      ]
+    },
+    {
+      "word": "Cucumber",
+      "hints": [
+        "sliced",
+        "cool",
+        "crunchy",
+        "peeled",
+        "refreshing"
+      ]
+    },
+    {
+      "word": "Zucchini",
+      "hints": [
+        "sliced",
+        "grilled",
+        "spiraled",
+        "stuffed",
+        "summer"
+      ]
+    },
+    {
+      "word": "Eggplant",
+      "hints": [
+        "grilled",
+        "roasted",
+        "sliced",
+        "purple",
+        "soft"
+      ]
+    },
+    {
+      "word": "Mushrooms",
+      "hints": [
+        "sauteed",
+        "sliced",
+        "earthy",
+        "stuffed",
+        "wild"
+      ]
+    },
+    {
+      "word": "Potatoes",
+      "hints": [
+        "mashed",
+        "baked",
+        "fried",
+        "peeled",
+        "roasted"
+      ]
+    },
+    {
+      "word": "Sweetpotato",
+      "hints": [
+        "baked",
+        "mashed",
+        "roasted",
+        "orange",
+        "topped"
+      ]
+    },
+    {
+      "word": "Corn",
+      "hints": [
+        "buttered",
+        "grilled",
+        "cob",
+        "kernels",
+        "popped"
+      ]
+    },
+    {
+      "word": "Peas",
+      "hints": [
+        "outered",
+        "tiny",
+        "pod",
+        "bright",
+        "mashed"
+      ]
+    },
+    {
+      "word": "Beans",
+      "hints": [
+        "soaked",
+        "canned",
+        "simmered",
+        "mashed",
+        "legume"
+      ]
+    },
+    {
+      "word": "Lentils",
+      "hints": [
+        "simmered",
+        "earthy",
+        "soup",
+        "dal",
+        "protein"
+      ]
+    },
+    {
+      "word": "Chickpeas",
+      "hints": [
+        "roasted",
+        "mashed",
+        "canned",
+        "crunchy",
+        "blended"
+      ]
+    },
+    {
+      "word": "Tofu",
+      "hints": [
+        "pressed",
+        "cubed",
+        "marinated",
+        "fried",
+        "silken"
+      ]
+    },
+    {
+      "word": "Tempeh",
+      "hints": [
+        "sliced",
+        "marinated",
+        "fermented",
+        "nutty",
+        "grilled"
+      ]
+    },
+    {
+      "word": "Seitan",
+      "hints": [
+        "sliced",
+        "seasoned",
+        "chewy",
+        "grilled",
+        "protein"
+      ]
+    },
+    {
+      "word": "Ham",
+      "hints": [
+        "sliced",
+        "glazed",
+        "carved",
+        "holiday",
+        "cured"
+      ]
+    },
+    {
+      "word": "Turkey",
+      "hints": [
+        "carved",
+        "roasted",
+        "holiday",
+        "sliced",
+        "stuffed"
+      ]
+    },
+    {
+      "word": "Pork",
+      "hints": [
+        "roasted",
+        "pulled",
+        "grilled",
+        "tender",
+        "chop"
+      ]
+    },
+    {
+      "word": "Beef",
+      "hints": [
+        "grilled",
+        "braised",
+        "ground",
+        "roasted",
+        "tender"
+      ]
+    },
+    {
+      "word": "Lamb",
+      "hints": [
+        "roasted",
+        "braised",
+        "chops",
+        "tender",
+        "herbed"
+      ]
+    },
+    {
+      "word": "Duck",
+      "hints": [
+        "roasted",
+        "crispy",
+        "rendered",
+        "rich",
+        "carved"
+      ]
+    },
+    {
+      "word": "Shrimp",
+      "hints": [
+        "peeled",
+        "grilled",
+        "cocktail",
+        "curled",
+        "deveined"
+      ]
+    },
+    {
+      "word": "Lobster",
+      "hints": [
+        "cracked",
+        "dipped",
+        "steamed",
+        "outer",
+        "luxurious"
+      ]
+    },
+    {
+      "word": "Crab",
+      "hints": [
+        "cracked",
+        "picked",
+        "steamed",
+        "outer",
+        "cake"
+      ]
+    },
+    {
+      "word": "Oysters",
+      "hints": [
+        "shucked",
+        "raw",
+        "outer",
+        "slurped",
+        "briny"
+      ]
+    },
+    {
+      "word": "Clams",
+      "hints": [
+        "steamed",
+        "outered",
+        "chowder",
+        "dug",
+        "briny"
+      ]
+    },
+    {
+      "word": "Mussels",
+      "hints": [
+        "steamed",
+        "outered",
+        "broth",
+        "black",
+        "briny"
+      ]
+    },
+    {
+      "word": "Scallops",
+      "hints": [
+        "seared",
+        "tender",
+        "golden",
+        "outer",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Salmon",
+      "hints": [
+        "grilled",
+        "smoked",
+        "flaky",
+        "pink",
+        "cut"
+      ]
+    },
+    {
+      "word": "Tuna",
+      "hints": [
+        "seared",
+        "canned",
+        "raw",
+        "steak",
+        "pink"
+      ]
+    },
+    {
+      "word": "Sardines",
+      "hints": [
+        "canned",
+        "tiny",
+        "oily",
+        "bones",
+        "tinned"
+      ]
+    },
+    {
+      "word": "Anchovies",
+      "hints": [
+        "salty",
+        "tiny",
+        "jarred",
+        "umami",
+        "pizza"
+      ]
+    },
+    {
+      "word": "Calamari",
+      "hints": [
+        "fried",
+        "rings",
+        "tender",
+        "breaded",
+        "dipped"
+      ]
+    },
+    {
+      "word": "Octopus",
+      "hints": [
+        "grilled",
+        "tender",
+        "charred",
+        "tentacles",
+        "chewy"
+      ]
+    },
+    {
+      "word": "Caviar",
+      "hints": [
+        "spooned",
+        "tiny",
+        "salty",
+        "luxurious",
+        "garnish"
+      ]
+    },
+    {
+      "word": "Paella",
+      "hints": [
+        "saffron",
+        "shared",
+        "pan",
+        "festive",
+        "spanish"
+      ]
+    },
+    {
+      "word": "Risotto",
+      "hints": [
+        "stirred",
+        "creamy",
+        "ladled",
+        "slow",
+        "arborio"
+      ]
+    },
+    {
+      "word": "Gnocchi",
+      "hints": [
+        "pillowy",
+        "sauced",
+        "boiled",
+        "potato",
+        "fork"
+      ]
+    },
+    {
+      "word": "Ravioli",
+      "hints": [
+        "stuffed",
+        "pockets",
+        "sauced",
+        "boiled",
+        "crimped"
+      ]
+    },
+    {
+      "word": "Tortellini",
+      "hints": [
+        "stuffed",
+        "ring",
+        "broth",
+        "boiled",
+        "tiny"
+      ]
+    },
+    {
+      "word": "Macaroni",
+      "hints": [
+        "elbow",
+        "melted",
+        "baked",
+        "boiled",
+        "box"
+      ]
+    },
+    {
+      "word": "Spaghetti",
+      "hints": [
+        "twirled",
+        "sauced",
+        "strands",
+        "slurped",
+        "boiled"
+      ]
+    },
+    {
+      "word": "Fettuccine",
+      "hints": [
+        "ribbons",
+        "creamy",
+        "twirled",
+        "alfredo",
+        "flat"
+      ]
+    },
+    {
+      "word": "Penne",
+      "hints": [
+        "tube",
+        "sauced",
+        "ridged",
+        "tossed",
+        "baked"
+      ]
+    },
+    {
+      "word": "Linguine",
+      "hints": [
+        "flat",
+        "twirled",
+        "strands",
+        "sauced",
+        "seafood"
+      ]
+    },
+    {
+      "word": "Couscous",
+      "hints": [
+        "fluffy",
+        "steamed",
+        "tiny",
+        "small",
+        "north"
+      ]
+    },
+    {
+      "word": "Quinoa",
+      "hints": [
+        "fluffy",
+        "nutty",
+        "small",
+        "protein",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Bulgur",
+      "hints": [
+        "chewy",
+        "small",
+        "soaked",
+        "salad",
+        "middle"
+      ]
+    },
+    {
+      "word": "Polenta",
+      "hints": [
+        "creamy",
+        "cornmeal",
+        "set",
+        "sliced",
+        "italian"
+      ]
+    },
+    {
+      "word": "Grits",
+      "hints": [
+        "creamy",
+        "southern",
+        "buttered",
+        "melted",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Porridge",
+      "hints": [
+        "stirred",
+        "warm",
+        "topped",
+        "morning",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Crepes",
+      "hints": [
+        "thin",
+        "folded",
+        "filled",
+        "french",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Frenchtoast",
+      "hints": [
+        "soaked",
+        "golden",
+        "drizzledy",
+        "dusted",
+        "brunch"
+      ]
+    },
+    {
+      "word": "Eggsbennedict",
+      "hints": [
+        "stacked",
+        "poached",
+        "hollandaise",
+        "brunch",
+        "muffin"
+      ]
+    },
+    {
+      "word": "Quiche",
+      "hints": [
+        "sliced",
+        "baked",
+        "custard",
+        "crust",
+        "brunch"
+      ]
+    },
+    {
+      "word": "Frittata",
+      "hints": [
+        "sliced",
+        "baked",
+        "wedge",
+        "skillet",
+        "eggs"
+      ]
+    },
+    {
+      "word": "Shakshuka",
+      "hints": [
+        "poached",
+        "saucy",
+        "scooped",
+        "spiced",
+        "skillet"
+      ]
+    },
+    {
+      "word": "Huevosrancheros",
+      "hints": [
+        "topped",
+        "saucy",
+        "fried",
+        "beans",
+        "mexican"
+      ]
+    },
+    {
+      "word": "Chilaquiles",
+      "hints": [
+        "saucy",
+        "crispy",
+        "topped",
+        "mexican",
+        "brunch"
+      ]
+    },
+    {
+      "word": "Tamales",
+      "hints": [
+        "unwrapped",
+        "steamed",
+        "husk",
+        "stuffed",
+        "holiday"
+      ]
+    },
+    {
+      "word": "Empanadas",
+      "hints": [
+        "stuffed",
+        "crimped",
+        "baked",
+        "handheld",
+        "pastry"
+      ]
+    },
+    {
+      "word": "Pupusas",
+      "hints": [
+        "stuffed",
+        "griddled",
+        "thick",
+        "curtido",
+        "filled"
+      ]
+    },
+    {
+      "word": "Arepas",
+      "hints": [
+        "griddled",
+        "stuffed",
+        "split",
+        "corn",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Quesadilla",
+      "hints": [
+        "folded",
+        "griddled",
+        "melted",
+        "sliced",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Enchiladas",
+      "hints": [
+        "rolled",
+        "sauced",
+        "baked",
+        "topped",
+        "melted"
+      ]
+    },
+    {
+      "word": "Tostadas",
+      "hints": [
+        "topped",
+        "crunchy",
+        "piled",
+        "flat",
+        "bite"
+      ]
+    },
+    {
+      "word": "Gorditas",
+      "hints": [
+        "stuffed",
+        "thick",
+        "fried",
+        "pocket",
+        "filled"
+      ]
+    },
+    {
+      "word": "Carnitas",
+      "hints": [
+        "pulled",
+        "crispy",
+        "braised",
+        "shredded",
+        "tender"
+      ]
+    },
+    {
+      "word": "Barbacoa",
+      "hints": [
+        "shredded",
+        "braised",
+        "tender",
+        "wrapped",
+        "slow"
+      ]
+    },
+    {
+      "word": "Ceviche",
+      "hints": [
+        "citrus",
+        "fresh",
+        "marinated",
+        "diced",
+        "coastal"
+      ]
+    },
+    {
+      "word": "Poke",
+      "hints": [
+        "cubed",
+        "raw",
+        "bowl",
+        "marinated",
+        "hawaiian"
+      ]
+    },
+    {
+      "word": "Tartare",
+      "hints": [
+        "raw",
+        "diced",
+        "seasoned",
+        "fresh",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Carpaccio",
+      "hints": [
+        "thin",
+        "raw",
+        "drizzled",
+        "elegant",
+        "sliced"
+      ]
+    },
+    {
+      "word": "Bruschetta",
+      "hints": [
+        "topped",
+        "toasted",
+        "diced",
+        "rubbed",
+        "appetizer"
+      ]
+    },
+    {
+      "word": "Crostini",
+      "hints": [
+        "topped",
+        "toasted",
+        "bite",
+        "elegant",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Antipasto",
+      "hints": [
+        "shared",
+        "cured",
+        "platter",
+        "picked",
+        "italian"
+      ]
+    },
+    {
+      "word": "Charcuterie",
+      "hints": [
+        "sliced",
+        "board",
+        "cured",
+        "shared",
+        "arranged"
+      ]
+    },
+    {
+      "word": "Pate",
+      "hints": [
+        "spread",
+        "rich",
+        "sliced",
+        "elegant",
+        "liver"
+      ]
+    },
+    {
+      "word": "Terrine",
+      "hints": [
+        "sliced",
+        "layered",
+        "cold",
+        "molded",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Mousse",
+      "hints": [
+        "airy",
+        "spooned",
+        "whipped",
+        "light",
+        "fluffy"
+      ]
+    },
+    {
+      "word": "Souffle",
+      "hints": [
+        "risen",
+        "delicate",
+        "airy",
+        "fallen",
+        "baked"
+      ]
+    },
+    {
+      "word": "Meringue",
+      "hints": [
+        "whipped",
+        "crispy",
+        "peaked",
+        "airy",
+        "baked"
+      ]
+    },
+    {
+      "word": "Macarons",
+      "hints": [
+        "sandwiched",
+        "delicate",
+        "colorful",
+        "crispy",
+        "filled"
+      ]
+    },
+    {
+      "word": "Eclair",
+      "hints": [
+        "filled",
+        "topped",
+        "piped",
+        "pastry",
+        "elongated"
+      ]
+    },
+    {
+      "word": "Profiteroles",
+      "hints": [
+        "filled",
+        "topped",
+        "puffed",
+        "cream",
+        "stacked"
+      ]
+    },
+    {
+      "word": "Cannoli",
+      "hints": [
+        "filled",
+        "crispy",
+        "outer",
+        "piped",
+        "ricotta"
+      ]
+    },
+    {
+      "word": "Tiramisu",
+      "hints": [
+        "layered",
+        "soaked",
+        "dusted",
+        "creamy",
+        "coffee"
+      ]
+    },
+    {
+      "word": "Cheesecake",
+      "hints": [
+        "sliced",
+        "creamy",
+        "crust",
+        "dense",
+        "topped"
+      ]
+    },
+    {
+      "word": "Flan",
+      "hints": [
+        "inverted",
+        "caramel",
+        "silky",
+        "custard",
+        "unmolded"
+      ]
+    },
+    {
+      "word": "Crembrulee",
+      "hints": [
+        "cracked",
+        "torched",
+        "custard",
+        "caramelized",
+        "tap"
+      ]
+    },
+    {
+      "word": "Pannacotta",
+      "hints": [
+        "wobble",
+        "unmolded",
+        "silky",
+        "topped",
+        "cream"
+      ]
+    },
+    {
+      "word": "Gelato",
+      "hints": [
+        "scooped",
+        "dense",
+        "italian",
+        "handheld",
+        "creamy"
+      ]
+    },
+    {
+      "word": "Sorbet",
+      "hints": [
+        "scooped",
+        "fruity",
+        "icy",
+        "refreshing",
+        "palate"
+      ]
+    },
+    {
+      "word": "Frozen",
+      "hints": [
+        "scooped",
+        "icy",
+        "blended",
+        "summer",
+        "cold"
+      ]
+    },
+    {
+      "word": "Popsicle",
+      "hints": [
+        "frozen",
+        "stick",
+        "licked",
+        "melting",
+        "summer"
+      ]
+    },
+    {
+      "word": "Sundae",
+      "hints": [
+        "topped",
+        "scooped",
+        "layered",
+        "drizzled",
+        "glass"
+      ]
+    },
+    {
+      "word": "Parfait",
+      "hints": [
+        "layered",
+        "spooned",
+        "glass",
+        "topped",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Cobbler",
+      "hints": [
+        "baked",
+        "bubbling",
+        "topped",
+        "fruit",
+        "warm"
+      ]
+    },
+    {
+      "word": "Crisp",
+      "hints": [
+        "baked",
+        "crumbly",
+        "topped",
+        "fruit",
+        "warm"
+      ]
+    },
+    {
+      "word": "Crumble",
+      "hints": [
+        "baked",
+        "topped",
+        "oats",
+        "fruit",
+        "warm"
+      ]
+    },
+    {
+      "word": "Galette",
+      "hints": [
+        "rustic",
+        "folded",
+        "baked",
+        "freeform",
+        "crust"
+      ]
+    },
+    {
+      "word": "Tart",
+      "hints": [
+        "sliced",
+        "filled",
+        "crust",
+        "elegant",
+        "fruit"
+      ]
+    },
+    {
+      "word": "Turnover",
+      "hints": [
+        "folded",
+        "filled",
+        "flaky",
+        "handheld",
+        "baked"
+      ]
+    },
+    {
+      "word": "Strudel",
+      "hints": [
+        "rolled",
+        "flaky",
+        "filled",
+        "sliced",
+        "layers"
+      ]
+    },
+    {
+      "word": "Baklava",
+      "hints": [
+        "layered",
+        "sticky",
+        "honeyed",
+        "flaky",
+        "cut"
+      ]
+    },
+    {
+      "word": "Churros",
+      "hints": [
+        "fried",
+        "dusted",
+        "dipped",
+        "ridged",
+        "hot"
+      ]
+    },
+    {
+      "word": "Beignets",
+      "hints": [
+        "fried",
+        "dusted",
+        "puffy",
+        "hot",
+        "powdered"
+      ]
+    },
+    {
+      "word": "Funnel",
+      "hints": [
+        "fried",
+        "dusted",
+        "swirled",
+        "fair",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Sopapillas",
+      "hints": [
+        "fried",
+        "puffy",
+        "drizzled",
+        "pillowy",
+        "warm"
+      ]
+    },
+    {
+      "word": "Doughnuts",
+      "hints": [
+        "glazed",
+        "fried",
+        "topped",
+        "ring",
+        "box"
+      ]
+    },
+    {
+      "word": "Fritters",
+      "hints": [
+        "fried",
+        "chunky",
+        "battered",
+        "golden",
+        "hot"
+      ]
+    },
+    {
+      "word": "Hushpuppies",
+      "hints": [
+        "fried",
+        "golden",
+        "cornmeal",
+        "balls",
+        "southern"
+      ]
+    },
+    {
+      "word": "Onionrings",
+      "hints": [
+        "fried",
+        "battered",
+        "dipped",
+        "crispy",
+        "rings"
+      ]
+    },
+    {
+      "word": "Tempura",
+      "hints": [
+        "battered",
+        "light",
+        "dipped",
+        "crispy",
+        "japanese"
+      ]
+    },
+    {
+      "word": "Springrolls",
+      "hints": [
+        "rolled",
+        "crispy",
+        "dipped",
+        "fried",
+        "wrapper"
+      ]
+    },
+    {
+      "word": "Eggrolls",
+      "hints": [
+        "fried",
+        "crispy",
+        "dipped",
+        "wrapper",
+        "stuffed"
+      ]
+    },
+    {
+      "word": "Potstickers",
+      "hints": [
+        "crispy",
+        "pan",
+        "dipped",
+        "pleated",
+        "steamed"
+      ]
+    },
+    {
+      "word": "Wontons",
+      "hints": [
+        "folded",
+        "wrapper",
+        "soup",
+        "fried",
+        "filled"
+      ]
+    },
+    {
+      "word": "Bao",
+      "hints": [
+        "steamed",
+        "fluffy",
+        "filled",
+        "soft",
+        "pillowy"
+      ]
+    },
+    {
+      "word": "Dimsum",
+      "hints": [
+        "steamed",
+        "cart",
+        "shared",
+        "baskets",
+        "brunch"
+      ]
+    },
+    {
+      "word": "Congee",
+      "hints": [
+        "simmered",
+        "topped",
+        "rice",
+        "warm",
+        "comfort"
+      ]
+    },
+    {
+      "word": "Pho",
+      "hints": [
+        "steaming",
+        "brothy",
+        "garnished",
+        "slurped",
+        "aromatic"
+      ]
+    },
+    {
+      "word": "Laksa",
+      "hints": [
+        "spicy",
+        "brothy",
+        "strands",
+        "coconut",
+        "slurped"
+      ]
+    },
+    {
+      "word": "Padthai",
+      "hints": [
+        "stir",
+        "tangy",
+        "strands",
+        "peanut",
+        "wok"
+      ]
+    },
+    {
+      "word": "Friedrice",
+      "hints": [
+        "tossed",
+        "wok",
+        "sizzle",
+        "leftover",
+        "egg"
+      ]
+    },
+    {
+      "word": "Bibimbap",
+      "hints": [
+        "mixed",
+        "topped",
+        "bowl",
+        "egg",
+        "sizzling"
+      ]
+    },
+    {
+      "word": "Bulgogi",
+      "hints": [
+        "grilled",
+        "marinated",
+        "sweet",
+        "wrapped",
+        "korean"
+      ]
+    },
+    {
+      "word": "Kimchi",
+      "hints": [
+        "fermented",
+        "spicy",
+        "tangy",
+        "crunchy",
+        "side"
+      ]
+    },
+    {
+      "word": "Gyoza",
+      "hints": [
+        "crispy",
+        "pan",
+        "dipped",
+        "pleated",
+        "japanese"
+      ]
+    },
+    {
+      "word": "Okonomiyaki",
+      "hints": [
+        "savory",
+        "griddled",
+        "topped",
+        "drizzled",
+        "pancake"
+      ]
+    },
+    {
+      "word": "Takoyaki",
+      "hints": [
+        "round",
+        "balls",
+        "topped",
+        "crispy",
+        "street"
+      ]
+    },
+    {
+      "word": "Yakitori",
+      "hints": [
+        "skewered",
+        "grilled",
+        "glazed",
+        "charred",
+        "street"
+      ]
+    },
+    {
+      "word": "Teriyaki",
+      "hints": [
+        "glazed",
+        "sweet",
+        "grilled",
+        "sticky",
+        "saucy"
+      ]
+    },
+    {
+      "word": "Katsu",
+      "hints": [
+        "breaded",
+        "crispy",
+        "cutlet",
+        "fried",
+        "sauce"
+      ]
+    },
+    {
+      "word": "Donburi",
+      "hints": [
+        "topped",
+        "bowl",
+        "rice",
+        "simmered",
+        "egg"
+      ]
+    },
+    {
+      "word": "Onigiri",
+      "hints": [
+        "shaped",
+        "wrapped",
+        "filled",
+        "triangle",
+        "portable"
+      ]
+    },
+    {
+      "word": "Miso",
+      "hints": [
+        "sipped",
+        "brothy",
+        "fermented",
+        "warm",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Edamame",
+      "hints": [
+        "salted",
+        "popped",
+        "steamed",
+        "pods",
+        "snack"
+      ]
+    },
+    {
+      "word": "Seaweed",
+      "hints": [
+        "crispy",
+        "sheets",
+        "wrapped",
+        "salty",
+        "ocean"
+      ]
+    },
+    {
+      "word": "Togarashi",
+      "hints": [
+        "sprinkled",
+        "spicy",
+        "seasoning",
+        "blend",
+        "japanese"
+      ]
+    },
+    {
+      "word": "Wasabi",
+      "hints": [
+        "pungent",
+        "green",
+        "dab",
+        "sinus",
+        "paste"
+      ]
+    },
+    {
+      "word": "Soysauce",
+      "hints": [
+        "dipped",
+        "poured",
+        "salty",
+        "dark",
+        "umami"
+      ]
+    },
+    {
+      "word": "Sriracha",
+      "hints": [
+        "squeezed",
+        "spicy",
+        "drizzled",
+        "rooster",
+        "red"
+      ]
+    },
+    {
+      "word": "Hotsauce",
+      "hints": [
+        "dashed",
+        "spicy",
+        "bottle",
+        "fiery",
+        "vinegar"
+      ]
+    },
+    {
+      "word": "Aioli",
+      "hints": [
+        "dipped",
+        "spread",
+        "garlic",
+        "creamy",
+        "mayo"
+      ]
+    },
+    {
+      "word": "Pesto",
+      "hints": [
+        "swirled",
+        "green",
+        "basil",
+        "drizzled",
+        "jarred"
+      ]
+    },
+    {
+      "word": "Marinara",
+      "hints": [
+        "simmered",
+        "red",
+        "dipped",
+        "tomato",
+        "jarred"
+      ]
+    },
+    {
+      "word": "Alfredo",
+      "hints": [
+        "creamy",
+        "tossed",
+        "rich",
+        "white",
+        "pasta"
+      ]
+    },
+    {
+      "word": "Bolognese",
+      "hints": [
+        "simmered",
+        "meaty",
+        "hearty",
+        "slow",
+        "ragout"
+      ]
+    },
+    {
+      "word": "Carbonara",
+      "hints": [
+        "creamy",
+        "tossed",
+        "egg",
+        "pasta",
+        "bacon"
+      ]
+    },
+    {
+      "word": "Bechamel",
+      "hints": [
+        "whisked",
+        "white",
+        "creamy",
+        "base",
+        "roux"
+      ]
+    },
+    {
+      "word": "Gravy",
+      "hints": [
+        "poured",
+        "dripping",
+        "brown",
+        "thanksgiving",
+        "ladle"
+      ]
+    },
+    {
+      "word": "Cranberry",
+      "hints": [
+        "jellied",
+        "tart",
+        "canned",
+        "holiday",
+        "sauce"
+      ]
+    },
+    {
+      "word": "Stuffing",
+      "hints": [
+        "baked",
+        "seasoned",
+        "holiday",
+        "bread",
+        "inside"
+      ]
+    },
+    {
+      "word": "Mashedpotatoes",
+      "hints": [
+        "whipped",
+        "buttery",
+        "fluffy",
+        "creamy",
+        "side"
+      ]
+    },
+    {
+      "word": "Coleslaw",
+      "hints": [
+        "shredded",
+        "creamy",
+        "tangy",
+        "side",
+        "crunchy"
+      ]
+    },
+    {
+      "word": "Potatosalad",
+      "hints": [
+        "chunky",
+        "creamy",
+        "chilled",
+        "picnic",
+        "mustard"
+      ]
+    },
+    {
+      "word": "Macaronisalad",
+      "hints": [
+        "creamy",
+        "chilled",
+        "picnic",
+        "mayo",
+        "side"
+      ]
+    },
+    {
+      "word": "Deviledeggs",
+      "hints": [
+        "halved",
+        "piped",
+        "garnished",
+        "creamy",
+        "party"
+      ]
+    },
+    {
+      "word": "Meatloaf",
+      "hints": [
+        "sliced",
+        "glazed",
+        "baked",
+        "comfort",
+        "ketchup"
+      ]
+    },
+    {
+      "word": "Potpie",
+      "hints": [
+        "baked",
+        "crusted",
+        "steaming",
+        "comfort",
+        "chicken"
+      ]
+    },
+    {
+      "word": "Shepherdspie",
+      "hints": [
+        "layered",
+        "topped",
+        "baked",
+        "comfort",
+        "mashed"
+      ]
+    },
+    {
+      "word": "Casserole",
+      "hints": [
+        "baked",
+        "layered",
+        "comfort",
+        "potluck",
+        "dish"
+      ]
+    },
+    {
+      "word": "Hotdish",
+      "hints": [
+        "baked",
+        "mixed",
+        "midwest",
+        "comfort",
+        "potluck"
+      ]
+    },
+    {
+      "word": "Goulash",
+      "hints": [
+        "simmered",
+        "paprika",
+        "hearty",
+        "stew",
+        "comfort"
+      ]
+    },
+    {
+      "word": "Stroganoff",
+      "hints": [
+        "creamy",
+        "mushroom",
+        "served",
+        "comfort",
+        "strandss"
+      ]
+    },
+    {
+      "word": "Schnitzel",
+      "hints": [
+        "breaded",
+        "pounded",
+        "fried",
+        "thin",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Bratwurst",
+      "hints": [
+        "grilled",
+        "snapped",
+        "bun",
+        "german",
+        "stadium"
+      ]
+    },
+    {
+      "word": "Hotdog",
+      "hints": [
+        "grilled",
+        "bun",
+        "topped",
+        "stadium",
+        "cart"
+      ]
+    },
+    {
+      "word": "Corndog",
+      "hints": [
+        "stick",
+        "battered",
+        "fried",
+        "dipped",
+        "fair"
+      ]
+    },
+    {
+      "word": "Sloppy",
+      "hints": [
+        "messy",
+        "saucy",
+        "bun",
+        "comfort",
+        "ground"
+      ]
+    },
+    {
+      "word": "Pulled",
+      "hints": [
+        "shredded",
+        "slow",
+        "saucy",
+        "tender",
+        "bun"
+      ]
+    },
+    {
+      "word": "Ribs",
+      "hints": [
+        "gnawed",
+        "sauced",
+        "sticky",
+        "smoked",
+        "finger"
+      ]
+    },
+    {
+      "word": "Brisket",
+      "hints": [
+        "smoked",
+        "sliced",
+        "tender",
+        "bark",
+        "slow"
+      ]
+    },
+    {
+      "word": "Jerky",
+      "hints": [
+        "dried",
+        "chewy",
+        "portable",
+        "protein",
+        "strip"
+      ]
+    },
+    {
+      "word": "Pepperoni",
+      "hints": [
+        "sliced",
+        "curled",
+        "spicy",
+        "topping",
+        "pizza"
+      ]
+    },
+    {
+      "word": "Salami",
+      "hints": [
+        "sliced",
+        "cured",
+        "thin",
+        "board",
+        "italian"
+      ]
+    },
+    {
+      "word": "Prosciutto",
+      "hints": [
+        "thin",
+        "cured",
+        "draped",
+        "salty",
+        "italian"
+      ]
+    },
+    {
+      "word": "Pancetta",
+      "hints": [
+        "diced",
+        "cured",
+        "rendered",
+        "italian",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Chorizo",
+      "hints": [
+        "crumbled",
+        "spicy",
+        "sizzle",
+        "spanish",
+        "red"
+      ]
+    },
+    {
+      "word": "Mortadella",
+      "hints": [
+        "sliced",
+        "studded",
+        "italian",
+        "bologna",
+        "pink"
+      ]
+    },
+    {
+      "word": "Capicola",
+      "hints": [
+        "thin",
+        "cured",
+        "spicy",
+        "italian",
+        "marbled"
+      ]
+    },
+    {
+      "word": "Bresaola",
+      "hints": [
+        "thin",
+        "cured",
+        "beef",
+        "dark",
+        "italian"
+      ]
+    },
+    {
+      "word": "Smoked",
+      "hints": [
+        "aromatic",
+        "cured",
+        "wood",
+        "preserved",
+        "flavor"
+      ]
+    },
+    {
+      "word": "Cured",
+      "hints": [
+        "salted",
+        "preserved",
+        "aged",
+        "sliced",
+        "artisan"
+      ]
+    },
+    {
+      "word": "Pickled",
+      "hints": [
+        "jarred",
+        "tangy",
+        "brined",
+        "sour",
+        "preserved"
+      ]
+    },
+    {
+      "word": "Fermented",
+      "hints": [
+        "tangy",
+        "aged",
+        "probiotic",
+        "sour",
+        "cultured"
+      ]
+    },
+    {
+      "word": "Sauerkraut",
+      "hints": [
+        "tangy",
+        "fermented",
+        "cabbage",
+        "topped",
+        "german"
+      ]
+    },
+    {
+      "word": "Gruyere",
+      "hints": [
+        "melted",
+        "nutty",
+        "swiss",
+        "fondue",
+        "aged"
+      ]
+    },
+    {
+      "word": "Feta",
+      "hints": [
+        "crumbled",
+        "briny",
+        "salad",
+        "greek",
+        "tangy"
+      ]
+    },
+    {
+      "word": "Goat",
+      "hints": [
+        "tangy",
+        "creamy",
+        "crumbled",
+        "spreadable",
+        "log"
+      ]
+    },
+    {
+      "word": "Blue",
+      "hints": [
+        "crumbled",
+        "pungent",
+        "veined",
+        "strong",
+        "wedge"
+      ]
+    },
+    {
+      "word": "Ricotta",
+      "hints": [
+        "creamy",
+        "spooned",
+        "fresh",
+        "dollop",
+        "fluffy"
+      ]
+    },
+    {
+      "word": "Mascarpone",
+      "hints": [
+        "creamy",
+        "rich",
+        "spooned",
+        "italian",
+        "dessert"
+      ]
+    },
+    {
+      "word": "Cottagecheese",
+      "hints": [
+        "curds",
+        "spooned",
+        "creamy",
+        "lumpy",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Sourcream",
+      "hints": [
+        "dolloped",
+        "tangy",
+        "white",
+        "topped",
+        "creamy"
+      ]
+    },
+    {
+      "word": "Creamcheese",
+      "hints": [
+        "spread",
+        "smooth",
+        "bagel",
+        "frosting",
+        "block"
+      ]
+    },
+    {
+      "word": "Whippedcream",
+      "hints": [
+        "dolloped",
+        "airy",
+        "piped",
+        "topping",
+        "fluffy"
+      ]
+    },
+    {
+      "word": "Custard",
+      "hints": [
+        "poured",
+        "silky",
+        "baked",
+        "creamy",
+        "dessert"
+      ]
+    },
+    {
+      "word": "Caramel",
+      "hints": [
+        "drizzled",
+        "sticky",
+        "golden",
+        "sauce",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Fudge",
+      "hints": [
+        "dense",
+        "square",
+        "rich",
+        "cut",
+        "chewy"
+      ]
+    },
+    {
+      "word": "Toffee",
+      "hints": [
+        "brittle",
+        "crunchy",
+        "buttery",
+        "coated",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Butterscotch",
+      "hints": [
+        "golden",
+        "buttery",
+        "candy",
+        "sauce",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Marshmallow",
+      "hints": [
+        "toasted",
+        "fluffy",
+        "s'mores",
+        "puffy",
+        "sticky"
+      ]
+    },
+    {
+      "word": "Nougat",
+      "hints": [
+        "chewy",
+        "studded",
+        "white",
+        "candy",
+        "bar"
+      ]
+    },
+    {
+      "word": "Marzipan",
+      "hints": [
+        "molded",
+        "almond",
+        "sweet",
+        "shaped",
+        "paste"
+      ]
+    },
+    {
+      "word": "Fondant",
+      "hints": [
+        "rolled",
+        "smooth",
+        "covering",
+        "shaped",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Sprinkles",
+      "hints": [
+        "colorful",
+        "topped",
+        "tiny",
+        "decorative",
+        "festive"
+      ]
+    },
+    {
+      "word": "Frosting",
+      "hints": [
+        "spread",
+        "piped",
+        "sweet",
+        "topped",
+        "fluffy"
+      ]
+    },
+    {
+      "word": "Glaze",
+      "hints": [
+        "drizzled",
+        "shiny",
+        "sweet",
+        "coating",
+        "poured"
+      ]
+    },
+    {
+      "word": "Ganache",
+      "hints": [
+        "poured",
+        "glossy",
+        "rich",
+        "chocolate",
+        "coating"
+      ]
+    },
+    {
+      "word": "Compote",
+      "hints": [
+        "simmered",
+        "fruity",
+        "spooned",
+        "warm",
+        "topping"
+      ]
+    },
+    {
+      "word": "Coulis",
+      "hints": [
+        "drizzled",
+        "fruity",
+        "strained",
+        "sauce",
+        "smooth"
+      ]
+    },
+    {
+      "word": "Reduction",
+      "hints": [
+        "simmered",
+        "concentrated",
+        "drizzled",
+        "glossy",
+        "intense"
+      ]
+    },
+    {
+      "word": "Vinaigrette",
+      "hints": [
+        "whisked",
+        "drizzled",
+        "tangy",
+        "tossed",
+        "emulsified"
+      ]
+    },
+    {
+      "word": "Ranch",
+      "hints": [
+        "dipped",
+        "creamy",
+        "poured",
+        "cool",
+        "bottle"
+      ]
+    },
+    {
+      "word": "Caesar",
+      "hints": [
+        "tossed",
+        "creamy",
+        "anchovy",
+        "romaine",
+        "croutons"
+      ]
+    },
+    {
+      "word": "Tahini",
+      "hints": [
+        "drizzled",
+        "nutty",
+        "creamy",
+        "sesame",
+        "middle"
+      ]
+    },
+    {
+      "word": "Tzatziki",
+      "hints": [
+        "dipped",
+        "cool",
+        "garlicky",
+        "cucumber",
+        "greek"
+      ]
+    },
+    {
+      "word": "Raita",
+      "hints": [
+        "cooling",
+        "yogurt",
+        "cucumber",
+        "side",
+        "indian"
+      ]
+    },
+    {
+      "word": "Chutney",
+      "hints": [
+        "spooned",
+        "tangy",
+        "sweet",
+        "side",
+        "indian"
+      ]
+    },
+    {
+      "word": "Samosa",
+      "hints": [
+        "fried",
+        "triangle",
+        "stuffed",
+        "spiced",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Pakora",
+      "hints": [
+        "fried",
+        "battered",
+        "crispy",
+        "vegetable",
+        "dipped"
+      ]
+    },
+    {
+      "word": "Biryani",
+      "hints": [
+        "layered",
+        "aromatic",
+        "saffron",
+        "festive",
+        "pot"
+      ]
+    },
+    {
+      "word": "Tandoori",
+      "hints": [
+        "charred",
+        "spiced",
+        "marinated",
+        "red",
+        "clay"
+      ]
+    },
+    {
+      "word": "Tikka",
+      "hints": [
+        "skewered",
+        "spiced",
+        "charred",
+        "cubed",
+        "marinated"
+      ]
+    },
+    {
+      "word": "Korma",
+      "hints": [
+        "creamy",
+        "mild",
+        "nutty",
+        "aromatic",
+        "sauce"
+      ]
+    },
+    {
+      "word": "Vindaloo",
+      "hints": [
+        "spicy",
+        "tangy",
+        "fiery",
+        "saucy",
+        "indian"
+      ]
+    },
+    {
+      "word": "Daal",
+      "hints": [
+        "simmered",
+        "lentil",
+        "comfort",
+        "spiced",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Saag",
+      "hints": [
+        "creamy",
+        "spinach",
+        "green",
+        "spiced",
+        "rich"
+      ]
+    },
+    {
+      "word": "Paneer",
+      "hints": [
+        "cubed",
+        "firm",
+        "grilled",
+        "fresh",
+        "indian"
+      ]
+    },
+    {
+      "word": "Roti",
+      "hints": [
+        "torn",
+        "thin",
+        "scooped",
+        "unleavened",
+        "griddle"
+      ]
+    },
+    {
+      "word": "Paratha",
+      "hints": [
+        "flaky",
+        "layered",
+        "griddle",
+        "stuffed",
+        "buttery"
+      ]
+    },
+    {
+      "word": "Dosa",
+      "hints": [
+        "crispy",
+        "thin",
+        "fermented",
+        "folded",
+        "south"
+      ]
+    },
+    {
+      "word": "Idli",
+      "hints": [
+        "steamed",
+        "fluffy",
+        "fermented",
+        "dipped",
+        "spongy"
+      ]
+    },
+    {
+      "word": "Uttapam",
+      "hints": [
+        "topped",
+        "thick",
+        "griddle",
+        "vegetable",
+        "pancake"
+      ]
+    },
+    {
+      "word": "Chaat",
+      "hints": [
+        "layered",
+        "tangy",
+        "crunchy",
+        "street",
+        "topped"
+      ]
+    },
+    {
+      "word": "Bhelpuri",
+      "hints": [
+        "mixed",
+        "crunchy",
+        "tangy",
+        "puffed",
+        "street"
+      ]
+    },
+    {
+      "word": "Puri",
+      "hints": [
+        "puffed",
+        "fried",
+        "hollow",
+        "crispy",
+        "bread"
+      ]
+    },
+    {
+      "word": "Jalebi",
+      "hints": [
+        "swirled",
+        "drizzledy",
+        "fried",
+        "orange",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Gulabjamun",
+      "hints": [
+        "soaked",
+        "drizzledy",
+        "fried",
+        "soft",
+        "round"
+      ]
+    },
+    {
+      "word": "Ladoo",
+      "hints": [
+        "round",
+        "sweet",
+        "festive",
+        "balls",
+        "ghee"
+      ]
+    },
+    {
+      "word": "Barfi",
+      "hints": [
+        "fudge",
+        "squares",
+        "sweet",
+        "silver",
+        "dense"
+      ]
+    },
+    {
+      "word": "Kheer",
+      "hints": [
+        "creamy",
+        "rice",
+        "cardamom",
+        "chilled",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Kulfi",
+      "hints": [
+        "frozen",
+        "dense",
+        "cardamom",
+        "molded",
+        "creamy"
+      ]
+    },
+    {
+      "word": "Rasgulla",
+      "hints": [
+        "spongy",
+        "soaked",
+        "drizzledy",
+        "white",
+        "balls"
+      ]
+    },
+    {
+      "word": "Halwa",
+      "hints": [
+        "dense",
+        "ghee",
+        "semolina",
+        "warm",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Momos",
+      "hints": [
+        "steamed",
+        "pleated",
+        "dipped",
+        "filled",
+        "tibetan"
+      ]
+    },
+    {
+      "word": "Satay",
+      "hints": [
+        "skewered",
+        "grilled",
+        "peanut",
+        "dipped",
+        "charred"
+      ]
+    },
+    {
+      "word": "Rendang",
+      "hints": [
+        "slow",
+        "coconut",
+        "spiced",
+        "dry",
+        "tender"
+      ]
+    },
+    {
+      "word": "Nasi",
+      "hints": [
+        "aromatic",
+        "fragrant",
+        "coconut",
+        "leaf",
+        "steamed"
+      ]
+    },
+    {
+      "word": "Lumpia",
+      "hints": [
+        "rolled",
+        "crispy",
+        "fried",
+        "wrapper",
+        "filipino"
+      ]
+    },
+    {
+      "word": "Adobo",
+      "hints": [
+        "braised",
+        "tangy",
+        "soy",
+        "tender",
+        "filipino"
+      ]
+    },
+    {
+      "word": "Sisig",
+      "hints": [
+        "sizzling",
+        "crispy",
+        "egg",
+        "chopped",
+        "plate"
+      ]
+    },
+    {
+      "word": "Halo",
+      "hints": [
+        "layered",
+        "shaved",
+        "beans",
+        "colorful",
+        "cold"
+      ]
+    },
+    {
+      "word": "Banh",
+      "hints": [
+        "crispy",
+        "pickled",
+        "baguette",
+        "stuffed",
+        "vietnamese"
+      ]
+    },
+    {
+      "word": "Goi",
+      "hints": [
+        "fresh",
+        "wrapped",
+        "transparent",
+        "dipped",
+        "herbs"
+      ]
+    },
+    {
+      "word": "Bun",
+      "hints": [
+        "vermicelli",
+        "topped",
+        "herbs",
+        "nuoc",
+        "bowl"
+      ]
+    },
+    {
+      "word": "Baozi",
+      "hints": [
+        "steamed",
+        "filled",
+        "fluffy",
+        "soft",
+        "bun"
+      ]
+    },
+    {
+      "word": "Zongzi",
+      "hints": [
+        "wrapped",
+        "sticky",
+        "bamboo",
+        "triangle",
+        "steamed"
+      ]
+    },
+    {
+      "word": "Mooncake",
+      "hints": [
+        "molded",
+        "dense",
+        "filled",
+        "festival",
+        "ornate"
+      ]
+    },
+    {
+      "word": "Tangyuan",
+      "hints": [
+        "chewy",
+        "balls",
+        "filled",
+        "soup",
+        "festival"
+      ]
+    },
+    {
+      "word": "Mochi",
+      "hints": [
+        "chewy",
+        "pounded",
+        "filled",
+        "sticky",
+        "soft"
+      ]
+    },
+    {
+      "word": "Daifuku",
+      "hints": [
+        "filled",
+        "soft",
+        "dusted",
+        "chewy",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Dorayaki",
+      "hints": [
+        "sandwiched",
+        "pancake",
+        "filled",
+        "sweet",
+        "round"
+      ]
+    },
+    {
+      "word": "Taiyaki",
+      "hints": [
+        "shaped",
+        "filled",
+        "crispy",
+        "fish",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Kakigori",
+      "hints": [
+        "shaved",
+        "drizzledy",
+        "fluffy",
+        "summer",
+        "ice"
+      ]
+    },
+    {
+      "word": "Dango",
+      "hints": [
+        "skewered",
+        "chewy",
+        "sweet",
+        "balls",
+        "glazed"
+      ]
+    },
+    {
+      "word": "Yokan",
+      "hints": [
+        "sliced",
+        "dense",
+        "jelly",
+        "sweet",
+        "block"
+      ]
+    },
+    {
+      "word": "Matcha",
+      "hints": [
+        "whisked",
+        "frothy",
+        "green",
+        "bitter",
+        "ceremony"
+      ]
+    },
+    {
+      "word": "Boba",
+      "hints": [
+        "chewy",
+        "pearls",
+        "sipped",
+        "tapioca",
+        "straw"
+      ]
+    },
+    {
+      "word": "Chai",
+      "hints": [
+        "spiced",
+        "pouredy",
+        "steeped",
+        "warming",
+        "masala"
+      ]
+    },
+    {
+      "word": "Horchata",
+      "hints": [
+        "creamy",
+        "cinnamon",
+        "rice",
+        "cool",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Agua",
+      "hints": [
+        "fresh",
+        "fruity",
+        "pitcher",
+        "light",
+        "mexican"
+      ]
+    },
+    {
+      "word": "Sangria",
+      "hints": [
+        "fruity",
+        "pitcher",
+        "soaked",
+        "punch",
+        "spanish"
+      ]
+    },
+    {
+      "word": "Eggnog",
+      "hints": [
+        "creamy",
+        "spiced",
+        "holiday",
+        "rich",
+        "nutmeg"
+      ]
+    },
+    {
+      "word": "Cider",
+      "hints": [
+        "pressed",
+        "mulled",
+        "autumn",
+        "warm",
+        "apple"
+      ]
+    },
+    {
+      "word": "Cocoa",
+      "hints": [
+        "stirred",
+        "warm",
+        "marshmallow",
+        "mug",
+        "winter"
+      ]
+    },
+    {
+      "word": "Espresso",
+      "hints": [
+        "shot",
+        "crema",
+        "intense",
+        "quick",
+        "small"
+      ]
+    },
+    {
+      "word": "Latte",
+      "hints": [
+        "steamed",
+        "art",
+        "foam",
+        "pouredy",
+        "morning"
+      ]
+    },
+    {
+      "word": "Cappuccino",
+      "hints": [
+        "foam",
+        "dusted",
+        "layered",
+        "italian",
+        "morning"
+      ]
+    },
+    {
+      "word": "Mocha",
+      "hints": [
+        "chocolate",
+        "coffee",
+        "sweet",
+        "steamed",
+        "whipped"
+      ]
+    },
+    {
+      "word": "Americano",
+      "hints": [
+        "diluted",
+        "strong",
+        "black",
+        "water",
+        "espresso"
+      ]
+    },
+    {
+      "word": "Coldbrew",
+      "hints": [
+        "steeped",
+        "smooth",
+        "chilled",
+        "strong",
+        "overnight"
+      ]
+    },
+    {
+      "word": "Frappuccino",
+      "hints": [
+        "blended",
+        "icy",
+        "topped",
+        "sweet",
+        "straw"
+      ]
+    },
+    {
+      "word": "Affogato",
+      "hints": [
+        "poured",
+        "melting",
+        "espresso",
+        "scoop",
+        "italian"
+      ]
+    },
+    {
+      "word": "Kombucha",
+      "hints": [
+        "fizzy",
+        "fermented",
+        "tangy",
+        "probiotic",
+        "bottled"
+      ]
+    },
+    {
+      "word": "Kefir",
+      "hints": [
+        "tangy",
+        "probiotic",
+        "pourable",
+        "cultured",
+        "thick"
+      ]
+    },
+    {
+      "word": "Gumbo",
+      "hints": [
+        "roux",
+        "okra",
+        "simmered",
+        "southern",
+        "ladle"
+      ]
+    },
+    {
+      "word": "Jambalaya",
+      "hints": [
+        "rice",
+        "spiced",
+        "one-pot",
+        "cajun",
+        "hearty"
+      ]
+    },
+    {
+      "word": "Etouffee",
+      "hints": [
+        "smothered",
+        "roux",
+        "cajun",
+        "saucy",
+        "ladled"
+      ]
+    },
+    {
+      "word": "Beignet",
+      "hints": [
+        "puffy",
+        "dusted",
+        "fried",
+        "square",
+        "cafe"
+      ]
+    },
+    {
+      "word": "Pralines",
+      "hints": [
+        "candy",
+        "pecan",
+        "creamy",
+        "southern",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Grillades",
+      "hints": [
+        "braised",
+        "tomato",
+        "grits",
+        "southern",
+        "tender"
+      ]
+    },
+    {
+      "word": "Boudin",
+      "hints": [
+        "casing",
+        "rice",
+        "cajun",
+        "links",
+        "spiced"
+      ]
+    },
+    {
+      "word": "Andouille",
+      "hints": [
+        "smoked",
+        "spicy",
+        "cajun",
+        "links",
+        "gumbo"
+      ]
+    },
+    {
+      "word": "Crawfish",
+      "hints": [
+        "boiled",
+        "peeled",
+        "cajun",
+        "pile",
+        "sucked"
+      ]
+    },
+    {
+      "word": "Oyster",
+      "hints": [
+        "shucked",
+        "slurped",
+        "briny",
+        "raw",
+        "outer"
+      ]
+    },
+    {
+      "word": "Catfish",
+      "hints": [
+        "fried",
+        "cornmeal",
+        "southern",
+        "flaky",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Haddock",
+      "hints": [
+        "smoked",
+        "flaky",
+        "chowder",
+        "white",
+        "mild"
+      ]
+    },
+    {
+      "word": "Trout",
+      "hints": [
+        "pan",
+        "delicate",
+        "whole",
+        "stream",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Bass",
+      "hints": [
+        "pan",
+        "flaky",
+        "caught",
+        "cut",
+        "lake"
+      ]
+    },
+    {
+      "word": "Tilapia",
+      "hints": [
+        "mild",
+        "flaky",
+        "pan",
+        "white",
+        "quick"
+      ]
+    },
+    {
+      "word": "Cod",
+      "hints": [
+        "flaky",
+        "battered",
+        "white",
+        "chips",
+        "mild"
+      ]
+    },
+    {
+      "word": "Halibut",
+      "hints": [
+        "thick",
+        "grilled",
+        "steak",
+        "firm",
+        "mild"
+      ]
+    },
+    {
+      "word": "Swordfish",
+      "hints": [
+        "steak",
+        "grilled",
+        "meaty",
+        "firm",
+        "char"
+      ]
+    },
+    {
+      "word": "Mackerel",
+      "hints": [
+        "oily",
+        "grilled",
+        "rich",
+        "skin",
+        "omega"
+      ]
+    },
+    {
+      "word": "Herring",
+      "hints": [
+        "pickled",
+        "smoked",
+        "jarred",
+        "oily",
+        "small"
+      ]
+    },
+    {
+      "word": "Eel",
+      "hints": [
+        "glazed",
+        "grilled",
+        "sushi",
+        "rich",
+        "slippery"
+      ]
+    },
+    {
+      "word": "Crayfish",
+      "hints": [
+        "boiled",
+        "small",
+        "outer",
+        "freshwater",
+        "pile"
+      ]
+    },
+    {
+      "word": "Prawn",
+      "hints": [
+        "grilled",
+        "large",
+        "outer",
+        "dipped",
+        "juicy"
+      ]
+    },
+    {
+      "word": "Langoustine",
+      "hints": [
+        "sweet",
+        "outer",
+        "delicate",
+        "split",
+        "luxurious"
+      ]
+    },
+    {
+      "word": "Abalone",
+      "hints": [
+        "tender",
+        "pounded",
+        "outer",
+        "rare",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Periwinkle",
+      "hints": [
+        "tiny",
+        "picked",
+        "outer",
+        "toothpick",
+        "briny"
+      ]
+    },
+    {
+      "word": "Cockles",
+      "hints": [
+        "tiny",
+        "steamed",
+        "outer",
+        "briny",
+        "sand"
+      ]
+    },
+    {
+      "word": "Geoduck",
+      "hints": [
+        "raw",
+        "crunchy",
+        "siphon",
+        "sliced",
+        "pacific"
+      ]
+    },
+    {
+      "word": "Conch",
+      "hints": [
+        "chewy",
+        "fritter",
+        "salad",
+        "outer",
+        "caribbean"
+      ]
+    },
+    {
+      "word": "Whelk",
+      "hints": [
+        "chewy",
+        "boiled",
+        "outer",
+        "picked",
+        "briny"
+      ]
+    },
+    {
+      "word": "Snails",
+      "hints": [
+        "garlic",
+        "butter",
+        "outer",
+        "escargot",
+        "picked"
+      ]
+    },
+    {
+      "word": "Frog",
+      "hints": [
+        "legs",
+        "fried",
+        "tender",
+        "french",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Venison",
+      "hints": [
+        "gamey",
+        "lean",
+        "roasted",
+        "wild",
+        "tender"
+      ]
+    },
+    {
+      "word": "Bison",
+      "hints": [
+        "lean",
+        "grilled",
+        "grass",
+        "burger",
+        "rich"
+      ]
+    },
+    {
+      "word": "Elk",
+      "hints": [
+        "gamey",
+        "roasted",
+        "lean",
+        "wild",
+        "tender"
+      ]
+    },
+    {
+      "word": "Boar",
+      "hints": [
+        "wild",
+        "braised",
+        "gamey",
+        "rich",
+        "tuscan"
+      ]
+    },
+    {
+      "word": "Rabbit",
+      "hints": [
+        "braised",
+        "tender",
+        "lean",
+        "stew",
+        "farm"
+      ]
+    },
+    {
+      "word": "Quail",
+      "hints": [
+        "tiny",
+        "roasted",
+        "whole",
+        "delicate",
+        "game"
+      ]
+    },
+    {
+      "word": "Pheasant",
+      "hints": [
+        "roasted",
+        "game",
+        "elegant",
+        "whole",
+        "tender"
+      ]
+    },
+    {
+      "word": "Goose",
+      "hints": [
+        "roasted",
+        "rich",
+        "holiday",
+        "fatty",
+        "carved"
+      ]
+    },
+    {
+      "word": "Squab",
+      "hints": [
+        "roasted",
+        "dark",
+        "whole",
+        "rich",
+        "fancy"
+      ]
+    },
+    {
+      "word": "Guinea",
+      "hints": [
+        "roasted",
+        "lean",
+        "farm",
+        "whole",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Ostrich",
+      "hints": [
+        "lean",
+        "red",
+        "grilled",
+        "steak",
+        "exotic"
+      ]
+    },
+    {
+      "word": "Kangaroo",
+      "hints": [
+        "lean",
+        "gamey",
+        "grilled",
+        "aussie",
+        "steak"
+      ]
+    },
+    {
+      "word": "Crocodile",
+      "hints": [
+        "white",
+        "tender",
+        "exotic",
+        "fried",
+        "mild"
+      ]
+    },
+    {
+      "word": "Scrapple",
+      "hints": [
+        "sliced",
+        "fried",
+        "crispy",
+        "cornmeal",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Liverwurst",
+      "hints": [
+        "spread",
+        "rich",
+        "sliced",
+        "german",
+        "pate"
+      ]
+    },
+    {
+      "word": "Headcheese",
+      "hints": [
+        "sliced",
+        "aspic",
+        "terrine",
+        "cold",
+        "jellied"
+      ]
+    },
+    {
+      "word": "Tripe",
+      "hints": [
+        "braised",
+        "honeycomb",
+        "tender",
+        "soup",
+        "chewy"
+      ]
+    },
+    {
+      "word": "Tongue",
+      "hints": [
+        "braised",
+        "tender",
+        "sliced",
+        "rich",
+        "peeled"
+      ]
+    },
+    {
+      "word": "Sweetbreads",
+      "hints": [
+        "crispy",
+        "tender",
+        "fried",
+        "creamy",
+        "delicate"
+      ]
+    },
+    {
+      "word": "Oxtail",
+      "hints": [
+        "braised",
+        "falling",
+        "rich",
+        "stew",
+        "gelatinous"
+      ]
+    },
+    {
+      "word": "Marrow",
+      "hints": [
+        "roasted",
+        "scooped",
+        "rich",
+        "bone",
+        "spread"
+      ]
+    },
+    {
+      "word": "Chitlins",
+      "hints": [
+        "cleaned",
+        "stewed",
+        "soul",
+        "southern",
+        "tender"
+      ]
+    },
+    {
+      "word": "Haggis",
+      "hints": [
+        "offal",
+        "oats",
+        "scottish",
+        "stuffed",
+        "savory"
+      ]
+    },
+    {
+      "word": "Blackpudding",
+      "hints": [
+        "sliced",
+        "fried",
+        "breakfast",
+        "british",
+        "rich"
+      ]
+    },
+    {
+      "word": "Foiegras",
+      "hints": [
+        "seared",
+        "rich",
+        "luxurious",
+        "melting",
+        "toast"
+      ]
+    },
+    {
+      "word": "Tartine",
+      "hints": [
+        "open",
+        "topped",
+        "artisan",
+        "loaded",
+        "slice"
+      ]
+    },
+    {
+      "word": "Smorgasbord",
+      "hints": [
+        "spread",
+        "variety",
+        "buffet",
+        "nordic",
+        "graze"
+      ]
+    },
+    {
+      "word": "Mezze",
+      "hints": [
+        "spread",
+        "shared",
+        "dips",
+        "small",
+        "mediterranean"
+      ]
+    },
+    {
+      "word": "Tapas",
+      "hints": [
+        "small",
+        "shared",
+        "plates",
+        "spanish",
+        "variety"
+      ]
+    },
+    {
+      "word": "Pintxos",
+      "hints": [
+        "skewered",
+        "topped",
+        "basque",
+        "bar",
+        "bite"
+      ]
+    },
+    {
+      "word": "Cicchetti",
+      "hints": [
+        "small",
+        "venetian",
+        "bar",
+        "bite",
+        "varied"
+      ]
+    },
+    {
+      "word": "Banchan",
+      "hints": [
+        "small",
+        "side",
+        "varied",
+        "korean",
+        "refill"
+      ]
+    },
+    {
+      "word": "Izakaya",
+      "hints": [
+        "small",
+        "shared",
+        "japanese",
+        "bar",
+        "plates"
+      ]
+    },
+    {
+      "word": "Zakuski",
+      "hints": [
+        "small",
+        "russian",
+        "appetizer",
+        "varied",
+        "vodka"
+      ]
+    },
+    {
+      "word": "Antipasti",
+      "hints": [
+        "before",
+        "cured",
+        "pickled",
+        "italian",
+        "platter"
+      ]
+    },
+    {
+      "word": "Amuse",
+      "hints": [
+        "bite",
+        "chef",
+        "complimentary",
+        "tiny",
+        "tease"
+      ]
+    },
+    {
+      "word": "Croquette",
+      "hints": [
+        "fried",
+        "breaded",
+        "creamy",
+        "balls",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Arancini",
+      "hints": [
+        "fried",
+        "rice",
+        "balls",
+        "stuffed",
+        "crispy"
+      ]
+    },
+    {
+      "word": "Suppli",
+      "hints": [
+        "fried",
+        "rice",
+        "stringy",
+        "roman",
+        "balls"
+      ]
+    },
+    {
+      "word": "Scotchegg",
+      "hints": [
+        "wrapped",
+        "fried",
+        "breaded",
+        "picnic",
+        "halved"
+      ]
+    },
+    {
+      "word": "Cornish",
+      "hints": [
+        "folded",
+        "crimped",
+        "pasty",
+        "handheld",
+        "hearty"
+      ]
+    },
+    {
+      "word": "Sausageroll",
+      "hints": [
+        "wrapped",
+        "flaky",
+        "golden",
+        "british",
+        "handheld"
+      ]
+    },
+    {
+      "word": "Welshbit",
+      "hints": [
+        "melted",
+        "cheese",
+        "mustard",
+        "toast",
+        "bubbling"
+      ]
+    },
+    {
+      "word": "Bubble",
+      "hints": [
+        "fried",
+        "leftover",
+        "crispy",
+        "formed",
+        "british"
+      ]
+    },
+    {
+      "word": "Kedgeree",
+      "hints": [
+        "rice",
+        "smoked",
+        "curried",
+        "british",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Kipper",
+      "hints": [
+        "smoked",
+        "breakfast",
+        "british",
+        "herring",
+        "grilled"
+      ]
+    },
+    {
+      "word": "Porky",
+      "hints": [
+        "crispy",
+        "puffed",
+        "snack",
+        "skin",
+        "savory"
+      ]
+    },
+    {
+      "word": "Chicharron",
+      "hints": [
+        "crispy",
+        "puffed",
+        "skin",
+        "crunchy",
+        "salty"
+      ]
+    },
+    {
+      "word": "Crackling",
+      "hints": [
+        "crispy",
+        "skin",
+        "roasted",
+        "crunchy",
+        "rendered"
+      ]
+    },
+    {
+      "word": "Lardo",
+      "hints": [
+        "cured",
+        "thin",
+        "back",
+        "italian",
+        "spread"
+      ]
+    },
+    {
+      "word": "Guanciale",
+      "hints": [
+        "cured",
+        "jowl",
+        "carbonara",
+        "italian",
+        "rendered"
+      ]
+    },
+    {
+      "word": "Speck",
+      "hints": [
+        "smoked",
+        "cured",
+        "alpine",
+        "sliced",
+        "ham"
+      ]
+    },
+    {
+      "word": "Coppa",
+      "hints": [
+        "cured",
+        "marbled",
+        "sliced",
+        "italian",
+        "neck"
+      ]
+    },
+    {
+      "word": "Nduja",
+      "hints": [
+        "spreadable",
+        "spicy",
+        "calabrian",
+        "orange",
+        "rich"
+      ]
+    },
+    {
+      "word": "Sobrasada",
+      "hints": [
+        "spreadable",
+        "spicy",
+        "spanish",
+        "orange",
+        "cured"
+      ]
+    },
+    {
+      "word": "Morcilla",
+      "hints": [
+        "blood",
+        "spanish",
+        "rice",
+        "sliced",
+        "grilled"
+      ]
+    },
+    {
+      "word": "Kielbasa",
+      "hints": [
+        "smoked",
+        "polish",
+        "grilled",
+        "links",
+        "garlic"
+      ]
+    },
+    {
+      "word": "Weisswurst",
+      "hints": [
+        "white",
+        "bavarian",
+        "mild",
+        "boiled",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Currywurst",
+      "hints": [
+        "sliced",
+        "sauced",
+        "german",
+        "street",
+        "ketchup"
+      ]
+    },
+    {
+      "word": "Bockwurst",
+      "hints": [
+        "german",
+        "mild",
+        "boiled",
+        "white",
+        "smooth"
+      ]
+    },
+    {
+      "word": "Livermush",
+      "hints": [
+        "sliced",
+        "fried",
+        "carolina",
+        "cornmeal",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Goetta",
+      "hints": [
+        "sliced",
+        "fried",
+        "oats",
+        "cincinnati",
+        "breakfast"
+      ]
+    },
+    {
+      "word": "Taylor",
+      "hints": [
+        "sliced",
+        "fried",
+        "jersey",
+        "pork",
+        "roll"
+      ]
+    },
+    {
+      "word": "Spam",
+      "hints": [
+        "canned",
+        "sliced",
+        "fried",
+        "salty",
+        "hawaiian"
+      ]
+    },
+    {
+      "word": "Corned",
+      "hints": [
+        "brined",
+        "sliced",
+        "pink",
+        "deli",
+        "reuben"
+      ]
+    },
+    {
+      "word": "Pastrami",
+      "hints": [
+        "smoked",
+        "sliced",
+        "peppered",
+        "deli",
+        "stack"
+      ]
+    },
+    {
+      "word": "Roastbeef",
+      "hints": [
+        "sliced",
+        "thin",
+        "deli",
+        "pink",
+        "cold"
+      ]
+    },
+    {
+      "word": "Bologna",
+      "hints": [
+        "sliced",
+        "round",
+        "deli",
+        "childhood",
+        "sandwich"
+      ]
+    },
+    {
+      "word": "Olive",
+      "hints": [
+        "sliced",
+        "studded",
+        "loaf",
+        "deli",
+        "pimiento"
+      ]
+    }
   ]
 }

@@ -1,60 +1,5935 @@
 {
   "category": "Professions",
   "words": [
-    { "word": "Teacher", "hints": ["guide", "instruct", "knowledge", "learning", "explain"] },
-    { "word": "Doctor", "hints": ["care", "diagnose", "healing", "patient", "treatment"] },
-    { "word": "Artist", "hints": ["create", "express", "imagine", "inspire", "design"] },
-    { "word": "Engineer", "hints": ["problem-solving", "build", "design", "innovation", "construct"] },
-    { "word": "Chef", "hints": ["cook", "prepare", "flavors", "menu", "meal"] },
-    { "word": "Farmer", "hints": ["grow", "harvest", "earth", "crop", "seasonal"] },
-    { "word": "Writer", "hints": ["express", "story", "draft", "create", "word"] },
-    { "word": "Nurse", "hints": ["care", "support", "patient", "health", "help"] },
-    { "word": "Lawyer", "hints": ["defend", "case", "justice", "advocate", "client"] },
-    { "word": "Actor", "hints": ["perform", "stage", "character", "role", "express"] },
-    { "word": "Musician", "hints": ["sound", "perform", "instrument", "melody", "create"] },
-    { "word": "Photographer", "hints": ["capture", "image", "moment", "focus", "lens"] },
-    { "word": "Scientist", "hints": ["research", "experiment", "discover", "data", "study"] },
-    { "word": "Driver", "hints": ["route", "navigate", "transport", "vehicle", "road"] },
-    { "word": "Pilot", "hints": ["fly", "navigate", "airplane", "altitude", "travel"] },
-    { "word": "Electrician", "hints": ["wire", "circuit", "install", "power", "current"] },
-    { "word": "Plumber", "hints": ["repair", "pipe", "water", "flow", "install"] },
-    { "word": "Therapist", "hints": ["help", "counsel", "talk", "healing", "support"] },
-    { "word": "Architect", "hints": ["design", "build", "structure", "space", "blueprint"] },
-    { "word": "Soldier", "hints": ["defend", "serve", "discipline", "country", "duty"] },
-    { "word": "Dancer", "hints": ["move", "rhythm", "expression", "performance", "grace"] },
-    { "word": "Barista", "hints": ["coffee", "serve", "brew", "flavor", "hot drink"] },
-    { "word": "Waiter", "hints": ["serve", "customer", "meal", "table", "greet"] },
-    { "word": "Tailor", "hints": ["sew", "fit", "fabric", "alter", "clothing"] },
-    { "word": "Plumber", "hints": ["repair", "pipe", "flow", "install", "water"] },
-    { "word": "Janitor", "hints": ["clean", "maintenance", "care", "surface", "organize"] },
-    { "word": "Baker", "hints": ["bake", "bread", "oven", "flour", "sweet"] },
-    { "word": "Gardener", "hints": ["plant", "grow", "garden", "nature", "outdoors"] },
-    { "word": "Coach", "hints": ["train", "guide", "team", "sport", "encourage"] },
-    { "word": "Waitress", "hints": ["serve", "food", "customer", "table", "greet"] },
-    { "word": "Nanny", "hints": ["care", "children", "supervise", "home", "support"] },
-    { "word": "Accountant", "hints": ["calculate", "finance", "numbers", "audit", "report"] },
-    { "word": "Mechanic", "hints": ["repair", "engine", "fix", "vehicle", "tools"] },
-    { "word": "Vet", "hints": ["animals", "care", "health", "treatment", "healing"] },
-    { "word": "Designer", "hints": ["create", "vision", "plan", "concept", "art"] },
-    { "word": "Butcher", "hints": ["cut", "meat", "serve", "prepare", "fresh"] },
-    { "word": "Barber", "hints": ["cut", "hair", "style", "groom", "shave"] },
-    { "word": "Firefighter", "hints": ["fire", "rescue", "safety", "protect", "team"] },
-    { "word": "Chef", "hints": ["cook", "ingredients", "flavor", "prepare", "create"] },
-    { "word": "Coach", "hints": ["guide", "train", "encourage", "team", "sports"] },
-    { "word": "Judge", "hints": ["court", "decision", "law", "evaluate", "fair"] },
-    { "word": "Scientist", "hints": ["research", "experiment", "data", "study", "discover"] },
-    { "word": "Firefighter", "hints": ["rescue", "fire", "safety", "protect", "team"] },
-    { "word": "Librarian", "hints": ["organize", "books", "information", "quiet", "library"] },
-    { "word": "Nurse", "hints": ["care", "patient", "support", "healing", "medicine"] },
-    { "word": "Surgeon", "hints": ["operate", "care", "healing", "precision", "treatment"] },
-    { "word": "Researcher", "hints": ["study", "data", "question", "discovery", "investigate"] },
-    { "word": "Farmer", "hints": ["grow", "harvest", "crops", "rural", "seasonal"] },
-    { "word": "Artist", "hints": ["create", "imagine", "design", "express", "artwork"] },
-    { "word": "Photographer", "hints": ["capture", "image", "lens", "moment", "focus"] },
-    { "word": "Carpenter", "hints": ["wood", "build", "construct", "measure", "tools"] },
-    { "word": "Musician", "hints": ["sound", "performance", "melody", "instrument", "create"] },
-    { "word": "Driver", "hints": ["navigate", "transport", "road", "travel", "vehicle"] },
-    { "word": "Technician", "hints": ["repair", "fix", "systems", "equipment", "technical"] },
-    { "word": "Cleaner", "hints": ["clean", "surface", "maintain", "sanitize", "tidy"] }
+    {
+      "word": "Teacher",
+      "hints": [
+        "grading",
+        "lesson plan",
+        "parent conference",
+        "whiteboard",
+        "recess"
+      ]
+    },
+    {
+      "word": "Doctor",
+      "hints": [
+        "rounds",
+        "charts",
+        "listening",
+        "on-call",
+        "referral"
+      ]
+    },
+    {
+      "word": "Artist",
+      "hints": [
+        "studio",
+        "commission",
+        "gallery",
+        "portfolio",
+        "exhibition"
+      ]
+    },
+    {
+      "word": "Engineer",
+      "hints": [
+        "specs",
+        "prototype",
+        "testing",
+        "calculations",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Chef",
+      "hints": [
+        "tasting",
+        "plating",
+        "mise en place",
+        "expedite",
+        "tickets"
+      ]
+    },
+    {
+      "word": "Farmer",
+      "hints": [
+        "dawn",
+        "tractor",
+        "irrigation",
+        "yield",
+        "rotation"
+      ]
+    },
+    {
+      "word": "Writer",
+      "hints": [
+        "deadline",
+        "draft",
+        "editor",
+        "manuscript",
+        "rejection"
+      ]
+    },
+    {
+      "word": "Nurse",
+      "hints": [
+        "shift",
+        "vitals",
+        "charting",
+        "rounds",
+        "handoff"
+      ]
+    },
+    {
+      "word": "Lawyer",
+      "hints": [
+        "billable",
+        "brief",
+        "deposition",
+        "retainer",
+        "discovery"
+      ]
+    },
+    {
+      "word": "Actor",
+      "hints": [
+        "audition",
+        "callback",
+        "rehearsal",
+        "blocking",
+        "understudy"
+      ]
+    },
+    {
+      "word": "Musician",
+      "hints": [
+        "rehearsal",
+        "gig",
+        "setlist",
+        "soundcheck",
+        "encore"
+      ]
+    },
+    {
+      "word": "Photographer",
+      "hints": [
+        "shoot",
+        "lighting",
+        "retouching",
+        "booking",
+        "proofs"
+      ]
+    },
+    {
+      "word": "Scientist",
+      "hints": [
+        "grant",
+        "peer review",
+        "lab",
+        "hypothesis",
+        "publication"
+      ]
+    },
+    {
+      "word": "Pilot",
+      "hints": [
+        "preflight",
+        "clearance",
+        "layover",
+        "controls",
+        "turbulence"
+      ]
+    },
+    {
+      "word": "Electrician",
+      "hints": [
+        "permit",
+        "code",
+        "panel",
+        "troubleshoot",
+        "conduit"
+      ]
+    },
+    {
+      "word": "Plumber",
+      "hints": [
+        "snake",
+        "soldering",
+        "permit",
+        "estimate",
+        "emergency call"
+      ]
+    },
+    {
+      "word": "Therapist",
+      "hints": [
+        "session",
+        "boundaries",
+        "notes",
+        "intake",
+        "confidential"
+      ]
+    },
+    {
+      "word": "Architect",
+      "hints": [
+        "drafting",
+        "client",
+        "renderings",
+        "permits",
+        "site visit"
+      ]
+    },
+    {
+      "word": "Soldier",
+      "hints": [
+        "deployment",
+        "barracks",
+        "formation",
+        "PT",
+        "rank"
+      ]
+    },
+    {
+      "word": "Dancer",
+      "hints": [
+        "rehearsal",
+        "audition",
+        "warmup",
+        "company",
+        "choreography"
+      ]
+    },
+    {
+      "word": "Barista",
+      "hints": [
+        "rush",
+        "steam",
+        "latte art",
+        "tips",
+        "regulars"
+      ]
+    },
+    {
+      "word": "Waiter",
+      "hints": [
+        "section",
+        "sidework",
+        "tips",
+        "specials",
+        "turn tables"
+      ]
+    },
+    {
+      "word": "Tailor",
+      "hints": [
+        "fitting",
+        "alterations",
+        "pins",
+        "measurements",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Janitor",
+      "hints": [
+        "keys",
+        "shift",
+        "supplies",
+        "rounds",
+        "overnight"
+      ]
+    },
+    {
+      "word": "Baker",
+      "hints": [
+        "early",
+        "proofing",
+        "batch",
+        "timer",
+        "inventory"
+      ]
+    },
+    {
+      "word": "Gardener",
+      "hints": [
+        "pruning",
+        "seasonal",
+        "mulch",
+        "clients",
+        "drought"
+      ]
+    },
+    {
+      "word": "Coach",
+      "hints": [
+        "practice",
+        "film",
+        "roster",
+        "halftime",
+        "recruiting"
+      ]
+    },
+    {
+      "word": "Nanny",
+      "hints": [
+        "pickup",
+        "schedule",
+        "boundaries",
+        "activities",
+        "references"
+      ]
+    },
+    {
+      "word": "Accountant",
+      "hints": [
+        "quarter end",
+        "audit",
+        "reconciliation",
+        "deadline",
+        "filing"
+      ]
+    },
+    {
+      "word": "Mechanic",
+      "hints": [
+        "diagnostic",
+        "estimate",
+        "parts",
+        "warranty",
+        "lift"
+      ]
+    },
+    {
+      "word": "Veterinarian",
+      "hints": [
+        "exam room",
+        "vaccinations",
+        "euthanasia",
+        "emergency",
+        "kennel"
+      ]
+    },
+    {
+      "word": "Designer",
+      "hints": [
+        "mock-up",
+        "revision",
+        "client",
+        "deadline",
+        "presentation"
+      ]
+    },
+    {
+      "word": "Butcher",
+      "hints": [
+        "counter",
+        "cuts",
+        "grinding",
+        "inventory",
+        "wholesale"
+      ]
+    },
+    {
+      "word": "Barber",
+      "hints": [
+        "chair",
+        "walk-ins",
+        "regulars",
+        "clippers",
+        "appointment"
+      ]
+    },
+    {
+      "word": "Firefighter",
+      "hints": [
+        "shift",
+        "station",
+        "alarm",
+        "ladder",
+        "hydrant"
+      ]
+    },
+    {
+      "word": "Judge",
+      "hints": [
+        "chambers",
+        "docket",
+        "ruling",
+        "bench",
+        "objection"
+      ]
+    },
+    {
+      "word": "Librarian",
+      "hints": [
+        "cataloging",
+        "returns",
+        "reference",
+        "programming",
+        "fines"
+      ]
+    },
+    {
+      "word": "Surgeon",
+      "hints": [
+        "scrubbing",
+        "OR",
+        "rounds",
+        "consult",
+        "closing"
+      ]
+    },
+    {
+      "word": "Researcher",
+      "hints": [
+        "grant",
+        "IRB",
+        "data",
+        "publication",
+        "tenure"
+      ]
+    },
+    {
+      "word": "Carpenter",
+      "hints": [
+        "site",
+        "measurements",
+        "sawdust",
+        "estimate",
+        "framing"
+      ]
+    },
+    {
+      "word": "Technician",
+      "hints": [
+        "ticket",
+        "troubleshoot",
+        "parts",
+        "dispatch",
+        "warranty"
+      ]
+    },
+    {
+      "word": "Cleaner",
+      "hints": [
+        "supplies",
+        "route",
+        "keys",
+        "checklist",
+        "inspection"
+      ]
+    },
+    {
+      "word": "Dentist",
+      "hints": [
+        "hygienist",
+        "x-rays",
+        "numbing",
+        "crown",
+        "insurance"
+      ]
+    },
+    {
+      "word": "Pharmacist",
+      "hints": [
+        "counting",
+        "consult",
+        "refill",
+        "insurance",
+        "compound"
+      ]
+    },
+    {
+      "word": "Paralegal",
+      "hints": [
+        "filing",
+        "research",
+        "discovery",
+        "deadline",
+        "billable"
+      ]
+    },
+    {
+      "word": "Receptionist",
+      "hints": [
+        "phones",
+        "scheduling",
+        "greeting",
+        "messages",
+        "lobby"
+      ]
+    },
+    {
+      "word": "Secretary",
+      "hints": [
+        "calendar",
+        "correspondence",
+        "filing",
+        "minutes",
+        "screening"
+      ]
+    },
+    {
+      "word": "Executive",
+      "hints": [
+        "meetings",
+        "quarterly",
+        "board",
+        "travel",
+        "strategy"
+      ]
+    },
+    {
+      "word": "Manager",
+      "hints": [
+        "one-on-ones",
+        "reviews",
+        "hiring",
+        "budget",
+        "escalation"
+      ]
+    },
+    {
+      "word": "Supervisor",
+      "hints": [
+        "schedule",
+        "training",
+        "write-up",
+        "coverage",
+        "shift"
+      ]
+    },
+    {
+      "word": "Director",
+      "hints": [
+        "board",
+        "budget",
+        "strategy",
+        "reporting",
+        "stakeholders"
+      ]
+    },
+    {
+      "word": "CEO",
+      "hints": [
+        "board",
+        "quarterly",
+        "shareholders",
+        "strategy",
+        "travel"
+      ]
+    },
+    {
+      "word": "CFO",
+      "hints": [
+        "audit",
+        "quarterly",
+        "forecast",
+        "compliance",
+        "board"
+      ]
+    },
+    {
+      "word": "Consultant",
+      "hints": [
+        "engagement",
+        "deliverables",
+        "travel",
+        "billing",
+        "presentation"
+      ]
+    },
+    {
+      "word": "Analyst",
+      "hints": [
+        "spreadsheet",
+        "model",
+        "report",
+        "deadline",
+        "presentation"
+      ]
+    },
+    {
+      "word": "Broker",
+      "hints": [
+        "commission",
+        "listings",
+        "closing",
+        "showing",
+        "negotiation"
+      ]
+    },
+    {
+      "word": "Trader",
+      "hints": [
+        "floor",
+        "position",
+        "volatility",
+        "P&L",
+        "close"
+      ]
+    },
+    {
+      "word": "Banker",
+      "hints": [
+        "portfolio",
+        "client",
+        "quarterly",
+        "compliance",
+        "lending"
+      ]
+    },
+    {
+      "word": "Teller",
+      "hints": [
+        "drawer",
+        "count",
+        "transactions",
+        "verification",
+        "vault"
+      ]
+    },
+    {
+      "word": "Cashier",
+      "hints": [
+        "register",
+        "drawer",
+        "line",
+        "returns",
+        "closing"
+      ]
+    },
+    {
+      "word": "Salesperson",
+      "hints": [
+        "quota",
+        "commission",
+        "leads",
+        "pipeline",
+        "closing"
+      ]
+    },
+    {
+      "word": "Realtor",
+      "hints": [
+        "listing",
+        "showing",
+        "closing",
+        "commission",
+        "open house"
+      ]
+    },
+    {
+      "word": "Recruiter",
+      "hints": [
+        "sourcing",
+        "pipeline",
+        "screening",
+        "offer",
+        "placement"
+      ]
+    },
+    {
+      "word": "Programmer",
+      "hints": [
+        "debugging",
+        "sprint",
+        "code review",
+        "deploy",
+        "standup"
+      ]
+    },
+    {
+      "word": "Developer",
+      "hints": [
+        "sprint",
+        "tickets",
+        "deployment",
+        "testing",
+        "standup"
+      ]
+    },
+    {
+      "word": "Administrator",
+      "hints": [
+        "tickets",
+        "permissions",
+        "backup",
+        "downtime",
+        "monitoring"
+      ]
+    },
+    {
+      "word": "Contractor",
+      "hints": [
+        "bid",
+        "permits",
+        "subcontractors",
+        "timeline",
+        "punch list"
+      ]
+    },
+    {
+      "word": "Foreman",
+      "hints": [
+        "crew",
+        "site",
+        "schedule",
+        "safety",
+        "materials"
+      ]
+    },
+    {
+      "word": "Welder",
+      "hints": [
+        "hood",
+        "certification",
+        "sparks",
+        "joints",
+        "inspection"
+      ]
+    },
+    {
+      "word": "Machinist",
+      "hints": [
+        "tolerances",
+        "setup",
+        "calibration",
+        "blueprints",
+        "coolant"
+      ]
+    },
+    {
+      "word": "Locksmith",
+      "hints": [
+        "dispatch",
+        "emergency",
+        "rekey",
+        "picks",
+        "mobile"
+      ]
+    },
+    {
+      "word": "Roofer",
+      "hints": [
+        "estimate",
+        "weather",
+        "covering",
+        "safety",
+        "crew"
+      ]
+    },
+    {
+      "word": "Painter",
+      "hints": [
+        "prep",
+        "tape",
+        "coats",
+        "estimate",
+        "cleanup"
+      ]
+    },
+    {
+      "word": "Glazier",
+      "hints": [
+        "measurements",
+        "installation",
+        "cutting",
+        "safety",
+        "replacement"
+      ]
+    },
+    {
+      "word": "Mason",
+      "hints": [
+        "bonding",
+        "level",
+        "weather",
+        "scaffold",
+        "pattern"
+      ]
+    },
+    {
+      "word": "Drywaller",
+      "hints": [
+        "taping",
+        "mudding",
+        "sanding",
+        "texture",
+        "dust"
+      ]
+    },
+    {
+      "word": "Insulator",
+      "hints": [
+        "blown",
+        "batts",
+        "R-value",
+        "crawlspace",
+        "protective"
+      ]
+    },
+    {
+      "word": "Flooring installer",
+      "hints": [
+        "subfloor",
+        "layout",
+        "cuts",
+        "transitions",
+        "acclimate"
+      ]
+    },
+    {
+      "word": "Tiler",
+      "hints": [
+        "layout",
+        "spacers",
+        "grout",
+        "cuts",
+        "setting"
+      ]
+    },
+    {
+      "word": "Landscaper",
+      "hints": [
+        "crew",
+        "mowing",
+        "seasonal",
+        "estimate",
+        "irrigation"
+      ]
+    },
+    {
+      "word": "Arborist",
+      "hints": [
+        "climbing",
+        "assessment",
+        "removal",
+        "rigging",
+        "certification"
+      ]
+    },
+    {
+      "word": "Exterminator",
+      "hints": [
+        "inspection",
+        "treatment",
+        "follow-up",
+        "quarterly",
+        "bait"
+      ]
+    },
+    {
+      "word": "HVAC technician",
+      "hints": [
+        "diagnostic",
+        "refrigerant",
+        "seasonal",
+        "filter",
+        "warranty"
+      ]
+    },
+    {
+      "word": "Appliance repair",
+      "hints": [
+        "diagnostic",
+        "parts",
+        "dispatch",
+        "warranty",
+        "model"
+      ]
+    },
+    {
+      "word": "Pool technician",
+      "hints": [
+        "chemicals",
+        "route",
+        "filter",
+        "seasonal",
+        "testing"
+      ]
+    },
+    {
+      "word": "Security guard",
+      "hints": [
+        "rounds",
+        "post",
+        "shift",
+        "incident report",
+        "badge"
+      ]
+    },
+    {
+      "word": "Bouncer",
+      "hints": [
+        "ID",
+        "list",
+        "crowd",
+        "incident",
+        "closing"
+      ]
+    },
+    {
+      "word": "Bodyguard",
+      "hints": [
+        "detail",
+        "advance",
+        "principal",
+        "route",
+        "threat assessment"
+      ]
+    },
+    {
+      "word": "Detective",
+      "hints": [
+        "case",
+        "leads",
+        "interview",
+        "evidence",
+        "warrant"
+      ]
+    },
+    {
+      "word": "Police officer",
+      "hints": [
+        "shift",
+        "patrol",
+        "dispatch",
+        "backup",
+        "report"
+      ]
+    },
+    {
+      "word": "Sheriff",
+      "hints": [
+        "jurisdiction",
+        "deputies",
+        "warrant",
+        "election",
+        "county"
+      ]
+    },
+    {
+      "word": "Warden",
+      "hints": [
+        "facility",
+        "count",
+        "incident",
+        "staff",
+        "transfers"
+      ]
+    },
+    {
+      "word": "Corrections officer",
+      "hints": [
+        "count",
+        "shift",
+        "yard",
+        "incident",
+        "block"
+      ]
+    },
+    {
+      "word": "Parole officer",
+      "hints": [
+        "caseload",
+        "check-in",
+        "violation",
+        "home visit",
+        "court"
+      ]
+    },
+    {
+      "word": "Probation officer",
+      "hints": [
+        "caseload",
+        "court",
+        "violation",
+        "report",
+        "supervision"
+      ]
+    },
+    {
+      "word": "Social worker",
+      "hints": [
+        "caseload",
+        "home visit",
+        "court",
+        "placement",
+        "documentation"
+      ]
+    },
+    {
+      "word": "Case manager",
+      "hints": [
+        "caseload",
+        "documentation",
+        "coordination",
+        "assessment",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Counselor",
+      "hints": [
+        "session",
+        "intake",
+        "documentation",
+        "crisis",
+        "referral"
+      ]
+    },
+    {
+      "word": "Psychologist",
+      "hints": [
+        "assessment",
+        "session",
+        "testing",
+        "report",
+        "diagnosis"
+      ]
+    },
+    {
+      "word": "Psychiatrist",
+      "hints": [
+        "medication",
+        "session",
+        "assessment",
+        "diagnosis",
+        "referral"
+      ]
+    },
+    {
+      "word": "Radiologist",
+      "hints": [
+        "reading",
+        "dictation",
+        "contrast",
+        "consult",
+        "findings"
+      ]
+    },
+    {
+      "word": "Anesthesiologist",
+      "hints": [
+        "pre-op",
+        "intubation",
+        "monitoring",
+        "dosing",
+        "recovery"
+      ]
+    },
+    {
+      "word": "Pathologist",
+      "hints": [
+        "slides",
+        "biopsy",
+        "report",
+        "autopsy",
+        "findings"
+      ]
+    },
+    {
+      "word": "Cardiologist",
+      "hints": [
+        "echo",
+        "stress test",
+        "consult",
+        "catheterization",
+        "reading"
+      ]
+    },
+    {
+      "word": "Dermatologist",
+      "hints": [
+        "biopsy",
+        "exam",
+        "cosmetic",
+        "referral",
+        "procedure"
+      ]
+    },
+    {
+      "word": "Neurologist",
+      "hints": [
+        "imaging",
+        "exam",
+        "EEG",
+        "consult",
+        "diagnosis"
+      ]
+    },
+    {
+      "word": "Oncologist",
+      "hints": [
+        "treatment plan",
+        "staging",
+        "infusion",
+        "consult",
+        "scan"
+      ]
+    },
+    {
+      "word": "Pediatrician",
+      "hints": [
+        "well-child",
+        "vaccinations",
+        "growth chart",
+        "parents",
+        "sick visit"
+      ]
+    },
+    {
+      "word": "Obstetrician",
+      "hints": [
+        "prenatal",
+        "delivery",
+        "ultrasound",
+        "on-call",
+        "rounds"
+      ]
+    },
+    {
+      "word": "Gynecologist",
+      "hints": [
+        "exam",
+        "screening",
+        "procedure",
+        "consult",
+        "annual"
+      ]
+    },
+    {
+      "word": "Urologist",
+      "hints": [
+        "procedure",
+        "consult",
+        "imaging",
+        "scope",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Orthopedist",
+      "hints": [
+        "imaging",
+        "cast",
+        "surgery",
+        "PT referral",
+        "consult"
+      ]
+    },
+    {
+      "word": "Ophthalmologist",
+      "hints": [
+        "exam",
+        "dilation",
+        "surgery",
+        "prescription",
+        "laser"
+      ]
+    },
+    {
+      "word": "Optometrist",
+      "hints": [
+        "exam",
+        "prescription",
+        "fitting",
+        "dilation",
+        "referral"
+      ]
+    },
+    {
+      "word": "Audiologist",
+      "hints": [
+        "testing",
+        "fitting",
+        "booth",
+        "programming",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Speech therapist",
+      "hints": [
+        "session",
+        "exercises",
+        "assessment",
+        "goals",
+        "documentation"
+      ]
+    },
+    {
+      "word": "Physical therapist",
+      "hints": [
+        "session",
+        "exercises",
+        "assessment",
+        "modalities",
+        "progress"
+      ]
+    },
+    {
+      "word": "Occupational therapist",
+      "hints": [
+        "assessment",
+        "adaptive",
+        "session",
+        "goals",
+        "discharge"
+      ]
+    },
+    {
+      "word": "Respiratory therapist",
+      "hints": [
+        "ventilator",
+        "treatments",
+        "ABG",
+        "rounds",
+        "code"
+      ]
+    },
+    {
+      "word": "Paramedic",
+      "hints": [
+        "dispatch",
+        "scene",
+        "transport",
+        "protocols",
+        "shift"
+      ]
+    },
+    {
+      "word": "EMT",
+      "hints": [
+        "dispatch",
+        "transport",
+        "vitals",
+        "shift",
+        "protocols"
+      ]
+    },
+    {
+      "word": "Phlebotomist",
+      "hints": [
+        "draws",
+        "tubes",
+        "orders",
+        "rounds",
+        "labeling"
+      ]
+    },
+    {
+      "word": "Lab technician",
+      "hints": [
+        "specimens",
+        "processing",
+        "results",
+        "calibration",
+        "QC"
+      ]
+    },
+    {
+      "word": "X-ray technician",
+      "hints": [
+        "positioning",
+        "exposure",
+        "shielding",
+        "portable",
+        "orders"
+      ]
+    },
+    {
+      "word": "Ultrasound technician",
+      "hints": [
+        "gel",
+        "imaging",
+        "measurements",
+        "orders",
+        "emergency"
+      ]
+    },
+    {
+      "word": "MRI technician",
+      "hints": [
+        "screening",
+        "positioning",
+        "contrast",
+        "coils",
+        "claustrophobia"
+      ]
+    },
+    {
+      "word": "Surgical technician",
+      "hints": [
+        "setup",
+        "sterile",
+        "instruments",
+        "count",
+        "turnover"
+      ]
+    },
+    {
+      "word": "Medical assistant",
+      "hints": [
+        "vitals",
+        "rooming",
+        "charting",
+        "scheduling",
+        "prior auth"
+      ]
+    },
+    {
+      "word": "Dental hygienist",
+      "hints": [
+        "cleaning",
+        "x-rays",
+        "charting",
+        "scaling",
+        "fluoride"
+      ]
+    },
+    {
+      "word": "Dental assistant",
+      "hints": [
+        "suction",
+        "setup",
+        "x-rays",
+        "impressions",
+        "sterilization"
+      ]
+    },
+    {
+      "word": "Orthodontist",
+      "hints": [
+        "adjustments",
+        "impressions",
+        "retainer",
+        "consultation",
+        "progress"
+      ]
+    },
+    {
+      "word": "Oral surgeon",
+      "hints": [
+        "extraction",
+        "sedation",
+        "consult",
+        "closing",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Periodontist",
+      "hints": [
+        "scaling",
+        "surgery",
+        "grafting",
+        "probing",
+        "referral"
+      ]
+    },
+    {
+      "word": "Endodontist",
+      "hints": [
+        "root canal",
+        "referral",
+        "imaging",
+        "post",
+        "crown"
+      ]
+    },
+    {
+      "word": "Prosthodontist",
+      "hints": [
+        "impressions",
+        "fitting",
+        "dentures",
+        "implants",
+        "crown"
+      ]
+    },
+    {
+      "word": "Chiropractor",
+      "hints": [
+        "adjustment",
+        "x-rays",
+        "intake",
+        "table",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Acupuncturist",
+      "hints": [
+        "points",
+        "intake",
+        "session",
+        "points",
+        "follow-up"
+      ]
+    },
+    {
+      "word": "Massage therapist",
+      "hints": [
+        "intake",
+        "pressure",
+        "draping",
+        "booking",
+        "tips"
+      ]
+    },
+    {
+      "word": "Nutritionist",
+      "hints": [
+        "assessment",
+        "meal plan",
+        "tracking",
+        "consultation",
+        "goals"
+      ]
+    },
+    {
+      "word": "Dietitian",
+      "hints": [
+        "assessment",
+        "counseling",
+        "calculation",
+        "clinical",
+        "documentation"
+      ]
+    },
+    {
+      "word": "Life coach",
+      "hints": [
+        "session",
+        "goals",
+        "accountability",
+        "intake",
+        "breakthrough"
+      ]
+    },
+    {
+      "word": "Career counselor",
+      "hints": [
+        "assessment",
+        "resume",
+        "interview prep",
+        "session",
+        "resources"
+      ]
+    },
+    {
+      "word": "Financial advisor",
+      "hints": [
+        "portfolio",
+        "review",
+        "planning",
+        "compliance",
+        "meeting"
+      ]
+    },
+    {
+      "word": "Insurance agent",
+      "hints": [
+        "quote",
+        "policy",
+        "renewal",
+        "claims",
+        "commission"
+      ]
+    },
+    {
+      "word": "Claims adjuster",
+      "hints": [
+        "inspection",
+        "estimate",
+        "documentation",
+        "settlement",
+        "caseload"
+      ]
+    },
+    {
+      "word": "Underwriter",
+      "hints": [
+        "risk",
+        "approval",
+        "documentation",
+        "guidelines",
+        "decision"
+      ]
+    },
+    {
+      "word": "Actuary",
+      "hints": [
+        "models",
+        "risk",
+        "projections",
+        "exams",
+        "pricing"
+      ]
+    },
+    {
+      "word": "Auditor",
+      "hints": [
+        "testing",
+        "sampling",
+        "documentation",
+        "findings",
+        "fieldwork"
+      ]
+    },
+    {
+      "word": "Tax preparer",
+      "hints": [
+        "season",
+        "returns",
+        "deadline",
+        "amendments",
+        "extensions"
+      ]
+    },
+    {
+      "word": "Bookkeeper",
+      "hints": [
+        "reconciliation",
+        "entries",
+        "payroll",
+        "invoicing",
+        "statements"
+      ]
+    },
+    {
+      "word": "Payroll specialist",
+      "hints": [
+        "processing",
+        "deductions",
+        "deadline",
+        "corrections",
+        "compliance"
+      ]
+    },
+    {
+      "word": "HR specialist",
+      "hints": [
+        "onboarding",
+        "compliance",
+        "benefits",
+        "investigations",
+        "HRIS"
+      ]
+    },
+    {
+      "word": "Benefits coordinator",
+      "hints": [
+        "enrollment",
+        "claims",
+        "open enrollment",
+        "COBRA",
+        "questions"
+      ]
+    },
+    {
+      "word": "Training coordinator",
+      "hints": [
+        "scheduling",
+        "materials",
+        "tracking",
+        "compliance",
+        "feedback"
+      ]
+    },
+    {
+      "word": "Office manager",
+      "hints": [
+        "supplies",
+        "vendors",
+        "maintenance",
+        "scheduling",
+        "budget"
+      ]
+    },
+    {
+      "word": "Executive assistant",
+      "hints": [
+        "calendar",
+        "travel",
+        "expenses",
+        "correspondence",
+        "screening"
+      ]
+    },
+    {
+      "word": "Data entry clerk",
+      "hints": [
+        "accuracy",
+        "volume",
+        "deadline",
+        "verification",
+        "backlog"
+      ]
+    },
+    {
+      "word": "File clerk",
+      "hints": [
+        "alphabetical",
+        "retrieval",
+        "scanning",
+        "organization",
+        "retention"
+      ]
+    },
+    {
+      "word": "Mail clerk",
+      "hints": [
+        "sorting",
+        "metering",
+        "delivery",
+        "packages",
+        "route"
+      ]
+    },
+    {
+      "word": "Courier",
+      "hints": [
+        "pickup",
+        "delivery",
+        "signature",
+        "route",
+        "time-sensitive"
+      ]
+    },
+    {
+      "word": "Delivery driver",
+      "hints": [
+        "route",
+        "packages",
+        "signature",
+        "scan",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Truck driver",
+      "hints": [
+        "logbook",
+        "weigh station",
+        "route",
+        "DOT",
+        "sleep"
+      ]
+    },
+    {
+      "word": "Bus driver",
+      "hints": [
+        "route",
+        "schedule",
+        "passengers",
+        "CDL",
+        "stops"
+      ]
+    },
+    {
+      "word": "Taxi driver",
+      "hints": [
+        "fare",
+        "meter",
+        "tip",
+        "dispatch",
+        "airport"
+      ]
+    },
+    {
+      "word": "Rideshare driver",
+      "hints": [
+        "rating",
+        "surge",
+        "acceptance",
+        "destination",
+        "tips"
+      ]
+    },
+    {
+      "word": "Chauffeur",
+      "hints": [
+        "client",
+        "punctual",
+        "vehicle",
+        "discrete",
+        "schedule"
+      ]
+    },
+    {
+      "word": "Valet",
+      "hints": [
+        "keys",
+        "tips",
+        "parking",
+        "retrieval",
+        "tickets"
+      ]
+    },
+    {
+      "word": "Flight attendant",
+      "hints": [
+        "layover",
+        "safety demo",
+        "turbulence",
+        "service",
+        "bidding"
+      ]
+    },
+    {
+      "word": "Baggage handler",
+      "hints": [
+        "ramp",
+        "connections",
+        "heavy",
+        "weather",
+        "tags"
+      ]
+    },
+    {
+      "word": "Air traffic controller",
+      "hints": [
+        "clearance",
+        "radar",
+        "handoff",
+        "separation",
+        "stress"
+      ]
+    },
+    {
+      "word": "Ship captain",
+      "hints": [
+        "bridge",
+        "navigation",
+        "crew",
+        "port",
+        "weather"
+      ]
+    },
+    {
+      "word": "Deckhand",
+      "hints": [
+        "lines",
+        "maintenance",
+        "watches",
+        "weather",
+        "cargo"
+      ]
+    },
+    {
+      "word": "Dockworker",
+      "hints": [
+        "containers",
+        "crane",
+        "shift",
+        "union",
+        "cargo"
+      ]
+    },
+    {
+      "word": "Crane operator",
+      "hints": [
+        "load",
+        "signals",
+        "certification",
+        "wind",
+        "precision"
+      ]
+    },
+    {
+      "word": "Forklift operator",
+      "hints": [
+        "certification",
+        "pallets",
+        "warehouse",
+        "loading",
+        "safety"
+      ]
+    },
+    {
+      "word": "Warehouse worker",
+      "hints": [
+        "picking",
+        "packing",
+        "inventory",
+        "shift",
+        "scanner"
+      ]
+    },
+    {
+      "word": "Inventory clerk",
+      "hints": [
+        "count",
+        "discrepancy",
+        "cycle",
+        "scanner",
+        "adjustment"
+      ]
+    },
+    {
+      "word": "Shipping clerk",
+      "hints": [
+        "labels",
+        "manifests",
+        "pickup",
+        "tracking",
+        "pallets"
+      ]
+    },
+    {
+      "word": "Receiving clerk",
+      "hints": [
+        "inspection",
+        "PO",
+        "damage",
+        "putaway",
+        "discrepancy"
+      ]
+    },
+    {
+      "word": "Purchasing agent",
+      "hints": [
+        "RFQ",
+        "vendors",
+        "negotiation",
+        "contracts",
+        "approval"
+      ]
+    },
+    {
+      "word": "Supply chain manager",
+      "hints": [
+        "forecasting",
+        "vendors",
+        "logistics",
+        "inventory",
+        "disruption"
+      ]
+    },
+    {
+      "word": "Logistics coordinator",
+      "hints": [
+        "shipments",
+        "tracking",
+        "carriers",
+        "expedite",
+        "customs"
+      ]
+    },
+    {
+      "word": "Customs broker",
+      "hints": [
+        "clearance",
+        "documentation",
+        "tariffs",
+        "compliance",
+        "delays"
+      ]
+    },
+    {
+      "word": "Import specialist",
+      "hints": [
+        "documentation",
+        "compliance",
+        "duties",
+        "classification",
+        "delays"
+      ]
+    },
+    {
+      "word": "Export specialist",
+      "hints": [
+        "documentation",
+        "compliance",
+        "licensing",
+        "shipping",
+        "regulations"
+      ]
+    },
+    {
+      "word": "Quality inspector",
+      "hints": [
+        "sampling",
+        "specs",
+        "reject",
+        "documentation",
+        "calibration"
+      ]
+    },
+    {
+      "word": "Quality manager",
+      "hints": [
+        "audits",
+        "corrective action",
+        "metrics",
+        "certification",
+        "procedures"
+      ]
+    },
+    {
+      "word": "Safety officer",
+      "hints": [
+        "inspection",
+        "training",
+        "incident",
+        "compliance",
+        "PPE"
+      ]
+    },
+    {
+      "word": "Environmental specialist",
+      "hints": [
+        "permits",
+        "sampling",
+        "compliance",
+        "remediation",
+        "reporting"
+      ]
+    },
+    {
+      "word": "Compliance officer",
+      "hints": [
+        "audits",
+        "policies",
+        "training",
+        "investigation",
+        "reporting"
+      ]
+    },
+    {
+      "word": "Risk manager",
+      "hints": [
+        "assessment",
+        "mitigation",
+        "insurance",
+        "claims",
+        "policy"
+      ]
+    },
+    {
+      "word": "Project manager",
+      "hints": [
+        "timeline",
+        "stakeholders",
+        "budget",
+        "scope",
+        "status"
+      ]
+    },
+    {
+      "word": "Program manager",
+      "hints": [
+        "portfolio",
+        "stakeholders",
+        "resources",
+        "dependencies",
+        "roadmap"
+      ]
+    },
+    {
+      "word": "Product manager",
+      "hints": [
+        "roadmap",
+        "prioritization",
+        "stakeholders",
+        "launch",
+        "metrics"
+      ]
+    },
+    {
+      "word": "Scrum master",
+      "hints": [
+        "standup",
+        "sprint",
+        "retrospective",
+        "blockers",
+        "velocity"
+      ]
+    },
+    {
+      "word": "Business analyst",
+      "hints": [
+        "requirements",
+        "stakeholders",
+        "documentation",
+        "testing",
+        "gap analysis"
+      ]
+    },
+    {
+      "word": "Systems analyst",
+      "hints": [
+        "requirements",
+        "workflow",
+        "testing",
+        "documentation",
+        "integration"
+      ]
+    },
+    {
+      "word": "Data analyst",
+      "hints": [
+        "queries",
+        "visualization",
+        "reporting",
+        "cleaning",
+        "dashboard"
+      ]
+    },
+    {
+      "word": "Data scientist",
+      "hints": [
+        "modeling",
+        "training",
+        "features",
+        "validation",
+        "pipeline"
+      ]
+    },
+    {
+      "word": "Machine learning engineer",
+      "hints": [
+        "training",
+        "deployment",
+        "pipeline",
+        "tuning",
+        "inference"
+      ]
+    },
+    {
+      "word": "Software engineer",
+      "hints": [
+        "code review",
+        "deployment",
+        "debugging",
+        "architecture",
+        "oncall"
+      ]
+    },
+    {
+      "word": "Frontend developer",
+      "hints": [
+        "responsive",
+        "components",
+        "accessibility",
+        "browser",
+        "design review"
+      ]
+    },
+    {
+      "word": "Backend developer",
+      "hints": [
+        "API",
+        "database",
+        "scaling",
+        "monitoring",
+        "deployment"
+      ]
+    },
+    {
+      "word": "Full stack developer",
+      "hints": [
+        "end-to-end",
+        "deployment",
+        "debugging",
+        "features",
+        "architecture"
+      ]
+    },
+    {
+      "word": "Mobile developer",
+      "hints": [
+        "app store",
+        "testing",
+        "release",
+        "crashes",
+        "reviews"
+      ]
+    },
+    {
+      "word": "DevOps engineer",
+      "hints": [
+        "pipeline",
+        "deployment",
+        "monitoring",
+        "infrastructure",
+        "incident"
+      ]
+    },
+    {
+      "word": "Site reliability engineer",
+      "hints": [
+        "uptime",
+        "incident",
+        "monitoring",
+        "automation",
+        "oncall"
+      ]
+    },
+    {
+      "word": "Cloud engineer",
+      "hints": [
+        "infrastructure",
+        "migration",
+        "cost",
+        "security",
+        "scaling"
+      ]
+    },
+    {
+      "word": "Network engineer",
+      "hints": [
+        "configuration",
+        "troubleshooting",
+        "monitoring",
+        "firewall",
+        "outage"
+      ]
+    },
+    {
+      "word": "Security engineer",
+      "hints": [
+        "vulnerabilities",
+        "audit",
+        "incident",
+        "patching",
+        "compliance"
+      ]
+    },
+    {
+      "word": "Security analyst",
+      "hints": [
+        "alerts",
+        "investigation",
+        "incident",
+        "logs",
+        "threat"
+      ]
+    },
+    {
+      "word": "Penetration tester",
+      "hints": [
+        "assessment",
+        "report",
+        "vulnerabilities",
+        "scope",
+        "remediation"
+      ]
+    },
+    {
+      "word": "IT support",
+      "hints": [
+        "tickets",
+        "troubleshooting",
+        "reset",
+        "escalation",
+        "remote"
+      ]
+    },
+    {
+      "word": "Help desk",
+      "hints": [
+        "tickets",
+        "queue",
+        "resolution",
+        "escalation",
+        "SLA"
+      ]
+    },
+    {
+      "word": "Desktop support",
+      "hints": [
+        "imaging",
+        "hardware",
+        "tickets",
+        "onsite",
+        "inventory"
+      ]
+    },
+    {
+      "word": "System administrator",
+      "hints": [
+        "servers",
+        "backup",
+        "patching",
+        "monitoring",
+        "permissions"
+      ]
+    },
+    {
+      "word": "Database administrator",
+      "hints": [
+        "backup",
+        "performance",
+        "queries",
+        "maintenance",
+        "recovery"
+      ]
+    },
+    {
+      "word": "Web administrator",
+      "hints": [
+        "uptime",
+        "SSL",
+        "updates",
+        "monitoring",
+        "content"
+      ]
+    },
+    {
+      "word": "Webmaster",
+      "hints": [
+        "updates",
+        "analytics",
+        "content",
+        "SEO",
+        "maintenance"
+      ]
+    },
+    {
+      "word": "SEO specialist",
+      "hints": [
+        "keywords",
+        "rankings",
+        "analytics",
+        "backlinks",
+        "audit"
+      ]
+    },
+    {
+      "word": "Content writer",
+      "hints": [
+        "deadline",
+        "brief",
+        "revisions",
+        "SEO",
+        "research"
+      ]
+    },
+    {
+      "word": "Copywriter",
+      "hints": [
+        "brief",
+        "headlines",
+        "revisions",
+        "deadline",
+        "campaign"
+      ]
+    },
+    {
+      "word": "Technical writer",
+      "hints": [
+        "documentation",
+        "SME",
+        "review",
+        "versioning",
+        "style guide"
+      ]
+    },
+    {
+      "word": "Editor",
+      "hints": [
+        "revisions",
+        "deadline",
+        "markup",
+        "style",
+        "fact-check"
+      ]
+    },
+    {
+      "word": "Proofreader",
+      "hints": [
+        "markup",
+        "deadline",
+        "style guide",
+        "consistency",
+        "typos"
+      ]
+    },
+    {
+      "word": "Translator",
+      "hints": [
+        "deadline",
+        "source",
+        "terminology",
+        "review",
+        "CAT tools"
+      ]
+    },
+    {
+      "word": "Interpreter",
+      "hints": [
+        "consecutive",
+        "simultaneous",
+        "preparation",
+        "terminology",
+        "fatigue"
+      ]
+    },
+    {
+      "word": "Journalist",
+      "hints": [
+        "deadline",
+        "sources",
+        "pitch",
+        "beat",
+        "fact-check"
+      ]
+    },
+    {
+      "word": "Reporter",
+      "hints": [
+        "beat",
+        "deadline",
+        "sources",
+        "assignment",
+        "breaking"
+      ]
+    },
+    {
+      "word": "Correspondent",
+      "hints": [
+        "bureau",
+        "filing",
+        "sources",
+        "travel",
+        "live shot"
+      ]
+    },
+    {
+      "word": "Anchor",
+      "hints": [
+        "teleprompter",
+        "breaking",
+        "toss",
+        "intro",
+        "rundown"
+      ]
+    },
+    {
+      "word": "Producer",
+      "hints": [
+        "rundown",
+        "booking",
+        "editing",
+        "deadline",
+        "segment"
+      ]
+    },
+    {
+      "word": "Cinematographer",
+      "hints": [
+        "lighting",
+        "framing",
+        "lens",
+        "setup",
+        "coverage"
+      ]
+    },
+    {
+      "word": "Camera operator",
+      "hints": [
+        "framing",
+        "focus",
+        "setup",
+        "movement",
+        "takes"
+      ]
+    },
+    {
+      "word": "Sound engineer",
+      "hints": [
+        "levels",
+        "boom",
+        "mixing",
+        "monitoring",
+        "playback"
+      ]
+    },
+    {
+      "word": "Boom operator",
+      "hints": [
+        "positioning",
+        "cables",
+        "shadow",
+        "arms",
+        "coverage"
+      ]
+    },
+    {
+      "word": "Gaffer",
+      "hints": [
+        "rigging",
+        "gels",
+        "power",
+        "setup",
+        "crew"
+      ]
+    },
+    {
+      "word": "Grip",
+      "hints": [
+        "rigging",
+        "dolly",
+        "flags",
+        "safety",
+        "setup"
+      ]
+    },
+    {
+      "word": "Set designer",
+      "hints": [
+        "drawings",
+        "budget",
+        "construction",
+        "props",
+        "breakdown"
+      ]
+    },
+    {
+      "word": "Props master",
+      "hints": [
+        "sourcing",
+        "continuity",
+        "inventory",
+        "breakdown",
+        "budget"
+      ]
+    },
+    {
+      "word": "Costume designer",
+      "hints": [
+        "fittings",
+        "sourcing",
+        "breakdown",
+        "budget",
+        "continuity"
+      ]
+    },
+    {
+      "word": "Wardrobe assistant",
+      "hints": [
+        "fittings",
+        "continuity",
+        "steaming",
+        "quick change",
+        "inventory"
+      ]
+    },
+    {
+      "word": "Makeup artist",
+      "hints": [
+        "kit",
+        "continuity",
+        "touch-ups",
+        "prosthetics",
+        "breakdown"
+      ]
+    },
+    {
+      "word": "Hair stylist",
+      "hints": [
+        "continuity",
+        "touch-ups",
+        "wigs",
+        "breakdown",
+        "products"
+      ]
+    },
+    {
+      "word": "Special effects",
+      "hints": [
+        "rigging",
+        "safety",
+        "practical",
+        "coordination",
+        "testing"
+      ]
+    },
+    {
+      "word": "Stunt coordinator",
+      "hints": [
+        "choreography",
+        "safety",
+        "rigging",
+        "rehearsal",
+        "doubles"
+      ]
+    },
+    {
+      "word": "Stunt performer",
+      "hints": [
+        "rehearsal",
+        "rigging",
+        "pads",
+        "safety",
+        "takes"
+      ]
+    },
+    {
+      "word": "Voice actor",
+      "hints": [
+        "booth",
+        "takes",
+        "direction",
+        "session",
+        "ADR"
+      ]
+    },
+    {
+      "word": "Narrator",
+      "hints": [
+        "booth",
+        "pacing",
+        "takes",
+        "script",
+        "session"
+      ]
+    },
+    {
+      "word": "Podcaster",
+      "hints": [
+        "recording",
+        "editing",
+        "sponsors",
+        "episodes",
+        "guests"
+      ]
+    },
+    {
+      "word": "Radio host",
+      "hints": [
+        "breaks",
+        "callers",
+        "playlist",
+        "live",
+        "sponsors"
+      ]
+    },
+    {
+      "word": "DJ",
+      "hints": [
+        "setlist",
+        "transitions",
+        "requests",
+        "reading the room",
+        "gear"
+      ]
+    },
+    {
+      "word": "Sound designer",
+      "hints": [
+        "foley",
+        "layers",
+        "mixing",
+        "spotting",
+        "library"
+      ]
+    },
+    {
+      "word": "Composer",
+      "hints": [
+        "spotting",
+        "cues",
+        "deadline",
+        "revisions",
+        "orchestration"
+      ]
+    },
+    {
+      "word": "Music producer",
+      "hints": [
+        "session",
+        "mixing",
+        "artists",
+        "tracks",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Recording engineer",
+      "hints": [
+        "levels",
+        "setup",
+        "takes",
+        "mixing",
+        "session"
+      ]
+    },
+    {
+      "word": "Mixing engineer",
+      "hints": [
+        "levels",
+        "revisions",
+        "stems",
+        "deadline",
+        "reference"
+      ]
+    },
+    {
+      "word": "Mastering engineer",
+      "hints": [
+        "loudness",
+        "revisions",
+        "sequence",
+        "formats",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Audio technician",
+      "hints": [
+        "setup",
+        "soundcheck",
+        "troubleshooting",
+        "monitors",
+        "cables"
+      ]
+    },
+    {
+      "word": "Lighting technician",
+      "hints": [
+        "setup",
+        "programming",
+        "focus",
+        "cues",
+        "troubleshooting"
+      ]
+    },
+    {
+      "word": "Stage manager",
+      "hints": [
+        "cues",
+        "rehearsal",
+        "calling",
+        "schedule",
+        "paperwork"
+      ]
+    },
+    {
+      "word": "Production assistant",
+      "hints": [
+        "runs",
+        "paperwork",
+        "walkie",
+        "crafty",
+        "lockup"
+      ]
+    },
+    {
+      "word": "Location scout",
+      "hints": [
+        "photos",
+        "permits",
+        "logistics",
+        "options",
+        "survey"
+      ]
+    },
+    {
+      "word": "Location manager",
+      "hints": [
+        "permits",
+        "neighbors",
+        "logistics",
+        "cleanup",
+        "coordination"
+      ]
+    },
+    {
+      "word": "Unit production manager",
+      "hints": [
+        "budget",
+        "schedule",
+        "crew",
+        "logistics",
+        "overages"
+      ]
+    },
+    {
+      "word": "Line producer",
+      "hints": [
+        "budget",
+        "schedule",
+        "hiring",
+        "vendors",
+        "contingency"
+      ]
+    },
+    {
+      "word": "Casting director",
+      "hints": [
+        "breakdowns",
+        "sessions",
+        "callbacks",
+        "offers",
+        "negotiations"
+      ]
+    },
+    {
+      "word": "Talent agent",
+      "hints": [
+        "submissions",
+        "negotiations",
+        "commission",
+        "clients",
+        "auditions"
+      ]
+    },
+    {
+      "word": "Publicist",
+      "hints": [
+        "pitching",
+        "press",
+        "crisis",
+        "clients",
+        "placements"
+      ]
+    },
+    {
+      "word": "Marketing manager",
+      "hints": [
+        "campaigns",
+        "budget",
+        "analytics",
+        "launches",
+        "agencies"
+      ]
+    },
+    {
+      "word": "Brand manager",
+      "hints": [
+        "positioning",
+        "guidelines",
+        "campaigns",
+        "research",
+        "launches"
+      ]
+    },
+    {
+      "word": "Social media manager",
+      "hints": [
+        "content calendar",
+        "engagement",
+        "analytics",
+        "scheduling",
+        "crisis"
+      ]
+    },
+    {
+      "word": "Community manager",
+      "hints": [
+        "engagement",
+        "moderation",
+        "content",
+        "feedback",
+        "events"
+      ]
+    },
+    {
+      "word": "Public relations",
+      "hints": [
+        "pitching",
+        "press release",
+        "crisis",
+        "media list",
+        "coverage"
+      ]
+    },
+    {
+      "word": "Communications director",
+      "hints": [
+        "messaging",
+        "crisis",
+        "stakeholders",
+        "approvals",
+        "strategy"
+      ]
+    },
+    {
+      "word": "Event planner",
+      "hints": [
+        "vendors",
+        "timeline",
+        "budget",
+        "logistics",
+        "day-of"
+      ]
+    },
+    {
+      "word": "Wedding planner",
+      "hints": [
+        "vendors",
+        "timeline",
+        "bride",
+        "budget",
+        "day-of"
+      ]
+    },
+    {
+      "word": "Caterer",
+      "hints": [
+        "menu",
+        "headcount",
+        "setup",
+        "dietary",
+        "staffing"
+      ]
+    },
+    {
+      "word": "Banquet manager",
+      "hints": [
+        "BEO",
+        "setup",
+        "staffing",
+        "timeline",
+        "client"
+      ]
+    },
+    {
+      "word": "Hotel manager",
+      "hints": [
+        "occupancy",
+        "guest complaints",
+        "staffing",
+        "revenue",
+        "inspections"
+      ]
+    },
+    {
+      "word": "Front desk clerk",
+      "hints": [
+        "check-in",
+        "reservations",
+        "complaints",
+        "shift",
+        "keys"
+      ]
+    },
+    {
+      "word": "Concierge",
+      "hints": [
+        "reservations",
+        "recommendations",
+        "requests",
+        "tickets",
+        "arrangements"
+      ]
+    },
+    {
+      "word": "Bellhop",
+      "hints": [
+        "luggage",
+        "tips",
+        "escort",
+        "amenities",
+        "cart"
+      ]
+    },
+    {
+      "word": "Housekeeper",
+      "hints": [
+        "rooms",
+        "turnover",
+        "inspection",
+        "cart",
+        "amenities"
+      ]
+    },
+    {
+      "word": "Room attendant",
+      "hints": [
+        "turnover",
+        "linens",
+        "amenities",
+        "inspection",
+        "cart"
+      ]
+    },
+    {
+      "word": "Laundry attendant",
+      "hints": [
+        "sorting",
+        "folding",
+        "stains",
+        "inventory",
+        "machines"
+      ]
+    },
+    {
+      "word": "Maintenance worker",
+      "hints": [
+        "work orders",
+        "rounds",
+        "preventive",
+        "on-call",
+        "tools"
+      ]
+    },
+    {
+      "word": "Groundskeeper",
+      "hints": [
+        "mowing",
+        "seasonal",
+        "irrigation",
+        "equipment",
+        "early"
+      ]
+    },
+    {
+      "word": "Greenskeeper",
+      "hints": [
+        "mowing",
+        "aeration",
+        "irrigation",
+        "early",
+        "tournament"
+      ]
+    },
+    {
+      "word": "Golf pro",
+      "hints": [
+        "lessons",
+        "tee times",
+        "tournaments",
+        "shop",
+        "members"
+      ]
+    },
+    {
+      "word": "Tennis pro",
+      "hints": [
+        "lessons",
+        "clinics",
+        "members",
+        "stringing",
+        "tournaments"
+      ]
+    },
+    {
+      "word": "Ski instructor",
+      "hints": [
+        "lessons",
+        "certification",
+        "conditions",
+        "groups",
+        "tips"
+      ]
+    },
+    {
+      "word": "Surf instructor",
+      "hints": [
+        "lessons",
+        "conditions",
+        "safety",
+        "groups",
+        "tips"
+      ]
+    },
+    {
+      "word": "Dive instructor",
+      "hints": [
+        "certification",
+        "briefing",
+        "safety",
+        "equipment",
+        "logs"
+      ]
+    },
+    {
+      "word": "Yoga instructor",
+      "hints": [
+        "class",
+        "cueing",
+        "adjustments",
+        "playlist",
+        "sequencing"
+      ]
+    },
+    {
+      "word": "Pilates instructor",
+      "hints": [
+        "cueing",
+        "reformer",
+        "modifications",
+        "certification",
+        "privates"
+      ]
+    },
+    {
+      "word": "Aerobics instructor",
+      "hints": [
+        "cueing",
+        "playlist",
+        "energy",
+        "modifications",
+        "class"
+      ]
+    },
+    {
+      "word": "Spin instructor",
+      "hints": [
+        "playlist",
+        "cueing",
+        "resistance",
+        "energy",
+        "metrics"
+      ]
+    },
+    {
+      "word": "Personal trainer",
+      "hints": [
+        "assessment",
+        "programming",
+        "session",
+        "tracking",
+        "motivation"
+      ]
+    },
+    {
+      "word": "Athletic trainer",
+      "hints": [
+        "taping",
+        "rehab",
+        "evaluation",
+        "sideline",
+        "treatment"
+      ]
+    },
+    {
+      "word": "Referee",
+      "hints": [
+        "calls",
+        "positioning",
+        "signals",
+        "game management",
+        "assignments"
+      ]
+    },
+    {
+      "word": "Umpire",
+      "hints": [
+        "calls",
+        "positioning",
+        "strike zone",
+        "ejection",
+        "crew"
+      ]
+    },
+    {
+      "word": "Scorekeeper",
+      "hints": [
+        "tracking",
+        "official",
+        "stats",
+        "accuracy",
+        "game"
+      ]
+    },
+    {
+      "word": "Announcer",
+      "hints": [
+        "lineup",
+        "play-by-play",
+        "PA",
+        "intro",
+        "energy"
+      ]
+    },
+    {
+      "word": "Sports broadcaster",
+      "hints": [
+        "play-by-play",
+        "color",
+        "research",
+        "travel",
+        "highlights"
+      ]
+    },
+    {
+      "word": "Sports agent",
+      "hints": [
+        "negotiations",
+        "contracts",
+        "clients",
+        "commission",
+        "endorsements"
+      ]
+    },
+    {
+      "word": "Scout",
+      "hints": [
+        "evaluation",
+        "reports",
+        "travel",
+        "prospects",
+        "combine"
+      ]
+    },
+    {
+      "word": "Athletic director",
+      "hints": [
+        "budget",
+        "hiring",
+        "compliance",
+        "fundraising",
+        "scheduling"
+      ]
+    },
+    {
+      "word": "Recreation director",
+      "hints": [
+        "programming",
+        "budget",
+        "staffing",
+        "facilities",
+        "leagues"
+      ]
+    },
+    {
+      "word": "Camp counselor",
+      "hints": [
+        "activities",
+        "cabin",
+        "campers",
+        "homesick",
+        "campfire"
+      ]
+    },
+    {
+      "word": "Tour guide",
+      "hints": [
+        "script",
+        "groups",
+        "tips",
+        "questions",
+        "route"
+      ]
+    },
+    {
+      "word": "Museum guide",
+      "hints": [
+        "tours",
+        "questions",
+        "knowledge",
+        "groups",
+        "schedule"
+      ]
+    },
+    {
+      "word": "Park ranger",
+      "hints": [
+        "patrol",
+        "interpretation",
+        "visitors",
+        "wildlife",
+        "enforcement"
+      ]
+    },
+    {
+      "word": "Lifeguard",
+      "hints": [
+        "scanning",
+        "rescue",
+        "certification",
+        "rotation",
+        "whistle"
+      ]
+    },
+    {
+      "word": "Swim instructor",
+      "hints": [
+        "levels",
+        "safety",
+        "progression",
+        "parents",
+        "pool"
+      ]
+    },
+    {
+      "word": "Crossing guard",
+      "hints": [
+        "post",
+        "traffic",
+        "children",
+        "weather",
+        "schedule"
+      ]
+    },
+    {
+      "word": "School counselor",
+      "hints": [
+        "caseload",
+        "crisis",
+        "scheduling",
+        "college",
+        "504"
+      ]
+    },
+    {
+      "word": "Principal",
+      "hints": [
+        "observations",
+        "discipline",
+        "parents",
+        "budget",
+        "staff"
+      ]
+    },
+    {
+      "word": "Superintendent",
+      "hints": [
+        "board",
+        "budget",
+        "principals",
+        "policy",
+        "community"
+      ]
+    },
+    {
+      "word": "Professor",
+      "hints": [
+        "tenure",
+        "research",
+        "office hours",
+        "grading",
+        "syllabus"
+      ]
+    },
+    {
+      "word": "Lecturer",
+      "hints": [
+        "prep",
+        "grading",
+        "office hours",
+        "sections",
+        "adjunct"
+      ]
+    },
+    {
+      "word": "Teaching assistant",
+      "hints": [
+        "grading",
+        "sections",
+        "office hours",
+        "proctoring",
+        "stipend"
+      ]
+    },
+    {
+      "word": "Tutor",
+      "hints": [
+        "session",
+        "prep",
+        "progress",
+        "scheduling",
+        "hourly"
+      ]
+    },
+    {
+      "word": "Substitute teacher",
+      "hints": [
+        "lesson plans",
+        "classroom management",
+        "assignment",
+        "attendance",
+        "flexibility"
+      ]
+    },
+    {
+      "word": "Paraprofessional",
+      "hints": [
+        "support",
+        "supervision",
+        "accommodations",
+        "duties",
+        "IEP"
+      ]
+    },
+    {
+      "word": "Special education teacher",
+      "hints": [
+        "IEP",
+        "accommodations",
+        "documentation",
+        "meetings",
+        "goals"
+      ]
+    },
+    {
+      "word": "ESL teacher",
+      "hints": [
+        "levels",
+        "assessment",
+        "materials",
+        "cultural",
+        "progress"
+      ]
+    },
+    {
+      "word": "Music teacher",
+      "hints": [
+        "rehearsal",
+        "concerts",
+        "practice",
+        "instruments",
+        "performances"
+      ]
+    },
+    {
+      "word": "Art teacher",
+      "hints": [
+        "supplies",
+        "projects",
+        "cleanup",
+        "displays",
+        "kiln"
+      ]
+    },
+    {
+      "word": "PE teacher",
+      "hints": [
+        "equipment",
+        "activities",
+        "fitness testing",
+        "outdoor",
+        "locker room"
+      ]
+    },
+    {
+      "word": "Drama teacher",
+      "hints": [
+        "rehearsals",
+        "productions",
+        "auditions",
+        "tech week",
+        "performances"
+      ]
+    },
+    {
+      "word": "Band director",
+      "hints": [
+        "rehearsal",
+        "marching",
+        "concerts",
+        "competitions",
+        "sectionals"
+      ]
+    },
+    {
+      "word": "Choir director",
+      "hints": [
+        "rehearsal",
+        "concerts",
+        "auditions",
+        "repertoire",
+        "sectionals"
+      ]
+    },
+    {
+      "word": "Orchestra conductor",
+      "hints": [
+        "rehearsal",
+        "baton",
+        "score",
+        "concerts",
+        "sections"
+      ]
+    },
+    {
+      "word": "Accompanist",
+      "hints": [
+        "rehearsal",
+        "sight-reading",
+        "following",
+        "performances",
+        "practice"
+      ]
+    },
+    {
+      "word": "Piano teacher",
+      "hints": [
+        "lessons",
+        "recital",
+        "practice",
+        "scales",
+        "repertoire"
+      ]
+    },
+    {
+      "word": "Voice teacher",
+      "hints": [
+        "lessons",
+        "technique",
+        "repertoire",
+        "recital",
+        "warmups"
+      ]
+    },
+    {
+      "word": "Driving instructor",
+      "hints": [
+        "dual controls",
+        "permit",
+        "parallel parking",
+        "nervous",
+        "hours"
+      ]
+    },
+    {
+      "word": "Flight instructor",
+      "hints": [
+        "dual",
+        "checkride",
+        "hours",
+        "maneuvers",
+        "ground school"
+      ]
+    },
+    {
+      "word": "Martial arts instructor",
+      "hints": [
+        "belt",
+        "forms",
+        "sparring",
+        "discipline",
+        "testing"
+      ]
+    },
+    {
+      "word": "Dance teacher",
+      "hints": [
+        "choreography",
+        "recital",
+        "technique",
+        "barre",
+        "combinations"
+      ]
+    },
+    {
+      "word": "Gymnastics coach",
+      "hints": [
+        "spotting",
+        "routines",
+        "conditioning",
+        "competitions",
+        "progressions"
+      ]
+    },
+    {
+      "word": "Figure skating coach",
+      "hints": [
+        "ice time",
+        "programs",
+        "competitions",
+        "jumps",
+        "choreography"
+      ]
+    },
+    {
+      "word": "Horse trainer",
+      "hints": [
+        "groundwork",
+        "riding",
+        "shows",
+        "conditioning",
+        "boarding"
+      ]
+    },
+    {
+      "word": "Dog trainer",
+      "hints": [
+        "commands",
+        "treats",
+        "sessions",
+        "behavior",
+        "clients"
+      ]
+    },
+    {
+      "word": "Animal handler",
+      "hints": [
+        "safety",
+        "enrichment",
+        "feeding",
+        "training",
+        "enclosure"
+      ]
+    },
+    {
+      "word": "Zookeeper",
+      "hints": [
+        "feeding",
+        "enrichment",
+        "cleaning",
+        "observation",
+        "education"
+      ]
+    },
+    {
+      "word": "Aquarist",
+      "hints": [
+        "water quality",
+        "feeding",
+        "tanks",
+        "quarantine",
+        "breeding"
+      ]
+    },
+    {
+      "word": "Marine biologist",
+      "hints": [
+        "fieldwork",
+        "samples",
+        "data",
+        "grants",
+        "publications"
+      ]
+    },
+    {
+      "word": "Wildlife biologist",
+      "hints": [
+        "fieldwork",
+        "tracking",
+        "data",
+        "grants",
+        "surveys"
+      ]
+    },
+    {
+      "word": "Ecologist",
+      "hints": [
+        "fieldwork",
+        "sampling",
+        "data",
+        "grants",
+        "modeling"
+      ]
+    },
+    {
+      "word": "Botanist",
+      "hints": [
+        "specimens",
+        "fieldwork",
+        "identification",
+        "herbarium",
+        "research"
+      ]
+    },
+    {
+      "word": "Entomologist",
+      "hints": [
+        "specimens",
+        "traps",
+        "identification",
+        "fieldwork",
+        "collections"
+      ]
+    },
+    {
+      "word": "Geologist",
+      "hints": [
+        "fieldwork",
+        "samples",
+        "mapping",
+        "cores",
+        "analysis"
+      ]
+    },
+    {
+      "word": "Meteorologist",
+      "hints": [
+        "forecast",
+        "models",
+        "radar",
+        "broadcast",
+        "severe"
+      ]
+    },
+    {
+      "word": "Astronomer",
+      "hints": [
+        "observation",
+        "telescope",
+        "data",
+        "grants",
+        "publications"
+      ]
+    },
+    {
+      "word": "Physicist",
+      "hints": [
+        "experiments",
+        "theory",
+        "grants",
+        "publications",
+        "collaboration"
+      ]
+    },
+    {
+      "word": "Chemist",
+      "hints": [
+        "synthesis",
+        "analysis",
+        "lab",
+        "safety",
+        "publications"
+      ]
+    },
+    {
+      "word": "Biochemist",
+      "hints": [
+        "assays",
+        "proteins",
+        "lab",
+        "grants",
+        "publications"
+      ]
+    },
+    {
+      "word": "Microbiologist",
+      "hints": [
+        "cultures",
+        "sterile",
+        "incubation",
+        "identification",
+        "lab"
+      ]
+    },
+    {
+      "word": "Geneticist",
+      "hints": [
+        "sequencing",
+        "analysis",
+        "lab",
+        "counseling",
+        "research"
+      ]
+    },
+    {
+      "word": "Epidemiologist",
+      "hints": [
+        "surveillance",
+        "outbreak",
+        "data",
+        "modeling",
+        "investigation"
+      ]
+    },
+    {
+      "word": "Biostatistician",
+      "hints": [
+        "analysis",
+        "trials",
+        "modeling",
+        "power",
+        "collaboration"
+      ]
+    },
+    {
+      "word": "Clinical researcher",
+      "hints": [
+        "protocols",
+        "IRB",
+        "enrollment",
+        "data",
+        "compliance"
+      ]
+    },
+    {
+      "word": "Lab manager",
+      "hints": [
+        "inventory",
+        "safety",
+        "equipment",
+        "scheduling",
+        "budgeting"
+      ]
+    },
+    {
+      "word": "Research assistant",
+      "hints": [
+        "data entry",
+        "protocols",
+        "literature",
+        "lab work",
+        "hourly"
+      ]
+    },
+    {
+      "word": "Postdoc",
+      "hints": [
+        "publications",
+        "grants",
+        "mentor",
+        "job market",
+        "lab"
+      ]
+    },
+    {
+      "word": "Dean",
+      "hints": [
+        "faculty",
+        "budget",
+        "curriculum",
+        "meetings",
+        "strategic"
+      ]
+    },
+    {
+      "word": "Provost",
+      "hints": [
+        "academic affairs",
+        "deans",
+        "budget",
+        "faculty",
+        "strategic"
+      ]
+    },
+    {
+      "word": "Registrar",
+      "hints": [
+        "transcripts",
+        "enrollment",
+        "records",
+        "compliance",
+        "deadlines"
+      ]
+    },
+    {
+      "word": "Admissions officer",
+      "hints": [
+        "applications",
+        "reading",
+        "travel",
+        "decisions",
+        "yield"
+      ]
+    },
+    {
+      "word": "Financial aid officer",
+      "hints": [
+        "packages",
+        "appeals",
+        "verification",
+        "counseling",
+        "deadlines"
+      ]
+    },
+    {
+      "word": "Academic advisor",
+      "hints": [
+        "registration",
+        "requirements",
+        "caseload",
+        "holds",
+        "graduation"
+      ]
+    },
+    {
+      "word": "Student affairs",
+      "hints": [
+        "programming",
+        "conduct",
+        "housing",
+        "crisis",
+        "orientation"
+      ]
+    },
+    {
+      "word": "Residence advisor",
+      "hints": [
+        "rounds",
+        "programming",
+        "conflict",
+        "on-call",
+        "community"
+      ]
+    },
+    {
+      "word": "Archivist",
+      "hints": [
+        "cataloging",
+        "preservation",
+        "finding aids",
+        "researchers",
+        "accession"
+      ]
+    },
+    {
+      "word": "Curator",
+      "hints": [
+        "collections",
+        "exhibitions",
+        "research",
+        "acquisitions",
+        "conservation"
+      ]
+    },
+    {
+      "word": "Conservator",
+      "hints": [
+        "treatment",
+        "documentation",
+        "condition",
+        "materials",
+        "ethics"
+      ]
+    },
+    {
+      "word": "Art handler",
+      "hints": [
+        "crating",
+        "installation",
+        "condition",
+        "transport",
+        "gloves"
+      ]
+    },
+    {
+      "word": "Gallery assistant",
+      "hints": [
+        "installation",
+        "visitors",
+        "sales",
+        "openings",
+        "inventory"
+      ]
+    },
+    {
+      "word": "Auctioneer",
+      "hints": [
+        "lots",
+        "bidding",
+        "hammer",
+        "estimates",
+        "consignments"
+      ]
+    },
+    {
+      "word": "Appraiser",
+      "hints": [
+        "valuation",
+        "documentation",
+        "research",
+        "condition",
+        "market"
+      ]
+    },
+    {
+      "word": "Antique dealer",
+      "hints": [
+        "sourcing",
+        "authentication",
+        "pricing",
+        "restoration",
+        "clients"
+      ]
+    },
+    {
+      "word": "Interior designer",
+      "hints": [
+        "clients",
+        "sourcing",
+        "renderings",
+        "installation",
+        "budget"
+      ]
+    },
+    {
+      "word": "Feng shui consultant",
+      "hints": [
+        "assessment",
+        "recommendations",
+        "energy",
+        "placement",
+        "consultation"
+      ]
+    },
+    {
+      "word": "Home stager",
+      "hints": [
+        "furniture",
+        "declutter",
+        "photography",
+        "rental",
+        "showing"
+      ]
+    },
+    {
+      "word": "Closet organizer",
+      "hints": [
+        "purging",
+        "systems",
+        "consultation",
+        "installation",
+        "categories"
+      ]
+    },
+    {
+      "word": "Professional organizer",
+      "hints": [
+        "declutter",
+        "systems",
+        "consultation",
+        "maintenance",
+        "categories"
+      ]
+    },
+    {
+      "word": "Personal shopper",
+      "hints": [
+        "clients",
+        "budget",
+        "returns",
+        "styling",
+        "sourcing"
+      ]
+    },
+    {
+      "word": "Stylist",
+      "hints": [
+        "pulls",
+        "fittings",
+        "clients",
+        "shoots",
+        "returns"
+      ]
+    },
+    {
+      "word": "Fashion designer",
+      "hints": [
+        "sketches",
+        "fittings",
+        "production",
+        "shows",
+        "collection"
+      ]
+    },
+    {
+      "word": "Pattern maker",
+      "hints": [
+        "grading",
+        "muslins",
+        "adjustments",
+        "specs",
+        "software"
+      ]
+    },
+    {
+      "word": "Seamstress",
+      "hints": [
+        "alterations",
+        "fittings",
+        "deadlines",
+        "repairs",
+        "custom"
+      ]
+    },
+    {
+      "word": "Cobbler",
+      "hints": [
+        "repairs",
+        "bottoms",
+        "lifts",
+        "stretching",
+        "dyeing"
+      ]
+    },
+    {
+      "word": "Jeweler",
+      "hints": [
+        "repairs",
+        "sizing",
+        "custom",
+        "appraisals",
+        "bench"
+      ]
+    },
+    {
+      "word": "Watchmaker",
+      "hints": [
+        "movements",
+        "repairs",
+        "tools",
+        "precision",
+        "service"
+      ]
+    },
+    {
+      "word": "Engraver",
+      "hints": [
+        "lettering",
+        "personalization",
+        "samples",
+        "machines",
+        "rush"
+      ]
+    },
+    {
+      "word": "Calligrapher",
+      "hints": [
+        "envelopes",
+        "invitations",
+        "strokes",
+        "ink",
+        "samples"
+      ]
+    },
+    {
+      "word": "Tattoo artist",
+      "hints": [
+        "consultation",
+        "stencil",
+        "aftercare",
+        "portfolio",
+        "booking"
+      ]
+    },
+    {
+      "word": "Piercer",
+      "hints": [
+        "jewelry",
+        "sterilization",
+        "aftercare",
+        "placement",
+        "consent"
+      ]
+    },
+    {
+      "word": "Esthetician",
+      "hints": [
+        "facials",
+        "waxing",
+        "products",
+        "consultation",
+        "rebooking"
+      ]
+    },
+    {
+      "word": "Nail technician",
+      "hints": [
+        "manicure",
+        "acrylics",
+        "sanitation",
+        "polish",
+        "booking"
+      ]
+    },
+    {
+      "word": "Cosmetologist",
+      "hints": [
+        "license",
+        "color",
+        "cuts",
+        "consultation",
+        "rebooking"
+      ]
+    },
+    {
+      "word": "Mortician",
+      "hints": [
+        "embalming",
+        "families",
+        "arrangements",
+        "preparation",
+        "viewing"
+      ]
+    },
+    {
+      "word": "Funeral director",
+      "hints": [
+        "arrangements",
+        "families",
+        "coordination",
+        "services",
+        "paperwork"
+      ]
+    },
+    {
+      "word": "Cemetery manager",
+      "hints": [
+        "plots",
+        "maintenance",
+        "records",
+        "families",
+        "services"
+      ]
+    },
+    {
+      "word": "Chaplain",
+      "hints": [
+        "visits",
+        "services",
+        "crisis",
+        "interfaith",
+        "comfort"
+      ]
+    },
+    {
+      "word": "Minister",
+      "hints": [
+        "sermons",
+        "visits",
+        "ceremonies",
+        "counseling",
+        "congregation"
+      ]
+    },
+    {
+      "word": "Rabbi",
+      "hints": [
+        "sermons",
+        "lifecycle",
+        "teaching",
+        "counseling",
+        "congregation"
+      ]
+    },
+    {
+      "word": "Imam",
+      "hints": [
+        "prayers",
+        "sermons",
+        "counseling",
+        "community",
+        "teaching"
+      ]
+    },
+    {
+      "word": "Priest",
+      "hints": [
+        "mass",
+        "sacraments",
+        "counseling",
+        "parish",
+        "visits"
+      ]
+    },
+    {
+      "word": "Monk",
+      "hints": [
+        "prayer",
+        "community",
+        "silence",
+        "work",
+        "schedule"
+      ]
+    },
+    {
+      "word": "Nun",
+      "hints": [
+        "prayer",
+        "community",
+        "service",
+        "habit",
+        "vows"
+      ]
+    },
+    {
+      "word": "Missionary",
+      "hints": [
+        "support",
+        "field",
+        "language",
+        "community",
+        "reporting"
+      ]
+    },
+    {
+      "word": "Nonprofit director",
+      "hints": [
+        "fundraising",
+        "board",
+        "programs",
+        "grants",
+        "mission"
+      ]
+    },
+    {
+      "word": "Grant writer",
+      "hints": [
+        "deadlines",
+        "LOI",
+        "budgets",
+        "narratives",
+        "reporting"
+      ]
+    },
+    {
+      "word": "Fundraiser",
+      "hints": [
+        "donors",
+        "events",
+        "cultivation",
+        "asks",
+        "stewardship"
+      ]
+    },
+    {
+      "word": "Development officer",
+      "hints": [
+        "portfolio",
+        "cultivation",
+        "proposals",
+        "stewardship",
+        "metrics"
+      ]
+    },
+    {
+      "word": "Volunteer coordinator",
+      "hints": [
+        "recruitment",
+        "scheduling",
+        "training",
+        "recognition",
+        "tracking"
+      ]
+    },
+    {
+      "word": "Outreach coordinator",
+      "hints": [
+        "community",
+        "events",
+        "partnerships",
+        "materials",
+        "tracking"
+      ]
+    },
+    {
+      "word": "Advocacy director",
+      "hints": [
+        "policy",
+        "campaigns",
+        "coalition",
+        "lobbying",
+        "testimony"
+      ]
+    },
+    {
+      "word": "Lobbyist",
+      "hints": [
+        "meetings",
+        "testimony",
+        "registration",
+        "clients",
+        "tracking"
+      ]
+    },
+    {
+      "word": "Political consultant",
+      "hints": [
+        "campaigns",
+        "polling",
+        "strategy",
+        "messaging",
+        "media"
+      ]
+    },
+    {
+      "word": "Campaign manager",
+      "hints": [
+        "strategy",
+        "fundraising",
+        "staff",
+        "schedule",
+        "polling"
+      ]
+    },
+    {
+      "word": "Press secretary",
+      "hints": [
+        "briefings",
+        "statements",
+        "reporters",
+        "messaging",
+        "crisis"
+      ]
+    },
+    {
+      "word": "Speechwriter",
+      "hints": [
+        "drafts",
+        "research",
+        "tone",
+        "revisions",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Diplomat",
+      "hints": [
+        "cables",
+        "meetings",
+        "protocol",
+        "postings",
+        "negotiations"
+      ]
+    },
+    {
+      "word": "Ambassador",
+      "hints": [
+        "residence",
+        "credentials",
+        "meetings",
+        "cables",
+        "events"
+      ]
+    },
+    {
+      "word": "Intelligence analyst",
+      "hints": [
+        "reports",
+        "sources",
+        "briefings",
+        "clearance",
+        "assessment"
+      ]
+    },
+    {
+      "word": "Cryptographer",
+      "hints": [
+        "algorithms",
+        "analysis",
+        "clearance",
+        "protocols",
+        "research"
+      ]
+    },
+    {
+      "word": "Sommelier",
+      "hints": [
+        "pairings",
+        "tasting",
+        "cellar",
+        "service",
+        "certification"
+      ]
+    },
+    {
+      "word": "Mixologist",
+      "hints": [
+        "recipes",
+        "garnish",
+        "shaking",
+        "menu",
+        "spirits"
+      ]
+    },
+    {
+      "word": "Brewmaster",
+      "hints": [
+        "fermentation",
+        "recipes",
+        "tasting",
+        "batches",
+        "bitter"
+      ]
+    },
+    {
+      "word": "Winemaker",
+      "hints": [
+        "harvest",
+        "fermentation",
+        "blending",
+        "tasting",
+        "vintage"
+      ]
+    },
+    {
+      "word": "Distiller",
+      "hints": [
+        "mash",
+        "aging",
+        "proof",
+        "barrels",
+        "tasting"
+      ]
+    },
+    {
+      "word": "Food critic",
+      "hints": [
+        "anonymous",
+        "deadline",
+        "reservations",
+        "notes",
+        "ratings"
+      ]
+    },
+    {
+      "word": "Food stylist",
+      "hints": [
+        "tweezers",
+        "hero",
+        "lighting",
+        "touch-ups",
+        "props"
+      ]
+    },
+    {
+      "word": "Recipe developer",
+      "hints": [
+        "testing",
+        "measurements",
+        "notes",
+        "photography",
+        "deadline"
+      ]
+    },
+    {
+      "word": "Pastry chef",
+      "hints": [
+        "lamination",
+        "tempering",
+        "plating",
+        "early",
+        "precision"
+      ]
+    },
+    {
+      "word": "Sous chef",
+      "hints": [
+        "prep",
+        "expedite",
+        "stations",
+        "ordering",
+        "coverage"
+      ]
+    },
+    {
+      "word": "Line cook",
+      "hints": [
+        "station",
+        "tickets",
+        "prep",
+        "mise",
+        "rush"
+      ]
+    },
+    {
+      "word": "Prep cook",
+      "hints": [
+        "chopping",
+        "portioning",
+        "mise",
+        "early",
+        "labeling"
+      ]
+    },
+    {
+      "word": "Dishwasher",
+      "hints": [
+        "machine",
+        "rack",
+        "sanitize",
+        "restocking",
+        "rush"
+      ]
+    },
+    {
+      "word": "Food runner",
+      "hints": [
+        "plates",
+        "timing",
+        "table numbers",
+        "garnish",
+        "coordination"
+      ]
+    },
+    {
+      "word": "Busser",
+      "hints": [
+        "clearing",
+        "resetting",
+        "water",
+        "crumbing",
+        "sidework"
+      ]
+    },
+    {
+      "word": "Host",
+      "hints": [
+        "seating",
+        "wait times",
+        "reservations",
+        "pacing",
+        "greeting"
+      ]
+    },
+    {
+      "word": "Bartender",
+      "hints": [
+        "pour",
+        "tabs",
+        "regulars",
+        "closing",
+        "garnish"
+      ]
+    },
+    {
+      "word": "Barback",
+      "hints": [
+        "restocking",
+        "ice",
+        "glassware",
+        "kegs",
+        "cleanup"
+      ]
+    },
+    {
+      "word": "Coat check",
+      "hints": [
+        "tickets",
+        "tips",
+        "rush",
+        "organization",
+        "claims"
+      ]
+    },
+    {
+      "word": "Casino dealer",
+      "hints": [
+        "shuffling",
+        "chips",
+        "surveillance",
+        "tips",
+        "rotation"
+      ]
+    },
+    {
+      "word": "Croupier",
+      "hints": [
+        "wheel",
+        "chips",
+        "payouts",
+        "surveillance",
+        "rotation"
+      ]
+    },
+    {
+      "word": "Pit boss",
+      "hints": [
+        "floor",
+        "surveillance",
+        "disputes",
+        "comps",
+        "dealers"
+      ]
+    },
+    {
+      "word": "Bingo caller",
+      "hints": [
+        "balls",
+        "verification",
+        "pace",
+        "microphone",
+        "patterns"
+      ]
+    },
+    {
+      "word": "Magician",
+      "hints": [
+        "practice",
+        "misdirection",
+        "setup",
+        "props",
+        "patter"
+      ]
+    },
+    {
+      "word": "Clown",
+      "hints": [
+        "makeup",
+        "balloon",
+        "gags",
+        "kids",
+        "character"
+      ]
+    },
+    {
+      "word": "Mime",
+      "hints": [
+        "practice",
+        "makeup",
+        "silence",
+        "physicality",
+        "street"
+      ]
+    },
+    {
+      "word": "Juggler",
+      "hints": [
+        "practice",
+        "props",
+        "timing",
+        "routine",
+        "drops"
+      ]
+    },
+    {
+      "word": "Acrobat",
+      "hints": [
+        "training",
+        "spotting",
+        "rigging",
+        "conditioning",
+        "routine"
+      ]
+    },
+    {
+      "word": "Trapeze artist",
+      "hints": [
+        "rigging",
+        "timing",
+        "catcher",
+        "conditioning",
+        "net"
+      ]
+    },
+    {
+      "word": "Contortionist",
+      "hints": [
+        "flexibility",
+        "training",
+        "routine",
+        "warmup",
+        "poses"
+      ]
+    },
+    {
+      "word": "Fire performer",
+      "hints": [
+        "safety",
+        "fuel",
+        "wicks",
+        "spinning",
+        "venue"
+      ]
+    },
+    {
+      "word": "Aerialist",
+      "hints": [
+        "rigging",
+        "apparatus",
+        "conditioning",
+        "routine",
+        "calluses"
+      ]
+    },
+    {
+      "word": "Ringmaster",
+      "hints": [
+        "introductions",
+        "timing",
+        "costume",
+        "microphone",
+        "cues"
+      ]
+    },
+    {
+      "word": "Puppeteer",
+      "hints": [
+        "manipulation",
+        "voices",
+        "rigging",
+        "maintenance",
+        "rehearsal"
+      ]
+    },
+    {
+      "word": "Ventriloquist",
+      "hints": [
+        "practice",
+        "dummy",
+        "routine",
+        "maintenance",
+        "voices"
+      ]
+    },
+    {
+      "word": "Comedian",
+      "hints": [
+        "sets",
+        "material",
+        "timing",
+        "crowd work",
+        "bombing"
+      ]
+    },
+    {
+      "word": "Improv performer",
+      "hints": [
+        "suggestions",
+        "scenes",
+        "ensemble",
+        "warmups",
+        "formats"
+      ]
+    },
+    {
+      "word": "Drag performer",
+      "hints": [
+        "tucking",
+        "padding",
+        "makeup",
+        "lip sync",
+        "tips"
+      ]
+    },
+    {
+      "word": "Burlesque performer",
+      "hints": [
+        "choreography",
+        "costumes",
+        "reveal",
+        "audience",
+        "props"
+      ]
+    },
+    {
+      "word": "Stripper",
+      "hints": [
+        "stage",
+        "tips",
+        "private",
+        "costume",
+        "rotation"
+      ]
+    },
+    {
+      "word": "Escort",
+      "hints": [
+        "booking",
+        "screening",
+        "boundaries",
+        "safety",
+        "discretion"
+      ]
+    },
+    {
+      "word": "Model",
+      "hints": [
+        "casting",
+        "agency",
+        "portfolio",
+        "fittings",
+        "go-sees"
+      ]
+    },
+    {
+      "word": "Hand model",
+      "hints": [
+        "maintenance",
+        "posing",
+        "lighting",
+        "lotion",
+        "niche"
+      ]
+    },
+    {
+      "word": "Foot model",
+      "hints": [
+        "maintenance",
+        "posing",
+        "pedicure",
+        "niche",
+        "angles"
+      ]
+    },
+    {
+      "word": "Fit model",
+      "hints": [
+        "measurements",
+        "fittings",
+        "feedback",
+        "consistency",
+        "samples"
+      ]
+    },
+    {
+      "word": "Runway model",
+      "hints": [
+        "walk",
+        "fittings",
+        "castings",
+        "shows",
+        "quick changes"
+      ]
+    },
+    {
+      "word": "Promotional model",
+      "hints": [
+        "events",
+        "samples",
+        "engagement",
+        "branding",
+        "shifts"
+      ]
+    },
+    {
+      "word": "Brand ambassador",
+      "hints": [
+        "events",
+        "social",
+        "engagement",
+        "product knowledge",
+        "reporting"
+      ]
+    },
+    {
+      "word": "Influencer",
+      "hints": [
+        "content",
+        "engagement",
+        "partnerships",
+        "algorithm",
+        "analytics"
+      ]
+    },
+    {
+      "word": "Streamer",
+      "hints": [
+        "schedule",
+        "chat",
+        "donations",
+        "subscribers",
+        "raids"
+      ]
+    },
+    {
+      "word": "YouTuber",
+      "hints": [
+        "uploads",
+        "algorithm",
+        "sponsors",
+        "analytics",
+        "thumbnails"
+      ]
+    },
+    {
+      "word": "Blogger",
+      "hints": [
+        "posts",
+        "SEO",
+        "affiliate",
+        "engagement",
+        "monetization"
+      ]
+    },
+    {
+      "word": "Vlogger",
+      "hints": [
+        "filming",
+        "editing",
+        "uploads",
+        "sponsors",
+        "travel"
+      ]
+    },
+    {
+      "word": "TikToker",
+      "hints": [
+        "trends",
+        "algorithm",
+        "sounds",
+        "viral",
+        "brand deals"
+      ]
+    },
+    {
+      "word": "Game developer",
+      "hints": [
+        "crunch",
+        "builds",
+        "QA",
+        "patches",
+        "launch"
+      ]
+    },
+    {
+      "word": "Game designer",
+      "hints": [
+        "mechanics",
+        "balance",
+        "playtesting",
+        "documentation",
+        "iteration"
+      ]
+    },
+    {
+      "word": "Level designer",
+      "hints": [
+        "layout",
+        "flow",
+        "playtesting",
+        "iteration",
+        "pacing"
+      ]
+    },
+    {
+      "word": "Character artist",
+      "hints": [
+        "modeling",
+        "rigging",
+        "texturing",
+        "concepts",
+        "feedback"
+      ]
+    },
+    {
+      "word": "Environment artist",
+      "hints": [
+        "assets",
+        "lighting",
+        "optimization",
+        "reference",
+        "iteration"
+      ]
+    },
+    {
+      "word": "Concept artist",
+      "hints": [
+        "sketches",
+        "iterations",
+        "feedback",
+        "reference",
+        "turnarounds"
+      ]
+    },
+    {
+      "word": "Animator",
+      "hints": [
+        "keyframes",
+        "timing",
+        "rigging",
+        "reference",
+        "cycles"
+      ]
+    },
+    {
+      "word": "Rigger",
+      "hints": [
+        "skeleton",
+        "skinning",
+        "controls",
+        "deformation",
+        "testing"
+      ]
+    },
+    {
+      "word": "VFX artist",
+      "hints": [
+        "compositing",
+        "simulations",
+        "rotoscoping",
+        "tracking",
+        "renders"
+      ]
+    },
+    {
+      "word": "Motion capture",
+      "hints": [
+        "suit",
+        "markers",
+        "cleanup",
+        "retargeting",
+        "session"
+      ]
+    },
+    {
+      "word": "Colorist",
+      "hints": [
+        "grading",
+        "LUTs",
+        "matching",
+        "client",
+        "deliverables"
+      ]
+    },
+    {
+      "word": "Video editor",
+      "hints": [
+        "cuts",
+        "timeline",
+        "revisions",
+        "exports",
+        "client"
+      ]
+    },
+    {
+      "word": "Motion graphics",
+      "hints": [
+        "keyframes",
+        "templates",
+        "renders",
+        "revisions",
+        "assets"
+      ]
+    },
+    {
+      "word": "Graphic designer",
+      "hints": [
+        "briefs",
+        "revisions",
+        "assets",
+        "brand",
+        "deadlines"
+      ]
+    },
+    {
+      "word": "UX designer",
+      "hints": [
+        "wireframes",
+        "testing",
+        "flows",
+        "personas",
+        "iteration"
+      ]
+    },
+    {
+      "word": "UI designer",
+      "hints": [
+        "mockups",
+        "components",
+        "handoff",
+        "specs",
+        "consistency"
+      ]
+    },
+    {
+      "word": "Industrial designer",
+      "hints": [
+        "prototypes",
+        "CAD",
+        "materials",
+        "manufacturing",
+        "testing"
+      ]
+    },
+    {
+      "word": "Package designer",
+      "hints": [
+        "dielines",
+        "mockups",
+        "printing",
+        "materials",
+        "regulations"
+      ]
+    },
+    {
+      "word": "Exhibition designer",
+      "hints": [
+        "layouts",
+        "fabrication",
+        "installation",
+        "graphics",
+        "lighting"
+      ]
+    },
+    {
+      "word": "Set decorator",
+      "hints": [
+        "sourcing",
+        "dressing",
+        "continuity",
+        "budget",
+        "returns"
+      ]
+    },
+    {
+      "word": "Production designer",
+      "hints": [
+        "concept",
+        "budget",
+        "departments",
+        "drawings",
+        "meetings"
+      ]
+    },
+    {
+      "word": "Art director",
+      "hints": [
+        "creative",
+        "presentations",
+        "team",
+        "client",
+        "brand"
+      ]
+    },
+    {
+      "word": "Creative director",
+      "hints": [
+        "vision",
+        "pitches",
+        "team",
+        "clients",
+        "awards"
+      ]
+    },
+    {
+      "word": "Illustrator",
+      "hints": [
+        "sketches",
+        "revisions",
+        "deadline",
+        "style",
+        "licensing"
+      ]
+    },
+    {
+      "word": "Caricaturist",
+      "hints": [
+        "likeness",
+        "speed",
+        "events",
+        "exaggeration",
+        "tips"
+      ]
+    },
+    {
+      "word": "Portrait artist",
+      "hints": [
+        "sittings",
+        "commission",
+        "likeness",
+        "medium",
+        "framing"
+      ]
+    },
+    {
+      "word": "Muralist",
+      "hints": [
+        "scale",
+        "lift",
+        "weather",
+        "community",
+        "prep"
+      ]
+    },
+    {
+      "word": "Graffiti artist",
+      "hints": [
+        "spots",
+        "caps",
+        "style",
+        "permission",
+        "risk"
+      ]
+    },
+    {
+      "word": "Sculptor",
+      "hints": [
+        "armature",
+        "medium",
+        "casting",
+        "commission",
+        "installation"
+      ]
+    },
+    {
+      "word": "Ceramicist",
+      "hints": [
+        "throwing",
+        "glazing",
+        "firing",
+        "kiln",
+        "studio"
+      ]
+    },
+    {
+      "word": "Glassblower",
+      "hints": [
+        "gather",
+        "temperature",
+        "annealing",
+        "tools",
+        "heat"
+      ]
+    },
+    {
+      "word": "Blacksmith",
+      "hints": [
+        "forge",
+        "anvil",
+        "heat",
+        "quench",
+        "commission"
+      ]
+    },
+    {
+      "word": "Silversmith",
+      "hints": [
+        "fabrication",
+        "soldering",
+        "polishing",
+        "commission",
+        "hallmarks"
+      ]
+    },
+    {
+      "word": "Goldsmith",
+      "hints": [
+        "bench",
+        "casting",
+        "setting",
+        "finishing",
+        "commission"
+      ]
+    },
+    {
+      "word": "Woodworker",
+      "hints": [
+        "joinery",
+        "finishing",
+        "commission",
+        "sawdust",
+        "grain"
+      ]
+    },
+    {
+      "word": "Furniture maker",
+      "hints": [
+        "commission",
+        "joinery",
+        "finishing",
+        "drawings",
+        "delivery"
+      ]
+    },
+    {
+      "word": "Luthier",
+      "hints": [
+        "bracing",
+        "finishing",
+        "setup",
+        "repairs",
+        "commission"
+      ]
+    },
+    {
+      "word": "Piano tuner",
+      "hints": [
+        "pitch",
+        "appointments",
+        "tools",
+        "humidity",
+        "regulation"
+      ]
+    },
+    {
+      "word": "Instrument repair",
+      "hints": [
+        "diagnosis",
+        "parts",
+        "setup",
+        "estimates",
+        "turnaround"
+      ]
+    },
+    {
+      "word": "Bookbinder",
+      "hints": [
+        "sewing",
+        "adhesive",
+        "boards",
+        "restoration",
+        "custom"
+      ]
+    },
+    {
+      "word": "Restorer",
+      "hints": [
+        "assessment",
+        "documentation",
+        "reversibility",
+        "materials",
+        "ethics"
+      ]
+    },
+    {
+      "word": "Taxidermist",
+      "hints": [
+        "mounting",
+        "forms",
+        "tanning",
+        "clients",
+        "poses"
+      ]
+    },
+    {
+      "word": "Embalmer",
+      "hints": [
+        "preparation",
+        "chemicals",
+        "restoration",
+        "presentation",
+        "documentation"
+      ]
+    },
+    {
+      "word": "Crime scene cleaner",
+      "hints": [
+        "biohazard",
+        "PPE",
+        "protocols",
+        "disposal",
+        "discretion"
+      ]
+    },
+    {
+      "word": "Hazmat technician",
+      "hints": [
+        "suits",
+        "protocols",
+        "decontamination",
+        "certification",
+        "disposal"
+      ]
+    },
+    {
+      "word": "Asbestos worker",
+      "hints": [
+        "containment",
+        "PPE",
+        "certification",
+        "disposal",
+        "testing"
+      ]
+    },
+    {
+      "word": "Demolition worker",
+      "hints": [
+        "safety",
+        "permits",
+        "salvage",
+        "equipment",
+        "debris"
+      ]
+    },
+    {
+      "word": "Ironworker",
+      "hints": [
+        "rigging",
+        "bolting",
+        "heights",
+        "connectors",
+        "safety"
+      ]
+    },
+    {
+      "word": "Steelworker",
+      "hints": [
+        "fabrication",
+        "welding",
+        "rigging",
+        "safety",
+        "blueprints"
+      ]
+    },
+    {
+      "word": "Boilermaker",
+      "hints": [
+        "welding",
+        "pressure",
+        "confined",
+        "testing",
+        "certification"
+      ]
+    },
+    {
+      "word": "Pipefitter",
+      "hints": [
+        "welding",
+        "blueprints",
+        "threading",
+        "testing",
+        "hangers"
+      ]
+    },
+    {
+      "word": "Sprinkler fitter",
+      "hints": [
+        "heads",
+        "pressure",
+        "code",
+        "testing",
+        "plans"
+      ]
+    },
+    {
+      "word": "Elevator mechanic",
+      "hints": [
+        "shaft",
+        "controls",
+        "testing",
+        "callbacks",
+        "certification"
+      ]
+    },
+    {
+      "word": "Escalator technician",
+      "hints": [
+        "steps",
+        "handrails",
+        "safety",
+        "PM",
+        "parts"
+      ]
+    },
+    {
+      "word": "Wind turbine technician",
+      "hints": [
+        "climbing",
+        "nacelle",
+        "safety",
+        "remote",
+        "PM"
+      ]
+    },
+    {
+      "word": "Solar installer",
+      "hints": [
+        "panels",
+        "racking",
+        "wiring",
+        "roof",
+        "inverter"
+      ]
+    },
+    {
+      "word": "Cell tower technician",
+      "hints": [
+        "climbing",
+        "RF",
+        "safety",
+        "equipment",
+        "remote"
+      ]
+    },
+    {
+      "word": "Cable installer",
+      "hints": [
+        "drops",
+        "splicing",
+        "testing",
+        "appointments",
+        "attic"
+      ]
+    },
+    {
+      "word": "Satellite installer",
+      "hints": [
+        "dish",
+        "alignment",
+        "signal",
+        "roof",
+        "appointments"
+      ]
+    },
+    {
+      "word": "Alarm technician",
+      "hints": [
+        "panel",
+        "sensors",
+        "testing",
+        "monitoring",
+        "service"
+      ]
+    },
+    {
+      "word": "Gunsmith",
+      "hints": [
+        "repairs",
+        "cleaning",
+        "parts",
+        "FFL",
+        "custom"
+      ]
+    },
+    {
+      "word": "Armorer",
+      "hints": [
+        "inventory",
+        "maintenance",
+        "safety",
+        "chain of custody",
+        "cleaning"
+      ]
+    },
+    {
+      "word": "Pyrotechnician",
+      "hints": [
+        "permits",
+        "safety",
+        "timing",
+        "setup",
+        "disposal"
+      ]
+    },
+    {
+      "word": "Blaster",
+      "hints": [
+        "permits",
+        "drilling",
+        "timing",
+        "safety",
+        "clearance"
+      ]
+    },
+    {
+      "word": "Miner",
+      "hints": [
+        "underground",
+        "shift",
+        "safety",
+        "equipment",
+        "extraction"
+      ]
+    },
+    {
+      "word": "Driller",
+      "hints": [
+        "rig",
+        "mud",
+        "depth",
+        "core",
+        "shift"
+      ]
+    },
+    {
+      "word": "Roughneck",
+      "hints": [
+        "rig",
+        "shift",
+        "connections",
+        "safety",
+        "remote"
+      ]
+    },
+    {
+      "word": "Derrickhand",
+      "hints": [
+        "rig",
+        "height",
+        "pipe",
+        "mud",
+        "shift"
+      ]
+    },
+    {
+      "word": "Toolpusher",
+      "hints": [
+        "rig",
+        "crew",
+        "operations",
+        "safety",
+        "logistics"
+      ]
+    },
+    {
+      "word": "Geophysicist",
+      "hints": [
+        "seismic",
+        "data",
+        "modeling",
+        "fieldwork",
+        "interpretation"
+      ]
+    },
+    {
+      "word": "Petroleum engineer",
+      "hints": [
+        "reservoir",
+        "production",
+        "optimization",
+        "data",
+        "modeling"
+      ]
+    },
+    {
+      "word": "Pipeline inspector",
+      "hints": [
+        "integrity",
+        "corrosion",
+        "documentation",
+        "travel",
+        "regulations"
+      ]
+    },
+    {
+      "word": "Utility locator",
+      "hints": [
+        "marks",
+        "equipment",
+        "tickets",
+        "mapping",
+        "liability"
+      ]
+    },
+    {
+      "word": "Surveyor",
+      "hints": [
+        "equipment",
+        "boundaries",
+        "measurements",
+        "markers",
+        "documentation"
+      ]
+    },
+    {
+      "word": "Cartographer",
+      "hints": [
+        "data",
+        "GIS",
+        "layers",
+        "projections",
+        "accuracy"
+      ]
+    },
+    {
+      "word": "GIS analyst",
+      "hints": [
+        "layers",
+        "data",
+        "queries",
+        "mapping",
+        "software"
+      ]
+    },
+    {
+      "word": "Urban planner",
+      "hints": [
+        "zoning",
+        "meetings",
+        "proposals",
+        "reviews",
+        "community"
+      ]
+    },
+    {
+      "word": "Traffic engineer",
+      "hints": [
+        "signals",
+        "studies",
+        "modeling",
+        "safety",
+        "design"
+      ]
+    },
+    {
+      "word": "Civil engineer",
+      "hints": [
+        "drawings",
+        "permits",
+        "site",
+        "calculations",
+        "inspections"
+      ]
+    },
+    {
+      "word": "Structural engineer",
+      "hints": [
+        "calculations",
+        "drawings",
+        "inspections",
+        "load",
+        "stamp"
+      ]
+    },
+    {
+      "word": "Geotechnical engineer",
+      "hints": [
+        "borings",
+        "analysis",
+        "recommendations",
+        "foundation",
+        "reports"
+      ]
+    },
+    {
+      "word": "Environmental engineer",
+      "hints": [
+        "permits",
+        "remediation",
+        "sampling",
+        "compliance",
+        "reports"
+      ]
+    },
+    {
+      "word": "Water engineer",
+      "hints": [
+        "treatment",
+        "distribution",
+        "permits",
+        "modeling",
+        "compliance"
+      ]
+    },
+    {
+      "word": "Sanitation engineer",
+      "hints": [
+        "collection",
+        "processing",
+        "compliance",
+        "routing",
+        "capacity"
+      ]
+    },
+    {
+      "word": "Aerospace engineer",
+      "hints": [
+        "design",
+        "testing",
+        "simulations",
+        "certification",
+        "systems"
+      ]
+    },
+    {
+      "word": "Avionics technician",
+      "hints": [
+        "troubleshooting",
+        "wiring",
+        "testing",
+        "documentation",
+        "certification"
+      ]
+    },
+    {
+      "word": "Aircraft mechanic",
+      "hints": [
+        "inspections",
+        "logbooks",
+        "parts",
+        "certification",
+        "troubleshooting"
+      ]
+    },
+    {
+      "word": "Auto mechanic",
+      "hints": [
+        "diagnostic",
+        "estimate",
+        "parts",
+        "warranty",
+        "comebacks"
+      ]
+    },
+    {
+      "word": "Diesel mechanic",
+      "hints": [
+        "heavy",
+        "diagnostic",
+        "PM",
+        "parts",
+        "fleet"
+      ]
+    },
+    {
+      "word": "Marine mechanic",
+      "hints": [
+        "outboard",
+        "winterization",
+        "troubleshooting",
+        "parts",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Small engine mechanic",
+      "hints": [
+        "seasonal",
+        "carburetors",
+        "parts",
+        "PM",
+        "warranty"
+      ]
+    },
+    {
+      "word": "Motorcycle mechanic",
+      "hints": [
+        "diagnostic",
+        "seasonal",
+        "custom",
+        "parts",
+        "service"
+      ]
+    },
+    {
+      "word": "Bicycle mechanic",
+      "hints": [
+        "tune-up",
+        "fitting",
+        "seasonal",
+        "parts",
+        "wlifts"
+      ]
+    },
+    {
+      "word": "Auto body technician",
+      "hints": [
+        "estimate",
+        "matching",
+        "pulling",
+        "painting",
+        "frame"
+      ]
+    },
+    {
+      "word": "Detailer",
+      "hints": [
+        "polish",
+        "interior",
+        "upsell",
+        "appointments",
+        "products"
+      ]
+    },
+    {
+      "word": "Tire technician",
+      "hints": [
+        "mounting",
+        "balancing",
+        "rotation",
+        "pressure",
+        "repairs"
+      ]
+    },
+    {
+      "word": "Lube technician",
+      "hints": [
+        "oil change",
+        "inspection",
+        "upsell",
+        "quick",
+        "fluids"
+      ]
+    },
+    {
+      "word": "Service advisor",
+      "hints": [
+        "estimate",
+        "upsell",
+        "appointments",
+        "callbacks",
+        "warranty"
+      ]
+    },
+    {
+      "word": "Parts specialist",
+      "hints": [
+        "lookup",
+        "inventory",
+        "ordering",
+        "returns",
+        "counter"
+      ]
+    },
+    {
+      "word": "Boat captain",
+      "hints": [
+        "license",
+        "charter",
+        "navigation",
+        "passengers",
+        "weather"
+      ]
+    },
+    {
+      "word": "Fishing guide",
+      "hints": [
+        "spots",
+        "tackle",
+        "license",
+        "clients",
+        "weather"
+      ]
+    },
+    {
+      "word": "Hunting guide",
+      "hints": [
+        "scouting",
+        "clients",
+        "license",
+        "safety",
+        "regulations"
+      ]
+    },
+    {
+      "word": "Safari guide",
+      "hints": [
+        "tracking",
+        "safety",
+        "clients",
+        "wildlife",
+        "vehicle"
+      ]
+    },
+    {
+      "word": "Mountain guide",
+      "hints": [
+        "rope",
+        "weather",
+        "clients",
+        "certification",
+        "conditions"
+      ]
+    },
+    {
+      "word": "Whitewater guide",
+      "hints": [
+        "safety talk",
+        "commands",
+        "scouting",
+        "rescue",
+        "gear"
+      ]
+    },
+    {
+      "word": "Scuba instructor",
+      "hints": [
+        "certification",
+        "skills",
+        "briefing",
+        "gear",
+        "rescue"
+      ]
+    },
+    {
+      "word": "Skydiving instructor",
+      "hints": [
+        "tandem",
+        "gear check",
+        "briefing",
+        "altitude",
+        "certification"
+      ]
+    },
+    {
+      "word": "Zipline guide",
+      "hints": [
+        "harness",
+        "safety",
+        "braking",
+        "groups",
+        "weight"
+      ]
+    },
+    {
+      "word": "Ropes course facilitator",
+      "hints": [
+        "harness",
+        "belay",
+        "challenge",
+        "groups",
+        "safety"
+      ]
+    }
   ]
 }
