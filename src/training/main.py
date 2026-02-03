@@ -104,10 +104,10 @@ training_args = Seq2SeqTrainingArguments(
     output_dir=OUTPUT_DIR, #saving directory
     eval_strategy="epoch", #evaluate on test set after each epoch
     save_strategy="epoch", #save a checkpoint after each epoch
-    learning_rate=3e-4, #how fast my model will learn
+    learning_rate=5e-5, #how fast my model will learn
     per_device_train_batch_size=8, #process 8 examples at once
     per_device_eval_batch_size=8,
-    num_train_epochs=10, #go through the entire dataset 10 times. 
+    num_train_epochs=50, #go through the entire dataset 50 times. 
     weight_decay=0.01,
     save_total_limit=2, #only keep the two recent checkpoints
     predict_with_generate=True, # Use actual text generation during evaluation
@@ -123,7 +123,7 @@ trainer = Seq2SeqTrainer(
     args=training_args, #training settings
     train_dataset=tokenized_train, #data train on
     eval_dataset=tokenized_test, #data test (evaluate on)
-    tokenizer=tokenizer, #for decoding the output
+    processing_class=tokenizer, #for decoding the output
     data_collator=data_collator, #batching and paddind
 )
 
@@ -148,7 +148,9 @@ def generate_hints(word, category="actions"):
         **inputs,
         max_length=MAX_TARGET_LENGTH,
         num_beams=4,
-        early_stopping=True
+        early_stopping=True,
+        repetition_penalty=2.5,
+        no_repeat_ngram_size=2
     )
 
     return tokenizer.decode(outputs[0], skip_special_tokens=True)

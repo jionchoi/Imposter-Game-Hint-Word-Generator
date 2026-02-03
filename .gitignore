@@ -1,4 +1,12 @@
 #virtual environment
 venv
+venv312
 
 __pycache__
+
+# Model checkpoints (too large for git)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
