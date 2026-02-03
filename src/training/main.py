@@ -6,9 +6,10 @@ from transformers import (
     AutoModelForSeq2SeqLM,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
-    DataCollatorForSeq2Seq
+    DataCollatorForSeq2Seq,
+    EarlyStoppingCallback,
 )
-
+import torch
 from data.load_data import load_hint_dataset
 
 #Configuration
@@ -21,6 +22,14 @@ MAX_TARGET_LENGTH = 32
 print(f"Loading {MODEL_NAME}...")
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
+
+use_cuda = torch.cuda.is_available()
+use_bf16 = use_cuda and torch.cuda.is_bf16_supported()
+use_fp16 = use_cuda and not use_bf16
+
+device = "cuda" if use_cuda else "cpu"
+precision = "bf16" if use_bf16 else ("fp16" if use_fp16 else "fp32")
+print(f"Using device: {device} ({precision})")
 
 # Load all datasets from datasets/ directory
 dataset = load_hint_dataset("../../datasets")
@@ -104,17 +113,21 @@ training_args = Seq2SeqTrainingArguments(
     output_dir=OUTPUT_DIR, #saving directory
     eval_strategy="epoch", #evaluate on test set after each epoch
     save_strategy="epoch", #save a checkpoint after each epoch
-    learning_rate=5e-5, #how fast my model will learn
+    learning_rate=2e-5, #smaller LR to reduce instability
+    warmup_ratio=0.1,
     per_device_train_batch_size=8, #process 8 examples at once
     per_device_eval_batch_size=8,
-    num_train_epochs=50, #go through the entire dataset 50 times. 
+    num_train_epochs=40, #upper bound; early stopping should stop earlier
     weight_decay=0.01,
+    max_grad_norm=1.0,
     save_total_limit=2, #only keep the two recent checkpoints
     predict_with_generate=True, # Use actual text generation during evaluation
-    fp16=True,  # Use mixed precision (set to False if no GPU)
+    fp16=use_fp16,
+    bf16=use_bf16,
     logging_steps=10, #printing evey 10 steps
     load_best_model_at_end=True, #after training, load the best checkpoint (model)
     metric_for_best_model="eval_loss", #the best model is the one with lowest evaluation loss
+    greater_is_better=False,
 )
 
 # Initialize trainer
@@ -125,6 +138,7 @@ trainer = Seq2SeqTrainer(
     eval_dataset=tokenized_test, #data test (evaluate on)
     processing_class=tokenizer, #for decoding the output
     data_collator=data_collator, #batching and paddind
+    callbacks=[EarlyStoppingCallback(early_stopping_patience=5)],
 )
 
 # Train

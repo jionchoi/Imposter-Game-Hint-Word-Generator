@@ -1,75 +1,5245 @@
 {
   "category": "Animals",
   "words": [
-    { "word": "Beaver", "hints": ["build", "habitat", "adapt", "environment", "structure"] },
-    { "word": "Owl", "hints": ["silent", "perception", "night", "stillness", "watchful"] },
-    { "word": "Octopus", "hints": ["adaptation", "intelligence", "problem-solving", "flexible", "fluid"] },
-    { "word": "Penguin", "hints": ["social", "adaptation", "cold", "group", "navigation"] },
-    { "word": "Giraffe", "hints": ["height", "reach", "vantage", "observation", "grace"] },
-    { "word": "Elephant", "hints": ["memory", "strength", "journey", "patience", "social"] },
-    { "word": "Cheetah", "hints": ["speed", "focus", "agility", "momentum", "quick"] },
-    { "word": "Sloth", "hints": ["leisure", "slow", "deliberate", "rest", "patience"] },
-    { "word": "Kangaroo", "hints": ["energy", "jump", "distance", "mobility", "bouncing"] },
-    { "word": "Dolphin", "hints": ["social", "communication", "intelligent", "cooperative", "playful"] },
-    { "word": "Bat", "hints": ["flight", "echolocation", "night", "sensing", "agility"] },
-    { "word": "Fox", "hints": ["clever", "alert", "strategy", "adaptable", "resourceful"] },
-    { "word": "Wolf", "hints": ["teamwork", "hunt", "territory", "pack", "loyalty"] },
-    { "word": "Bear", "hints": ["strength", "solitude", "hibernation", "survival", "majestic"] },
-    { "word": "Raccoon", "hints": ["curiosity", "night", "resourceful", "explore", "adaptable"] },
-    { "word": "Skunk", "hints": ["defense", "warning", "territory", "bold", "protection"] },
-    { "word": "Porcupine", "hints": ["defense", "deter", "adapt", "spikes", "protection"] },
-    { "word": "Hedgehog", "hints": ["retreat", "defense", "quiet", "small", "self-preservation"] },
-    { "word": "Squirrel", "hints": ["storage", "quick", "agile", "nervous", "preparation"] },
-    { "word": "Otter", "hints": ["playful", "curious", "social", "water", "adaptable"] },
-    { "word": "Seal", "hints": ["social", "grace", "aquatic", "playful", "swim"] },
-    { "word": "Walrus", "hints": ["bulk", "social", "strength", "wilderness", "slow"] },
-    { "word": "Moose", "hints": ["majestic", "solitude", "wilderness", "strength", "territory"] },
-    { "word": "Deer", "hints": ["grace", "awareness", "speed", "elusive", "peaceful"] },
-    { "word": "Camel", "hints": ["adaptation", "endurance", "desert", "journey", "resilience"] },
-    { "word": "Zebra", "hints": ["group", "pattern", "protection", "adapt", "migration"] },
-    { "word": "Lion", "hints": ["dominance", "strength", "territory", "social", "leadership"] },
-    { "word": "Hyena", "hints": ["opportunist", "group", "resilient", "strategy", "adaptable"] },
-    { "word": "Rhinoceros", "hints": ["armor", "momentum", "strength", "territory", "defensive"] },
-    { "word": "Hippopotamus", "hints": ["resilience", "strength", "peaceful", "water", "territory"] },
-    { "word": "Crocodile", "hints": ["stillness", "patience", "stealth", "attack", "ambush"] },
-    { "word": "Alligator", "hints": ["silent", "ambush", "stealth", "patience", "strength"] },
-    { "word": "Turtle", "hints": ["patience", "slow", "protection", "endurance", "retreat"] },
-    { "word": "Frog", "hints": ["leap", "transition", "spring", "quick", "growth"] },
-    { "word": "Toad", "hints": ["stillness", "patience", "quiet", "weather", "adaptation"] },
-    { "word": "Snake", "hints": ["stealth", "smooth", "slither", "stillness", "reaction"] },
-    { "word": "Lizard", "hints": ["quick", "agile", "warmth", "alert", "response"] },
-    { "word": "Chameleon", "hints": ["adaptation", "shift", "blend", "change", "mood"] },
-    { "word": "Peacock", "hints": ["display", "show", "beauty", "pride", "attention"] },
-    { "word": "Flamingo", "hints": ["balance", "grace", "elegance", "stance", "position"] },
-    { "word": "Parrot", "hints": ["sound", "communication", "repetition", "color", "intelligent"] },
-    { "word": "Hawk", "hints": ["focus", "scout", "vision", "precision", "control"] },
-    { "word": "Crow", "hints": ["intelligence", "communication", "group", "alert", "resourceful"] },
-    { "word": "Pigeon", "hints": ["group", "social", "urban", "routine", "common"] },
-    { "word": "Butterfly", "hints": ["metamorphosis", "delicate", "evolution", "breeze", "grace"] },
-    { "word": "Bee", "hints": ["busy", "hive", "work", "hustle", "pollination"] },
-    { "word": "Ant", "hints": ["teamwork", "colony", "organization", "effort", "diligence"] },
-    { "word": "Spider", "hints": ["web", "precision", "trap", "strategy", "patience"] },
-    { "word": "Jellyfish", "hints": ["drift", "grace", "current", "smooth", "float"] },
-    { "word": "Seahorse", "hints": ["grace", "delicate", "swim", "curled", "motion"] },
-    { "word": "Whale", "hints": ["immense", "deep", "ocean", "migration", "song"] },
-    { "word": "Shark", "hints": ["agility", "stealth", "hunter", "speed", "silence"] },
-    { "word": "Stingray", "hints": ["grace", "glide", "smooth", "stealth", "silent"] },
-    { "word": "Crab", "hints": ["methodical", "sideways", "armor", "defense", "shore"] },
-    { "word": "Lobster", "hints": ["armor", "depth", "clamp", "capture", "defense"] },
-    { "word": "Shrimp", "hints": ["small", "quick", "agile", "vibrant", "group"] },
-    { "word": "Starfish", "hints": ["stillness", "sea", "spread", "adaptation", "peace"] },
-    { "word": "Clam", "hints": ["protective", "quiet", "sheltered", "closed", "stillness"] },
-    { "word": "Horse", "hints": ["strength", "pace", "ride", "grace", "movement"] },
-    { "word": "Cow", "hints": ["methodical", "slow", "herd", "pasture", "grounded"] },
-    { "word": "Pig", "hints": ["messy", "curious", "mischievous", "hungry", "adaptable"] },
-    { "word": "Goat", "hints": ["agility", "climb", "stubborn", "territory", "adaptable"] },
-    { "word": "Sheep", "hints": ["calm", "follow", "group", "obedience", "peace"] },
-    { "word": "Dog", "hints": ["loyal", "playful", "guard", "affection", "dependable"] },
-    { "word": "Cat", "hints": ["independent", "curious", "silent", "graceful", "alert"] },
-    { "word": "Rabbit", "hints": ["timid", "alert", "quick", "grace", "cautious"] },
-    { "word": "Mouse", "hints": ["small", "stealthy", "quick", "timid", "sneaky"] },
-    { "word": "Monkey", "hints": ["mischief", "curious", "playful", "group", "social"] },
-    { "word": "Koala", "hints": ["relaxed", "quiet", "tree", "comfort", "slow"] },
-    { "word": "Tiger", "hints": ["prowler", "alert", "territory", "focused", "strength"] }
+    {
+      "word": "Beaver",
+      "hints": [
+        "build",
+        "habitat",
+        "adapt",
+        "environment",
+        "structure"
+      ]
+    },
+    {
+      "word": "Owl",
+      "hints": [
+        "silent",
+        "perception",
+        "night",
+        "stillness",
+        "watchful"
+      ]
+    },
+    {
+      "word": "Octopus",
+      "hints": [
+        "adaptation",
+        "intelligence",
+        "problem-solving",
+        "flexible",
+        "fluid"
+      ]
+    },
+    {
+      "word": "Penguin",
+      "hints": [
+        "social",
+        "adaptation",
+        "cold",
+        "group",
+        "navigation"
+      ]
+    },
+    {
+      "word": "Giraffe",
+      "hints": [
+        "height",
+        "reach",
+        "vantage",
+        "observation",
+        "grace"
+      ]
+    },
+    {
+      "word": "Elephant",
+      "hints": [
+        "memory",
+        "strength",
+        "journey",
+        "patience",
+        "social"
+      ]
+    },
+    {
+      "word": "Cheetah",
+      "hints": [
+        "speed",
+        "focus",
+        "agility",
+        "momentum",
+        "quick"
+      ]
+    },
+    {
+      "word": "Sloth",
+      "hints": [
+        "leisure",
+        "slow",
+        "deliberate",
+        "rest",
+        "patience"
+      ]
+    },
+    {
+      "word": "Kangaroo",
+      "hints": [
+        "energy",
+        "jump",
+        "distance",
+        "mobility",
+        "bouncing"
+      ]
+    },
+    {
+      "word": "Dolphin",
+      "hints": [
+        "social",
+        "communication",
+        "intelligent",
+        "cooperative",
+        "playful"
+      ]
+    },
+    {
+      "word": "Bat",
+      "hints": [
+        "flight",
+        "echolocation",
+        "night",
+        "sensing",
+        "agility"
+      ]
+    },
+    {
+      "word": "Fox",
+      "hints": [
+        "clever",
+        "alert",
+        "strategy",
+        "adaptable",
+        "resourceful"
+      ]
+    },
+    {
+      "word": "Wolf",
+      "hints": [
+        "teamwork",
+        "hunt",
+        "territory",
+        "pack",
+        "loyalty"
+      ]
+    },
+    {
+      "word": "Bear",
+      "hints": [
+        "strength",
+        "solitude",
+        "hibernation",
+        "survival",
+        "majestic"
+      ]
+    },
+    {
+      "word": "Raccoon",
+      "hints": [
+        "curiosity",
+        "night",
+        "resourceful",
+        "explore",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Skunk",
+      "hints": [
+        "defense",
+        "warning",
+        "territory",
+        "bold",
+        "protection"
+      ]
+    },
+    {
+      "word": "Porcupine",
+      "hints": [
+        "defense",
+        "deter",
+        "adapt",
+        "spikes",
+        "protection"
+      ]
+    },
+    {
+      "word": "Hedgehog",
+      "hints": [
+        "retreat",
+        "defense",
+        "quiet",
+        "small",
+        "self-preservation"
+      ]
+    },
+    {
+      "word": "Squirrel",
+      "hints": [
+        "storage",
+        "quick",
+        "agile",
+        "nervous",
+        "preparation"
+      ]
+    },
+    {
+      "word": "Otter",
+      "hints": [
+        "playful",
+        "curious",
+        "social",
+        "water",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Seal",
+      "hints": [
+        "social",
+        "grace",
+        "aquatic",
+        "playful",
+        "swim"
+      ]
+    },
+    {
+      "word": "Walrus",
+      "hints": [
+        "bulk",
+        "social",
+        "strength",
+        "wilderness",
+        "slow"
+      ]
+    },
+    {
+      "word": "Moose",
+      "hints": [
+        "majestic",
+        "solitude",
+        "wilderness",
+        "strength",
+        "territory"
+      ]
+    },
+    {
+      "word": "Deer",
+      "hints": [
+        "grace",
+        "awareness",
+        "speed",
+        "elusive",
+        "peaceful"
+      ]
+    },
+    {
+      "word": "Camel",
+      "hints": [
+        "adaptation",
+        "endurance",
+        "desert",
+        "journey",
+        "resilience"
+      ]
+    },
+    {
+      "word": "Zebra",
+      "hints": [
+        "group",
+        "pattern",
+        "protection",
+        "adapt",
+        "migration"
+      ]
+    },
+    {
+      "word": "Lion",
+      "hints": [
+        "dominance",
+        "strength",
+        "territory",
+        "social",
+        "leadership"
+      ]
+    },
+    {
+      "word": "Hyena",
+      "hints": [
+        "opportunist",
+        "group",
+        "resilient",
+        "strategy",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Rhinoceros",
+      "hints": [
+        "armor",
+        "momentum",
+        "strength",
+        "territory",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Hippopotamus",
+      "hints": [
+        "resilience",
+        "strength",
+        "peaceful",
+        "water",
+        "territory"
+      ]
+    },
+    {
+      "word": "Crocodile",
+      "hints": [
+        "stillness",
+        "patience",
+        "stealth",
+        "attack",
+        "ambush"
+      ]
+    },
+    {
+      "word": "Alligator",
+      "hints": [
+        "silent",
+        "ambush",
+        "stealth",
+        "patience",
+        "strength"
+      ]
+    },
+    {
+      "word": "Turtle",
+      "hints": [
+        "patience",
+        "slow",
+        "protection",
+        "endurance",
+        "retreat"
+      ]
+    },
+    {
+      "word": "Frog",
+      "hints": [
+        "leap",
+        "transition",
+        "spring",
+        "quick",
+        "growth"
+      ]
+    },
+    {
+      "word": "Toad",
+      "hints": [
+        "stillness",
+        "patience",
+        "quiet",
+        "weather",
+        "adaptation"
+      ]
+    },
+    {
+      "word": "Snake",
+      "hints": [
+        "stealth",
+        "smooth",
+        "slither",
+        "stillness",
+        "reaction"
+      ]
+    },
+    {
+      "word": "Lizard",
+      "hints": [
+        "quick",
+        "agile",
+        "warmth",
+        "alert",
+        "response"
+      ]
+    },
+    {
+      "word": "Chameleon",
+      "hints": [
+        "adaptation",
+        "shift",
+        "blend",
+        "change",
+        "mood"
+      ]
+    },
+    {
+      "word": "Peacock",
+      "hints": [
+        "display",
+        "show",
+        "beauty",
+        "pride",
+        "attention"
+      ]
+    },
+    {
+      "word": "Flamingo",
+      "hints": [
+        "balance",
+        "grace",
+        "elegance",
+        "stance",
+        "position"
+      ]
+    },
+    {
+      "word": "Parrot",
+      "hints": [
+        "sound",
+        "communication",
+        "repetition",
+        "color",
+        "intelligent"
+      ]
+    },
+    {
+      "word": "Hawk",
+      "hints": [
+        "focus",
+        "scout",
+        "vision",
+        "precision",
+        "control"
+      ]
+    },
+    {
+      "word": "Crow",
+      "hints": [
+        "intelligence",
+        "communication",
+        "group",
+        "alert",
+        "resourceful"
+      ]
+    },
+    {
+      "word": "Pigeon",
+      "hints": [
+        "group",
+        "social",
+        "urban",
+        "routine",
+        "common"
+      ]
+    },
+    {
+      "word": "Butterfly",
+      "hints": [
+        "metamorphosis",
+        "delicate",
+        "evolution",
+        "breeze",
+        "grace"
+      ]
+    },
+    {
+      "word": "Bee",
+      "hints": [
+        "busy",
+        "hive",
+        "work",
+        "hustle",
+        "pollination"
+      ]
+    },
+    {
+      "word": "Ant",
+      "hints": [
+        "teamwork",
+        "colony",
+        "organization",
+        "effort",
+        "diligence"
+      ]
+    },
+    {
+      "word": "Spider",
+      "hints": [
+        "web",
+        "precision",
+        "trap",
+        "strategy",
+        "patience"
+      ]
+    },
+    {
+      "word": "Jellyfish",
+      "hints": [
+        "drift",
+        "grace",
+        "current",
+        "smooth",
+        "float"
+      ]
+    },
+    {
+      "word": "Seahorse",
+      "hints": [
+        "grace",
+        "delicate",
+        "swim",
+        "curled",
+        "motion"
+      ]
+    },
+    {
+      "word": "Whale",
+      "hints": [
+        "immense",
+        "deep",
+        "ocean",
+        "migration",
+        "song"
+      ]
+    },
+    {
+      "word": "Shark",
+      "hints": [
+        "agility",
+        "stealth",
+        "hunter",
+        "speed",
+        "silence"
+      ]
+    },
+    {
+      "word": "Stingray",
+      "hints": [
+        "grace",
+        "glide",
+        "smooth",
+        "stealth",
+        "silent"
+      ]
+    },
+    {
+      "word": "Crab",
+      "hints": [
+        "methodical",
+        "sideways",
+        "armor",
+        "defense",
+        "shore"
+      ]
+    },
+    {
+      "word": "Lobster",
+      "hints": [
+        "armor",
+        "depth",
+        "clamp",
+        "capture",
+        "defense"
+      ]
+    },
+    {
+      "word": "Shrimp",
+      "hints": [
+        "small",
+        "quick",
+        "agile",
+        "vibrant",
+        "group"
+      ]
+    },
+    {
+      "word": "Starfish",
+      "hints": [
+        "stillness",
+        "sea",
+        "spread",
+        "adaptation",
+        "peace"
+      ]
+    },
+    {
+      "word": "Clam",
+      "hints": [
+        "protective",
+        "quiet",
+        "sheltered",
+        "closed",
+        "stillness"
+      ]
+    },
+    {
+      "word": "Horse",
+      "hints": [
+        "strength",
+        "pace",
+        "ride",
+        "grace",
+        "movement"
+      ]
+    },
+    {
+      "word": "Cow",
+      "hints": [
+        "methodical",
+        "slow",
+        "herd",
+        "pasture",
+        "grounded"
+      ]
+    },
+    {
+      "word": "Pig",
+      "hints": [
+        "messy",
+        "curious",
+        "mischievous",
+        "hungry",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Goat",
+      "hints": [
+        "agility",
+        "climb",
+        "stubborn",
+        "territory",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Sheep",
+      "hints": [
+        "calm",
+        "follow",
+        "group",
+        "obedience",
+        "peace"
+      ]
+    },
+    {
+      "word": "Dog",
+      "hints": [
+        "loyal",
+        "playful",
+        "guard",
+        "affection",
+        "dependable"
+      ]
+    },
+    {
+      "word": "Cat",
+      "hints": [
+        "independent",
+        "curious",
+        "silent",
+        "graceful",
+        "alert"
+      ]
+    },
+    {
+      "word": "Rabbit",
+      "hints": [
+        "timid",
+        "alert",
+        "quick",
+        "grace",
+        "cautious"
+      ]
+    },
+    {
+      "word": "Mouse",
+      "hints": [
+        "small",
+        "stealthy",
+        "quick",
+        "timid",
+        "sneaky"
+      ]
+    },
+    {
+      "word": "Monkey",
+      "hints": [
+        "mischief",
+        "curious",
+        "playful",
+        "group",
+        "social"
+      ]
+    },
+    {
+      "word": "Koala",
+      "hints": [
+        "relaxed",
+        "quiet",
+        "tree",
+        "comfort",
+        "slow"
+      ]
+    },
+    {
+      "word": "Tiger",
+      "hints": [
+        "prowler",
+        "alert",
+        "territory",
+        "focused",
+        "strength"
+      ]
+    },
+    {
+      "word": "Leopard",
+      "hints": [
+        "stealth",
+        "solitary",
+        "climb",
+        "ambush",
+        "agile"
+      ]
+    },
+    {
+      "word": "Jaguar",
+      "hints": [
+        "powerful",
+        "swim",
+        "forest",
+        "solitary",
+        "prowess"
+      ]
+    },
+    {
+      "word": "Panther",
+      "hints": [
+        "shadow",
+        "prowl",
+        "sleek",
+        "mysterious",
+        "nocturnal"
+      ]
+    },
+    {
+      "word": "Cougar",
+      "hints": [
+        "mountain",
+        "solitary",
+        "leap",
+        "territory",
+        "elusive"
+      ]
+    },
+    {
+      "word": "Lynx",
+      "hints": [
+        "wild",
+        "forest",
+        "alert",
+        "solitary",
+        "elusive"
+      ]
+    },
+    {
+      "word": "Bobcat",
+      "hints": [
+        "stealth",
+        "solitary",
+        "wilderness",
+        "hunt",
+        "nocturnal"
+      ]
+    },
+    {
+      "word": "Coyote",
+      "hints": [
+        "howl",
+        "adaptable",
+        "opportunist",
+        "wild",
+        "clever"
+      ]
+    },
+    {
+      "word": "Jackal",
+      "hints": [
+        "scavenger",
+        "opportunist",
+        "social",
+        "desert",
+        "clever"
+      ]
+    },
+    {
+      "word": "Weasel",
+      "hints": [
+        "quick",
+        "nimble",
+        "fierce",
+        "small",
+        "hunt"
+      ]
+    },
+    {
+      "word": "Ferret",
+      "hints": [
+        "curious",
+        "playful",
+        "burrow",
+        "energetic",
+        "investigate"
+      ]
+    },
+    {
+      "word": "Mink",
+      "hints": [
+        "sleek",
+        "water",
+        "agile",
+        "hunt",
+        "luxurious"
+      ]
+    },
+    {
+      "word": "Badger",
+      "hints": [
+        "burrow",
+        "fierce",
+        "determined",
+        "nocturnal",
+        "stubborn"
+      ]
+    },
+    {
+      "word": "Wolverine",
+      "hints": [
+        "fierce",
+        "solitary",
+        "strength",
+        "tenacious",
+        "wilderness"
+      ]
+    },
+    {
+      "word": "Meerkat",
+      "hints": [
+        "social",
+        "lookout",
+        "desert",
+        "colony",
+        "alert"
+      ]
+    },
+    {
+      "word": "Prairie Dog",
+      "hints": [
+        "burrow",
+        "social",
+        "alert",
+        "colony",
+        "communication"
+      ]
+    },
+    {
+      "word": "Groundhog",
+      "hints": [
+        "burrow",
+        "hibernate",
+        "solitary",
+        "forecast",
+        "cautious"
+      ]
+    },
+    {
+      "word": "Chipmunk",
+      "hints": [
+        "storage",
+        "cheeks",
+        "quick",
+        "striped",
+        "gather"
+      ]
+    },
+    {
+      "word": "Hamster",
+      "hints": [
+        "storage",
+        "nocturnal",
+        "burrow",
+        "hoard",
+        "active"
+      ]
+    },
+    {
+      "word": "Guinea Pig",
+      "hints": [
+        "social",
+        "vocal",
+        "gentle",
+        "timid",
+        "companion"
+      ]
+    },
+    {
+      "word": "Gerbil",
+      "hints": [
+        "desert",
+        "burrow",
+        "social",
+        "active",
+        "curious"
+      ]
+    },
+    {
+      "word": "Lemming",
+      "hints": [
+        "tundra",
+        "cycle",
+        "journey",
+        "social",
+        "migrate"
+      ]
+    },
+    {
+      "word": "Vole",
+      "hints": [
+        "burrow",
+        "tunnel",
+        "small",
+        "busy",
+        "herbivore"
+      ]
+    },
+    {
+      "word": "Shrew",
+      "hints": [
+        "tiny",
+        "fierce",
+        "metabolism",
+        "active",
+        "hunt"
+      ]
+    },
+    {
+      "word": "Mole",
+      "hints": [
+        "burrow",
+        "blind",
+        "tunnel",
+        "underground",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Platypus",
+      "hints": [
+        "unique",
+        "swim",
+        "unusual",
+        "adaptation",
+        "mysterious"
+      ]
+    },
+    {
+      "word": "Echidna",
+      "hints": [
+        "spines",
+        "unique",
+        "solitary",
+        "burrow",
+        "ancient"
+      ]
+    },
+    {
+      "word": "Wombat",
+      "hints": [
+        "burrow",
+        "sturdy",
+        "nocturnal",
+        "herbivore",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Possum",
+      "hints": [
+        "nocturnal",
+        "adaptable",
+        "climb",
+        "opportunist",
+        "survive"
+      ]
+    },
+    {
+      "word": "Opossum",
+      "hints": [
+        "nocturnal",
+        "scavenger",
+        "adaptable",
+        "defense",
+        "survive"
+      ]
+    },
+    {
+      "word": "Tasmanian Devil",
+      "hints": [
+        "fierce",
+        "nocturnal",
+        "scavenger",
+        "vocal",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Wallaby",
+      "hints": [
+        "hop",
+        "agile",
+        "marsupial",
+        "social",
+        "graze"
+      ]
+    },
+    {
+      "word": "Llama",
+      "hints": [
+        "pack",
+        "endurance",
+        "mountain",
+        "social",
+        "stubborn"
+      ]
+    },
+    {
+      "word": "Alpaca",
+      "hints": [
+        "gentle",
+        "herd",
+        "fiber",
+        "social",
+        "docile"
+      ]
+    },
+    {
+      "word": "Vicuna",
+      "hints": [
+        "wild",
+        "mountain",
+        "graceful",
+        "rare",
+        "valuable"
+      ]
+    },
+    {
+      "word": "Guanaco",
+      "hints": [
+        "wild",
+        "endurance",
+        "mountain",
+        "adaptable",
+        "vigilant"
+      ]
+    },
+    {
+      "word": "Bison",
+      "hints": [
+        "massive",
+        "herd",
+        "strength",
+        "migration",
+        "wild"
+      ]
+    },
+    {
+      "word": "Buffalo",
+      "hints": [
+        "herd",
+        "strength",
+        "migration",
+        "grassland",
+        "massive"
+      ]
+    },
+    {
+      "word": "Yak",
+      "hints": [
+        "mountain",
+        "endurance",
+        "strength",
+        "cold",
+        "hardy"
+      ]
+    },
+    {
+      "word": "Ox",
+      "hints": [
+        "strength",
+        "work",
+        "endurance",
+        "steady",
+        "burden"
+      ]
+    },
+    {
+      "word": "Antelope",
+      "hints": [
+        "speed",
+        "grace",
+        "alert",
+        "herd",
+        "agile"
+      ]
+    },
+    {
+      "word": "Gazelle",
+      "hints": [
+        "grace",
+        "speed",
+        "leap",
+        "elegant",
+        "alert"
+      ]
+    },
+    {
+      "word": "Impala",
+      "hints": [
+        "leap",
+        "agile",
+        "herd",
+        "alert",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Elk",
+      "hints": [
+        "majestic",
+        "antlers",
+        "wilderness",
+        "herd",
+        "migration"
+      ]
+    },
+    {
+      "word": "Caribou",
+      "hints": [
+        "migration",
+        "tundra",
+        "herd",
+        "endurance",
+        "journey"
+      ]
+    },
+    {
+      "word": "Reindeer",
+      "hints": [
+        "arctic",
+        "migration",
+        "herd",
+        "adaptable",
+        "endurance"
+      ]
+    },
+    {
+      "word": "Pronghorn",
+      "hints": [
+        "speed",
+        "vision",
+        "grassland",
+        "migration",
+        "alert"
+      ]
+    },
+    {
+      "word": "Musk Ox",
+      "hints": [
+        "arctic",
+        "defense",
+        "herd",
+        "strength",
+        "endurance"
+      ]
+    },
+    {
+      "word": "Ibex",
+      "hints": [
+        "mountain",
+        "climb",
+        "agile",
+        "sure-footed",
+        "wilderness"
+      ]
+    },
+    {
+      "word": "Chamois",
+      "hints": [
+        "mountain",
+        "agile",
+        "leap",
+        "sure-footed",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Bighorn Sheep",
+      "hints": [
+        "mountain",
+        "climb",
+        "clash",
+        "territory",
+        "sure-footed"
+      ]
+    },
+    {
+      "word": "Mountain Goat",
+      "hints": [
+        "climb",
+        "sure-footed",
+        "balance",
+        "wilderness",
+        "hardy"
+      ]
+    },
+    {
+      "word": "Armadillo",
+      "hints": [
+        "armor",
+        "burrow",
+        "nocturnal",
+        "solitary",
+        "defense"
+      ]
+    },
+    {
+      "word": "Anteater",
+      "hints": [
+        "specialized",
+        "long",
+        "solitary",
+        "unique",
+        "methodical"
+      ]
+    },
+    {
+      "word": "Aardvark",
+      "hints": [
+        "burrow",
+        "nocturnal",
+        "solitary",
+        "unique",
+        "dig"
+      ]
+    },
+    {
+      "word": "Pangolin",
+      "hints": [
+        "armor",
+        "scales",
+        "solitary",
+        "defense",
+        "curl"
+      ]
+    },
+    {
+      "word": "Tapir",
+      "hints": [
+        "forest",
+        "water",
+        "solitary",
+        "nocturnal",
+        "herbivore"
+      ]
+    },
+    {
+      "word": "Capybara",
+      "hints": [
+        "social",
+        "water",
+        "calm",
+        "largest",
+        "herd"
+      ]
+    },
+    {
+      "word": "Manatee",
+      "hints": [
+        "gentle",
+        "slow",
+        "water",
+        "herbivore",
+        "peaceful"
+      ]
+    },
+    {
+      "word": "Dugong",
+      "hints": [
+        "marine",
+        "gentle",
+        "herbivore",
+        "slow",
+        "peaceful"
+      ]
+    },
+    {
+      "word": "Narwhal",
+      "hints": [
+        "arctic",
+        "unique",
+        "social",
+        "mysterious",
+        "migration"
+      ]
+    },
+    {
+      "word": "Beluga",
+      "hints": [
+        "arctic",
+        "social",
+        "vocal",
+        "white",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Orca",
+      "hints": [
+        "intelligent",
+        "social",
+        "apex",
+        "pod",
+        "communication"
+      ]
+    },
+    {
+      "word": "Humpback",
+      "hints": [
+        "migration",
+        "song",
+        "breach",
+        "gentle",
+        "majestic"
+      ]
+    },
+    {
+      "word": "Blue Whale",
+      "hints": [
+        "immense",
+        "gentle",
+        "migration",
+        "magnificent",
+        "largest"
+      ]
+    },
+    {
+      "word": "Sperm Whale",
+      "hints": [
+        "deep",
+        "dive",
+        "social",
+        "intelligent",
+        "massive"
+      ]
+    },
+    {
+      "word": "Dolphin",
+      "hints": [
+        "playful",
+        "intelligent",
+        "social",
+        "acrobatic",
+        "communication"
+      ]
+    },
+    {
+      "word": "Porpoise",
+      "hints": [
+        "small",
+        "shy",
+        "coastal",
+        "swift",
+        "elusive"
+      ]
+    },
+    {
+      "word": "Hammerhead",
+      "hints": [
+        "unique",
+        "vision",
+        "hunt",
+        "patrol",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Great White",
+      "hints": [
+        "apex",
+        "powerful",
+        "patrol",
+        "hunt",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Tiger Shark",
+      "hints": [
+        "opportunist",
+        "adaptable",
+        "patrol",
+        "diverse",
+        "voracious"
+      ]
+    },
+    {
+      "word": "Mako",
+      "hints": [
+        "speed",
+        "agile",
+        "powerful",
+        "leap",
+        "pursuit"
+      ]
+    },
+    {
+      "word": "Whale Shark",
+      "hints": [
+        "gentle",
+        "massive",
+        "filter",
+        "peaceful",
+        "spotted"
+      ]
+    },
+    {
+      "word": "Barracuda",
+      "hints": [
+        "speed",
+        "hunt",
+        "silver",
+        "patrol",
+        "fierce"
+      ]
+    },
+    {
+      "word": "Swordfish",
+      "hints": [
+        "speed",
+        "pursuit",
+        "ocean",
+        "powerful",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Marlin",
+      "hints": [
+        "powerful",
+        "leap",
+        "speed",
+        "ocean",
+        "sport"
+      ]
+    },
+    {
+      "word": "Tuna",
+      "hints": [
+        "speed",
+        "endurance",
+        "migration",
+        "school",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Salmon",
+      "hints": [
+        "migration",
+        "journey",
+        "determination",
+        "upstream",
+        "lifecycle"
+      ]
+    },
+    {
+      "word": "Trout",
+      "hints": [
+        "stream",
+        "leap",
+        "cold",
+        "spotted",
+        "agile"
+      ]
+    },
+    {
+      "word": "Bass",
+      "hints": [
+        "freshwater",
+        "strike",
+        "territorial",
+        "predator",
+        "sport"
+      ]
+    },
+    {
+      "word": "Pike",
+      "hints": [
+        "ambush",
+        "fierce",
+        "freshwater",
+        "predator",
+        "lurk"
+      ]
+    },
+    {
+      "word": "Catfish",
+      "hints": [
+        "bottom",
+        "whiskers",
+        "nocturnal",
+        "scavenger",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Carp",
+      "hints": [
+        "bottom",
+        "adaptable",
+        "peaceful",
+        "persistent",
+        "muddy"
+      ]
+    },
+    {
+      "word": "Goldfish",
+      "hints": [
+        "pond",
+        "peaceful",
+        "colorful",
+        "domesticated",
+        "calm"
+      ]
+    },
+    {
+      "word": "Koi",
+      "hints": [
+        "ornamental",
+        "peaceful",
+        "colorful",
+        "pond",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Angelfish",
+      "hints": [
+        "tropical",
+        "graceful",
+        "colorful",
+        "calm",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Clownfish",
+      "hints": [
+        "symbiotic",
+        "colorful",
+        "reef",
+        "protective",
+        "playful"
+      ]
+    },
+    {
+      "word": "Pufferfish",
+      "hints": [
+        "defense",
+        "inflate",
+        "toxic",
+        "cautious",
+        "unique"
+      ]
+    },
+    {
+      "word": "Lionfish",
+      "hints": [
+        "venomous",
+        "beautiful",
+        "reef",
+        "invasive",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Moray Eel",
+      "hints": [
+        "reef",
+        "lurk",
+        "ambush",
+        "nocturnal",
+        "serpentine"
+      ]
+    },
+    {
+      "word": "Electric Eel",
+      "hints": [
+        "shock",
+        "defense",
+        "freshwater",
+        "unique",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Manta Ray",
+      "hints": [
+        "graceful",
+        "gentle",
+        "glide",
+        "filter",
+        "majestic"
+      ]
+    },
+    {
+      "word": "Eagle Ray",
+      "hints": [
+        "graceful",
+        "spotted",
+        "glide",
+        "leap",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Squid",
+      "hints": [
+        "jet",
+        "intelligent",
+        "adaptable",
+        "camouflage",
+        "swift"
+      ]
+    },
+    {
+      "word": "Cuttlefish",
+      "hints": [
+        "intelligent",
+        "camouflage",
+        "change",
+        "hypnotic",
+        "adapt"
+      ]
+    },
+    {
+      "word": "Nautilus",
+      "hints": [
+        "ancient",
+        "shell",
+        "deep",
+        "spiral",
+        "mysterious"
+      ]
+    },
+    {
+      "word": "Oyster",
+      "hints": [
+        "filter",
+        "stationary",
+        "pearl",
+        "reef",
+        "sessile"
+      ]
+    },
+    {
+      "word": "Mussel",
+      "hints": [
+        "filter",
+        "cluster",
+        "attach",
+        "stationary",
+        "colonial"
+      ]
+    },
+    {
+      "word": "Scallop",
+      "hints": [
+        "swim",
+        "jet",
+        "eyes",
+        "escape",
+        "bivalve"
+      ]
+    },
+    {
+      "word": "Octopus",
+      "hints": [
+        "intelligent",
+        "camouflage",
+        "problem-solve",
+        "flexible",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Conch",
+      "hints": [
+        "shell",
+        "slow",
+        "spiral",
+        "coastal",
+        "herbivore"
+      ]
+    },
+    {
+      "word": "Snail",
+      "hints": [
+        "slow",
+        "spiral",
+        "methodical",
+        "deliberate",
+        "trail"
+      ]
+    },
+    {
+      "word": "Slug",
+      "hints": [
+        "slow",
+        "moist",
+        "trail",
+        "nocturnal",
+        "herbivore"
+      ]
+    },
+    {
+      "word": "Sea Cucumber",
+      "hints": [
+        "bottom",
+        "filter",
+        "slow",
+        "defense",
+        "regenerate"
+      ]
+    },
+    {
+      "word": "Sea Urchin",
+      "hints": [
+        "spiny",
+        "graze",
+        "defense",
+        "stationary",
+        "reef"
+      ]
+    },
+    {
+      "word": "Sand Dollar",
+      "hints": [
+        "flat",
+        "burrow",
+        "filter",
+        "symmetry",
+        "coastal"
+      ]
+    },
+    {
+      "word": "Sea Anemone",
+      "hints": [
+        "stationary",
+        "tentacles",
+        "sting",
+        "symbiotic",
+        "colorful"
+      ]
+    },
+    {
+      "word": "Coral",
+      "hints": [
+        "colonial",
+        "reef",
+        "stationary",
+        "colorful",
+        "build"
+      ]
+    },
+    {
+      "word": "Sponge",
+      "hints": [
+        "filter",
+        "stationary",
+        "porous",
+        "ancient",
+        "simple"
+      ]
+    },
+    {
+      "word": "Barnacle",
+      "hints": [
+        "attach",
+        "filter",
+        "stationary",
+        "cluster",
+        "sessile"
+      ]
+    },
+    {
+      "word": "Eagle",
+      "hints": [
+        "soar",
+        "vision",
+        "majestic",
+        "hunt",
+        "apex"
+      ]
+    },
+    {
+      "word": "Falcon",
+      "hints": [
+        "speed",
+        "dive",
+        "precision",
+        "hunt",
+        "fierce"
+      ]
+    },
+    {
+      "word": "Kite",
+      "hints": [
+        "soar",
+        "glide",
+        "graceful",
+        "hover",
+        "patrol"
+      ]
+    },
+    {
+      "word": "Vulture",
+      "hints": [
+        "soar",
+        "scavenger",
+        "patience",
+        "circle",
+        "cleanup"
+      ]
+    },
+    {
+      "word": "Condor",
+      "hints": [
+        "soar",
+        "massive",
+        "majestic",
+        "rare",
+        "wingspan"
+      ]
+    },
+    {
+      "word": "Albatross",
+      "hints": [
+        "glide",
+        "ocean",
+        "wingspan",
+        "endurance",
+        "voyage"
+      ]
+    },
+    {
+      "word": "Pelican",
+      "hints": [
+        "dive",
+        "pouch",
+        "coastal",
+        "social",
+        "fish"
+      ]
+    },
+    {
+      "word": "Cormorant",
+      "hints": [
+        "dive",
+        "swim",
+        "fish",
+        "coastal",
+        "drying"
+      ]
+    },
+    {
+      "word": "Heron",
+      "hints": [
+        "patience",
+        "stillness",
+        "wade",
+        "strike",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Egret",
+      "hints": [
+        "elegant",
+        "wade",
+        "white",
+        "patience",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Stork",
+      "hints": [
+        "wade",
+        "migration",
+        "nest",
+        "delivery",
+        "social"
+      ]
+    },
+    {
+      "word": "Crane",
+      "hints": [
+        "elegant",
+        "dance",
+        "migrate",
+        "wade",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Ibis",
+      "hints": [
+        "wade",
+        "probe",
+        "social",
+        "curve",
+        "sacred"
+      ]
+    },
+    {
+      "word": "Spoonbill",
+      "hints": [
+        "wade",
+        "sweep",
+        "filter",
+        "distinctive",
+        "pink"
+      ]
+    },
+    {
+      "word": "Swan",
+      "hints": [
+        "graceful",
+        "elegant",
+        "territorial",
+        "mate",
+        "glide"
+      ]
+    },
+    {
+      "word": "Goose",
+      "hints": [
+        "formation",
+        "migrate",
+        "honk",
+        "social",
+        "loyal"
+      ]
+    },
+    {
+      "word": "Duck",
+      "hints": [
+        "dabble",
+        "waddle",
+        "quack",
+        "water",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Mallard",
+      "hints": [
+        "common",
+        "adaptable",
+        "colorful",
+        "dabble",
+        "urban"
+      ]
+    },
+    {
+      "word": "Teal",
+      "hints": [
+        "small",
+        "agile",
+        "colorful",
+        "migrate",
+        "swift"
+      ]
+    },
+    {
+      "word": "Loon",
+      "hints": [
+        "dive",
+        "call",
+        "northern",
+        "haunting",
+        "territorial"
+      ]
+    },
+    {
+      "word": "Grebe",
+      "hints": [
+        "dive",
+        "swim",
+        "elaborate",
+        "courtship",
+        "aquatic"
+      ]
+    },
+    {
+      "word": "Puffin",
+      "hints": [
+        "colorful",
+        "burrow",
+        "dive",
+        "social",
+        "coastal"
+      ]
+    },
+    {
+      "word": "Penguin",
+      "hints": [
+        "waddle",
+        "swim",
+        "colony",
+        "Antarctic",
+        "devoted"
+      ]
+    },
+    {
+      "word": "Tern",
+      "hints": [
+        "dive",
+        "migrate",
+        "graceful",
+        "coastal",
+        "agile"
+      ]
+    },
+    {
+      "word": "Gull",
+      "hints": [
+        "opportunist",
+        "coastal",
+        "adaptable",
+        "vocal",
+        "scavenger"
+      ]
+    },
+    {
+      "word": "Sandpiper",
+      "hints": [
+        "scurry",
+        "probe",
+        "coastal",
+        "small",
+        "busy"
+      ]
+    },
+    {
+      "word": "Plover",
+      "hints": [
+        "run",
+        "coastal",
+        "nest",
+        "alert",
+        "camouflage"
+      ]
+    },
+    {
+      "word": "Oystercatcher",
+      "hints": [
+        "probe",
+        "coastal",
+        "distinctive",
+        "loud",
+        "territorial"
+      ]
+    },
+    {
+      "word": "Kingfisher",
+      "hints": [
+        "dive",
+        "precision",
+        "colorful",
+        "perch",
+        "patient"
+      ]
+    },
+    {
+      "word": "Woodpecker",
+      "hints": [
+        "drum",
+        "drill",
+        "tree",
+        "rhythm",
+        "territorial"
+      ]
+    },
+    {
+      "word": "Hummingbird",
+      "hints": [
+        "hover",
+        "speed",
+        "nectar",
+        "tiny",
+        "iridescent"
+      ]
+    },
+    {
+      "word": "Swift",
+      "hints": [
+        "speed",
+        "aerial",
+        "tireless",
+        "agile",
+        "continuous"
+      ]
+    },
+    {
+      "word": "Swallow",
+      "hints": [
+        "aerial",
+        "agile",
+        "migrate",
+        "graceful",
+        "mud"
+      ]
+    },
+    {
+      "word": "Nightingale",
+      "hints": [
+        "song",
+        "nocturnal",
+        "melodious",
+        "beautiful",
+        "renowned"
+      ]
+    },
+    {
+      "word": "Robin",
+      "hints": [
+        "cheerful",
+        "territorial",
+        "song",
+        "common",
+        "red"
+      ]
+    },
+    {
+      "word": "Sparrow",
+      "hints": [
+        "common",
+        "social",
+        "adaptable",
+        "chirp",
+        "urban"
+      ]
+    },
+    {
+      "word": "Finch",
+      "hints": [
+        "small",
+        "colorful",
+        "social",
+        "song",
+        "seed"
+      ]
+    },
+    {
+      "word": "Canary",
+      "hints": [
+        "song",
+        "yellow",
+        "cheerful",
+        "melodious",
+        "domesticated"
+      ]
+    },
+    {
+      "word": "Cardinal",
+      "hints": [
+        "red",
+        "song",
+        "territorial",
+        "distinctive",
+        "vibrant"
+      ]
+    },
+    {
+      "word": "Blue Jay",
+      "hints": [
+        "bold",
+        "intelligent",
+        "vocal",
+        "territorial",
+        "colorful"
+      ]
+    },
+    {
+      "word": "Magpie",
+      "hints": [
+        "intelligent",
+        "curious",
+        "vocal",
+        "social",
+        "collect"
+      ]
+    },
+    {
+      "word": "Raven",
+      "hints": [
+        "intelligent",
+        "adaptable",
+        "omen",
+        "problem-solve",
+        "large"
+      ]
+    },
+    {
+      "word": "Starling",
+      "hints": [
+        "social",
+        "murmuration",
+        "adaptable",
+        "vocal",
+        "iridescent"
+      ]
+    },
+    {
+      "word": "Mockingbird",
+      "hints": [
+        "mimic",
+        "territorial",
+        "vocal",
+        "versatile",
+        "persistent"
+      ]
+    },
+    {
+      "word": "Thrush",
+      "hints": [
+        "song",
+        "forest",
+        "melodious",
+        "spotted",
+        "migrate"
+      ]
+    },
+    {
+      "word": "Warbler",
+      "hints": [
+        "small",
+        "colorful",
+        "song",
+        "migrate",
+        "active"
+      ]
+    },
+    {
+      "word": "Chickadee",
+      "hints": [
+        "cheerful",
+        "social",
+        "curious",
+        "acrobatic",
+        "brave"
+      ]
+    },
+    {
+      "word": "Nuthatch",
+      "hints": [
+        "upside-down",
+        "tree",
+        "agile",
+        "storage",
+        "clever"
+      ]
+    },
+    {
+      "word": "Wren",
+      "hints": [
+        "tiny",
+        "loud",
+        "energetic",
+        "territorial",
+        "brave"
+      ]
+    },
+    {
+      "word": "Pipit",
+      "hints": [
+        "ground",
+        "walk",
+        "open",
+        "streaked",
+        "inconspicuous"
+      ]
+    },
+    {
+      "word": "Skylark",
+      "hints": [
+        "song",
+        "flight",
+        "ascend",
+        "grassland",
+        "melodious"
+      ]
+    },
+    {
+      "word": "Meadowlark",
+      "hints": [
+        "song",
+        "grassland",
+        "colorful",
+        "territorial",
+        "melodious"
+      ]
+    },
+    {
+      "word": "Oriole",
+      "hints": [
+        "colorful",
+        "song",
+        "weave",
+        "tropical",
+        "vibrant"
+      ]
+    },
+    {
+      "word": "Tanager",
+      "hints": [
+        "colorful",
+        "tropical",
+        "forest",
+        "vibrant",
+        "frugivore"
+      ]
+    },
+    {
+      "word": "Toucan",
+      "hints": [
+        "colorful",
+        "tropical",
+        "distinctive",
+        "fruit",
+        "social"
+      ]
+    },
+    {
+      "word": "Macaw",
+      "hints": [
+        "colorful",
+        "loud",
+        "intelligent",
+        "social",
+        "tropical"
+      ]
+    },
+    {
+      "word": "Cockatoo",
+      "hints": [
+        "crest",
+        "intelligent",
+        "loud",
+        "social",
+        "playful"
+      ]
+    },
+    {
+      "word": "Parakeet",
+      "hints": [
+        "social",
+        "colorful",
+        "playful",
+        "vocal",
+        "small"
+      ]
+    },
+    {
+      "word": "Budgie",
+      "hints": [
+        "social",
+        "cheerful",
+        "mimic",
+        "small",
+        "playful"
+      ]
+    },
+    {
+      "word": "Lovebird",
+      "hints": [
+        "affectionate",
+        "pair",
+        "colorful",
+        "social",
+        "devoted"
+      ]
+    },
+    {
+      "word": "Cockatiel",
+      "hints": [
+        "friendly",
+        "crest",
+        "whistle",
+        "social",
+        "gentle"
+      ]
+    },
+    {
+      "word": "Hornbill",
+      "hints": [
+        "distinctive",
+        "tropical",
+        "nest",
+        "fruit",
+        "cooperative"
+      ]
+    },
+    {
+      "word": "Hoopoe",
+      "hints": [
+        "crest",
+        "distinctive",
+        "probe",
+        "colorful",
+        "unique"
+      ]
+    },
+    {
+      "word": "Roadrunner",
+      "hints": [
+        "speed",
+        "ground",
+        "desert",
+        "chase",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Cuckoo",
+      "hints": [
+        "call",
+        "parasitic",
+        "migrate",
+        "secretive",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Kookaburra",
+      "hints": [
+        "laugh",
+        "territorial",
+        "perch",
+        "distinctive",
+        "Australian"
+      ]
+    },
+    {
+      "word": "Secretary Bird",
+      "hints": [
+        "walk",
+        "hunt",
+        "distinctive",
+        "grassland",
+        "strike"
+      ]
+    },
+    {
+      "word": "Ostrich",
+      "hints": [
+        "large",
+        "run",
+        "flightless",
+        "speed",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Emu",
+      "hints": [
+        "large",
+        "run",
+        "flightless",
+        "curious",
+        "Australian"
+      ]
+    },
+    {
+      "word": "Cassowary",
+      "hints": [
+        "dangerous",
+        "flightless",
+        "forest",
+        "distinctive",
+        "aggressive"
+      ]
+    },
+    {
+      "word": "Rhea",
+      "hints": [
+        "large",
+        "run",
+        "flightless",
+        "social",
+        "grassland"
+      ]
+    },
+    {
+      "word": "Kiwi",
+      "hints": [
+        "nocturnal",
+        "flightless",
+        "probe",
+        "distinctive",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Kakapo",
+      "hints": [
+        "nocturnal",
+        "flightless",
+        "endangered",
+        "unique",
+        "parrot"
+      ]
+    },
+    {
+      "word": "Turkey",
+      "hints": [
+        "gobble",
+        "social",
+        "display",
+        "ground",
+        "domesticated"
+      ]
+    },
+    {
+      "word": "Chicken",
+      "hints": [
+        "domesticated",
+        "social",
+        "scratch",
+        "vocal",
+        "common"
+      ]
+    },
+    {
+      "word": "Rooster",
+      "hints": [
+        "crow",
+        "territorial",
+        "dominant",
+        "vocal",
+        "dawn"
+      ]
+    },
+    {
+      "word": "Pheasant",
+      "hints": [
+        "colorful",
+        "ground",
+        "display",
+        "territorial",
+        "game"
+      ]
+    },
+    {
+      "word": "Quail",
+      "hints": [
+        "small",
+        "ground",
+        "social",
+        "covey",
+        "camouflage"
+      ]
+    },
+    {
+      "word": "Partridge",
+      "hints": [
+        "ground",
+        "social",
+        "game",
+        "camouflage",
+        "burst"
+      ]
+    },
+    {
+      "word": "Grouse",
+      "hints": [
+        "ground",
+        "display",
+        "territorial",
+        "camouflage",
+        "northern"
+      ]
+    },
+    {
+      "word": "Ptarmigan",
+      "hints": [
+        "arctic",
+        "camouflage",
+        "seasonal",
+        "ground",
+        "adapt"
+      ]
+    },
+    {
+      "word": "Guinea Fowl",
+      "hints": [
+        "social",
+        "vocal",
+        "spotted",
+        "ground",
+        "alert"
+      ]
+    },
+    {
+      "word": "Peafowl",
+      "hints": [
+        "display",
+        "magnificent",
+        "territorial",
+        "vocal",
+        "iridescent"
+      ]
+    },
+    {
+      "word": "Dragonfly",
+      "hints": [
+        "aerial",
+        "agile",
+        "hunt",
+        "hover",
+        "iridescent"
+      ]
+    },
+    {
+      "word": "Damselfly",
+      "hints": [
+        "delicate",
+        "water",
+        "graceful",
+        "hover",
+        "slender"
+      ]
+    },
+    {
+      "word": "Mayfly",
+      "hints": [
+        "brief",
+        "emergence",
+        "swarm",
+        "aquatic",
+        "ephemeral"
+      ]
+    },
+    {
+      "word": "Firefly",
+      "hints": [
+        "glow",
+        "nocturnal",
+        "signal",
+        "bioluminescent",
+        "magical"
+      ]
+    },
+    {
+      "word": "Beetle",
+      "hints": [
+        "armor",
+        "diverse",
+        "strong",
+        "adaptable",
+        "numerous"
+      ]
+    },
+    {
+      "word": "Ladybug",
+      "hints": [
+        "spotted",
+        "beneficial",
+        "colorful",
+        "garden",
+        "predator"
+      ]
+    },
+    {
+      "word": "Grasshopper",
+      "hints": [
+        "leap",
+        "chirp",
+        "herbivore",
+        "summer",
+        "abundant"
+      ]
+    },
+    {
+      "word": "Cricket",
+      "hints": [
+        "chirp",
+        "nocturnal",
+        "leap",
+        "rhythmic",
+        "summer"
+      ]
+    },
+    {
+      "word": "Katydid",
+      "hints": [
+        "camouflage",
+        "nocturnal",
+        "song",
+        "leaf-like",
+        "tropical"
+      ]
+    },
+    {
+      "word": "Cicada",
+      "hints": [
+        "loud",
+        "emergence",
+        "cycle",
+        "summer",
+        "chorus"
+      ]
+    },
+    {
+      "word": "Aphid",
+      "hints": [
+        "tiny",
+        "pest",
+        "colony",
+        "sap",
+        "reproduce"
+      ]
+    },
+    {
+      "word": "Termite",
+      "hints": [
+        "colony",
+        "wood",
+        "social",
+        "mound",
+        "organized"
+      ]
+    },
+    {
+      "word": "Wasp",
+      "hints": [
+        "sting",
+        "hunt",
+        "nest",
+        "territorial",
+        "aggressive"
+      ]
+    },
+    {
+      "word": "Hornet",
+      "hints": [
+        "aggressive",
+        "large",
+        "sting",
+        "nest",
+        "territorial"
+      ]
+    },
+    {
+      "word": "Bumblebee",
+      "hints": [
+        "fuzzy",
+        "pollinate",
+        "gentle",
+        "buzz",
+        "social"
+      ]
+    },
+    {
+      "word": "Honeybee",
+      "hints": [
+        "hive",
+        "pollinate",
+        "dance",
+        "honey",
+        "organized"
+      ]
+    },
+    {
+      "word": "Carpenter Bee",
+      "hints": [
+        "wood",
+        "burrow",
+        "solitary",
+        "pollinate",
+        "hover"
+      ]
+    },
+    {
+      "word": "Mosquito",
+      "hints": [
+        "buzz",
+        "bite",
+        "nocturnal",
+        "blood",
+        "annoying"
+      ]
+    },
+    {
+      "word": "Fly",
+      "hints": [
+        "quick",
+        "hover",
+        "ubiquitous",
+        "annoying",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Gnat",
+      "hints": [
+        "tiny",
+        "swarm",
+        "annoying",
+        "moisture",
+        "persistent"
+      ]
+    },
+    {
+      "word": "Moth",
+      "hints": [
+        "nocturnal",
+        "attracted",
+        "flutter",
+        "dusty",
+        "camouflage"
+      ]
+    },
+    {
+      "word": "Caterpillar",
+      "hints": [
+        "crawl",
+        "transform",
+        "munch",
+        "segment",
+        "preparation"
+      ]
+    },
+    {
+      "word": "Silk Worm",
+      "hints": [
+        "cocoon",
+        "transform",
+        "thread",
+        "cultivated",
+        "produce"
+      ]
+    },
+    {
+      "word": "Mantis",
+      "hints": [
+        "pray",
+        "patient",
+        "strike",
+        "ambush",
+        "deliberate"
+      ]
+    },
+    {
+      "word": "Walking Stick",
+      "hints": [
+        "camouflage",
+        "still",
+        "mimic",
+        "herbivore",
+        "elongated"
+      ]
+    },
+    {
+      "word": "Cockroach",
+      "hints": [
+        "nocturnal",
+        "adaptable",
+        "survive",
+        "scavenger",
+        "resilient"
+      ]
+    },
+    {
+      "word": "Centipede",
+      "hints": [
+        "many",
+        "quick",
+        "predator",
+        "venomous",
+        "nocturnal"
+      ]
+    },
+    {
+      "word": "Millipede",
+      "hints": [
+        "many",
+        "slow",
+        "curl",
+        "herbivore",
+        "defense"
+      ]
+    },
+    {
+      "word": "Scorpion",
+      "hints": [
+        "nocturnal",
+        "sting",
+        "desert",
+        "predator",
+        "ancient"
+      ]
+    },
+    {
+      "word": "Tarantula",
+      "hints": [
+        "large",
+        "hairy",
+        "burrow",
+        "patient",
+        "intimidating"
+      ]
+    },
+    {
+      "word": "Black Widow",
+      "hints": [
+        "venomous",
+        "web",
+        "deadly",
+        "solitary",
+        "hourglass"
+      ]
+    },
+    {
+      "word": "Brown Recluse",
+      "hints": [
+        "venomous",
+        "reclusive",
+        "solitary",
+        "nocturnal",
+        "dangerous"
+      ]
+    },
+    {
+      "word": "Orb Weaver",
+      "hints": [
+        "web",
+        "circular",
+        "artistic",
+        "patient",
+        "garden"
+      ]
+    },
+    {
+      "word": "Jumping Spider",
+      "hints": [
+        "agile",
+        "vision",
+        "leap",
+        "hunt",
+        "curious"
+      ]
+    },
+    {
+      "word": "Wolf Spider",
+      "hints": [
+        "hunt",
+        "fast",
+        "nocturnal",
+        "burrow",
+        "maternal"
+      ]
+    },
+    {
+      "word": "Trapdoor Spider",
+      "hints": [
+        "ambush",
+        "burrow",
+        "patient",
+        "camouflage",
+        "strike"
+      ]
+    },
+    {
+      "word": "Daddy Longlegs",
+      "hints": [
+        "delicate",
+        "harmless",
+        "gangly",
+        "common",
+        "beneficial"
+      ]
+    },
+    {
+      "word": "Tick",
+      "hints": [
+        "attach",
+        "blood",
+        "patient",
+        "disease",
+        "parasitic"
+      ]
+    },
+    {
+      "word": "Mite",
+      "hints": [
+        "tiny",
+        "parasitic",
+        "numerous",
+        "irritating",
+        "microscopic"
+      ]
+    },
+    {
+      "word": "Earthworm",
+      "hints": [
+        "burrow",
+        "soil",
+        "beneficial",
+        "segment",
+        "decompose"
+      ]
+    },
+    {
+      "word": "Leech",
+      "hints": [
+        "attach",
+        "blood",
+        "aquatic",
+        "medicinal",
+        "parasitic"
+      ]
+    },
+    {
+      "word": "Planaria",
+      "hints": [
+        "flat",
+        "regenerate",
+        "aquatic",
+        "simple",
+        "predator"
+      ]
+    },
+    {
+      "word": "Hydra",
+      "hints": [
+        "tentacles",
+        "regenerate",
+        "aquatic",
+        "simple",
+        "predator"
+      ]
+    },
+    {
+      "word": "Newt",
+      "hints": [
+        "amphibious",
+        "regenerate",
+        "pond",
+        "colorful",
+        "toxic"
+      ]
+    },
+    {
+      "word": "Salamander",
+      "hints": [
+        "moist",
+        "amphibious",
+        "nocturnal",
+        "regenerate",
+        "secretive"
+      ]
+    },
+    {
+      "word": "Axolotl",
+      "hints": [
+        "aquatic",
+        "regenerate",
+        "neotenic",
+        "unique",
+        "smile"
+      ]
+    },
+    {
+      "word": "Caecilian",
+      "hints": [
+        "burrow",
+        "legless",
+        "tropical",
+        "rare",
+        "amphibian"
+      ]
+    },
+    {
+      "word": "Tree Frog",
+      "hints": [
+        "climb",
+        "colorful",
+        "vocal",
+        "tropical",
+        "adhesive"
+      ]
+    },
+    {
+      "word": "Bull Frog",
+      "hints": [
+        "large",
+        "deep",
+        "territorial",
+        "vocal",
+        "aquatic"
+      ]
+    },
+    {
+      "word": "Poison Dart Frog",
+      "hints": [
+        "colorful",
+        "toxic",
+        "tiny",
+        "tropical",
+        "warning"
+      ]
+    },
+    {
+      "word": "Leopard Frog",
+      "hints": [
+        "spotted",
+        "leap",
+        "common",
+        "aquatic",
+        "widespread"
+      ]
+    },
+    {
+      "word": "Glass Frog",
+      "hints": [
+        "translucent",
+        "tropical",
+        "tiny",
+        "arboreal",
+        "unique"
+      ]
+    },
+    {
+      "word": "Horned Frog",
+      "hints": [
+        "ambush",
+        "voracious",
+        "distinctive",
+        "tropical",
+        "aggressive"
+      ]
+    },
+    {
+      "word": "African Bullfrog",
+      "hints": [
+        "large",
+        "aggressive",
+        "powerful",
+        "territorial",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Spring Peeper",
+      "hints": [
+        "tiny",
+        "vocal",
+        "spring",
+        "chorus",
+        "common"
+      ]
+    },
+    {
+      "word": "Iguana",
+      "hints": [
+        "bask",
+        "herbivore",
+        "territorial",
+        "tropical",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Komodo Dragon",
+      "hints": [
+        "massive",
+        "venomous",
+        "apex",
+        "island",
+        "ancient"
+      ]
+    },
+    {
+      "word": "Monitor Lizard",
+      "hints": [
+        "intelligent",
+        "predator",
+        "large",
+        "adaptable",
+        "alert"
+      ]
+    },
+    {
+      "word": "Gecko",
+      "hints": [
+        "climb",
+        "nocturnal",
+        "adhesive",
+        "vocalize",
+        "regenerate"
+      ]
+    },
+    {
+      "word": "Anole",
+      "hints": [
+        "color-change",
+        "territorial",
+        "display",
+        "small",
+        "arboreal"
+      ]
+    },
+    {
+      "word": "Skink",
+      "hints": [
+        "smooth",
+        "shiny",
+        "quick",
+        "burrow",
+        "regenerate"
+      ]
+    },
+    {
+      "word": "Bearded Dragon",
+      "hints": [
+        "display",
+        "docile",
+        "desert",
+        "bask",
+        "communal"
+      ]
+    },
+    {
+      "word": "Blue-Tongued Skink",
+      "hints": [
+        "defense",
+        "colorful",
+        "docile",
+        "warning",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Gila Monster",
+      "hints": [
+        "venomous",
+        "desert",
+        "slow",
+        "colorful",
+        "rare"
+      ]
+    },
+    {
+      "word": "Horned Lizard",
+      "hints": [
+        "defense",
+        "camouflage",
+        "desert",
+        "unique",
+        "blood-squirt"
+      ]
+    },
+    {
+      "word": "Frilled Lizard",
+      "hints": [
+        "display",
+        "intimidate",
+        "run",
+        "distinctive",
+        "defense"
+      ]
+    },
+    {
+      "word": "Basilisk",
+      "hints": [
+        "run",
+        "water",
+        "tropical",
+        "agile",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Tuatara",
+      "hints": [
+        "ancient",
+        "nocturnal",
+        "unique",
+        "endangered",
+        "primitive"
+      ]
+    },
+    {
+      "word": "Python",
+      "hints": [
+        "constrict",
+        "large",
+        "patient",
+        "ambush",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Boa",
+      "hints": [
+        "constrict",
+        "tropical",
+        "arboreal",
+        "patient",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Anaconda",
+      "hints": [
+        "massive",
+        "aquatic",
+        "constrict",
+        "apex",
+        "powerful"
+      ]
+    },
+    {
+      "word": "King Cobra",
+      "hints": [
+        "venomous",
+        "large",
+        "intimidate",
+        "intelligent",
+        "deadly"
+      ]
+    },
+    {
+      "word": "Rattlesnake",
+      "hints": [
+        "warning",
+        "venomous",
+        "ambush",
+        "desert",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Copperhead",
+      "hints": [
+        "venomous",
+        "camouflage",
+        "ambush",
+        "common",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Cottonmouth",
+      "hints": [
+        "venomous",
+        "aquatic",
+        "warning",
+        "aggressive",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Coral Snake",
+      "hints": [
+        "venomous",
+        "colorful",
+        "warning",
+        "reclusive",
+        "deadly"
+      ]
+    },
+    {
+      "word": "Black Mamba",
+      "hints": [
+        "venomous",
+        "speed",
+        "aggressive",
+        "deadly",
+        "feared"
+      ]
+    },
+    {
+      "word": "Green Mamba",
+      "hints": [
+        "venomous",
+        "arboreal",
+        "fast",
+        "graceful",
+        "deadly"
+      ]
+    },
+    {
+      "word": "Viper",
+      "hints": [
+        "venomous",
+        "ambush",
+        "heat-sensing",
+        "strike",
+        "deadly"
+      ]
+    },
+    {
+      "word": "Adder",
+      "hints": [
+        "venomous",
+        "cold-climate",
+        "zigzag",
+        "cautious",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Garter Snake",
+      "hints": [
+        "common",
+        "harmless",
+        "striped",
+        "adaptable",
+        "garden"
+      ]
+    },
+    {
+      "word": "Corn Snake",
+      "hints": [
+        "constrict",
+        "docile",
+        "colorful",
+        "nocturnal",
+        "beneficial"
+      ]
+    },
+    {
+      "word": "Milk Snake",
+      "hints": [
+        "mimic",
+        "colorful",
+        "constrict",
+        "nocturnal",
+        "harmless"
+      ]
+    },
+    {
+      "word": "King Snake",
+      "hints": [
+        "constrict",
+        "immune",
+        "bold",
+        "beneficial",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Water Snake",
+      "hints": [
+        "aquatic",
+        "aggressive",
+        "common",
+        "fish-eater",
+        "defensive"
+      ]
+    },
+    {
+      "word": "Sea Snake",
+      "hints": [
+        "marine",
+        "venomous",
+        "adapted",
+        "docile",
+        "unique"
+      ]
+    },
+    {
+      "word": "Flying Snake",
+      "hints": [
+        "glide",
+        "arboreal",
+        "tropical",
+        "graceful",
+        "unique"
+      ]
+    },
+    {
+      "word": "Ferret",
+      "hints": [
+        "playful",
+        "burrow",
+        "curious",
+        "energetic",
+        "domesticated"
+      ]
+    },
+    {
+      "word": "Chinchilla",
+      "hints": [
+        "soft",
+        "leap",
+        "dust-bath",
+        "nocturnal",
+        "social"
+      ]
+    },
+    {
+      "word": "Degu",
+      "hints": [
+        "social",
+        "burrow",
+        "vocal",
+        "active",
+        "herbivore"
+      ]
+    },
+    {
+      "word": "Sugar Glider",
+      "hints": [
+        "glide",
+        "nocturnal",
+        "social",
+        "marsupial",
+        "bonding"
+      ]
+    },
+    {
+      "word": "Flying Squirrel",
+      "hints": [
+        "glide",
+        "nocturnal",
+        "arboreal",
+        "graceful",
+        "social"
+      ]
+    },
+    {
+      "word": "Red Panda",
+      "hints": [
+        "arboreal",
+        "solitary",
+        "bamboo",
+        "adorable",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Giant Panda",
+      "hints": [
+        "bamboo",
+        "solitary",
+        "endangered",
+        "gentle",
+        "iconic"
+      ]
+    },
+    {
+      "word": "Sun Bear",
+      "hints": [
+        "small",
+        "tropical",
+        "climb",
+        "solitary",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Polar Bear",
+      "hints": [
+        "arctic",
+        "massive",
+        "swim",
+        "predator",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Grizzly Bear",
+      "hints": [
+        "powerful",
+        "omnivore",
+        "territorial",
+        "fish",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Black Bear",
+      "hints": [
+        "climb",
+        "adaptable",
+        "omnivore",
+        "common",
+        "curious"
+      ]
+    },
+    {
+      "word": "Spectacled Bear",
+      "hints": [
+        "arboreal",
+        "solitary",
+        "tropical",
+        "herbivore",
+        "shy"
+      ]
+    },
+    {
+      "word": "Sloth Bear",
+      "hints": [
+        "nocturnal",
+        "termites",
+        "shaggy",
+        "distinctive",
+        "aggressive"
+      ]
+    },
+    {
+      "word": "Pine Marten",
+      "hints": [
+        "arboreal",
+        "agile",
+        "solitary",
+        "forest",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Fisher",
+      "hints": [
+        "fierce",
+        "arboreal",
+        "solitary",
+        "forest",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Sable",
+      "hints": [
+        "valuable",
+        "forest",
+        "agile",
+        "solitary",
+        "luxurious"
+      ]
+    },
+    {
+      "word": "Stoat",
+      "hints": [
+        "agile",
+        "fierce",
+        "seasonal",
+        "hunt",
+        "energetic"
+      ]
+    },
+    {
+      "word": "Ermine",
+      "hints": [
+        "white",
+        "winter",
+        "agile",
+        "fierce",
+        "seasonal"
+      ]
+    },
+    {
+      "word": "Arctic Fox",
+      "hints": [
+        "white",
+        "adapt",
+        "arctic",
+        "clever",
+        "survival"
+      ]
+    },
+    {
+      "word": "Fennec Fox",
+      "hints": [
+        "desert",
+        "ears",
+        "nocturnal",
+        "small",
+        "adapt"
+      ]
+    },
+    {
+      "word": "Red Fox",
+      "hints": [
+        "adaptable",
+        "clever",
+        "urban",
+        "opportunist",
+        "common"
+      ]
+    },
+    {
+      "word": "Gray Fox",
+      "hints": [
+        "climb",
+        "nocturnal",
+        "forest",
+        "elusive",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Kit Fox",
+      "hints": [
+        "desert",
+        "nocturnal",
+        "small",
+        "burrow",
+        "swift"
+      ]
+    },
+    {
+      "word": "Swift Fox",
+      "hints": [
+        "grassland",
+        "nocturnal",
+        "fast",
+        "burrow",
+        "small"
+      ]
+    },
+    {
+      "word": "Dingo",
+      "hints": [
+        "wild",
+        "pack",
+        "adaptable",
+        "howl",
+        "Australian"
+      ]
+    },
+    {
+      "word": "African Wild Dog",
+      "hints": [
+        "pack",
+        "cooperative",
+        "endurance",
+        "social",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Dhole",
+      "hints": [
+        "pack",
+        "cooperative",
+        "whistling",
+        "forest",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Maned Wolf",
+      "hints": [
+        "solitary",
+        "grassland",
+        "distinctive",
+        "nocturnal",
+        "tall"
+      ]
+    },
+    {
+      "word": "Bush Dog",
+      "hints": [
+        "pack",
+        "aquatic",
+        "tropical",
+        "rare",
+        "cooperative"
+      ]
+    },
+    {
+      "word": "Raccoon Dog",
+      "hints": [
+        "nocturnal",
+        "omnivore",
+        "adaptable",
+        "hibernate",
+        "Asian"
+      ]
+    },
+    {
+      "word": "Red Wolf",
+      "hints": [
+        "pack",
+        "endangered",
+        "forest",
+        "twilight",
+        "cooperative"
+      ]
+    },
+    {
+      "word": "Ethiopian Wolf",
+      "hints": [
+        "pack",
+        "endangered",
+        "mountain",
+        "social",
+        "rare"
+      ]
+    },
+    {
+      "word": "Gray Wolf",
+      "hints": [
+        "pack",
+        "howl",
+        "territorial",
+        "intelligent",
+        "apex"
+      ]
+    },
+    {
+      "word": "Timber Wolf",
+      "hints": [
+        "pack",
+        "forest",
+        "howl",
+        "intelligent",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Arctic Wolf",
+      "hints": [
+        "white",
+        "pack",
+        "arctic",
+        "adapt",
+        "endurance"
+      ]
+    },
+    {
+      "word": "Mexican Wolf",
+      "hints": [
+        "pack",
+        "endangered",
+        "desert",
+        "small",
+        "cooperative"
+      ]
+    },
+    {
+      "word": "Spotted Hyena",
+      "hints": [
+        "clan",
+        "matriarchal",
+        "vocal",
+        "intelligent",
+        "powerful"
+      ]
+    },
+    {
+      "word": "Striped Hyena",
+      "hints": [
+        "solitary",
+        "scavenger",
+        "nocturnal",
+        "cautious",
+        "versatile"
+      ]
+    },
+    {
+      "word": "Brown Hyena",
+      "hints": [
+        "solitary",
+        "scavenger",
+        "coastal",
+        "nocturnal",
+        "shaggy"
+      ]
+    },
+    {
+      "word": "Aardwolf",
+      "hints": [
+        "termites",
+        "nocturnal",
+        "solitary",
+        "specialized",
+        "small"
+      ]
+    },
+    {
+      "word": "Civet",
+      "hints": [
+        "nocturnal",
+        "arboreal",
+        "solitary",
+        "tropical",
+        "secretive"
+      ]
+    },
+    {
+      "word": "Genet",
+      "hints": [
+        "nocturnal",
+        "arboreal",
+        "spotted",
+        "agile",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Mongoose",
+      "hints": [
+        "quick",
+        "immune",
+        "social",
+        "alert",
+        "fearless"
+      ]
+    },
+    {
+      "word": "Meerkat",
+      "hints": [
+        "social",
+        "sentinel",
+        "burrow",
+        "cooperative",
+        "vigilant"
+      ]
+    },
+    {
+      "word": "Fossa",
+      "hints": [
+        "Madagascar",
+        "agile",
+        "predator",
+        "arboreal",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Binturong",
+      "hints": [
+        "arboreal",
+        "nocturnal",
+        "prehensile",
+        "tropical",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Kinkajou",
+      "hints": [
+        "nocturnal",
+        "arboreal",
+        "prehensile",
+        "tropical",
+        "sweet"
+      ]
+    },
+    {
+      "word": "Coati",
+      "hints": [
+        "social",
+        "omnivore",
+        "tropical",
+        "diurnal",
+        "curious"
+      ]
+    },
+    {
+      "word": "Ring-tailed Coati",
+      "hints": [
+        "social",
+        "banded",
+        "tropical",
+        "arboreal",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Olingo",
+      "hints": [
+        "nocturnal",
+        "arboreal",
+        "tropical",
+        "fruit",
+        "solitary"
+      ]
+    },
+    {
+      "word": "Cacomistle",
+      "hints": [
+        "nocturnal",
+        "arboreal",
+        "large-eyes",
+        "desert",
+        "agile"
+      ]
+    },
+    {
+      "word": "Ringtail",
+      "hints": [
+        "nocturnal",
+        "climb",
+        "desert",
+        "banded",
+        "agile"
+      ]
+    },
+    {
+      "word": "Tayra",
+      "hints": [
+        "arboreal",
+        "diurnal",
+        "tropical",
+        "omnivore",
+        "agile"
+      ]
+    },
+    {
+      "word": "Grison",
+      "hints": [
+        "weasel",
+        "tropical",
+        "burrow",
+        "fierce",
+        "small"
+      ]
+    },
+    {
+      "word": "Zorilla",
+      "hints": [
+        "nocturnal",
+        "burrow",
+        "defense",
+        "striped",
+        "African"
+      ]
+    },
+    {
+      "word": "Ratel",
+      "hints": [
+        "fierce",
+        "fearless",
+        "burrow",
+        "intelligent",
+        "tough"
+      ]
+    },
+    {
+      "word": "Honey Badger",
+      "hints": [
+        "fearless",
+        "fierce",
+        "dig",
+        "intelligent",
+        "tenacious"
+      ]
+    },
+    {
+      "word": "American Badger",
+      "hints": [
+        "burrow",
+        "fierce",
+        "solitary",
+        "powerful",
+        "grassland"
+      ]
+    },
+    {
+      "word": "European Badger",
+      "hints": [
+        "social",
+        "burrow",
+        "nocturnal",
+        "forest",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Hog Badger",
+      "hints": [
+        "burrow",
+        "omnivore",
+        "nocturnal",
+        "pig-like",
+        "Asian"
+      ]
+    },
+    {
+      "word": "Striped Skunk",
+      "hints": [
+        "defense",
+        "warning",
+        "nocturnal",
+        "omnivore",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Spotted Skunk",
+      "hints": [
+        "defense",
+        "acrobatic",
+        "nocturnal",
+        "small",
+        "handstand"
+      ]
+    },
+    {
+      "word": "Hog-nosed Skunk",
+      "hints": [
+        "burrow",
+        "defense",
+        "nocturnal",
+        "root",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Stink Badger",
+      "hints": [
+        "defense",
+        "nocturnal",
+        "burrow",
+        "tropical",
+        "warning"
+      ]
+    },
+    {
+      "word": "European Polecat",
+      "hints": [
+        "nocturnal",
+        "fierce",
+        "burrow",
+        "hunt",
+        "mustelid"
+      ]
+    },
+    {
+      "word": "Black-footed Ferret",
+      "hints": [
+        "endangered",
+        "nocturnal",
+        "burrow",
+        "prairie",
+        "fierce"
+      ]
+    },
+    {
+      "word": "Sea Otter",
+      "hints": [
+        "aquatic",
+        "tool-use",
+        "social",
+        "playful",
+        "keystone"
+      ]
+    },
+    {
+      "word": "River Otter",
+      "hints": [
+        "aquatic",
+        "playful",
+        "social",
+        "fish",
+        "slide"
+      ]
+    },
+    {
+      "word": "Giant Otter",
+      "hints": [
+        "aquatic",
+        "social",
+        "vocal",
+        "fish",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Smooth-coated Otter",
+      "hints": [
+        "aquatic",
+        "social",
+        "fish",
+        "tropical",
+        "diurnal"
+      ]
+    },
+    {
+      "word": "Spotted-necked Otter",
+      "hints": [
+        "aquatic",
+        "fish",
+        "social",
+        "African",
+        "diurnal"
+      ]
+    },
+    {
+      "word": "Asian Small-clawed Otter",
+      "hints": [
+        "aquatic",
+        "social",
+        "small",
+        "dexterous",
+        "playful"
+      ]
+    },
+    {
+      "word": "Marine Otter",
+      "hints": [
+        "coastal",
+        "solitary",
+        "rare",
+        "fish",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Harbor Seal",
+      "hints": [
+        "coastal",
+        "curious",
+        "social",
+        "fish",
+        "haul-out"
+      ]
+    },
+    {
+      "word": "Gray Seal",
+      "hints": [
+        "coastal",
+        "large",
+        "social",
+        "fish",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Harp Seal",
+      "hints": [
+        "ice",
+        "migratory",
+        "white-coat",
+        "arctic",
+        "social"
+      ]
+    },
+    {
+      "word": "Hooded Seal",
+      "hints": [
+        "arctic",
+        "dive",
+        "inflate",
+        "solitary",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Ringed Seal",
+      "hints": [
+        "arctic",
+        "small",
+        "ice",
+        "solitary",
+        "breathing-hole"
+      ]
+    },
+    {
+      "word": "Bearded Seal",
+      "hints": [
+        "arctic",
+        "bottom",
+        "whiskers",
+        "solitary",
+        "vocal"
+      ]
+    },
+    {
+      "word": "Leopard Seal",
+      "hints": [
+        "Antarctic",
+        "predator",
+        "solitary",
+        "powerful",
+        "fearsome"
+      ]
+    },
+    {
+      "word": "Weddell Seal",
+      "hints": [
+        "Antarctic",
+        "dive",
+        "ice",
+        "vocal",
+        "deepest"
+      ]
+    },
+    {
+      "word": "Crabeater Seal",
+      "hints": [
+        "Antarctic",
+        "ice",
+        "filter",
+        "abundant",
+        "social"
+      ]
+    },
+    {
+      "word": "Ross Seal",
+      "hints": [
+        "Antarctic",
+        "rare",
+        "ice",
+        "solitary",
+        "vocal"
+      ]
+    },
+    {
+      "word": "Elephant Seal",
+      "hints": [
+        "massive",
+        "dive",
+        "beach",
+        "vocal",
+        "dominant"
+      ]
+    },
+    {
+      "word": "Monk Seal",
+      "hints": [
+        "tropical",
+        "endangered",
+        "solitary",
+        "gentle",
+        "rare"
+      ]
+    },
+    {
+      "word": "California Sea Lion",
+      "hints": [
+        "coastal",
+        "social",
+        "vocal",
+        "intelligent",
+        "playful"
+      ]
+    },
+    {
+      "word": "Steller Sea Lion",
+      "hints": [
+        "massive",
+        "coastal",
+        "vocal",
+        "fish",
+        "declining"
+      ]
+    },
+    {
+      "word": "South American Sea Lion",
+      "hints": [
+        "coastal",
+        "social",
+        "vocal",
+        "harem",
+        "territorial"
+      ]
+    },
+    {
+      "word": "Australian Sea Lion",
+      "hints": [
+        "coastal",
+        "rare",
+        "social",
+        "fish",
+        "endemic"
+      ]
+    },
+    {
+      "word": "New Zealand Sea Lion",
+      "hints": [
+        "coastal",
+        "endangered",
+        "social",
+        "vocal",
+        "endemic"
+      ]
+    },
+    {
+      "word": "Galapagos Sea Lion",
+      "hints": [
+        "coastal",
+        "playful",
+        "social",
+        "endemic",
+        "fearless"
+      ]
+    },
+    {
+      "word": "Northern Fur Seal",
+      "hints": [
+        "pelagic",
+        "social",
+        "migratory",
+        "harem",
+        "dense-fur"
+      ]
+    },
+    {
+      "word": "Antarctic Fur Seal",
+      "hints": [
+        "sub-Antarctic",
+        "social",
+        "fish",
+        "abundant",
+        "recovered"
+      ]
+    },
+    {
+      "word": "Guadalupe Fur Seal",
+      "hints": [
+        "island",
+        "endangered",
+        "social",
+        "recovered",
+        "rare"
+      ]
+    },
+    {
+      "word": "Galapagos Fur Seal",
+      "hints": [
+        "tropical",
+        "nocturnal",
+        "smallest",
+        "endemic",
+        "rare"
+      ]
+    },
+    {
+      "word": "Atlantic Walrus",
+      "hints": [
+        "tusks",
+        "social",
+        "arctic",
+        "bottom-feeder",
+        "massive"
+      ]
+    },
+    {
+      "word": "Pacific Walrus",
+      "hints": [
+        "tusks",
+        "social",
+        "arctic",
+        "haul-out",
+        "massive"
+      ]
+    },
+    {
+      "word": "West Indian Manatee",
+      "hints": [
+        "gentle",
+        "herbivore",
+        "slow",
+        "coastal",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Amazonian Manatee",
+      "hints": [
+        "freshwater",
+        "herbivore",
+        "gentle",
+        "solitary",
+        "smallest"
+      ]
+    },
+    {
+      "word": "African Manatee",
+      "hints": [
+        "coastal",
+        "herbivore",
+        "gentle",
+        "secretive",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Steller's Sea Cow",
+      "hints": [
+        "extinct",
+        "massive",
+        "gentle",
+        "kelp",
+        "cold"
+      ]
+    },
+    {
+      "word": "Pygmy Hippopotamus",
+      "hints": [
+        "forest",
+        "solitary",
+        "nocturnal",
+        "rare",
+        "shy"
+      ]
+    },
+    {
+      "word": "Common Hippopotamus",
+      "hints": [
+        "aquatic",
+        "aggressive",
+        "territorial",
+        "massive",
+        "herd"
+      ]
+    },
+    {
+      "word": "Wild Boar",
+      "hints": [
+        "omnivore",
+        "tusks",
+        "adaptable",
+        "social",
+        "intelligent"
+      ]
+    },
+    {
+      "word": "Warthog",
+      "hints": [
+        "burrow",
+        "tusks",
+        "grazer",
+        "social",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Babirusa",
+      "hints": [
+        "tusks",
+        "tropical",
+        "distinctive",
+        "rare",
+        "forest"
+      ]
+    },
+    {
+      "word": "Giant Forest Hog",
+      "hints": [
+        "largest",
+        "forest",
+        "social",
+        "nocturnal",
+        "shy"
+      ]
+    },
+    {
+      "word": "Red River Hog",
+      "hints": [
+        "colorful",
+        "forest",
+        "social",
+        "nocturnal",
+        "omnivore"
+      ]
+    },
+    {
+      "word": "Collared Peccary",
+      "hints": [
+        "social",
+        "herd",
+        "omnivore",
+        "desert",
+        "territorial"
+      ]
+    },
+    {
+      "word": "White-lipped Peccary",
+      "hints": [
+        "social",
+        "forest",
+        "large-herd",
+        "vocal",
+        "nomadic"
+      ]
+    },
+    {
+      "word": "Chacoan Peccary",
+      "hints": [
+        "rare",
+        "dry-forest",
+        "social",
+        "recently-discovered",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Domestic Pig",
+      "hints": [
+        "intelligent",
+        "social",
+        "omnivore",
+        "versatile",
+        "farm"
+      ]
+    },
+    {
+      "word": "Pot-bellied Pig",
+      "hints": [
+        "small",
+        "intelligent",
+        "social",
+        "pet",
+        "curious"
+      ]
+    },
+    {
+      "word": "Mangalitsa",
+      "hints": [
+        "woolly",
+        "heritage",
+        "hardy",
+        "curly",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Kunekune",
+      "hints": [
+        "small",
+        "grazer",
+        "friendly",
+        "heritage",
+        "wattles"
+      ]
+    },
+    {
+      "word": "Pygmy Hog",
+      "hints": [
+        "smallest",
+        "endangered",
+        "grassland",
+        "social",
+        "rare"
+      ]
+    },
+    {
+      "word": "Domestic Goat",
+      "hints": [
+        "climb",
+        "browse",
+        "social",
+        "adaptable",
+        "curious"
+      ]
+    },
+    {
+      "word": "Mountain Goat",
+      "hints": [
+        "climb",
+        "sure-footed",
+        "alpine",
+        "white",
+        "agile"
+      ]
+    },
+    {
+      "word": "Markhor",
+      "hints": [
+        "spiral",
+        "mountain",
+        "wild",
+        "endangered",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Alpine Ibex",
+      "hints": [
+        "climb",
+        "mountain",
+        "curved",
+        "social",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Nubian Ibex",
+      "hints": [
+        "desert",
+        "climb",
+        "curved",
+        "adaptable",
+        "agile"
+      ]
+    },
+    {
+      "word": "Spanish Ibex",
+      "hints": [
+        "mountain",
+        "climb",
+        "curved",
+        "endemic",
+        "recovery"
+      ]
+    },
+    {
+      "word": "West Caucasian Tur",
+      "hints": [
+        "mountain",
+        "climb",
+        "rare",
+        "agile",
+        "endemic"
+      ]
+    },
+    {
+      "word": "Barbary Sheep",
+      "hints": [
+        "desert",
+        "cliff",
+        "agile",
+        "distinctive",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Argali",
+      "hints": [
+        "mountain",
+        "massive",
+        "curved",
+        "wild",
+        "largest"
+      ]
+    },
+    {
+      "word": "Mouflon",
+      "hints": [
+        "wild",
+        "mountain",
+        "ancestor",
+        "agile",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Dall Sheep",
+      "hints": [
+        "white",
+        "mountain",
+        "curved",
+        "social",
+        "northern"
+      ]
+    },
+    {
+      "word": "Stone Sheep",
+      "hints": [
+        "dark",
+        "mountain",
+        "curved",
+        "northern",
+        "wilderness"
+      ]
+    },
+    {
+      "word": "Desert Bighorn",
+      "hints": [
+        "desert",
+        "mountain",
+        "curved",
+        "adaptable",
+        "resilient"
+      ]
+    },
+    {
+      "word": "Rocky Mountain Bighorn",
+      "hints": [
+        "mountain",
+        "clash",
+        "curved",
+        "impressive",
+        "iconic"
+      ]
+    },
+    {
+      "word": "Snow Sheep",
+      "hints": [
+        "mountain",
+        "arctic",
+        "white",
+        "hardy",
+        "remote"
+      ]
+    },
+    {
+      "word": "Blue Sheep",
+      "hints": [
+        "mountain",
+        "cliff",
+        "adaptable",
+        "Himalayan",
+        "sure-footed"
+      ]
+    },
+    {
+      "word": "Domestic Sheep",
+      "hints": [
+        "flock",
+        "wool",
+        "graze",
+        "docile",
+        "farm"
+      ]
+    },
+    {
+      "word": "Merino Sheep",
+      "hints": [
+        "wool",
+        "fine",
+        "heritage",
+        "adaptable",
+        "valuable"
+      ]
+    },
+    {
+      "word": "Jacob Sheep",
+      "hints": [
+        "spotted",
+        "horns",
+        "heritage",
+        "distinctive",
+        "primitive"
+      ]
+    },
+    {
+      "word": "Soay Sheep",
+      "hints": [
+        "primitive",
+        "wild",
+        "hardy",
+        "small",
+        "island"
+      ]
+    },
+    {
+      "word": "Domestic Cow",
+      "hints": [
+        "herd",
+        "graze",
+        "milk",
+        "docile",
+        "farm"
+      ]
+    },
+    {
+      "word": "Highland Cattle",
+      "hints": [
+        "hardy",
+        "shaggy",
+        "horns",
+        "mountain",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Longhorn Cattle",
+      "hints": [
+        "horns",
+        "hardy",
+        "heritage",
+        "iconic",
+        "impressive"
+      ]
+    },
+    {
+      "word": "Zebu",
+      "hints": [
+        "hump",
+        "tropical",
+        "hardy",
+        "domesticated",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Yak",
+      "hints": [
+        "mountain",
+        "shaggy",
+        "hardy",
+        "domesticated",
+        "burden"
+      ]
+    },
+    {
+      "word": "Water Buffalo",
+      "hints": [
+        "aquatic",
+        "massive",
+        "domesticated",
+        "plow",
+        "tropical"
+      ]
+    },
+    {
+      "word": "African Buffalo",
+      "hints": [
+        "herd",
+        "dangerous",
+        "massive",
+        "unpredictable",
+        "strong"
+      ]
+    },
+    {
+      "word": "American Bison",
+      "hints": [
+        "herd",
+        "prairie",
+        "massive",
+        "iconic",
+        "recovery"
+      ]
+    },
+    {
+      "word": "European Bison",
+      "hints": [
+        "forest",
+        "massive",
+        "endangered",
+        "recovery",
+        "largest"
+      ]
+    },
+    {
+      "word": "Banteng",
+      "hints": [
+        "forest",
+        "wild",
+        "domesticated",
+        "endangered",
+        "Asian"
+      ]
+    },
+    {
+      "word": "Gaur",
+      "hints": [
+        "forest",
+        "massive",
+        "wild",
+        "impressive",
+        "largest"
+      ]
+    },
+    {
+      "word": "Kouprey",
+      "hints": [
+        "endangered",
+        "forest",
+        "wild",
+        "rare",
+        "mysterious"
+      ]
+    },
+    {
+      "word": "Saola",
+      "hints": [
+        "rare",
+        "forest",
+        "recently-discovered",
+        "endangered",
+        "elusive"
+      ]
+    },
+    {
+      "word": "Okapi",
+      "hints": [
+        "forest",
+        "striped",
+        "relative",
+        "shy",
+        "rare"
+      ]
+    },
+    {
+      "word": "Giraffe",
+      "hints": [
+        "tall",
+        "browse",
+        "spotted",
+        "savanna",
+        "elegant"
+      ]
+    },
+    {
+      "word": "Reticulated Giraffe",
+      "hints": [
+        "tall",
+        "pattern",
+        "browse",
+        "distinctive",
+        "endangered"
+      ]
+    },
+    {
+      "word": "Masai Giraffe",
+      "hints": [
+        "tall",
+        "spotted",
+        "browse",
+        "savanna",
+        "distinctive"
+      ]
+    },
+    {
+      "word": "Rothschild Giraffe",
+      "hints": [
+        "tall",
+        "endangered",
+        "pale",
+        "distinctive",
+        "rare"
+      ]
+    },
+    {
+      "word": "White-tailed Deer",
+      "hints": [
+        "forest",
+        "flag",
+        "adaptable",
+        "common",
+        "graceful"
+      ]
+    },
+    {
+      "word": "Mule Deer",
+      "hints": [
+        "ears",
+        "mountain",
+        "adaptable",
+        "bound",
+        "western"
+      ]
+    },
+    {
+      "word": "Black-tailed Deer",
+      "hints": [
+        "forest",
+        "coastal",
+        "adaptable",
+        "dark",
+        "western"
+      ]
+    },
+    {
+      "word": "Red Deer",
+      "hints": [
+        "forest",
+        "antlers",
+        "roar",
+        "majestic",
+        "European"
+      ]
+    },
+    {
+      "word": "Sika Deer",
+      "hints": [
+        "spotted",
+        "adaptable",
+        "Asian",
+        "whistling",
+        "invasive"
+      ]
+    },
+    {
+      "word": "Fallow Deer",
+      "hints": [
+        "spotted",
+        "antlers",
+        "park",
+        "European",
+        "adaptable"
+      ]
+    },
+    {
+      "word": "Roe Deer",
+      "hints": [
+        "small",
+        "forest",
+        "solitary",
+        "bark",
+        "European"
+      ]
+    },
+    {
+      "word": "Chital",
+      "hints": [
+        "spotted",
+        "herd",
+        "tropical",
+        "graceful",
+        "Asian"
+      ]
+    },
+    {
+      "word": "Sambar",
+      "hints": [
+        "large",
+        "forest",
+        "solitary",
+        "Asian",
+        "nocturnal"
+      ]
+    },
+    {
+      "word": "Rusa Deer",
+      "hints": [
+        "tropical",
+        "adaptable",
+        "invasive",
+        "Asian",
+        "vocal"
+      ]
+    },
+    {
+      "word": "Barasingha",
+      "hints": [
+        "swamp",
+        "antlers",
+        "endangered",
+        "Asian",
+        "unique"
+      ]
+    },
+    {
+      "word": "Muntjac",
+      "hints": [
+        "small",
+        "bark",
+        "solitary",
+        "tusks",
+        "Asian"
+      ]
+    },
+    {
+      "word": "Chinese Water Deer",
+      "hints": [
+        "small",
+        "tusks",
+        "solitary",
+        "wetland",
+        "vampire"
+      ]
+    },
+    {
+      "word": "Pudu",
+      "hints": [
+        "smallest",
+        "forest",
+        "solitary",
+        "shy",
+        "South-American"
+      ]
+    },
+    {
+      "word": "Brocket Deer",
+      "hints": [
+        "small",
+        "forest",
+        "tropical",
+        "solitary",
+        "secretive"
+      ]
+    },
+    {
+      "word": "Marsh Deer",
+      "hints": [
+        "wetland",
+        "large",
+        "endangered",
+        "solitary",
+        "South-American"
+      ]
+    },
+    {
+      "word": "Pampas Deer",
+      "hints": [
+        "grassland",
+        "endangered",
+        "small",
+        "South-American",
+        "social"
+      ]
+    },
+    {
+      "word": "Huemul",
+      "hints": [
+        "mountain",
+        "endangered",
+        "stocky",
+        "Andean",
+        "shy"
+      ]
+    },
+    {
+      "word": "Taruca",
+      "hints": [
+        "mountain",
+        "endangered",
+        "Andean",
+        "sure-footed",
+        "rare"
+      ]
+    },
+    {
+      "word": "Pere David's Deer",
+      "hints": [
+        "extinct-wild",
+        "wetland",
+        "distinctive",
+        "recovered",
+        "Chinese"
+      ]
+    },
+    {
+      "word": "Tufted Deer",
+      "hints": [
+        "small",
+        "tusks",
+        "forest",
+        "solitary",
+        "Chinese"
+      ]
+    }
   ]
 }
