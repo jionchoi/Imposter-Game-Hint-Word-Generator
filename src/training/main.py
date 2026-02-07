@@ -10,7 +10,7 @@ from transformers import (
     EarlyStoppingCallback,
 )
 import torch
-from data.load_data import load_hint_dataset
+from data.load_data import PROMPT_TEMPLATE, load_hint_dataset, normalize_category
 
 #Configuration
 MODEL_NAME = "google/flan-t5-base"
@@ -117,10 +117,10 @@ training_args = Seq2SeqTrainingArguments(
     warmup_ratio=0.1,
     per_device_train_batch_size=8, #process 8 examples at once
     per_device_eval_batch_size=8,
-    num_train_epochs=40, #upper bound; early stopping should stop earlier
+    num_train_epochs=20, #better starting cap for ~4k examples; early stopping still applies
     weight_decay=0.01,
     max_grad_norm=1.0,
-    save_total_limit=2, #only keep the two recent checkpoints
+    save_total_limit=3, #keep a bit more history while tuning
     predict_with_generate=True, # Use actual text generation during evaluation
     fp16=use_fp16,
     bf16=use_bf16,
@@ -155,15 +155,16 @@ print("Done!")
 
 # Test inference
 def generate_hints(word, category="actions"):
-    input_text = f"generate hint for {category}: {word}"
+    category = normalize_category(category)
+    input_text = PROMPT_TEMPLATE.format(category=category, word=word)
     inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
 
     outputs = model.generate(
         **inputs,
-        max_length=MAX_TARGET_LENGTH,
+        max_new_tokens=MAX_TARGET_LENGTH,
         num_beams=4,
         early_stopping=True,
-        repetition_penalty=2.5,
+        repetition_penalty=1.2,
         no_repeat_ngram_size=2
     )
 
@@ -172,7 +173,7 @@ def generate_hints(word, category="actions"):
 
 # Quick test after training
 print("\n--- Testing trained model ---")
-test_words = ["Swimming", "Coding", "Cooking"]
-for word in test_words:
-    hints = generate_hints(word)
+test_words = [("Swimming", "sports"), ("Coding", "professions"), ("Cooking", "foods")]
+for word, category in test_words:
+    hints = generate_hints(word, category=category)
     print(f"{word} -> {hints}")
